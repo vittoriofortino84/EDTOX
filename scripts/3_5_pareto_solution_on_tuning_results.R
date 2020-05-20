@@ -1,0 +1,37 @@
+library(rPref)
+library(knitr)
+load("outputData/tune_edge_gset/ppi/Sil_PPI.RData")
+data<-stack(as.data.frame(silm))
+data$ind<-as.numeric(c(rep(200,6),rep(500,6),rep(700,6),rep(1000,6)))
+gset<-rep(c(.6,.65,.7,.75,.8,.85),4)
+data<-cbind(data,as.numeric(gset))
+colnames(data)<-c('ss','gene','score_edge')
+ps<-psel(data,high(score_edge)*low(gene)*high(ss))
+ps$network<-'ppi'
+li<-list.files(path=paste(getwd(),'/outputData/tune_edge_gset',sep=''),pattern = 'RData')
+for (i in li){
+  nam<-tools::file_path_sans_ext(i)
+  load(paste(getwd(),'/outputData/tune_edge_gset/',i,sep=''))
+  data<-stack(as.data.frame(silm))
+  data$ind<-as.numeric(c(rep(200,4),rep(500,4),rep(700,4),rep(1000,4)))
+  gset<-rep(c(2,3,5,10),4)
+  data<-cbind(data,as.numeric(gset))
+  colnames(data)<-c('ss','gene','score_edge')
+  psell<-psel(data,high(ss)*low(gene)*low(score_edge))
+  psell$network<-nam
+  ps<-rbind(ps,psell)
+}
+pareto_results<-ps
+nets<-unique(pareto_results$network)
+max_silhouettes<-sapply(nets, function(x)max(pareto_results$ss[pareto_results$network %in% x]))
+genes_cut_off<-sapply(max_silhouettes, function(x)pareto_results$gene[pareto_results$ss==x])
+edge_score<-sapply(max_silhouettes, function(x)pareto_results$score_edge[pareto_results$ss==x])
+final_tuned_paramters<-as.data.frame(list(genes_cut_off,edge_score,max_silhouettes))
+names(final_tuned_paramters)<-c('top_genes_size','edgepercent_combinedscore','silhouette')
+load('outputData/silhouettescores_MIE_edcs.RData')
+final_tuned_paramters<-rbind(final_tuned_paramters,c(NA,NA,sil_MIE_edcs))
+rownames(final_tuned_paramters)[length(rownames(final_tuned_paramters))]<-'MIE_level'
+save(pareto_results,final_tuned_paramters,file='outputData/pareto_results_geneset_edge.RData')
+source('functions/annotation_functions.R')
+final_tuned_paramters$network<-name_correct(rownames(final_tuned_paramters))
+write.csv(final_tuned_paramters,file='outputData/excel_files/final_tuned_parameters_using_parero.csv')
