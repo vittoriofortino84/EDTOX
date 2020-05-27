@@ -35,13 +35,14 @@ A list of eight data frames from the log2fold change values of the genes express
 
 
 ## 2_3_LINCS_wTO.R
-wTO network from LINCS LFCs
+Two data frames from log2fold change values of genes expressed in liver for HEPG2 cell line was generated from level 5 of LINCS data. 
+A consensus network was used from the two data frames using wTO package. 
 
 ## 2_4_Consensus_Rat_in_vitro_wTO.R 
-wTO network from CONSENSUS rat hepatocytes from DrugMatrix and TG-GATEs
+CONSENSUS network for rat hepatocytes from DrugMatrix and TG-GATEs was generated.
 
 ## 2_5_PPI_wTO.R                                             
-ppi Network from StringDB for Homo Sapiens
+PPI Network from StringDB for Homo Sapiens was generated. 
 
 # 3. Intra tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
 
