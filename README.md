@@ -27,11 +27,12 @@ Preparation of ToxCast target genes and endpoiints.
 
 
 ## 2_1_Drug_matrix_wTO.R                                    
-A list of four gene co-expression networks from the log2fold change values after compound exposure were  generated for Drug Matrix rat 
-in vitro hepatocyte 1 day and Drug matrix rat in vivo 1 day, 3 and 5 days
+A list of four gene co-expression networks from the genes log2fold change values after compound exposure were  generated for Drug Matrix rat in vitro hepatocyte 1 day and Drug matrix rat in vivo 1 day, 3 and 5 days
 
 ## 2_2_TG_Gates_wTO.R                                       
-wTO network from TG-GATEs LFCs
+A list of eight gene co-expression networks from the genes log2fold change values after compound exposure were  generated for open TG-GATEs rat and human in vitro 1 day and rat in vivo for single low, middle and high doses for 1 day and repeated in vivo doses for 8, 15
+and 29 days were generated
+
 
 ## 2_3_LINCS_wTO.R
 wTO network from LINCS LFCs
