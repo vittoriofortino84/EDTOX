@@ -7,13 +7,17 @@ A toxicogenomics data space for system-level understanding and prediction of EDC
 # 1_1_MIEs_from_CTD.R
 Preparation of MIEs from compound-gene interactions in CTD
 
-#1_2_Pathways_Download.R 
+# 1_2_Pathways_Download.R 
 Pathways download for KEGG, REACTOME,MSIGDB, GO and WIKI and dictionary files for pathways
 
-1_3_TOXCAST_nuclear_receptors_coregulators.R 
+# 1_3_TOXCAST_nuclear_receptors_coregulators.R 
 To get TOXCAST nuclear receptors assay endpoints using NURSA and nuclear receptor genes
-1_4_EDC_Decoy_selection.R: Selection of EDCs and decoys based on proportion test of ToxCast assays and jaccard dissimilarity of MIEs
-1_5_ToxCast_dictionaries.R: Preparation of ToxCast target genes and endpoints dictionaries
+
+# 1_4_EDC_Decoy_selection.R 
+Selection of EDCs and decoys based on proportion test of ToxCast assays and jaccard dissimilarity of MIEs
+
+# 1_5_ToxCast_dictionaries.R
+Preparation of ToxCast target genes and endpoints dictionaries
 
 # 2. Building gene co-expression networks ------------------------------------------
 
