@@ -36,7 +36,7 @@ wTO network from CONSENSUS rat hepatocytes from DrugMatrix and TG-GATEs
 # 2_5_PPI_wTO.R                                             
 ppi Network from StringDB for Homo Sapiens
 
-# 3. Intra Tuning and optimization of the pipeline based on  different genesets from Random walk on network and network edges  
+# 3. Intra Tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
 
 # 3_1_Drug_matrix_tuner.R                                 
 optmization of Drug Matrix
@@ -54,20 +54,35 @@ optimization of PPI
 Using pareto solution to obtain final genesets size and edge percents
 
 
-# 4. Random walk with restart and fgsea (RWR-FGSEA) ----------------------------------
-source('scripts/4_1_RWR_FGSEA_for_edc_decoys.R')                           # 4_1. RWR-FGSEA on EDC and decoys set
-source('scripts/4_2_RWR_FGSEA_for_all_compounds_in_CTD.R')                 # 4_2. RWR-FGSEA on all compounds in CTD
+# 4. Random walk with restart and fgsea (RWR-FGSEA) 
+# 4_1_RWR_FGSEA_for_edc_decoys.R                        
+RWR-FGSEA on EDC and decoys set
+
+# 4_2_RWR_FGSEA_for_all_compounds_in_CTD.R               
+RWR-FGSEA on all compounds in CTD
 
 
-# 5. GLM modeling of training set (Pathway scores of EDCs and decoys  and labels), accuracy tests and Visualization -----------------------------------
+# 5. GLM modeling of training set (Pathway scores of EDCs and decoys  and labels), accuracy tests and Visualization 
+# 5_1_manual_curation_of_pathways_as_features.R          
+preprocessing of training set :Curation of specific patheway
 
-source('scripts/5_1_manual_curation_of_pathways_as_features.R')            # 5_1. preprocessing of training set :Curation of specific patheways 
-source('scripts/5_2_Preparation_of_training_datasets.R')                   # 5_2. Preparation of training set for machine learning
-source('scripts/5_3_glm_modeling.R')                                       # 5_3. Performing Elastic GLM on pathway scores
-source('scripts/5_4_k_fold_cross_validation.R')                            # 5_4. k_fold_cross_validation of the models and the gene level models (using MIEs)
-source('scripts/5_5_comparing_cross_validation_across_all_layers_ANOVA.R') # 5_5. ANOVA on cross-validation results of pathway and MIE based models 
-source('scripts/5_6_Integration_of_coefficients_stabilties_NES_scores.R')  # 5_6. Integration of NES score, glm coefficients and performing ROC analysis on pathways scores 
-source('scripts/5_7_NES_bubble_plot_MOA.R')                                # 5_7. Bubble plot of pathways to predict MOA for EDCs
+# 5_2_Preparation_of_training_datasets.R                   
+Preparation of training set for elastic net generalize linear models 
+
+# 5_3_glm_modeling.R                                  
+Performing elastic net GLM on training set
+
+# 5_4_k_fold_cross_validation.R                          
+k_fold_cross_validation of the models and the gene level models (using MIEs)
+
+# 5_5_comparing_cross_validation_across_all_layers_ANOVA.R') 
+ANOVA on cross-validation results of pathway and MIE based models 
+
+# 5_6_Integration_of_coefficients_stabilties_NES_scores.R')  
+Integration of NES score, glm coefficients and performing ROC analysis on pathways scores 
+
+# 5_7_NES_bubble_plot_MOA.R')                               
+Bubble plot of pathways to predict MOA for EDCs
 
 
 # 6. Prediction of all compounds toxicity class probility and developing EDC score-----------------
