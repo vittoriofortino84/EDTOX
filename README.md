@@ -9,16 +9,16 @@ Preparation of binary marix of molecular initiating events (MIEs) from compound-
 resulting matrix. Removing of the outliars and finalizing the list of MIEs for the compounds in CTD.
 
 ## 1_2_Pathways_Download.R 
-Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI and annotation dictionary  for the pathways. 
+Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI and annotation dictionary for the pathways are generated. 
 
 ## 1_3_TOXCAST_nuclear_receptors_coregulators.R 
-Assay endpoints in TOXCAST related to nuclear receptors and co-regulators were retrieved using the database of nuclear receptor
+Assay endpoints in TOXCAST related to nuclear receptors and co-regulators are retrieved using the database of nuclear receptor
 genes in NURSA.
 
 ## 1_4_EDC_Decoy_selection.R 
-The most significat assay endpoints in ToxCast for the EDCs were obtained by proportion test.
-EDCs in DEDuCT list which were incative for all the selected assay endpoints were removed from the training set.
-The compounds with the maximum Jaccard distance with MIEs related to EDCs were considered as negative controls (decoys).
+The most significat assay endpoints in ToxCast for the EDCs are obtained by proportion test.
+EDCs in DEDuCT list which are incative for all the selected assay endpoints are removed from the training set.
+The compounds with the maximum Jaccard distance with MIEs related to EDCs are considered as negative controls (decoys).
 
 ## 1_5_ToxCast_dictionaries.R
 Preparation of ToxCast target genes and endpoints.
@@ -27,28 +27,28 @@ Preparation of ToxCast target genes and endpoints.
 
 
 ## 2_1_Drug_matrix_wTO.R                                    
-A list of four data frames from the log2fold change values of the genes expressed in rat liver after compound exposure were  generated for Drug Matrix rat in vitro hepatocyte 1 day and Drug matrix rat in vivo for 1 day, 3 and 5 days of exposure. Orthology mapping between 
-rat to human genes was done. The list was used for generation of the gene co-expression networks using wTO package.
+A list of four data frames from the log2fold change values of the genes expressed in rat liver after compound exposure are  generated for Drug Matrix rat in vitro hepatocyte 1 day and Drug matrix rat in vivo for 1 day, 3 and 5 days of exposure. Orthology mapping between 
+rat to human genes is done. The list is used for generation of the gene co-expression networks using wTO package.
 
 ## 2_2_TG_Gates_wTO.R                                       
-A list of eight data frames from the log2fold change values of the genes expressed in rat liver after compound exposure were  generated for open TG-GATEs rat and human in vitro 1 day and rat in vivo for single low, middle and high doses for 1 day and repeated in vivo doses for 8, 15 and 29 days were generated. Orthology mapping between rat to human genes was done. The list was used for generation of the gene co-expression networks using wTO package.
+A list of eight data frames from the log2fold change values of the genes expressed in rat liver after compound exposure are  generated for open TG-GATEs rat and human in vitro 1 day and rat in vivo for single low, middle and high doses for 1 day and repeated in vivo doses for 8, 15 and 29 days are generated. Orthology mapping between rat to human genes was done. The list is used for generation of the gene co-expression networks using wTO package.
 
 
 ## 2_3_LINCS_wTO.R
-Two data frames from log2fold change values of genes expressed in liver for HEPG2 cell line was generated from level 5 of LINCS data. 
-A consensus network was used from the two data frames using wTO package. 
+Two data frames from log2fold change values of genes expressed in liver for HEPG2 cell line is generated from level 5 of LINCS data. 
+A consensus network is used from the two data frames using wTO package. 
 
 ## 2_4_Consensus_Rat_in_vitro_wTO.R 
-Consensus network for rat hepatocytes from DrugMatrix and TG-GATEs was generated.
+Consensus network for rat hepatocytes from DrugMatrix and TG-GATEs is generated.
 
 ## 2_5_PPI_wTO.R                                             
-PPI Network from StringDB for Homo Sapiens was generated. A new combined score was generated from  the product of interactions except 
+PPI Network from StringDB for Homo Sapiens is generated. A new combined score is generated from  the product of interactions except 
 gene co-expression.
 
 # 3. Intra tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
-The top edge portion 0.02,0.03,0.05,0.1 were extracted from different networks after sorting the weighted topological overlap of the edges. 
+The top edge portion 0.02,0.03,0.05,0.1 are extracted from different networks after sorting the weighted topological overlap of the edges. 
 Each network was subjected to random walk with restart starting from the MIEs of EDCs and decoys. The top most visited genes
-200,500,700 and 1000 were extracted and the jaccard distance beween the EDCs and decoys was calculated. The average of silhouette score 
+200,500,700 and 1000 were extracted and the jaccard distance beween the EDCs and decoys is calculated. The average of silhouette score 
 for the edcs are calculated. 
 
 ## 3_1_Drug_matrix_tuner.R                                 
