@@ -77,7 +77,8 @@ Random walk and restart with restart and gene set enrichment analysis is perform
 
 # 5. GLM modeling of training set (Pathway scores of EDCs and decoys  and labels), accuracy tests and Visualization 
 ## 5_1_manual_curation_of_pathways_as_features.R          
-preprocessing of training set :Curation of specific patheway
+The pathways related to viral,bacterial, radiation were removed. The duplicated pathways based on jaccard similarit were removed.
+The pathway with no g
 
 ## 5_2_Preparation_of_training_datasets.R                   
 Preparation of training set for elastic net generalize linear models 
