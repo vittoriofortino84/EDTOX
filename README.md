@@ -2,7 +2,7 @@
 A toxicogenomics data space for system-level understanding and prediction of EDC-induced toxicity
 
 # Description of the R files used in the pipeline
-# 1. Scripts used for the prepration of the MIES, pathways and training benchmark set 
+# 1. Prepration of the MIES, pathways and training benchmark set 
 
 ## 1_1_MIEs_from_CTD.R
 Preparation of MIEs from compound-gene interactions in CTD
@@ -19,7 +19,7 @@ Selection of EDCs and decoys based on proportion test of ToxCast assays and jacc
 ## 1_5_ToxCast_dictionaries.R
 Preparation of ToxCast target genes and endpoints dictionaries
 
-# 2. Scripts used for generating gene co-expression networks 
+# 2. Generating gene co-expression networks 
 
 ## 2_1_Drug_matrix_wTO.R                                    
 wTO network from Drug Matrix LFCs
@@ -36,7 +36,7 @@ wTO network from CONSENSUS rat hepatocytes from DrugMatrix and TG-GATEs
 ## 2_5_PPI_wTO.R                                             
 ppi Network from StringDB for Homo Sapiens
 
-# 3. Scripts used for intra tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
+# 3. Intra tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
 
 ## 3_1_Drug_matrix_tuner.R                                 
 optmization of Drug Matrix
@@ -117,14 +117,24 @@ Comparison between EDC scores with pathway scores from TOXDB
 Validation of EDC scores with known chemicals from expert domain considered as EDC
 ## 8_2_validation_with_disease_score.R                       
 Validation of EDC scores Using disease labels in CTD
-source('scripts/8_3_Validation_with_ToxCast_mies.R')                        # 8_3. Validation of EDC scores by repeating the pipeline with MIES from ToxCast
+## 8_3_Validation_with_ToxCast_mies.R                        
+Validation of EDC scores by repeating the pipeline with MIES from ToxCast
 
 # sensitivity and enrichment categorization analysis
-source('scripts/8_4_dose_response_TG_GATEs_single.R')                       # 8_4. Class probability vs low middle and high TG-GATEs
-source('scripts/8_5_time_exposure_response_TG_GATEs_repeated.R')            # 8_5. Class probability vs 8,15,29 days TG-GATEs
-source('scripts/8_6_textmining_16_april_2020_endocrine_disruption.R')       # 8_6. Text mining for genes related to endocrine disruption
-source('scripts/8_7_time_dose_plots_heatplot.R')                            # 8_7. Heatplots for gene biomarkers
-source('scripts/8_8_categorization_enrichment_result.R')                    # 8_8. Categorization of pathways in KEGG and REACTOME
+## 8_4_dose_response_TG_GATEs_single.R                
+Class probability vs low middle and high TG-GATEs
+
+## 8_5_time_exposure_response_TG_GATEs_repeated.R          
+Class probability vs 8,15,29 days TG-GATEs
+
+## 8_6_textmining_16_april_2020_endocrine_disruption.R      
+Text mining for genes related to endocrine disruption
+
+## 8_7_time_dose_plots_heatplot.R                      
+Heatplots for gene biomarkers
+
+## 8_8_categorization_enrichment_result.R                 
+Categorization of pathways in KEGG and REACTOME
 
 
 # 9. Linkin MIEs to AOPs which are related to EDCs --------------------------------------------------  
