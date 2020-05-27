@@ -39,13 +39,17 @@ Two data frames from log2fold change values of genes expressed in liver for HEPG
 A consensus network was used from the two data frames using wTO package. 
 
 ## 2_4_Consensus_Rat_in_vitro_wTO.R 
-CONSENSUS network for rat hepatocytes from DrugMatrix and TG-GATEs was generated.
+Consensus network for rat hepatocytes from DrugMatrix and TG-GATEs was generated.
 
 ## 2_5_PPI_wTO.R                                             
 PPI Network from StringDB for Homo Sapiens was generated. A new combined score was generated from  the product of interactions except 
 gene co-expression.
 
 # 3. Intra tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
+The top edge portion 0.02,0.03,0.05,0.1 were extracted from different networks based on topological overlap of the edges. 
+Each network was subjected to random walk with restart starting from the MIEs of EDCs and decoys. The top most visited genes
+200,500,700 and 1000 were extracted and the jaccard distance beween the EDCs and decoys was calculated. The average of silhouette score 
+for the edcs are calculated. 
 
 ## 3_1_Drug_matrix_tuner.R                                 
 optmization of Drug Matrix
@@ -60,7 +64,7 @@ optimization of Consensus LINCS hepatocytes
 optimization of PPI
 
 ## 3_5_pareto_solution_on_tuning_results.R                
-Using pareto solution to obtain final genesets size and edge percents
+Using pareto solution to obtain final genesets size and edge percents. 
 
 
 # 4. Random walk with restart and fgsea (RWR-FGSEA) 
