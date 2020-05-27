@@ -4,7 +4,7 @@ A toxicogenomics data space for system-level understanding and prediction of EDC
 # Description of the R files used in the pipeline
 # 1. Scripts used for the prepration of the MIES, pathways and benchmark set 
 
-1_1_MIEs_from_CTD.R 
+# 1_1_MIEs_from_CTD.R
 Preparation of MIEs from compound-gene interactions in CTD
 
 1_2_Pathways_Download.R 
