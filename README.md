@@ -27,7 +27,9 @@ wTO network from Drug Matrix LFCs
 # 2_2_TG_Gates_wTO.R                                       
 wTO network from TG-GATEs LFCs
 
-2_3_LINCS_wTO.R')                                          # 2_3. wTO network from LINCS LFCs
+# 2_3_LINCS_wTO.R
+wTO network from LINCS LFCs
+
 2_4_Consensus_Rat_in_vitro_wTO.R                         # 2_4. wTO network from CONSENSUS rat hepatocytes
 2_5_PPI_wTO.R                                            # 2_5. ppi Network from StringDB for Homo Sapiens
 
