@@ -54,7 +54,7 @@ for the edcs are calculated.
 ## 3_1_Drug_matrix_tuner.R                                 
 optmization of Drug Matrix
 
-## 3_2_TG_GATEs_tuner.R)                                  
+## 3_2_TG_GATEs_tuner.R                                  
 optimization of TG-GATEs
 
 ## 3_3_Consensus_tuner.R                                   
@@ -69,10 +69,10 @@ Using pareto solution to obtain final genesets size and edge percents.
 
 # 4. Random walk with restart and fgsea (RWR-FGSEA) 
 ## 4_1_RWR_FGSEA_for_edc_decoys.R                        
-RWR-FGSEA on EDC and decoys set
+Random walk and restart with restart and gene set enrichment analysis is performed by the MIEs of EDCs and decoys.
 
 ## 4_2_RWR_FGSEA_for_all_compounds_in_CTD.R               
-RWR-FGSEA on all compounds in CTD
+Random walk and restart with restart and gene set enrichment analysis is performed by the MIEs of compounds in CTD.
 
 
 # 5. GLM modeling of training set (Pathway scores of EDCs and decoys  and labels), accuracy tests and Visualization 
