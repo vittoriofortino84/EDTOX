@@ -6,7 +6,7 @@ A toxicogenomics data space for system-level understanding and prediction of EDC
 
 ## 1_1_MIEs_from_CTD.R
 Preparation of binary marix of molecular initiating events (MIEs) from compound-gene interactions in CTD. Perfroming MCA analysis on the 
-resulting matrix. Rmoving the outliars and finalizing the list of MIEs for the compounds in CTD
+resulting matrix. Removing of the outliars and finalizing the list of MIEs for the compounds in CTD
 
 ## 1_2_Pathways_Download.R 
 Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI and annotation dictionary  for the pathways. 
@@ -16,12 +16,15 @@ Assay endpoints in TOXCAST related to nuclear receptors and co-regulators were r
 genes in NURSA.
 
 ## 1_4_EDC_Decoy_selection.R 
-Selection of EDCs and decoys based on proportion test of ToxCast assays and jaccard dissimilarity of MIEs
+The most significat assay endpoints in ToxCast for the EDCs were obtained by proportion test.
+EDCs in DEDuCT list which were incative for all the selected assay endpoints were removed from the training set.
+The compounds with the maximum Jaccard distance with MIEs related to EDCs were considered as negative controls (decoys).
 
 ## 1_5_ToxCast_dictionaries.R
-Preparation of ToxCast target genes and endpoints dictionaries
+Preparation of ToxCast target genes and endpoiints.
 
 # 2. Generating gene co-expression networks 
+
 
 ## 2_1_Drug_matrix_wTO.R                                    
 wTO network from Drug Matrix LFCs
