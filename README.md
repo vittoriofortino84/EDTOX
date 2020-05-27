@@ -36,7 +36,7 @@ wTO network from CONSENSUS rat hepatocytes from DrugMatrix and TG-GATEs
 # 2_5_PPI_wTO.R                                             
 ppi Network from StringDB for Homo Sapiens
 
-# 3. Using Pareto: Intra Tuning and optimization of the pipeline based on  different genesets from Random walk on network and network edges  
+# 3. Intra Tuning and optimization of the pipeline based on  different genesets from Random walk on network and network edges  
 
 # 3_1_Drug_matrix_tuner.R                                 
 optmization of Drug Matrix
