@@ -78,10 +78,10 @@ Random walk and restart with restart and gene set enrichment analysis is perform
 # 5. GLM modeling of training set (Pathway scores of EDCs and decoys  and labels), accuracy tests and Visualization 
 ## 5_1_manual_curation_of_pathways_as_features.R          
 The pathways related to viral,bacterial, radiation were removed. The duplicated pathways based on jaccard similarit were removed.
-The pathway with no g
+The pathway with no genes expressed in liver are being removed.
 
 ## 5_2_Preparation_of_training_datasets.R                   
-Preparation of training set for elastic net generalize linear models 
+Preparation of training set for elastic net generalized linear models for different data layers. 
 
 ## 5_3_glm_modeling.R                                  
 Performing elastic net GLM on training set
@@ -93,7 +93,7 @@ k_fold_cross_validation of the models and the gene level models (using MIEs)
 ANOVA on cross-validation results of pathway and MIE based models 
 
 ## 5_6_Integration_of_coefficients_stabilties_NES_scores.R
-Integration of NES score, glm coefficients and performing ROC analysis on pathways scores 
+Integration of NES score, glm coefficients and performing ROC analysis on pathways scores for EDCs and decoys.
 
 ## 5_7_NES_bubble_plot_MOA.R                               
 Bubble plot of pathways to predict MOA for EDCs
@@ -117,7 +117,7 @@ ROC analysis between final EDC scores and ToxCast Data and heatmap analysis
 # 7. Comparison and evaluation of EDC scores with other Toxicity Scores and tools 
 
 ## 7_1_Comparison_of_VAM_on_DeDuCt.R                      
-Calculation of EDC scores for compounds in DeDUCT list
+Calculation of EDC scores for compounds in DEDuCT list
 
 ## 7_2_Comparison_VAM_scores_vs_TOXPI_scores.R           
 Comparison between EDC scores with scores from TOXPI  
@@ -129,8 +129,10 @@ Comparison between EDC scores with pathway scores from TOXDB
 # 8. Validation of EDC scores with external data 
 ## 8_1_Validation_VAM_scores_Eurion_External_set_compounds.R
 Validation of EDC scores with known chemicals from expert domain considered as EDC
+
 ## 8_2_validation_with_disease_score.R                       
 Validation of EDC scores Using disease labels in CTD
+
 ## 8_3_Validation_with_ToxCast_mies.R                        
 Validation of EDC scores by repeating the pipeline with MIES from ToxCast
 
@@ -149,7 +151,6 @@ Heatplots for gene biomarkers
 
 ## 8_8_categorization_enrichment_result.R                 
 Categorization of pathways in KEGG and REACTOME
-
 
 # 9. Linking ED MIEs to AOPs  
 ## 9_1_preparation_data_set_disease_biomarker.R           
@@ -205,6 +206,3 @@ Class probability and harmonic and average score for disease
 
 ## 9_10_disease_scores_pie_chart.R                         
 Pie chart for the disease and EDC scores
-
-
-
