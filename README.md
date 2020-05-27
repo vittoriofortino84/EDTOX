@@ -120,7 +120,7 @@ Validation of EDC scores Using disease labels in CTD
 ## 8_3_Validation_with_ToxCast_mies.R                        
 Validation of EDC scores by repeating the pipeline with MIES from ToxCast
 
-# sensitivity and enrichment categorization analysis
+# Sensitivity and enrichment categorization analysis
 ## 8_4_dose_response_TG_GATEs_single.R                
 Class probability vs low middle and high TG-GATEs
 
@@ -137,25 +137,60 @@ Heatplots for gene biomarkers
 Categorization of pathways in KEGG and REACTOME
 
 
-# 9. Linkin MIEs to AOPs which are related to EDCs --------------------------------------------------  
-source('scripts/9_1_preparation_data_set_disease_biomarker.R')              # 9_1. Preapration of the pathways for AOP modeling          
-source('scripts/9_2_chem2disease_CTD.R')                                    # 9_2. Generation of binary matrix for componds and disease
-source('scripts/9_3_preparation_two_class_training_set_by_disease_name.R')  # 9_3. Preparation of training set for each disease
-source('scripts/9_4_1_metabolic_syndrome_two_class_traning_models_glm.R')   # 9_4_1. GLM  model metabolic syndrome all data layers
-source('scripts/9_4_2_artherosclerosis_two_class_training_models_glm.R')    # 9_4_2. GLM  model atherosclerosis all data layers
-source('scripts/9_4_3_diabetes_2_two_class_traning_models_glm.R')           # 9_4_3. GLM  model diabetes T2 all data layers
-source('scripts/9_5_1_kfold_CV_two_class_metabolic_syndrome_glm.R')         # 9_5_1. K-fold-CV metabolic syndrome all data layers
-source('scripts/9_5_2_kfold_CV_two_class_artherosclerosis_glm.R')           # 9_5_2. K-fold-CV atherosclerosis all data layers
-source('scripts/9_5_3_kfold_CV_two_class_diabetes_2_glm.R')                 # 9_5_3. K-fold-CV diabetes T2 all data layers
-source('scripts/9_6_1_comparison_CV_F1_scores_all_layers_ANOVA_metabolic_syndrome.R')#9_6_1. Boxplot F1-scores metabolic syndrome
-source('scripts/9_6_2_comparison_CV_F1_scores_all_layers_ANOVA_atherosclerosis.R')#9_6_2.Boxplot F1-scores atherosclerosis
-source('scripts/9_6_3_comparison_CV_F1_scores_all_layers_ANOVA_diabetes.R') #9_6_3. Boxplot F1-scores diabets t2
-source('scripts/9_7_1_Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R')# 9_7_1. ROC analysis metabolic syndrome
-source('scripts/9_7_2_Integration_of_glm_coefs_stabilities_NES_ROC_atherosclerosis.R')# 9_7_2. ROC analysis atherosclerosis
-source('scripts/9_7_3_Integration_of_glm_coefs_stabilities_NES_ROC_diabetes_2.R')# 9_7_3. ROC analysis diaetes T2
-source('scripts/9_8_bubble_plots_pathways.R')                               # 9_8. Bubble plot for the pathways related to AOPs
-source('scripts/9_9_disease_scores.R')                                      # 9_9. Class probability and harmonic and average score for disease
-source('scripts/9_10_disease_scores_pie_chart.R')                           # 9_10.Pie chart for the disease and EDC scores
+# 9. Linking ED MIEs to AOPs  
+9_1_preparation_data_set_disease_biomarker.R           
+Preapration of the pathways for AOP modeling
+
+## 9_2_chem2disease_CTD.R                               
+Generation of binary matrix for componds and disease
+
+## 9_3_preparation_two_class_training_set_by_disease_name.R 
+Preparation of training set for each disease
+
+## 9_4_1_metabolic_syndrome_two_class_traning_models_glm.R   
+GLM  model metabolic syndrome all data layers
+
+## 9_4_2_artherosclerosis_two_class_training_models_glm.R  
+GLM  model atherosclerosis all data layers
+
+## 9_4_3_diabetes_2_two_class_traning_models_glm.R         
+GLM  model diabetes T2 all data layers
+
+## 9_5_1_kfold_CV_two_class_metabolic_syndrome_glm.R        
+K-fold-CV metabolic syndrome all data layers
+
+## 9_5_2_kfold_CV_two_class_artherosclerosis_glm.R         
+K-fold-CV atherosclerosis all data layers
+
+## 9_5_3_kfold_CV_two_class_diabetes_2_glm.R                
+K-fold-CV diabetes T2 all data layers
+
+## 9_6_1_comparison_CV_F1_scores_all_layers_ANOVA_metabolic_syndrome.R
+Boxplot F1-scores metabolic syndrome
+
+## 9_6_2_comparison_CV_F1_scores_all_layers_ANOVA_atherosclerosis.R
+Boxplot F1-scores atherosclerosis
+
+## 9_6_3_comparison_CV_F1_scores_all_layers_ANOVA_diabetes.R 
+Boxplot F1-scores diabets t2
+
+## 9_7_1_Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R
+ROC analysis metabolic syndrome
+
+## 9_7_2_Integration_of_glm_coefs_stabilities_NES_ROC_atherosclerosis.R
+ROC analysis atherosclerosis
+
+## 9_7_3_Integration_of_glm_coefs_stabilities_NES_ROC_diabetes_2.R
+ROC analysis diaetes T2
+
+## 9_8_bubble_plots_pathways.R                           
+Bubble plot for the pathways related to AOPs
+
+## 9_9_disease_scores.R                                   
+Class probability and harmonic and average score for disease
+
+## 9_10_disease_scores_pie_chart.R                         
+Pie chart for the disease and EDC scores
 
 
 
