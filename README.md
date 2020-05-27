@@ -8,7 +8,7 @@ A toxicogenomics data space for system-level understanding and prediction of EDC
 Preparation of MIEs from compound-gene interactions in CTD
 
 # 1_2_Pathways_Download.R 
-Pathways download for KEGG, REACTOME,MSIGDB, GO and WIKI and dictionary files for pathways
+Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI and annotation dictionary  for the pathways
 
 # 1_3_TOXCAST_nuclear_receptors_coregulators.R 
 To get TOXCAST nuclear receptors assay endpoints using NURSA and nuclear receptor genes
@@ -75,22 +75,29 @@ Performing elastic net GLM on training set
 # 5_4_k_fold_cross_validation.R                          
 k_fold_cross_validation of the models and the gene level models (using MIEs)
 
-# 5_5_comparing_cross_validation_across_all_layers_ANOVA.R') 
+# 5_5_comparing_cross_validation_across_all_layers_ANOVA.R
 ANOVA on cross-validation results of pathway and MIE based models 
 
-# 5_6_Integration_of_coefficients_stabilties_NES_scores.R')  
+# 5_6_Integration_of_coefficients_stabilties_NES_scores.R
 Integration of NES score, glm coefficients and performing ROC analysis on pathways scores 
 
-# 5_7_NES_bubble_plot_MOA.R')                               
+# 5_7_NES_bubble_plot_MOA.R                               
 Bubble plot of pathways to predict MOA for EDCs
 
 
-# 6. Prediction of all compounds toxicity class probility and developing EDC score-----------------
+# 6. Prediction of all compounds toxicity class probility and developing EDC score
 
-source('scripts/6_1_prediction_all_compounds_class_probilities.R')         # 6_1. Prediction of class probilities for compounds in CTD 
-source('scripts/6_2_ROC_TOXCAST_vs_class_probabilities.R')                 # 6_2. Selection of networks based on ROC curve analysis with TOXCAST hitc matrix 
-source('scripts/6_3_Developing_Harmonic_and_average_EDC_scores.R')         # 6_3. Defining EDC scores as the harmonic sum of class probilites for most informative layers
-source('scripts/6_4_ROC_analysis_EDC_scores_vs_TOXCAST_endpoints.R')       # 6_4. ROC analysis between final EDC scores and ToxCast Data and heatmap analysis
+# 6_1_prediction_all_compounds_class_probilities.R       
+Prediction of class probilities for compounds in CTD 
+
+# 6_2_ROC_TOXCAST_vs_class_probabilities.R                
+Selection of networks based on ROC curve analysis with TOXCAST hitc matrix
+
+# 6_3_Developing_Harmonic_and_average_EDC_scores.R         
+Defining EDC scores as the harmonic sum of class probilites for most informative layers
+
+# 6_4_ROC_analysis_EDC_scores_vs_TOXCAST_endpoints.R      
+ROC analysis between final EDC scores and ToxCast Data and heatmap analysis
 
 
 # 7. Comparison and evaluation of EDC scores with other Toxicity Scores and tools -------------------------
