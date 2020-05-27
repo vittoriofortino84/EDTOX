@@ -27,7 +27,7 @@ Preparation of ToxCast target genes and endpoints.
 
 
 ## 2_1_Drug_matrix_wTO.R                                    
-A list of four data frames from the log2fold change values of the genes expressed in rat liver after compound exposure were  generated for Drug Matrix rat in vitro hepatocyte 1 day and Drug matrix rat in vivo 1 day, 3 and 5 days. Orthology mapping between 
+A list of four data frames from the log2fold change values of the genes expressed in rat liver after compound exposure were  generated for Drug Matrix rat in vitro hepatocyte 1 day and Drug matrix rat in vivo for 1 day, 3 and 5 days of exposure. Orthology mapping between 
 rat to human genes was done. The list was used for generation of the gene co-expression networks using wTO package.
 
 ## 2_2_TG_Gates_wTO.R                                       
@@ -42,7 +42,8 @@ A consensus network was used from the two data frames using wTO package.
 CONSENSUS network for rat hepatocytes from DrugMatrix and TG-GATEs was generated.
 
 ## 2_5_PPI_wTO.R                                             
-PPI Network from StringDB for Homo Sapiens was generated. 
+PPI Network from StringDB for Homo Sapiens was generated. A new combined score was generated from  the product of interactions except 
+gene expression.
 
 # 3. Intra tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
 
