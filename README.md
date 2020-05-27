@@ -4,116 +4,116 @@ A toxicogenomics data space for system-level understanding and prediction of EDC
 # Description of the R files used in the pipeline
 # 1. Scripts used for the prepration of the MIES, pathways and training benchmark set 
 
-# 1_1_MIEs_from_CTD.R
+## 1_1_MIEs_from_CTD.R
 Preparation of MIEs from compound-gene interactions in CTD
 
-# 1_2_Pathways_Download.R 
+## 1_2_Pathways_Download.R 
 Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI and annotation dictionary  for the pathways
 
-# 1_3_TOXCAST_nuclear_receptors_coregulators.R 
+## 1_3_TOXCAST_nuclear_receptors_coregulators.R 
 To get TOXCAST nuclear receptors assay endpoints using NURSA and nuclear receptor genes
 
-# 1_4_EDC_Decoy_selection.R 
+## 1_4_EDC_Decoy_selection.R 
 Selection of EDCs and decoys based on proportion test of ToxCast assays and jaccard dissimilarity of MIEs
 
-# 1_5_ToxCast_dictionaries.R
+## 1_5_ToxCast_dictionaries.R
 Preparation of ToxCast target genes and endpoints dictionaries
 
 # 2. Scripts used for generating gene co-expression networks 
 
-# 2_1_Drug_matrix_wTO.R                                    
+## 2_1_Drug_matrix_wTO.R                                    
 wTO network from Drug Matrix LFCs
 
-# 2_2_TG_Gates_wTO.R                                       
+## 2_2_TG_Gates_wTO.R                                       
 wTO network from TG-GATEs LFCs
 
-# 2_3_LINCS_wTO.R
+## 2_3_LINCS_wTO.R
 wTO network from LINCS LFCs
 
-# 2_4_Consensus_Rat_in_vitro_wTO.R 
+## 2_4_Consensus_Rat_in_vitro_wTO.R 
 wTO network from CONSENSUS rat hepatocytes from DrugMatrix and TG-GATEs
 
-# 2_5_PPI_wTO.R                                             
+## 2_5_PPI_wTO.R                                             
 ppi Network from StringDB for Homo Sapiens
 
 # 3. Scripts used for intra tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
 
-# 3_1_Drug_matrix_tuner.R                                 
+## 3_1_Drug_matrix_tuner.R                                 
 optmization of Drug Matrix
 
-# 3_2_TG_GATEs_tuner.R)                                  
+## 3_2_TG_GATEs_tuner.R)                                  
 optimization of TG-GATEs
 
-# 3_3_Consensus_tuner.R                                   
+## 3_3_Consensus_tuner.R                                   
 optimization of Consensus LINCS hepatocytes
 
-# 3_4_PPI_tuner.R                                          
+## 3_4_PPI_tuner.R                                          
 optimization of PPI
 
-# 3_5_pareto_solution_on_tuning_results.R                
+## 3_5_pareto_solution_on_tuning_results.R                
 Using pareto solution to obtain final genesets size and edge percents
 
 
 # 4. Random walk with restart and fgsea (RWR-FGSEA) 
-# 4_1_RWR_FGSEA_for_edc_decoys.R                        
+## 4_1_RWR_FGSEA_for_edc_decoys.R                        
 RWR-FGSEA on EDC and decoys set
 
-# 4_2_RWR_FGSEA_for_all_compounds_in_CTD.R               
+## 4_2_RWR_FGSEA_for_all_compounds_in_CTD.R               
 RWR-FGSEA on all compounds in CTD
 
 
 # 5. GLM modeling of training set (Pathway scores of EDCs and decoys  and labels), accuracy tests and Visualization 
-# 5_1_manual_curation_of_pathways_as_features.R          
+## 5_1_manual_curation_of_pathways_as_features.R          
 preprocessing of training set :Curation of specific patheway
 
-# 5_2_Preparation_of_training_datasets.R                   
+## 5_2_Preparation_of_training_datasets.R                   
 Preparation of training set for elastic net generalize linear models 
 
-# 5_3_glm_modeling.R                                  
+## 5_3_glm_modeling.R                                  
 Performing elastic net GLM on training set
 
-# 5_4_k_fold_cross_validation.R                          
+## 5_4_k_fold_cross_validation.R                          
 k_fold_cross_validation of the models and the gene level models (using MIEs)
 
-# 5_5_comparing_cross_validation_across_all_layers_ANOVA.R
+## 5_5_comparing_cross_validation_across_all_layers_ANOVA.R
 ANOVA on cross-validation results of pathway and MIE based models 
 
-# 5_6_Integration_of_coefficients_stabilties_NES_scores.R
+## 5_6_Integration_of_coefficients_stabilties_NES_scores.R
 Integration of NES score, glm coefficients and performing ROC analysis on pathways scores 
 
-# 5_7_NES_bubble_plot_MOA.R                               
+## 5_7_NES_bubble_plot_MOA.R                               
 Bubble plot of pathways to predict MOA for EDCs
 
 
 # 6. Prediction of all compounds toxicity class probility and developing EDC score
 
-# 6_1_prediction_all_compounds_class_probilities.R       
+## 6_1_prediction_all_compounds_class_probilities.R       
 Prediction of class probilities for compounds in CTD 
 
-# 6_2_ROC_TOXCAST_vs_class_probabilities.R                
+## 6_2_ROC_TOXCAST_vs_class_probabilities.R                
 Selection of networks based on ROC curve analysis with TOXCAST hitc matrix
 
-# 6_3_Developing_Harmonic_and_average_EDC_scores.R         
+## 6_3_Developing_Harmonic_and_average_EDC_scores.R         
 Defining EDC scores as the harmonic sum of class probilites for most informative layers
 
-# 6_4_ROC_analysis_EDC_scores_vs_TOXCAST_endpoints.R      
+## 6_4_ROC_analysis_EDC_scores_vs_TOXCAST_endpoints.R      
 ROC analysis between final EDC scores and ToxCast Data and heatmap analysis
 
 
 # 7. Comparison and evaluation of EDC scores with other Toxicity Scores and tools 
 
-# 7_1_Comparison_of_VAM_on_DeDuCt.R                      
+## 7_1_Comparison_of_VAM_on_DeDuCt.R                      
 Calculation of EDC scores for compounds in DeDUCT list
 
-# 7_2_Comparison_VAM_scores_vs_TOXPI_scores.R           
+## 7_2_Comparison_VAM_scores_vs_TOXPI_scores.R           
 Comparison between EDC scores with scores from TOXPI  
 
-# 7_3_Comparison_pathway_scores_vs_TOXDB_pathway_scores.R  
+## 7_3_Comparison_pathway_scores_vs_TOXDB_pathway_scores.R  
 Comparison between EDC scores with pathway scores from TOXDB
 
 
 # 8. Validation of EDC scores with external data 
-# 8_1_Validation_VAM_scores_Eurion_External_set_compounds.R
+## 8_1_Validation_VAM_scores_Eurion_External_set_compounds.R
 Validation of EDC scores with known chemicals from expert domain considered as EDC
 ## 8_2_validation_with_disease_score.R                       
 Validation of EDC scores Using disease labels in CTD
