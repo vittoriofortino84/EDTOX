@@ -15,13 +15,13 @@ source('scripts/2_3_LINCS_wTO.R')                                          # 2_3
 source('scripts/2_4_Consensus_Rat_in_vitro_wTO.R')                         # 2_4. wTO network from CONSENSUS rat hepatocytes
 source('scripts/2_5_PPI_wTO.R')                                            # 2_5. ppi Network from StringDB for Homo Sapiens
 
-# 3. Using Pareto: Intra Tuning an optimization of the pipeline based on  different genesets and edges  --------
+# 3. Using Pareto: Intra Tuning and optimization of the pipeline based on  different genesets from Random walk on network and network edges  --------
 
-source('scripts/3_1_Drug_matrix_tuner.R')                                  # 3_1. Drug Matrix  wTO       
-source('scripts/3_2_TG_GATEs_tuner.R')                                     # 3_2. TG-GATEs wTO
-source('scripts/3_3_Consensus_tuner.R')                                    # 3_3. Consensus LINCS hepatocytes wTO
-source('scripts/3_4_PPI_tuner.R')                                          # 3_4. PPI wTO
-source('scripts/3_5_pareto_solution_on_tuning_results.R')                  # 3_5. Using pareto solution to optimize genesets size and edge percents
+source('scripts/3_1_Drug_matrix_tuner.R')                                  # 3_1. optmization of Drug Matrix        
+source('scripts/3_2_TG_GATEs_tuner.R')                                     # 3_2. optimization of TG-GATEs 
+source('scripts/3_3_Consensus_tuner.R')                                    # 3_3. optimization of Consensus LINCS hepatocytes 
+source('scripts/3_4_PPI_tuner.R')                                          # 3_4. optimization of PPI 
+source('scripts/3_5_pareto_solution_on_tuning_results.R')                  # 3_5. Using pareto solution to obtain final genesets size and edge percents
 
 
 # 4. Random walk with restart and fgsea (RWR-FGSEA) ----------------------------------
