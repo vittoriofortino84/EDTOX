@@ -30,8 +30,11 @@ wTO network from TG-GATEs LFCs
 # 2_3_LINCS_wTO.R
 wTO network from LINCS LFCs
 
-2_4_Consensus_Rat_in_vitro_wTO.R                         # 2_4. wTO network from CONSENSUS rat hepatocytes
-2_5_PPI_wTO.R                                            # 2_5. ppi Network from StringDB for Homo Sapiens
+# 2_4_Consensus_Rat_in_vitro_wTO.R 
+wTO network from CONSENSUS rat hepatocytes from DrugMatrix and TG-GATEs
+
+# 2_5_PPI_wTO.R                                             
+ppi Network from StringDB for Homo Sapiens
 
 # 3. Using Pareto: Intra Tuning and optimization of the pipeline based on  different genesets from Random walk on network and network edges  --------
 
