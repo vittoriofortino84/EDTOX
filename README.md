@@ -9,7 +9,7 @@ Preparation of binary marix of molecular initiating events (MIEs) from compound-
 resulting matrix. Removing of the outliars and finalizing the list of MIEs for the compounds in CTD.
 
 ## 1_2_Pathways_Download.R 
-Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI and annotation dictionary for the pathways are generated. 
+Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI and annotation dictionary for the pathways are retrieved. 
 
 ## 1_3_TOXCAST_nuclear_receptors_coregulators.R 
 Assay endpoints in TOXCAST related to nuclear receptors and co-regulators are retrieved using the database of nuclear receptor
