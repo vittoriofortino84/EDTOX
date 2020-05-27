@@ -46,7 +46,7 @@ PPI Network from StringDB for Homo Sapiens was generated. A new combined score w
 gene co-expression.
 
 # 3. Intra tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
-The top edge portion 0.02,0.03,0.05,0.1 were extracted from different networks based on topological overlap of the edges. 
+The top edge portion 0.02,0.03,0.05,0.1 were extracted from different networks after sorting the weighted topological overlap of the edges. 
 Each network was subjected to random walk with restart starting from the MIEs of EDCs and decoys. The top most visited genes
 200,500,700 and 1000 were extracted and the jaccard distance beween the EDCs and decoys was calculated. The average of silhouette score 
 for the edcs are calculated. 
