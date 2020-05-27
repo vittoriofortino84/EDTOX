@@ -19,7 +19,7 @@ Selection of EDCs and decoys based on proportion test of ToxCast assays and jacc
 # 1_5_ToxCast_dictionaries.R
 Preparation of ToxCast target genes and endpoints dictionaries
 
-# 2. Building gene co-expression networks 
+# 2. Scripts used for generating gene co-expression networks 
 
 # 2_1_Drug_matrix_wTO.R                                    
 wTO network from Drug Matrix LFCs
@@ -36,13 +36,22 @@ wTO network from CONSENSUS rat hepatocytes from DrugMatrix and TG-GATEs
 # 2_5_PPI_wTO.R                                             
 ppi Network from StringDB for Homo Sapiens
 
-# 3. Using Pareto: Intra Tuning and optimization of the pipeline based on  different genesets from Random walk on network and network edges  --------
+# 3. Using Pareto: Intra Tuning and optimization of the pipeline based on  different genesets from Random walk on network and network edges  
 
-source('scripts/3_1_Drug_matrix_tuner.R')                                  # 3_1. optmization of Drug Matrix        
-source('scripts/3_2_TG_GATEs_tuner.R')                                     # 3_2. optimization of TG-GATEs 
-source('scripts/3_3_Consensus_tuner.R')                                    # 3_3. optimization of Consensus LINCS hepatocytes 
-source('scripts/3_4_PPI_tuner.R')                                          # 3_4. optimization of PPI 
-source('scripts/3_5_pareto_solution_on_tuning_results.R')                  # 3_5. Using pareto solution to obtain final genesets size and edge percents
+# 3_1_Drug_matrix_tuner.R                                 
+optmization of Drug Matrix
+
+# 3_2_TG_GATEs_tuner.R)                                  
+optimization of TG-GATEs
+
+# 3_3_Consensus_tuner.R                                   
+optimization of Consensus LINCS hepatocytes
+
+# 3_4_PPI_tuner.R                                          
+optimization of PPI
+
+# 3_5_pareto_solution_on_tuning_results.R                
+Using pareto solution to obtain final genesets size and edge percents
 
 
 # 4. Random walk with restart and fgsea (RWR-FGSEA) ----------------------------------
