@@ -43,7 +43,7 @@ CONSENSUS network for rat hepatocytes from DrugMatrix and TG-GATEs was generated
 
 ## 2_5_PPI_wTO.R                                             
 PPI Network from StringDB for Homo Sapiens was generated. A new combined score was generated from  the product of interactions except 
-gene expression.
+gene co-expression.
 
 # 3. Intra tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
 
