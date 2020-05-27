@@ -19,13 +19,17 @@ Selection of EDCs and decoys based on proportion test of ToxCast assays and jacc
 # 1_5_ToxCast_dictionaries.R
 Preparation of ToxCast target genes and endpoints dictionaries
 
-# 2. Building gene co-expression networks ------------------------------------------
+# 2. Building gene co-expression networks 
 
-source('scripts/2_1_Drug_matrix_wTO.R')                                    # 2_1. wTO network from Drug Matrix LFCs
-source('scripts/2_2_TG_Gates_wTO.R')                                       # 2_2. wTO network from TG-GATEs LFCs
-source('scripts/2_3_LINCS_wTO.R')                                          # 2_3. wTO network from LINCS LFCs
-source('scripts/2_4_Consensus_Rat_in_vitro_wTO.R')                         # 2_4. wTO network from CONSENSUS rat hepatocytes
-source('scripts/2_5_PPI_wTO.R')                                            # 2_5. ppi Network from StringDB for Homo Sapiens
+# 2_1_Drug_matrix_wTO.R                                    
+wTO network from Drug Matrix LFCs
+
+# 2_2_TG_Gates_wTO.R                                       
+wTO network from TG-GATEs LFCs
+
+2_3_LINCS_wTO.R')                                          # 2_3. wTO network from LINCS LFCs
+2_4_Consensus_Rat_in_vitro_wTO.R                         # 2_4. wTO network from CONSENSUS rat hepatocytes
+2_5_PPI_wTO.R                                            # 2_5. ppi Network from StringDB for Homo Sapiens
 
 # 3. Using Pareto: Intra Tuning and optimization of the pipeline based on  different genesets from Random walk on network and network edges  --------
 
