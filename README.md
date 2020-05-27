@@ -36,7 +36,7 @@ wTO network from CONSENSUS rat hepatocytes from DrugMatrix and TG-GATEs
 # 2_5_PPI_wTO.R                                             
 ppi Network from StringDB for Homo Sapiens
 
-# 3. Intra Tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
+# 3. Scripts used for intra tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
 
 # 3_1_Drug_matrix_tuner.R                                 
 optmization of Drug Matrix
@@ -102,9 +102,14 @@ ROC analysis between final EDC scores and ToxCast Data and heatmap analysis
 
 # 7. Comparison and evaluation of EDC scores with other Toxicity Scores and tools -------------------------
 
-source('scripts/7_1_Comparison_of_VAM_on_DeDuCt.R')                        # 7_1. Calculation of EDC scores for compounds in DeDUCT list
-source('scripts/7_2_Comparison_VAM_scores_vs_TOXPI_scores.R')              # 7_2. Comparison between EDC scores with scores from TOXPI      
-source('scripts/7_3_Comparison_pathway_scores_vs_TOXDB_pathway_scores.R')  # 7_3. Comparison between EDC scores with pathway scores from TOXDB
+# 7_1_Comparison_of_VAM_on_DeDuCt.R                      
+Calculation of EDC scores for compounds in DeDUCT list
+
+# 7_2_Comparison_VAM_scores_vs_TOXPI_scores.R           
+Comparison between EDC scores with scores from TOXPI  
+
+# 7_3_Comparison_pathway_scores_vs_TOXDB_pathway_scores.R  
+Comparison between EDC scores with pathway scores from TOXDB
 
 
 # 8. Validation of EDC scores with external data ------------------------
