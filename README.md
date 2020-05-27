@@ -21,17 +21,17 @@ EDCs in DEDuCT list which were incative for all the selected assay endpoints wer
 The compounds with the maximum Jaccard distance with MIEs related to EDCs were considered as negative controls (decoys).
 
 ## 1_5_ToxCast_dictionaries.R
-Preparation of ToxCast target genes and endpoiints.
+Preparation of ToxCast target genes and endpoints.
 
 # 2. Generating gene co-expression networks 
 
 
 ## 2_1_Drug_matrix_wTO.R                                    
-A list of four gene co-expression networks from the genes log2fold change values after compound exposure were  generated for Drug Matrix rat in vitro hepatocyte 1 day and Drug matrix rat in vivo 1 day, 3 and 5 days
+A list of four data frames from the log2fold change values of the genes expressed in rat liver after compound exposure were  generated for Drug Matrix rat in vitro hepatocyte 1 day and Drug matrix rat in vivo 1 day, 3 and 5 days. Orthology mapping between 
+rat to human genes was done. The list was used for generation of the gene co-expression networks using wTO package.
 
 ## 2_2_TG_Gates_wTO.R                                       
-A list of eight gene co-expression networks from the genes log2fold change values after compound exposure were  generated for open TG-GATEs rat and human in vitro 1 day and rat in vivo for single low, middle and high doses for 1 day and repeated in vivo doses for 8, 15
-and 29 days were generated
+A list of eight data frames from the log2fold change values of the genes expressed in rat liver after compound exposure were  generated for open TG-GATEs rat and human in vitro 1 day and rat in vivo for single low, middle and high doses for 1 day and repeated in vivo doses for 8, 15 and 29 days were generated. Orthology mapping between rat to human genes was done. The list was used for generation of the gene co-expression networks using wTO package.
 
 
 ## 2_3_LINCS_wTO.R
