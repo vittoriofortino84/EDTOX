@@ -5,13 +5,15 @@ A toxicogenomics data space for system-level understanding and prediction of EDC
 # 1. Prepration of the MIES, pathways and training benchmark set 
 
 ## 1_1_MIEs_from_CTD.R
-Preparation of MIEs from compound-gene interactions in CTD
+Preparation of binary marix of molecular initiating events (MIEs) from compound-gene interactions in CTD. Perfroming MCA analysis on the 
+resulting matrix. Rmoving the outliars and finalizing the list of MIEs for the compounds in CTD
 
 ## 1_2_Pathways_Download.R 
-Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI and annotation dictionary  for the pathways
+Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI and annotation dictionary  for the pathways. 
 
 ## 1_3_TOXCAST_nuclear_receptors_coregulators.R 
-To get TOXCAST nuclear receptors assay endpoints using NURSA and nuclear receptor genes
+Assay endpoints in TOXCAST related to nuclear receptors and co-regulators were retrieved using the database of nuclear receptor
+genes in NURSA.
 
 ## 1_4_EDC_Decoy_selection.R 
 Selection of EDCs and decoys based on proportion test of ToxCast assays and jaccard dissimilarity of MIEs
