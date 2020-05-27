@@ -64,7 +64,7 @@ source('scripts/8_5_time_exposure_response_TG_GATEs_repeated.R')            # 8_
 source('scripts/8_6_textmining_16_april_2020_endocrine_disruption.R')       # 8_6. Text mining for genes related to endocrine disruption
 source('scripts/8_7_time_dose_plots_heatplot.R')                            # 8_7. Heatplots for gene biomarkers
 source('scripts/8_8_categorization_enrichment_result.R')                    # 8_8. Categorization of pathways in KEGG and REACTOME
-source('scripts/8_9_piechart_edc_scores.R')                                 # 8_9. pie chart for the EDC scores
+
 
 # 9. AOPs related to EDCs --------------------------------------------------  
 source('scripts/9_1_preparation_data_set_disease_biomarker.R')              # 9_1. Preapration of the pathways for AOP modeling          
@@ -84,6 +84,6 @@ source('scripts/9_7_2_Integration_of_glm_coefs_stabilities_NES_ROC_atheroscleros
 source('scripts/9_7_3_Integration_of_glm_coefs_stabilities_NES_ROC_diabetes_2.R')# 9_7_3. ROC analysis diaetes T2
 source('scripts/9_8_bubble_plots_pathways.R')                               # 9_8. Bubble plot for the pathways related to AOPs
 source('scripts/9_9_disease_scores.R')                                      # 9_9. Class probability and harmonic and average score for disease
-source('scripts/9_10_disease_scores_pie_chart.R')                           # 9_10.Pie chart for the disease scores
+source('scripts/9_10_disease_scores_pie_chart.R')                           # 9_10.Pie chart for the disease and EDC scores
 
 
