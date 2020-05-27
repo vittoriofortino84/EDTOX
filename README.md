@@ -100,7 +100,7 @@ Defining EDC scores as the harmonic sum of class probilites for most informative
 ROC analysis between final EDC scores and ToxCast Data and heatmap analysis
 
 
-# 7. Comparison and evaluation of EDC scores with other Toxicity Scores and tools -------------------------
+# 7. Comparison and evaluation of EDC scores with other Toxicity Scores and tools 
 
 # 7_1_Comparison_of_VAM_on_DeDuCt.R                      
 Calculation of EDC scores for compounds in DeDUCT list
@@ -112,9 +112,11 @@ Comparison between EDC scores with scores from TOXPI
 Comparison between EDC scores with pathway scores from TOXDB
 
 
-# 8. Validation of EDC scores with external data ------------------------
-source('scripts/8_1_Validation_VAM_scores_Eurion_External_set_compounds.R') # 8_1. Validation of EDC scores with known chemical considered as EDC by: Nick Plant 
-source('scripts/8_2_validation_with_disease_score.R')                       # 8_2. Validation of EDC scores Using disease labels in CTD
+# 8. Validation of EDC scores with external data 
+# 8_1_Validation_VAM_scores_Eurion_External_set_compounds.R
+Validation of EDC scores with known chemicals from expert domain considered as EDC
+## 8_2_validation_with_disease_score.R                       
+Validation of EDC scores Using disease labels in CTD
 source('scripts/8_3_Validation_with_ToxCast_mies.R')                        # 8_3. Validation of EDC scores by repeating the pipeline with MIES from ToxCast
 
 # sensitivity and enrichment categorization analysis
