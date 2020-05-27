@@ -66,7 +66,8 @@ print(g1)
 
 
 
-# 2. new approach with preselection based on ROC curve Heatplot of Significant pathways for doses and time of exposure 8,15,29 days TG-Gates-------------------------------------
+# 2.  preselection of pathways based on ROC curve 
+# Heatplot of Significant pathways for doses (low middle and high) and time of exposure 8,15,29 days TG-Gates-------------------------------------
 
 heat_plot<-function(significant_pathwawys,list_groups){
   load('outputData/toxdb2gene_final.RData')
