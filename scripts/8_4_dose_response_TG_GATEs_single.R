@@ -1,5 +1,5 @@
 library(ggplot2);library(ggpubr);library(grid);library(facetscales)
-# 1. Manual Dose response pattern recognition TG-GATEs Low Middle and --------
+# 1. Dose response pattern recognition TG-GATEs Low Middle and --------
 rm(list=ls())
 load('outputData/CTD_edc_scores_dictionary.RData')
 all_vam<-all_vam[,grep(colnames(all_vam),pattern = 'invivo|is_in|comp_names')]
