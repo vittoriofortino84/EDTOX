@@ -64,7 +64,7 @@ optimization of Consensus LINCS hepatocytes
 optimization of PPI
 
 ## 3_5_pareto_solution_on_tuning_results.R                
-Using pareto solution to obtain final genesets size and edge percents. 
+Using pareto solution to obtain final genesets size and edge percents. The pareto solution is used to maximize the silhouette score, minimize the gene and edge percent for the networks except PPI where pareto is being used to maximize the siilhouette score, minimize the edge percent and maximize the combined score. 
 
 
 # 4. Random walk with restart and fgsea (RWR-FGSEA) 
