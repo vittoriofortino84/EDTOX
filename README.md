@@ -52,16 +52,16 @@ Each network was subjected to random walk with restart starting from the MIEs of
 for the edcs are calculated. 
 
 ## 3_1_Drug_matrix_tuner.R                                 
-optmization of Drug Matrix
+Optimization of Drug Matrix
 
 ## 3_2_TG_GATEs_tuner.R                                  
-optimization of TG-GATEs
+Optimization of TG-GATEs
 
 ## 3_3_Consensus_tuner.R                                   
-optimization of Consensus LINCS hepatocytes
+Optimization of Consensus LINCS hepatocytes
 
 ## 3_4_PPI_tuner.R                                          
-optimization of PPI
+Optimization of PPI
 
 ## 3_5_pareto_solution_on_tuning_results.R                
 Using pareto solution to obtain final genesets size and edge percents. The pareto solution is used to maximize the silhouette score, minimize the gene and edge percent for the networks except PPI where pareto is being used to maximize the siilhouette score, minimize the edge percent and maximize the combined score. 
@@ -81,7 +81,7 @@ The pathways related to viral,bacterial, radiation were removed. The duplicated 
 The pathway with no genes expressed in liver are being removed.
 
 ## 5_2_Preparation_of_training_datasets.R                   
-Preparation of training set for elastic net generalized linear models for different data layers. 
+Preparation of training set x= the matrix of NES scores from FGSEA and Y the vector of labels as EDC and decoy for the compounds in each data layer for elastic net generalized linear models for different data layers. 
 
 ## 5_3_glm_modeling.R                                  
 Performing elastic net GLM on training set
@@ -96,7 +96,7 @@ ANOVA on cross-validation results of pathway and MIE based models
 Integration of NES score, glm coefficients and performing ROC analysis on pathways scores for EDCs and decoys.
 
 ## 5_7_NES_bubble_plot_MOA.R                               
-Bubble plot of pathways to predict MOA for EDCs
+Bubble plot of pathways to charecterize the possible mechanism of action (MOA) for EDCs
 
 
 # 6. Prediction of all compounds toxicity class probility and developing EDC score
@@ -105,7 +105,7 @@ Bubble plot of pathways to predict MOA for EDCs
 Prediction of class probilities for compounds in CTD 
 
 ## 6_2_ROC_TOXCAST_vs_class_probabilities.R                
-Selection of networks based on ROC curve analysis with TOXCAST hitc matrix
+Selection of networks based on ROC curve analysis of the class probabilities from different networks with TOXCAST hitc matrix.
 
 ## 6_3_Developing_Harmonic_and_average_EDC_scores.R         
 Defining EDC scores as the harmonic sum of class probilites for most informative layers
@@ -117,7 +117,7 @@ ROC analysis between final EDC scores and ToxCast Data and heatmap analysis
 # 7. Comparison and evaluation of EDC scores with other Toxicity Scores and tools 
 
 ## 7_1_Comparison_of_VAM_on_DeDuCt.R                      
-Calculation of EDC scores for compounds in DEDuCT list
+Calculation of EDC scores for compounds in DEDuCT.
 
 ## 7_2_Comparison_VAM_scores_vs_TOXPI_scores.R           
 Comparison between EDC scores with scores from TOXPI  
@@ -128,17 +128,17 @@ Comparison between EDC scores with pathway scores from TOXDB
 
 # 8. Validation of EDC scores with external data 
 ## 8_1_Validation_VAM_scores_Eurion_External_set_compounds.R
-Validation of EDC scores with known chemicals from expert domain considered as EDC
+Validation of EDC scores with known chemicals from expert domain which are considered as EDC together with the compounds from DEDuCT list and the heatmap analysis and accuracy.
 
 ## 8_2_validation_with_disease_score.R                       
-Validation of EDC scores Using disease labels in CTD
+Validation of EDC scores Using disease labels in CTD with the class probabilty calculated from the compounds and the heatmap plot
 
 ## 8_3_Validation_with_ToxCast_mies.R                        
-Validation of EDC scores by repeating the pipeline with MIES from ToxCast
+Validation of EDC scores by repeating the pipeline with MIES from ToxCast and comparing the result with the class probabilities calculated from the  MIEs from CTD to infer the overall efficiency of the pipeline in toxicity prediction
 
 # Sensitivity and enrichment categorization analysis
 ## 8_4_dose_response_TG_GATEs_single.R                
-Class probability vs low middle and high TG-GATEs
+Class probability vs low middle and high TG-GATEs are categorized in 4 patterns based on increase at different doses. ANOVA followed by Tukey post test are performed on the pathway activation scores at different doses for each pattern group and the 
 
 ## 8_5_time_exposure_response_TG_GATEs_repeated.R          
 Class probability vs 8,15,29 days TG-GATEs
