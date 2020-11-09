@@ -57,24 +57,84 @@ type.count<-function(x){
 }
 sel_type<-c('reaction','binding','activity','expression','metabolic processing')
 idx<-apply(InterAction_mat[,sel_type,drop=F],1,any)
-
 ixns<-ixns[idx,]
-InterAction_mat<-InterAction_mat[idx,sel_type]
+InterAction_mat <- InterAction_mat[idx,sel_type]
+##################################################### NEW CODE
+# compile for each chemical a data.frame indicating for each gene the data sources supporting the interaction
+provolone <- list()
+selt <- c('R','B', 'A', 'E', 'M')
+for(c in unique(ixns$chemID)){
+  test = ixns[ixns$chemID==c,]
+  mat = InterAction_mat[ixns$chemID==c,]
+  if(nrow(test)==1) {
+    provolone[[length(provolone)+1]] = test$geneID
+  }
+  else {
+    gid = unique(test$geneID)
+    sum_gid = c()
+    cat_gid = c()
+    for(g in gid) {
+      #print(which(g == test$geneID))
+      sum_gid = c(sum_gid, sum(mat[which(g == test$geneID),]))
+      cat_gid = c(cat_gid,  paste(selt[which(mat[which(g == test$geneID),] == TRUE)], collapse="."))
+    }
+    provolone[[length(provolone)+1]] = data.frame(gid, sum_gid, cat_gid, row.names = 1)
+  }
+}
 
-counts<-t(sapply(unique(ixns$chemID),function(x)type.count(InterAction_mat[ixns$chemID==x,])))
+# compile for each chemical the chemical-gene interactions that need to be removed
+mies_to_remove = lapply(provolone, function(x) {
+  if(!is.numeric(x)) {
+    if(nrow(x) > 50) {
+      id.EM = which(x$sum_gid == 1 & (x$cat_gid == 'E' | x$cat_gid == 'M'))
+      id.EM = c(id.EM, which(x$sum_gid == 2 & x$cat_gid == 'E.M'))
+      if((nrow(x) - length(id.EM)) > 200) {
+        id.REM = which(x$sum_gid == 1 & x$cat_gid == 'R')
+        id.REM = c(id.REM, which(x$sum_gid == 2 & x$cat_gid == 'R.E'))
+        id.REM = c(id.REM, which(x$sum_gid == 2 & x$cat_gid == 'R.M'))
+        id.REM = c(id.REM, which(x$sum_gid == 3 & x$cat_gid == 'R.E.M'))
+        if((nrow(x) - (length(id.EM) + length(id.REM))) > 200) {
+          id.AB = which(x$sum_gid == 1 & (x$cat_gid == 'A' | x$cat_gid == 'B'))
+          if((nrow(x) - (length(id.EM) + length(id.REM) + length(id.AB))) > 300) {
+            tab = table(x$cat_gid[-c(id.EM, id.REM, id.AB)])
+            print(tab[which(tab > 0)])
+            print(length(x$cat_gid[-c(id.EM, id.REM, id.AB)]))
+            print("-------------------------------------------------------------")
+            #return(-1)
+            return(c(rownames(x)[id.EM], rownames(x)[id.REM], rownames(x)[id.AB]))
+          }
+          return(c(rownames(x)[id.EM], rownames(x)[id.REM], rownames(x)[id.AB]))
+        }
+        return(c(rownames(x)[id.EM], rownames(x)[id.REM]))
+      }
+      return(rownames(x)[id.EM])
+    }
+    else NULL
+  }
+  else NULL
+})
+# determine the final set of entrez gene ids associated to each chemical
+final_set_mies = list()
+for(i in 1:length(provolone)) {
+  if(is.data.frame(provolone[[i]])) {
+    if(nrow(provolone[[i]]) > 50 & length(mies_to_remove[[i]]) > 0) {
+      final_set_mies[[i]] = setdiff(rownames(provolone[[i]]), mies_to_remove[[i]])
+    }
+    else  final_set_mies[[i]] = rownames(provolone[[i]])
+  }
+  else
+    final_set_mies[[i]] = provolone[[i]]
+}
+names(final_set_mies) = names(mies_to_remove) = names(provolone) = unique(ixns$chemID)
+final_set_mies<-final_set_mies[-which(sapply(final_set_mies,length)>100)]
+final_set_mies<-final_set_mies[-which(sapply(final_set_mies, length)==0)]
+chem2gene<-final_set_mies
+save(list = c('final_set_mies', 'mies_to_remove', 'provolone'), file = "outputData/new_MIES_set.RData")
+save(chem2gene,file = 'outputData/chem2_gene.RData')
 
-H<-apply(counts,2,function(x)3*IQR(x[x!=0]))
-Q2<-apply(counts,2,function(x)quantile(x[x!=0],.75))
-IQR_data<-as.data.frame(list(H,Q2,H+Q2));colnames(IQR_data)<-c('3*iqr','quantile_0.75','cutofforremovingoutliar')
-save(IQR_data,file = 'outputData/cuto_off_for_outliar_removing_from_MIES.RData')
-
-
-#Removing outliars 
-for(i in 1:length(H+Q2))InterAction_mat[ixns$chemID%in%names(which(counts[,i]>(H+Q2)[i])),i]<-FALSE
-idx<-apply(InterAction_mat,1,any)
-chem2gene<-by(data=as.character(ixns[idx,]$geneID),INDICES=as.factor(ixns[idx,]$chemID),FUN=paste)
-save(chem2gene,file='outputData/chem2gene_no_out.RData')
-
+                                                              
+                                                              
+                                                              
 ##makes a dictionary with three columns cas name mesh
  ixns<-read.csv('inputData/CTD_chemicals.csv.gz',comment.char = c("#"),stringsAsFactors = F,header = F) #all compounds from CTD
  ixns$V2<-gsub(pattern = 'MESH:',replacement = '',ixns$V2)
