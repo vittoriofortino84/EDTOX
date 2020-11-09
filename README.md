@@ -24,13 +24,14 @@ were grouped as metabolism and the interaction types related to transport are gr
 ## 1_4_EDC_Decoy_selection.R 
 - The list of EDCs will be retrieved from DEDuCT as CAS ids.
 - The ToxCast assay endpoints related to nuclear receptor and co-regulators of EDCs will be extracted. 
-- The most significat assay endpoints for the mecganism of EDCs will be characterized using statistical proportion test.
+- The most significat assay endpoints for the mechanism of EDCs will be characterized using statistical proportion test.
 - EDCs (DEDuCT list) which are incative for all the significant assay endpoints will be removed from the final list of EDcs.
-- Pairwise jaccard distance between the MIEs related to EDCs and other compounds in CTD will be calculated.
+- Pairwise jaccard distance between the MIEs related to remaining EDCs and other compounds in CTD will be calculated.
 - The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).
 
 ## 1_5_ToxCast_dictionaries.R
-Preparation of ToxCast target genes and endpoints.
+- Preparation of a dictionary for ToxCast target genes and their corresponding endpoints.
+- Conversion of ToxCast DSSTox_Identifiers to CAS registry identifiers and preparation of the final Hitcall list for ToxCast.
 
 # 2. Generating gene co-expression networks 
 
