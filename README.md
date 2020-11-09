@@ -17,8 +17,9 @@ were grouped as metabolism and the interaction types related to transport are gr
 - The classifications tags for the pathways related to KEGG and REACTOME pathways will be downloaded for enrichment analysis.
 
 ## 1_3_TOXCAST_nuclear_receptors_coregulators.R 
-Assay endpoints in TOXCAST related to nuclear receptors and co-regulators are retrieved using the database of nuclear receptor
-genes in NURSA.
+- The genes related to nuclear receptors and their co-regulators from our experts and NURSA data source will be merged.
+- The target gene ids from ToxCast will be extracted.
+- The ToxCast assay endpoints which their target genes are in the list of nuclear receptor genes will be saved as endpoints related to nuclear receptor.
 
 ## 1_4_EDC_Decoy_selection.R 
 The most significat assay endpoints in ToxCast for the EDCs are obtained by proportion test.
