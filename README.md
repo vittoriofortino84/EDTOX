@@ -9,7 +9,7 @@ A toxicogenomics data space for system-level understanding and prediction of EDC
 were grouped as metabolism and the interaction types related to transport are grouped as transport.
 - Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra. 
 - Selection of reaction,binding,activity,expression,metabolic processing as the more distant types of the interaction based on the plot of MCA.
-Removing of the outliars and finalizing the list of MIEs for the compounds in CTD.
+- Removing of the outliars and finalizing the list of MIEs for the compounds in CTD.
 
 ## 1_2_Pathways_Download.R 
 Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI and annotation dictionary for the pathways are retrieved. 
