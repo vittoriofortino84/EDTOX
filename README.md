@@ -14,7 +14,7 @@ were grouped as metabolism and the interaction types related to transport are gr
 ## 1_2_Pathways_Download.R 
 - Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI with the size of less than 200 will be retrieved.
 - A binary dictionary to link the GO terms with Wiki-AOPs will be generated.
-- The classifications of KEGG and REACTOME pathways will be downloaded for enrichment analysis.
+- The classifications tags for the pathways related to KEGG and REACTOME pathways will be downloaded for enrichment analysis.
 
 ## 1_3_TOXCAST_nuclear_receptors_coregulators.R 
 Assay endpoints in TOXCAST related to nuclear receptors and co-regulators are retrieved using the database of nuclear receptor
