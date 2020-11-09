@@ -5,7 +5,7 @@ A toxicogenomics data space for system-level understanding and prediction of EDC
 # 1. Preparation of the MIES, pathways and training benchmark set 
 
 ## 1_1_MIEs_from_CTD.R
-- Preparation of binary marix of molecular initiating events (MIEs) from compound-gene interactions in CTD. The interactions subtypes related to metabolism
+- Preparation of a binary data matrix of molecular initiating events (MIEs) from compound-gene interactions in CTD. The interactions subtypes related to metabolism
 were grouped as metabolism and the interaction types related to transport are grouped as transport.
 - Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra. 
 - Selection of reaction,binding,activity,expression,metabolic processing as the more distant types of the interaction based on the plot of MCA.
@@ -22,9 +22,12 @@ were grouped as metabolism and the interaction types related to transport are gr
 - The ToxCast assay endpoints which their target genes are in the list of nuclear receptor genes will be saved as endpoints related to nuclear receptor.
 
 ## 1_4_EDC_Decoy_selection.R 
-The most significat assay endpoints in ToxCast for the EDCs are obtained by proportion test.
-EDCs in DEDuCT list which are incative for all the selected assay endpoints are removed from the training set.
-The compounds with the maximum Jaccard distance with MIEs related to EDCs are considered as negative controls (decoys).
+- The list of EDCs will be retrieved from DEDuCT as CAS ids.
+- The ToxCast assay endpoints related to nuclear receptor and co-regulators of EDCs will be extracted. 
+- The most significat assay endpoints for the mecganism of EDCs will be characterized using statistical proportion test.
+- EDCs (DEDuCT list) which are incative for all the significant assay endpoints will be removed from the final list of EDcs.
+- Pairwise jaccard distance between the MIEs related to EDCs and other compounds in CTD will be calculated.
+- The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).
 
 ## 1_5_ToxCast_dictionaries.R
 Preparation of ToxCast target genes and endpoints.
