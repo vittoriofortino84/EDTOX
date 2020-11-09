@@ -130,7 +130,7 @@ final_set_mies<-final_set_mies[-which(sapply(final_set_mies,length)>100)]
 final_set_mies<-final_set_mies[-which(sapply(final_set_mies, length)==0)]
 chem2gene<-final_set_mies
 save(list = c('final_set_mies', 'mies_to_remove', 'provolone'), file = "outputData/new_MIES_set.RData")
-save(chem2gene,file = 'outputData/chem2_gene.RData')
+save(chem2gene,file = 'outputData/chem2gene_no_out.RData')
 
                                                               
                                                               
