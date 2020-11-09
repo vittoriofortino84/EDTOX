@@ -9,12 +9,12 @@ A toxicogenomics data space for system-level understanding and prediction of EDC
 were grouped as metabolism and the interaction types related to transport are grouped as transport.
 - Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra. 
 - Selection of reaction,binding,activity,expression,metabolic processing as the more distant types of the interaction based on the plot of MCA.
-- For the compounds with more than 50 gene interactions the less informative gene interactions were removed
+- For the compounds with more than 50 gene interactions the less informative gene interactions will be removed.
 
 ## 1_2_Pathways_Download.R 
-- Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI for the pathways with the size of less than 200 were were retrieved.
-- A binary dictionary to link the GO terms with Wiki-AOPs were generated.
-- The classifications of KEGG and REACTOME pathways were downloaded for enrichment analysis
+- Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI with the size of less than 200 will be retrieved.
+- A binary dictionary to link the GO terms with Wiki-AOPs will be generated.
+- The classifications of KEGG and REACTOME pathways will be downloaded for enrichment analysis.
 
 ## 1_3_TOXCAST_nuclear_receptors_coregulators.R 
 Assay endpoints in TOXCAST related to nuclear receptors and co-regulators are retrieved using the database of nuclear receptor
