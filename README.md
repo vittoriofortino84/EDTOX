@@ -37,7 +37,7 @@ were grouped as metabolism and the interaction types related to transport are gr
 
 
 ## 2_1_Drug_matrix_wTO.R                                    
-- The control samples of the preprocessed LFC values related to Drug Matrix data source for rat in vitro hepatocytes and rat in vivo will be removed.
+- Removing the control samples of the preprocessed LFC values related to Drug Matrix data source for rat in vitro hepatocytes and rat in vivo.
 - Selection of the three exposure time points 1,3 and 5 days for in vivo and 1 day for in vitro and splitting the data as four data frames.
 - Selection of the genes expressed in liver and orthology mapping of the probe IDs to entrez gene values
 - Compiling gene co-expression networks from the data frames using wTO package with bootstrap resampling method.
