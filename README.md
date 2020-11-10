@@ -64,6 +64,7 @@ were grouped as metabolism and the interaction types related to transport are gr
 - Retrieving protein protein interaction network from stringDB.
 - Mapping nodes to entreg gene IDs.
 - Recompiling a new combined score after elimination of coexpression from the network.
+- Recompiling the final ppi network.
 
 # 3. Intra tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
 The top edge portion 0.02,0.03,0.05,0.1 are extracted from different networks after sorting the weighted topological overlap of the edges. 
