@@ -37,13 +37,17 @@ were grouped as metabolism and the interaction types related to transport are gr
 
 
 ## 2_1_Drug_matrix_wTO.R                                    
-- Removing the control samples of the preprocessed LFC values related to Drug Matrix data source for rat in vitro hepatocytes and rat in vivo.
+- Removing the control samples from the preprocessed and normalized LFC values related to Drug Matrix data source for rat in vitro hepatocytes and rat in vivo.
 - Selection of the three exposure time points 1,3 and 5 days for in vivo and 1 day for in vitro and splitting the data as four data frames.
 - Selection of the genes expressed in liver and orthology mapping of the probe IDs to entrez gene values
-- Compiling gene co-expression networks from the data frames using wTO package with bootstrap resampling method.
+- Compiling 4 gene co-expression networks from the data frames using wTO package with bootstrap resampling method.
 
-## 2_2_TG_Gates_wTO.R                                       
-A list of eight data frames from the log2fold change values of the genes expressed in rat liver after compound exposure are  generated for open TG-GATEs rat and human in vitro 1 day and rat in vivo for single low, middle and high doses for 1 day and repeated in vivo doses for 8, 15 and 29 days are generated. Orthology mapping between rat to human genes was done. The list is used for generation of the gene co-expression networks using wTO package.
+## 2_2_TG_Gates_wTO.R  
+- Removing control samples from the preprocesses and normalized LFC values related to TG-Gates data source for rat in vitro, human invitro and rat in vivo.
+- Selection of three dose levels (high, middle and low) and three time points (8, 15 and 29 days) from the LFC values related to TG-Gates rat in vivo. (6 data frames)
+- Selection of 1 day time exposure related to human and rat in vitro LFC values. (two data frames)
+- Selection of the genes expressed in the liver from each data frame and orthology mapping of probe IDs to gene entrez IDs.
+- Compiling 8 gene co-expression networks from the resulting data frames using wTO package with bootstrap resampling method. 
 
 
 ## 2_3_LINCS_wTO.R
