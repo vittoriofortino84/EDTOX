@@ -70,14 +70,14 @@ were grouped as metabolism and the interaction types related to transport are gr
 - The top %2, %3, %5 and  %10 edge portions  are extracted from each network. 
 - Each network will be subjected to random walk with restart uisng the seeds related to the MIEs of EDCs and decoys (benchmark set). 
 - The 200,500,700 and 1000 top most visited genes will be extracted after the random walk.
-- A binary vector will be genrated for each compound with 1 representing the gene in the list of top visited gene.
-- The pairwise jaccard distance beween the  binary vectors of EDCs and decoys will calculated. The average of silhouette score 
-for the edcs are calculated. 
+- A binary vector will be genrated for each compound (EDCs and decoys) with 1 representing the gene in the list of top visited gene.
+- The pairwise jaccard distance beween the binary vector of each EDCs and decoy will calculated. 
+- Using the jaccard dismilarity matrix and a vector representing the class of each componud as EDC or Decoy average silhouette score was calculated for EDCs. 
 
 ## 3_1_Drug_matrix_tuner.R                                 
-Optimization of Drug Matrix
+- Intra tuning and optimization of 4 Drug Matrix networks
 
-## 3_2_TG_GATEs_tuner.R                                  
+## 3_2_TG_GATEs_tuner.R                                
 Optimization of TG-GATEs
 
 ## 3_3_Consensus_tuner.R                                   
