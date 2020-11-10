@@ -67,9 +67,11 @@ were grouped as metabolism and the interaction types related to transport are gr
 - Recompiling the final ppi network.
 
 # 3. Intra tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
-The top edge portion 0.02,0.03,0.05,0.1 are extracted from different networks after sorting the weighted topological overlap of the edges. 
-Each network was subjected to random walk with restart starting from the MIEs of EDCs and decoys. The top most visited genes
-200,500,700 and 1000 were extracted and the jaccard distance beween the EDCs and decoys is calculated. The average of silhouette score 
+- The top %2, %3, %5 and  %10 edge portions  are extracted from each network. 
+- Each network will be subjected to random walk with restart uisng the seeds related to the MIEs of EDCs and decoys (benchmark set). 
+- The 200,500,700 and 1000 top most visited genes will be extracted after the random walk.
+- A binary vector will be genrated for each compound with 1 representing the gene in the list of top visited gene.
+- The pairwise jaccard distance beween the  binary vectors of EDCs and decoys will calculated. The average of silhouette score 
 for the edcs are calculated. 
 
 ## 3_1_Drug_matrix_tuner.R                                 
@@ -163,6 +165,7 @@ Class probability vs low middle and high TG-GATEs are categorized in 4 patterns 
 
 ## 8_5_time_exposure_response_TG_GATEs_repeated.R          
 Class probability vs 8,15,29 days TG-GATEs
+
 
 ## 8_6_textmining_16_april_2020_endocrine_disruption.R      
 Text mining for genes related to endocrine disruption
