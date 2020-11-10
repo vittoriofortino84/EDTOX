@@ -51,8 +51,11 @@ were grouped as metabolism and the interaction types related to transport are gr
 
 
 ## 2_3_LINCS_wTO.R
-Two data frames from log2fold change values of genes expressed in liver for HEPG2 cell line is generated from level 5 of LINCS data. 
-A consensus network is used from the two data frames using wTO package. 
+- Normalized and preproessed LFC values from the level 5 of phase 1 and phase 2 LINCS data source will be used.
+- Selection of cell line HEPG2 with expousre time of 24 hours from phase1 and phase 2 gene expression data in LINCS.
+- Selection of the gene IDS which are expressed in the liver.
+- Compiling 2 gene networks from phase 1 and phase 2 using wTO package with bootstrapping resampling method.
+- Compiling one consensus netowrk from the overlapping genes of the two networks using wTO package.
 
 ## 2_4_Consensus_Rat_in_vitro_wTO.R 
 Consensus network for rat hepatocytes from DrugMatrix and TG-GATEs is generated.
