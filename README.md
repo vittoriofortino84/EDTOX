@@ -37,8 +37,13 @@ were grouped as metabolism and the interaction types related to transport are gr
 
 
 ## 2_1_Drug_matrix_wTO.R                                    
-A list of four data frames from the log2fold change values of the genes expressed in rat liver after compound exposure are  generated for Drug Matrix rat in vitro hepatocyte 1 day and Drug matrix rat in vivo for 1 day, 3 and 5 days of exposure. Orthology mapping between 
-rat to human genes is done. The list is used for generation of the gene co-expression networks using wTO package.
+- The list of EDCs will be retrieved from DEDuCT as CAS ids.
+- The ToxCast assay endpoints related to nuclear receptor and co-regulators of EDCs will be extracted. 
+- The most significat in vitro assay endpoints for the mechanism of EDCs will be characterized using statistical proportion test.
+- EDCs (DEDuCT list) which are incative for all the significant assay endpoints will be removed from the final list of EDcs.
+- Pairwise jaccard distance between the MIEs related to remaining EDCs and other compounds in CTD will be calculated.
+- The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).
+
 
 ## 2_2_TG_Gates_wTO.R                                       
 A list of eight data frames from the log2fold change values of the genes expressed in rat liver after compound exposure are  generated for open TG-GATEs rat and human in vitro 1 day and rat in vivo for single low, middle and high doses for 1 day and repeated in vivo doses for 8, 15 and 29 days are generated. Orthology mapping between rat to human genes was done. The list is used for generation of the gene co-expression networks using wTO package.
