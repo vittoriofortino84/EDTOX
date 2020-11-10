@@ -60,9 +60,10 @@ were grouped as metabolism and the interaction types related to transport are gr
 ## 2_4_Consensus_Rat_in_vitro_wTO.R 
 - Compiling one consensus gene co-expression netowrk from the overlapping genes of the two networks related to in vitro rat from drug matrix and TG-GATEs using wTO package.
 
-## 2_5_PPI_wTO.R                                             
-PPI Network from StringDB for Homo Sapiens is generated. A new combined score is generated from  the product of interactions except 
-gene co-expression.
+## 2_5_PPI_wTO.R   
+- Retrieving protein protein interaction network from stringDB.
+- Mapping nodes to entreg gene IDs.
+- Recompiling a new combined score after elimination of coexpression from the network.
 
 # 3. Intra tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
 The top edge portion 0.02,0.03,0.05,0.1 are extracted from different networks after sorting the weighted topological overlap of the edges. 
