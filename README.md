@@ -144,7 +144,7 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 - GLM coefs for each network will be used to predict class probability of all compounds in CTD using their NES scores across different pathways.
 
 ## 6_2_ROC_TOXCAST_vs_class_probabilities.R  
-- ROC analysis will be used between the class probabilty of each network and the binary in vitro experimental hitcall ToxCast assay for each network.
+- ROC analysis will be used between the class probabilty of each network and the binary in vitro experimental hitcall ToxCast assays related to nuclear receptors for each network.
 - Selection of most informative networks based on the results of ROC curve analysis.
 
 ## 6_3_Developing_Harmonic_and_average_EDC_scores.R         
@@ -152,7 +152,7 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 - Harmonic EDC score is Defining defined as the harmonic sum class probabilty across selected networks for each compound.
 
 ## 6_4_ROC_analysis_EDC_scores_vs_TOXCAST_endpoints.R      
-ROC analysis between final EDC scores and ToxCast Data and heatmap analysis
+- Validating the compiled EDC scores by ROC analysis between  EDC scores and ToxCast hitcall data for each assay endpoint.
 
 
 # 7. Comparison and evaluation of EDC scores with other Toxicity Scores and tools 
