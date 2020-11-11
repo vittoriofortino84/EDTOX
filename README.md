@@ -84,7 +84,7 @@ were grouped as metabolism and the interaction types related to transport are gr
 - Intra tuning and optimization of 2 consensus networks related to LINCS and DrugMatrix-TG-Gates
 
 ## 3_4_PPI_tuner.R                                          
-- The top %2, %3, %5 and  %10 edge portions  are extracted from PPI network. 
+- New ppi networks were compiled using the 0.6,0.65,0.7,0.75,0.8,0.85 values as the cutoffs for the combined score. 
 - The network will be subjected to random walk with restart uisng the seeds related to the MIEs of EDCs and decoys (benchmark set). 
 - The 200,500,700 and 1000 top most visited genes will be extracted after the random walk.
 - A binary vector will be genrated for each compound (EDCs and decoys) with 1 representing the gene in the list of top visited gene.
@@ -94,7 +94,7 @@ were grouped as metabolism and the interaction types related to transport are gr
 ## 3_5_pareto_solution_on_tuning_results.R                
 - Using pareto solution to obtain final genesets size and edge percents among none dominant solutions. 
 - The pareto solution is used to maximize the silhouette score, minimize the gene and edge percent for the networks. 
-- In PPI where pareto is being used to maximize the silhouette score, minimize the edge percent and maximize the combined score. 
+- In PPI  pareto is being used to maximize the silhouette score, minimize the edge percent and maximize the combined score. 
 
 
 # 4. Random walk with restart and fgsea (RWR-FGSEA) 
