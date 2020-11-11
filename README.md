@@ -78,16 +78,18 @@ were grouped as metabolism and the interaction types related to transport are gr
 - Intra tuning and optimization of 4 Drug Matrix networks
 
 ## 3_2_TG_GATEs_tuner.R                                
-Optimization of TG-GATEs
+- Intra tuning and optimization of 8 TG-GATEs networks
 
 ## 3_3_Consensus_tuner.R                                   
-Optimization of Consensus LINCS hepatocytes
+- Intra tuning and optimization of 2 consensus networks related to LINCS and DrugMatrix-TG-Gates
 
 ## 3_4_PPI_tuner.R                                          
-Optimization of PPI
+- Intra tuning and optimization of 1 PPI network
 
 ## 3_5_pareto_solution_on_tuning_results.R                
-Using pareto solution to obtain final genesets size and edge percents. The pareto solution is used to maximize the silhouette score, minimize the gene and edge percent for the networks except PPI where pareto is being used to maximize the siilhouette score, minimize the edge percent and maximize the combined score. 
+- Using pareto solution to obtain final genesets size and edge percents among none dominant solutions. 
+- The pareto solution is used to maximize the silhouette score, minimize the gene and edge percent for the networks. 
+- In PPI where pareto is being used to maximize the silhouette score, minimize the edge percent and maximize the combined score. 
 
 
 # 4. Random walk with restart and fgsea (RWR-FGSEA) 
