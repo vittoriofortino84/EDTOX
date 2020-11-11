@@ -9,7 +9,7 @@ load("outputData/new199edc_1462dec.RData")
 new_edc199_decoy_1462<-as.array(new_edc199_decoy_1462)
 
 
-perclist<-c(0.6,0.65,0.7,0.75,0.8,0.85)        #which percent of the edges to extract for randomwalking
+perclist<-c(0.6,0.65,0.7,0.75,0.8,0.85)       
 nglist<-c(200,500,700,1000)      #The number of most top visited genes to consider for jaccard dissimilarity
 
 
