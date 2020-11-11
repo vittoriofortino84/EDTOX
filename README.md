@@ -114,7 +114,7 @@ were grouped as metabolism and the interaction types related to transport are gr
 - The pathway with no genes expressed in liver are being removed.
 
 ## 5_2_Preparation_of_training_datasets.R                   
-- Preparation of a list for each network x= the matrix of NES scores from FGSEA and Y = labels as EDC and decoy.
+- Preparation of a list for each network x= the matrix of NES scores from FGSEA and Y = labels as EDC and decoy, n-edc=number of EDCs for each layer and n-decoy= number of decoys for each layer
 - The pathways with non significant values will be removed.
 
 ## 5_3_glm_modeling.R                                  
@@ -122,7 +122,9 @@ were grouped as metabolism and the interaction types related to transport are gr
 - Saving the GLM model coefficients for eahc network.
 
 ## 5_4_k_fold_cross_validation.R                          
-k_fold_cross_validation of the models and the gene level models (using MIEs)
+- Repeated 5_fold_cross_validation will be performed on all 15 models. (Pathway level)
+- Repeated 5_fold cross_validation will be performed on a binary data matrix of the genes as columns. Compounds of benchmark (EDC,decoy) as rows.
+The genes related to MIEs are characterized as 1 in the binary matrix. (Gene level)
 
 ## 5_5_comparing_cross_validation_across_all_layers_ANOVA.R
 ANOVA on cross-validation results of pathway and MIE based models 
