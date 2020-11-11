@@ -148,8 +148,8 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 - Selection of most informative networks based on the results of ROC curve analysis.
 
 ## 6_3_Developing_Harmonic_and_average_EDC_scores.R         
-- Average EDC score is defined as the average of class probabilty across selected networks for each compound.
-- Harmonic EDC score is Defining defined as the harmonic sum class probabilty across selected networks for each compound.
+- Average EDC score is defined as the average of class probabilties across selected networks for each compound.
+- Harmonic EDC score is Defining defined as the harmonic sum class probabilties across selected networks for each compound.
 
 ## 6_4_ROC_analysis_EDC_scores_vs_TOXCAST_endpoints.R      
 - Validating the compiled EDC scores by ROC analysis between  EDC scores and ToxCast hitcall data for each assay endpoint.
