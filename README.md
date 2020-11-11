@@ -141,13 +141,15 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 # 6. Prediction of all compounds toxicity class probility and developing EDC score
 
 ## 6_1_prediction_all_compounds_class_probilities.R       
-Prediction of class probilities for compounds in CTD 
+- GLM coefs for each network will be used to predict class probability of all compounds in CTD using their NES scores across different pathways.
 
-## 6_2_ROC_TOXCAST_vs_class_probabilities.R                
-Selection of networks based on ROC curve analysis of the class probabilities from different networks with TOXCAST hitc matrix.
+## 6_2_ROC_TOXCAST_vs_class_probabilities.R  
+- ROC analysis will be used between the class probabilty of each network and the binary in vitro experimental hitcall ToxCast assay for each network.
+- Selection of most informative networks based on the results of ROC curve analysis.
 
 ## 6_3_Developing_Harmonic_and_average_EDC_scores.R         
-Defining EDC scores as the harmonic sum of class probilites for most informative layers
+- Average EDC score is defined as the average of class probabilty across selected networks for each compound.
+- Harmonic EDC score is Defining defined as the harmonic sum class probabilty across selected networks for each compound.
 
 ## 6_4_ROC_analysis_EDC_scores_vs_TOXCAST_endpoints.R      
 ROC analysis between final EDC scores and ToxCast Data and heatmap analysis
