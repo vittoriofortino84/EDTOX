@@ -99,11 +99,12 @@ were grouped as metabolism and the interaction types related to transport are gr
 
 # 4. Random walk with restart and fgsea (RWR-FGSEA) 
 ## 4_1_RWR_FGSEA_for_edc_decoys.R                        
-Random walk and restart with restart and gene set enrichment analysis is performed by the MIEs of EDCs and decoys.
+- Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the the MIEs of each EDCs and decoys as seeds 
+- Fast gene set enrichment analysis is performed using the retrieved pathways as gene sets.
 
 ## 4_2_RWR_FGSEA_for_all_compounds_in_CTD.R               
-Random walk and restart with restart and gene set enrichment analysis is performed by the MIEs of compounds in CTD.
-
+- Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the the MIEs of each compounds in CTD as seeds 
+- Fast gene set enrichment analysis is performed using the retrieved pathways as gene sets.
 
 # 5. GLM modeling of training set (Pathway scores of EDCs and decoys  and labels), accuracy tests and Visualization 
 ## 5_1_manual_curation_of_pathways_as_features.R          
