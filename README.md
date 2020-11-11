@@ -127,10 +127,12 @@ were grouped as metabolism and the interaction types related to transport are gr
 The genes related to MIEs are characterized as 1 in the binary matrix. (Gene level)
 
 ## 5_5_comparing_cross_validation_across_all_layers_ANOVA.R
-ANOVA on cross-validation results of pathway and MIE based models 
+- The F1 scores of the k-fold-cross validation will be compared using ANOVA.
+- Boxplot will be used to represent the obtained F1 scors across all GLM models.
 
 ## 5_6_Integration_of_coefficients_stabilties_NES_scores.R
-Integration of NES score, glm coefficients and performing ROC analysis on pathways scores for EDCs and decoys.
+- For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs and decoys.
+- The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).
 
 ## 5_7_NES_bubble_plot_MOA.R                               
 Bubble plot of pathways to charecterize the possible mechanism of action (MOA) for EDCs
