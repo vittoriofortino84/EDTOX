@@ -135,7 +135,7 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 - The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).
 
 ## 5_7_NES_bubble_plot_MOA.R                               
-Bubble plot of pathways to charecterize the possible mechanism of action (MOA) for EDCs
+- The map of pathway activation scores for each pathway and network will be represented as bubble plot.
 
 
 # 6. Prediction of all compounds toxicity class probility and developing EDC score
