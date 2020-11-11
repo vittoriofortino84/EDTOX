@@ -5,7 +5,7 @@ A toxicogenomics data space for system-level understanding and prediction of EDC
 # 1. Preparation of the MIES, pathways and training benchmark set 
 
 ## 1_1_MIEs_from_CTD.R
-- Preparation of a binary data matrix of molecular initiating events (MIEs) from compound-gene interactions in CTD. The interactions subtypes related to metabolism
+- Preparation of a binary data matrix for molecular initiating events (MIEs) from compound-gene interactions in CTD. The interactions subtypes related to metabolism
 were grouped as metabolism and the interaction types related to transport are grouped as transport.
 - Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra. 
 - Selection of reaction,binding,activity,expression,metabolic processing as the more distant types of the interaction based on the plot of MCA.
