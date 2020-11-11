@@ -84,7 +84,12 @@ were grouped as metabolism and the interaction types related to transport are gr
 - Intra tuning and optimization of 2 consensus networks related to LINCS and DrugMatrix-TG-Gates
 
 ## 3_4_PPI_tuner.R                                          
-- Intra tuning and optimization of 1 PPI network
+- The top %2, %3, %5 and  %10 edge portions  are extracted from PPI network. 
+- The network will be subjected to random walk with restart uisng the seeds related to the MIEs of EDCs and decoys (benchmark set). 
+- The 200,500,700 and 1000 top most visited genes will be extracted after the random walk.
+- A binary vector will be genrated for each compound (EDCs and decoys) with 1 representing the gene in the list of top visited gene.
+- The pairwise jaccard distance beween the binary vector of each EDCs and decoy will be calculated. 
+- Using the jaccard dismilarity matrix and a vector representing the class of each componud as EDC or Decoy average silhouette score was calculated for EDCs. 
 
 ## 3_5_pareto_solution_on_tuning_results.R                
 - Using pareto solution to obtain final genesets size and edge percents among none dominant solutions. 
