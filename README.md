@@ -105,17 +105,21 @@ were grouped as metabolism and the interaction types related to transport are gr
 ## 4_2_RWR_FGSEA_for_all_compounds_in_CTD.R               
 - Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the the MIEs of each compounds in CTD as seeds 
 - Fast gene set enrichment analysis is performed using the retrieved pathways as gene sets.
+- Normalized enrichment scores for all netwworks will be saved.
 
 # 5. GLM modeling of training set (Pathway scores of EDCs and decoys  and labels), accuracy tests and Visualization 
 ## 5_1_manual_curation_of_pathways_as_features.R          
-The pathways related to viral,bacterial, radiation were removed. The duplicated pathways based on jaccard similarit were removed.
-The pathway with no genes expressed in liver are being removed.
+- The pathways related to viral,bacterial, radiation will be removed. 
+- The duplicated pathways based on jaccard similarity will be removed.
+- The pathway with no genes expressed in liver are being removed.
 
 ## 5_2_Preparation_of_training_datasets.R                   
-Preparation of training set x= the matrix of NES scores from FGSEA and Y the vector of labels as EDC and decoy for the compounds in each data layer for elastic net generalized linear models for different data layers. 
+- Preparation of a list for each network x= the matrix of NES scores from FGSEA and Y = labels as EDC and decoy.
+- The pathways with non significant values will be removed.
 
 ## 5_3_glm_modeling.R                                  
-Performing elastic net GLM on training set
+- Performing elastic net GLM on training set related to each network using 5 fold cross-validation as tuning method for the parameters.
+- Saving the GLM model coefficients for eahc network.
 
 ## 5_4_k_fold_cross_validation.R                          
 k_fold_cross_validation of the models and the gene level models (using MIEs)
