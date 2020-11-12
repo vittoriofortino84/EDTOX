@@ -212,9 +212,10 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 ## 9_2_chem2disease_CTD.R                               
 - Compiling a binary matrix from chem-disease associations in CTD.
 - The rows of the matrix are the compound names and the columns are the disease names.
+- The compound disease associations are represented by 1 in the matrix.
 
 ## 9_3_preparation_two_class_training_set_by_disease_name.R 
-Preparation of training set for each disease
+- Preparation of training set (NES scores and class labels) for atherosclerosis, metabolic syndrome, diabetes type 2 and coronary artery disease
 
 ## 9_4_1_metabolic_syndrome_two_class_traning_models_glm.R   
 GLM  model metabolic syndrome all data layers
