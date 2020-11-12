@@ -169,7 +169,8 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 
 # 8. Validation of EDC scores with external data 
 ## 8_1_Validation_VAM_scores_Eurion_External_set_compounds.R
-Validation of EDC scores with known chemicals from expert domain which are considered as EDC together with the compounds from DEDuCT list and the heatmap analysis and accuracy.
+- Evaluation of EDC scores using known EDCs from expert domain and DeDuCT  
+- and the compounds from DEDuCT list and the heatmap analysis and accuracy.
 
 ## 8_2_validation_with_disease_score.R                       
 Validation of EDC scores Using disease labels in CTD with the class probabilty calculated from the compounds and the heatmap plot
