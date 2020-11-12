@@ -191,11 +191,14 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 - TG-Gates class probability profile of the compounds will be categorized as 4 different patterns (based on increase or decrease pattern at different Time of exposure 8 days, 15 days and 29 days)  
 -  The significant pathways based on increases or decrease of pathway activation scores will be determined using ANOVA followed by post tukey test with bootstrap sampling method.
 
-## 8_6_textmining_16_april_2020_endocrine_disruption.R      
-Text mining for genes related to endocrine disruption
+## 8_6_textmining_16_april_2020_endocrine_disruption.R
+- After the search in pubmed for the term endocrine disruption (ED) the genes related to ED will be determined using text mining with pubmineR.
+
 
 ## 8_7_time_dose_plots_heatplot.R                      
-Heatplots for gene biomarkers
+- Heatplot of the pathways versus thier genes will be represented as a heatplot.
+- The highly cited gened will be determined in the plot.
+- The essential genes will be highlighted in the plot.
 
 ## 8_8_categorization_enrichment_result.R                 
 Categorization of pathways in KEGG and REACTOME
