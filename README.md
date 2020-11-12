@@ -174,11 +174,13 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 - Representing the validation set compounds as heatmap plot 
 
 ## 8_2_validation_with_disease_score.R  
-- For each disease a binary vector was generated representing the compounds leading to disease with 1
-Validation of EDC scores Using disease labels in CTD with the class probabilty calculated from the compounds and the heatmap plot
+- For each disease (atherosclerosis, diabetes type2 and metabolic syndrome) a disease score was developed as described in section 9.
+- The disease scores for the known EDCs are represented for each disease.
 
-## 8_3_Validation_with_ToxCast_mies.R                        
-Validation of EDC scores by repeating the pipeline with MIES from ToxCast and comparing the result with the class probabilities calculated from the  MIEs from CTD to infer the overall efficiency of the pipeline in toxicity prediction
+## 8_3_Validation_with_ToxCast_mies.R  
+- The target genes for the compounds with positive assay endpoint in ToxCast wil be considered as the MIEs of the compounds. 
+- Random walk with resetart and fast gene set enrichment analysis pipeline will be repeated starting with the MIEs from ToxCast.
+- The obtained NES scores will be subjected to GLM models and the resulting class probabilities will be compared with the class probabilities of the MIEs from CTD.
 
 # Sensitivity and enrichment categorization analysis
 ## 8_4_dose_response_TG_GATEs_single.R                
