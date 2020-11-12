@@ -124,7 +124,7 @@ were grouped as metabolism and the interaction types related to transport are gr
 ## 5_4_k_fold_cross_validation.R                          
 - Repeated 5_fold_cross_validation will be performed on all 15 models. (Pathway level)
 - Repeated 5_fold cross_validation will be performed on a binary data matrix of the genes as columns. Compounds of benchmark (EDC,decoy) as rows.
-The genes related to MIEs are characterized as 1 in the binary matrix. (Gene level)
+(The genes related to MIEs are characterized as 1 in the binary matrix. (Gene level))
 
 ## 5_5_comparing_cross_validation_across_all_layers_ANOVA.R
 - The F1 scores of the k-fold-cross validation will be compared using ANOVA.
@@ -236,13 +236,18 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 - Performing K-fold-Cross validation on models of metabolic syndrome for all 15 data layers
 
 ## 9_6_1_comparison_CV_F1_scores_all_layers_ANOVA_metabolic_syndrome.R
-Boxplot F1-scores metabolic syndrome
+- The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for metabolic syndrome.
+- Boxplot will be used to represent the obtained F1 scors across all GLM models for metabolic syndrome.
+
 
 ## 9_6_2_comparison_CV_F1_scores_all_layers_ANOVA_atherosclerosis.R
-Boxplot F1-scores atherosclerosis
+- The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for atherosclerosis.
+- Boxplot will be used to represent the obtained F1 scors across all GLM models for atherosclerosis.
 
 ## 9_6_3_comparison_CV_F1_scores_all_layers_ANOVA_diabetes.R 
-Boxplot F1-scores diabets t2
+- The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for diabetes type 2.
+- Boxplot will be used to represent the obtained F1 scors across all GLM models for dyabetes type 2.
+
 
 ## 9_7_1_Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R
 ROC analysis metabolic syndrome
