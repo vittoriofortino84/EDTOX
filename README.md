@@ -184,8 +184,8 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 
 # Sensitivity and enrichment categorization analysis
 ## 8_4_dose_response_TG_GATEs_single.R 
-- TG-Gates class probability profile of the compounds will be categorized as 4 different patterns (based on increase or decrease at different doses/time points)  
--  
+- TG-Gates class probability profile of the compounds will be categorized as 4 different patterns (based on increase or decrease pattern at different doses Low, Middle and High)  
+-  For each pathway the 
 
 ## 8_5_time_exposure_response_TG_GATEs_repeated.R          
 Class probability vs 8,15,29 days TG-GATEs
