@@ -175,7 +175,7 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 
 ## 8_2_validation_with_disease_score.R  
 - For each disease (atherosclerosis, diabetes type2 and metabolic syndrome) a disease score was developed as described in section 9.
-- The disease scores for the known EDCs are represented for each disease.
+- The disease scores for the known EDCs are represented for each disease as a heatmap plot.
 
 ## 8_3_Validation_with_ToxCast_mies.R  
 - The target genes for the compounds with positive assay endpoint in ToxCast wil be considered as the MIEs of the compounds. 
@@ -183,8 +183,9 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 - The obtained NES scores will be subjected to GLM models and the resulting class probabilities will be compared with the class probabilities of the MIEs from CTD.
 
 # Sensitivity and enrichment categorization analysis
-## 8_4_dose_response_TG_GATEs_single.R                
-Class probability vs low middle and high TG-GATEs are categorized in 4 patterns based on increase at different doses. ANOVA followed by Tukey post test are performed on the pathway activation scores at different doses for each pattern group and the 
+## 8_4_dose_response_TG_GATEs_single.R 
+- TG-Gates class probability profile of the compounds will be categorized as 4 different patterns (based on increase or decrease at different doses/time points)  
+-  
 
 ## 8_5_time_exposure_response_TG_GATEs_repeated.R          
 Class probability vs 8,15,29 days TG-GATEs
