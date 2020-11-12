@@ -164,7 +164,7 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 - Evaluation of the EDC scores by comparing them with ToxPi scores (The scores developed from ToxCast assay endpoints) 
 
 ## 7_3_Comparison_pathway_scores_vs_TOXDB_pathway_scores.R  
-Comparison between EDC scores with pathway scores from TOXDB
+- Comparison between EDC scores with pathway scores from TOXDB for the pathways aryl hydrocarbon receptor, Breaset cancer and estrogen receptor
 
 
 # 8. Validation of EDC scores with external data 
