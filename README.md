@@ -250,13 +250,18 @@ were grouped as metabolism and the interaction types related to transport are gr
 
 
 ## 9_7_1_Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R
-ROC analysis metabolic syndrome
+- For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs leading to metabolic synndrome vs edcs not leading to metabolic syndrome.
+- The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).
 
 ## 9_7_2_Integration_of_glm_coefs_stabilities_NES_ROC_atherosclerosis.R
-ROC analysis atherosclerosis
+- For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs leading to atherosclerosis vs edcs not leading to atherosclerosis.
+- The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).
+
 
 ## 9_7_3_Integration_of_glm_coefs_stabilities_NES_ROC_diabetes_2.R
-ROC analysis diaetes T2
+- For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs leading to diabetes type 2 vs edcs not leading to diabetes type 2.
+- The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).
+
 
 ## 9_8_bubble_plots_pathways.R                           
 Bubble plot for the pathways related to AOPs
