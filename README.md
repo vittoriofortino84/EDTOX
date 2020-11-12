@@ -206,7 +206,8 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 
 # 9. Linking ED MIEs to AOPs  
 ## 9_1_preparation_data_set_disease_biomarker.R           
-Preapration of the pathways for AOP modeling
+- Retaining the pathways with length of 50 genes for biomarker discovery.
+- Preparation of the NES scores for each data layer based on the selected pathways. 
 
 ## 9_2_chem2disease_CTD.R                               
 Generation of binary matrix for componds and disease
