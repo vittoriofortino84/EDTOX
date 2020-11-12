@@ -196,7 +196,7 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 
 
 ## 8_7_time_dose_plots_heatplot.R                      
-- Heatplot of the pathways versus thier genes will be represented as a heatplot.
+- The pathways versus thier genes will be represented as two heatplots (dose and time point).
 - The highly cited gened will be determined in the plot.
 - The essential genes will be highlighted in the plot.
 
