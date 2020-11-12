@@ -17,7 +17,7 @@ were grouped as metabolism and the interaction types related to transport are gr
 - The classifications tags for the pathways related to KEGG and REACTOME pathways will be downloaded and preprocessed for enrichment analysis.
 
 ## 1_3_TOXCAST_nuclear_receptors_coregulators.R 
-- The genes related to nuclear receptors and their co-regulators from our experts and NURSA data source will be merged.
+- The genes related to nuclear receptors and their co-regulators from experts domain and NURSA will be merged.
 - The target gene ids from ToxCast will be extracted.
 - The ToxCast assay endpoints which their target genes are in the list of nuclear receptor genes will be saved as endpoints related to nuclear receptor.
 
@@ -200,8 +200,9 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 - The highly cited gened will be determined in the plot.
 - The essential genes will be highlighted in the plot.
 
-## 8_8_categorization_enrichment_result.R                 
-Categorization of pathways in KEGG and REACTOME
+## 8_8_categorization_enrichment_result.R  
+- For each data layer (network) the number selected KEGG pathways by elastic GLM will be categorized and represented in plots 
+- For each data layer (network) the number selected REACTOME pathways by elastic GLM will be categorized and represented in plots 
 
 # 9. Linking ED MIEs to AOPs  
 ## 9_1_preparation_data_set_disease_biomarker.R           
