@@ -210,7 +210,8 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 - Preparation of the NES scores for each data layer based on the selected pathways. 
 
 ## 9_2_chem2disease_CTD.R                               
-Generation of binary matrix for componds and disease
+- Compiling a binary matrix from chem-disease associations in CTD.
+- The rows of the matrix are the compound names and the columns are the disease names.
 
 ## 9_3_preparation_two_class_training_set_by_disease_name.R 
 Preparation of training set for each disease
