@@ -173,7 +173,8 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 - Calculation of accuaracy for the EDC scores
 - Representing the validation set compounds as heatmap plot 
 
-## 8_2_validation_with_disease_score.R                       
+## 8_2_validation_with_disease_score.R  
+- For each disease a binary vector was generated representing the compounds leading to disease with 1
 Validation of EDC scores Using disease labels in CTD with the class probabilty calculated from the compounds and the heatmap plot
 
 ## 8_3_Validation_with_ToxCast_mies.R                        
