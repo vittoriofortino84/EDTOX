@@ -158,7 +158,7 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 # 7. Comparison and evaluation of EDC scores with other Toxicity Scores and tools 
 
 ## 7_1_Comparison_of_VAM_on_DeDuCt.R                      
-- Calculation of EDC scores for compounds in DEDuCT.
+- Representation of the compounds with evidence as EDC in DEDuCT using their EDC scores.
 
 ## 7_2_Comparison_VAM_scores_vs_TOXPI_scores.R           
 - Comparison between EDC scores with scores from TOXPI  
