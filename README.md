@@ -193,7 +193,7 @@ were grouped as metabolism and the interaction types related to transport are gr
 -  The significant pathways based on increases or decrease of pathway activation scores will be determined using ANOVA followed by post tukey test with bootstrap sampling method.
 
 ## 8_6_textmining_16_april_2020_endocrine_disruption.R
-- After the search in pubmed for the term endocrine disruption (ED) the genes related to ED will be determined using text mining with pubmineR.
+- After the search in pubmed for the term endocrine disruption (ED) the genes related to ED will be determined using text mining with pubmed.mineR.
 
 
 ## 8_7_time_dose_plots_heatplot.R                      
@@ -269,8 +269,9 @@ were grouped as metabolism and the interaction types related to transport are gr
 atherosclerosis and diabetes type 2.
 - The generated plots can be used to indicate the putative pathways linking EDCs to adverse outcome.
 
-## 9_9_disease_scores.R                                   
-Class probability and harmonic and average score for disease
+## 9_9_disease_scores.R
+- For each disease (metabolic syndrome, atherosclerosis and diabetes type 2), harmonic sum and average score will be compiled across all networks.
+
 
 ## 9_10_disease_scores_pie_chart.R                         
 Pie chart for the disease and EDC scores
