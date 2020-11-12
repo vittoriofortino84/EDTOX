@@ -270,8 +270,8 @@ atherosclerosis and diabetes type 2.
 - The generated plots can be used to indicate the putative pathways linking EDCs to adverse outcome.
 
 ## 9_9_disease_scores.R
-- For each disease (metabolic syndrome, atherosclerosis and diabetes type 2), harmonic sum and average score will be compiled across all networks.
+- For each disease (metabolic syndrome, atherosclerosis and diabetes type 2), harmonic sum and average score will be compiled across all 15 networks for 12k compounds in CTD.
 
 
 ## 9_10_disease_scores_pie_chart.R                         
-Pie chart for the disease and EDC scores
+- For each disease (metabolic syndrome, atherosclerosis and diabetes type 2) a pie chart will be depicted to reveal distribution of disease scores across 12k compounds in CTD.
