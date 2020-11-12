@@ -218,13 +218,13 @@ The genes related to MIEs are characterized as 1 in the binary matrix. (Gene lev
 - Preparation of training set (NES scores and class labels) for atherosclerosis, metabolic syndrome, diabetes type 2 and coronary artery disease
 
 ## 9_4_1_metabolic_syndrome_two_class_traning_models_glm.R   
-GLM  model metabolic syndrome all data layers
+- Training GLM  model metabolic syndrome for all 15 data layers
 
 ## 9_4_2_artherosclerosis_two_class_training_models_glm.R  
-GLM  model atherosclerosis all data layers
+- Training GLM  model atherosclerosis for all 15 data layers
 
 ## 9_4_3_diabetes_2_two_class_traning_models_glm.R         
-GLM  model diabetes T2 all data layers
+- Training GLM  model diabetes T2 for all 15 data layers
 
 ## 9_5_1_kfold_CV_two_class_metabolic_syndrome_glm.R        
 K-fold-CV metabolic syndrome all data layers
