@@ -135,7 +135,8 @@ were grouped as metabolism and the interaction types related to transport are gr
 - The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).
 
 ## 5_7_NES_bubble_plot_MOA.R                               
-- The map of pathway activation scores for each pathway and network will be represented as bubble plot.
+- The map of pathway activation scores and GLM coefficient for each pathway and network will be represented as bubble plot.
+- The generated plot can be used to indicate the putative pathways as mode of action for the EDCs.
 
 
 # 6. Prediction of all compounds toxicity class probility and developing EDC score
@@ -264,7 +265,9 @@ were grouped as metabolism and the interaction types related to transport are gr
 
 
 ## 9_8_bubble_plots_pathways.R                           
-Bubble plot for the pathways related to AOPs
+- The map of pathway activation scores and GLM coefficient for each pathway and network will be represented as bubble plots for the three diseases metabolic syndrome,
+atherosclerosis and diabetes type 2.
+- The generated plots can be used to indicate the putative pathways linking EDCs to adverse outcome.
 
 ## 9_9_disease_scores.R                                   
 Class probability and harmonic and average score for disease
