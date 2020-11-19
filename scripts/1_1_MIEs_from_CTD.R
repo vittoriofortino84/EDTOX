@@ -4,15 +4,17 @@
 # input:  http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz  in inputData/CTD_chem_gene_ixns.csv.gz
 # output: list of chemical and their related MIEs (genes) outputData/chem2gene_no_out.RData 
 #
-
-ixns<-read.csv('inputData/CTD_chem_gene_ixns.csv.gz',comment.char = c("#"),stringsAsFactors = F) #around 2000000 gene chmical interaction with 11 variables
+# compound gene interarctions release of june 2020
+ixns<-read.csv('inputData/CTD_june_2020/CTD_chem_gene_ixns.csv.gz',comment.char = c("#"),
+               stringsAsFactors = F) 
+colnames(ixns)<-c("ChemicalName","ChemicalID", "CasRN","GeneSymbol", "GeneID","GeneForms",
+                  "Organism","OrganismID","Interaction" ,"InteractionActions", "PubMedIDs")
 library(data.table)
 ixns<-as.data.table(ixns)
 ixns<-ixns[,paste(InteractionActions,collapse = '|'),by=list(chemID=ixns$ChemicalID,cas=ixns$CasRN,geneID=ixns$GeneID,geneSymbol=ixns$GeneSymbol)]
 InterAction<-lapply(ixns$V1,function(x)strsplit(x,'|',fixed = T))
 InterAction<-lapply(InterAction,function(x)sapply(x,strsplit,split='^',fixed=T))
 type<-sort(unique(unlist(sapply(InterAction,function(x)sapply(x,function(y)y[2])))))
-
 #making a matrix (m*n) with m=1044988 the number of gene-compound and n=51 interaction types 
 InterAction_mat<-matrix(FALSE,nrow=nrow(ixns),ncol=length(type),dimnames=list(NULL,type))
 #Interaction_mat: a logical matrix with rows: chemical-gene interatction and columns as Interaction types
@@ -32,7 +34,6 @@ for(i in 1:length(InterAction)){
 # "reduction"              "ribosylation"           "sulfation"              "sumoylation"           
 # "ubiquitination"
 idx_met_proc<-c(2,4:7,9:12,14,15,18,20:26,28,31,33:39,41,43,47,48,50)
-
 #TRANSPORT INTERACTIONS:
 # "export"    "import"    "secretion" "uptake" 
 idx_transport<-c(16,27,44,51)
@@ -40,7 +41,8 @@ InterAction_mat[,"metabolic processing"]<-InterAction_mat[,"metabolic processing
   apply(InterAction_mat[,idx_met_proc],1,any) #IF THE CHEMICAL-GENE PERTURBATION WAS 1 IN ANY OF THE METABOLIC INTERAACTIONS GETS 1
 InterAction_mat[,"transport"]<-InterAction_mat[,"transport"]|apply(InterAction_mat[,idx_transport],1,any) ##IF THE CHEMICAL-GENE PERTURBATION WAS 1 IN ANY OF THE TRANSPORT GETS 1
 InterAction_mat<-InterAction_mat[,-c(idx_met_proc,idx_transport)]  #SIMPLIFYING THE columns of the LOGICAL MATRIX into 14 interaction types
-
+#Performing multiple correspondence analysis to get the variables which are more informative
+### The plot is saved in plots folder
 #Performing multiple correspondence analysis to get the variables which are more informative
 ### The plot is saved in plots folder
 library(FactoMineR)
