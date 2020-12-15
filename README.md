@@ -1,6 +1,4 @@
 # EDTOX
-A toxicogenomics data space for system-level understanding and prediction of EDC-induced toxicity
-
 
 Please click the follwoing link to download the [Supplementary Data Tables](https://github.com/vittoriofortino84/EDTOX/blob/master/Supplementary_Data_Tables.xlsx) for
 
