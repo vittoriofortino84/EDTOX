@@ -14,7 +14,7 @@ get_DM_final_mtxs<-function(x,pheno,in_vitro,liver_expr=pr){
   rownames(x)<-x$Name
   pheno<-pheno[-grep('control',pheno$Source.Name.s_),]                 # removes rows containing "control" in source name because data are log2ratio
   all_durations<-unique(pheno$Dose.Duration..C.)                       # i.e: 3 1 5 4 0.25 7 14  duration times for DM
-  all_durations<-all_durations[all_durations>=1 & all_durations<10]    # Durations between 1 and 10 are selected :i.e 1 3  4 5 7
+  all_durations<-all_durations[all_durations>=1]                       # Durations more than 10 days are selected :i.e 1 3  4 5 7
   pheno<-pheno[pheno$Dose.Duration..C.%in%all_durations,]              # elimination of annotaions with i.e 0.25 and 14                 
   pheno<-split(pheno,f=as.factor(pheno$Dose.Duration..C.))             # transfroming reamined dose durations as different lists
   pheno<-pheno[sapply(pheno, nrow)>100]                                # i.e 4 and 7 were removed because nrows<100;to prevent wrong correlations 
