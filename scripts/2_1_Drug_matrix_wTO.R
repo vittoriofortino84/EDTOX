@@ -35,7 +35,7 @@ get_DM_final_mtxs<-function(x,pheno,in_vitro,liver_expr=pr){
 in_vitro<-c(T,F)         #the first item in DM list is human hepatocytes (in vitro) and the second item is Rat liver (in vivo)
 DM_final_mtx<-mapply(function(x,y)get_DM_final_mtxs(x,DM_annotation,y),DM,in_vitro,SIMPLIFY = F) #The final list with rows as geneids and columns as drugs
 DM_final_mtx<-unlist(DM_final_mtx,recursive = F)
-DM_final_mtx<-DM_final_mtx[lapply(DM_final_mtx,ncol)>100]                      # The genes related to at least 100 samples are kept
+DM_final_mtx<-DM_final_mtx[lapply(DM_final_mtx,ncol)>100]                      
 set.seed(123)
 library(doParallel)               #For paralellization 
 library(wTO)                      # For doing weghted gene co-expression with topology overlap (wTO) 
