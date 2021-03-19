@@ -8,9 +8,9 @@ ds_path<-c(paste(getwd(),"/inputData/log2ratio/LINCS/GSE70138_Broad_LINCS_Level5
 sign_met_path<-c(paste(getwd(),'/inputData/log2ratio/LINCS/GSE70138/GSE70138_Broad_LINCS_sig_metrics_2017-03-06.txt.gz',sep=''),
                  paste(getwd(),  "/inputData/log2ratio/LINCS/GSE92742/GSE92742_Broad_LINCS_sig_metrics.txt.gz",sep=''))
 sign_met<-lapply(sign_met_path,function(x)read.csv(x,sep='\t',stringsAsFactors=F))
-sign_met<-lapply(sign_met,function(x)x[grep('HEPG2',x$sig_id),])
-sign_met<-lapply(sign_met,function(x)x[grep('24H',x$sig_id),])
-sign_met<-lapply(sign_met,function(x)x[!grepl("ctl_vehicle",x$pert_type),])
+sign_met<-lapply(sign_met,function(x)x[grep('HEPG2',x$sig_id),])            # Selecting HEPG2
+sign_met<-lapply(sign_met,function(x)x[grep('24H',x$sig_id),])              # selecting 24 Hrs
+sign_met<-lapply(sign_met,function(x)x[!grepl("ctl_vehicle",x$pert_type),]) # Removing control samples
 my_ds<-mapply(function(x,i)parse.gctx(i,cid=x$sig_id),sign_met,ds_path,SIMPLIFY = F)
 liver_expr<-read.csv('inputData/journal.pcbi.1004847.s026.csv',stringsAsFactors = F)
 in_9071<-liver_expr$in_9071_rat_liver_expressed_set=='Yes'
