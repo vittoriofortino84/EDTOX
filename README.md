@@ -41,10 +41,10 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - ****Needed** libraries**: data.table, FactoMineR, factoextra
 - **Summary**:
 - [x] Preparation of a binary data matrix for molecular initiating events (MIEs) from compound-gene interactions in CTD. 
-- The interactions subtypes related to metabolism were grouped as metabolism and the interaction types related to transport are grouped as transport.
-- Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra. 
-- Selection of reaction,binding,activity,expression,metabolic processing as the more distant types of the interaction based on the plot of MCA.
-- For the compounds with more than 50 gene interactions the less informative gene interactions will be removed.
+- [x] The interactions subtypes related to metabolism were grouped as metabolism and the interaction types related to transport are grouped as transport.
+- [x] Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra. 
+- [x] Selection of reaction,binding,activity,expression,metabolic processing as the more distant types of the interaction based on the plot of MCA.
+- [x] For the compounds with more than 50 gene interactions the less informative gene interactions will be removed.
 
 #### Script 1_2_Pathways_Download.R 
 - **Input**: https://aopwiki.org/downloads/aop-wiki-xml-2019-01-01.gz
