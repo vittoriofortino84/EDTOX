@@ -46,6 +46,11 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - For the compounds with more than 50 gene interactions the less informative gene interactions will be removed.
 
 #### Script 1_2_Pathways_Download.R 
+- input: https://aopwiki.org/downloads/aop-wiki-xml-2019-01-01.gz
+-        https://aopwiki.org/downloads/aop_ke_ec.tsv
+-        https://reactome.org/download/current/ReactomePathways.txt
+-        http://ctdbase.org/reports/CTD_genes_pathways.csv.gz
+-        https://reactome.org/download/current/miRBase2Reactome_PE_All_Levels.txt
 - Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI with the size of less than 200 will be retrieved.
 - A binary dictionary to link the GO terms with Wiki-AOPs will be generated.
 - The classifications tags for the pathways related to KEGG and REACTOME pathways will be downloaded and preprocessed for enrichment analysis.
