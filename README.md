@@ -35,7 +35,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 # Part I: Development of EDC scores
 ### 1. Preparation of the MIES, pathways and training benchmark set 
 
-#### Script '1_1_MIEs_from_CTD.R'
+#### Script 1_1_MIEs_from_CTD.R
 - **Input**:  http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz 
 - **Output**: A list object for the chemical and their related MIEs (genes)  
 - **Needed** libraries: data.table, FactoMineR, factoextra
@@ -80,7 +80,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - Pairwise jaccard distance between the MIEs related to remaining EDCs and other compounds in CTD will be calculated.
 - The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).
 
-#### 1_5_ToxCast_dictionaries.R
+#### Script 1_5_ToxCast_dictionaries.R
 - **Input**: hitc_Matrix_190226.csv from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
 - **Input**: DSSTox_Identifiers_and_CASRN.xlsx from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
 - **Output**: Hitcall list of ToxCast and dictionary of endpoints target genes
