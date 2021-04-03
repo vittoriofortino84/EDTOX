@@ -32,7 +32,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 
 ## Description of the R scripts used in the pipeline
-# Part I: Developing EDC scores
+# Part I: Development of EDC scores
 ### 1. Preparation of the MIES, pathways and training benchmark set 
 
 #### Script '1_1_MIEs_from_CTD.R'
@@ -59,20 +59,20 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - The classifications tags for the pathways related to KEGG and REACTOME pathways will be downloaded and preprocessed for enrichment analysis.
 
 #### Script 1_3_TOXCAST_nuclear_receptors_coregulators.R 
-- Input:  inputData/Assay_Summary_190226.csv' from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
-- Input:  https://nursa.org
-- Output: a matrix of chemicals and their corresponding hitcalls for the assay endpoitnts related to nuclear receptors and their co-regulators
-- Needed libraries: tidyr, dplyr,org.Hs.eg.db, readxl, data.table
-- Summary: 
+- **Input**:  inputData/Assay_Summary_190226.csv' from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
+- **Input**:  https://nursa.org
+- **Output**: a matrix of chemicals and their corresponding hitcalls for the assay endpoitnts related to nuclear receptors and their co-regulators
+- **Needed libraries**: tidyr, dplyr,org.Hs.eg.db, readxl, data.table
+- **Summary**: 
 - The genes related to nuclear receptors and their co-regulators from experts domain and NURSA will be merged.
 - The target gene ids from ToxCast will be extracted.
 - The ToxCast assay endpoints which their target genes are in the list of nuclear receptor genes will be saved as endpoints related to nuclear receptor.
 
 #### Script 1_4_EDC_Decoy_selection.R 
-- Input: https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv
-- Output: A list object contatining the MIEs for the benchmark set (known EDCs and Decoys)
-- Needed Libraries: ggplot2, ggrepel, magrittr, data.table, dplyr, reshape, cluster
-- Summary:
+- **Input**: https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv
+- **Output**: A list object contatining the MIEs for the benchmark set (known EDCs and Decoys)
+- **Needed Libraries**: ggplot2, ggrepel, magrittr, data.table, dplyr, reshape, cluster
+- **Summary**:
 - The list of EDCs will be retrieved from DEDuCT as CAS ids.
 - The ToxCast assay endpoints related to nuclear receptor and co-regulators of EDCs will be extracted. 
 - The most significat in vitro assay endpoints for the mechanism of EDCs will be characterized using statistical proportion test.
@@ -81,10 +81,10 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).
 
 #### 1_5_ToxCast_dictionaries.R
-- Input: hitc_Matrix_190226.csv from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
-- Input: DSSTox_Identifiers_and_CASRN.xlsx from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
-- Output: Hitcall list of ToxCast and dictionary of endpoints target genes
-- Needed libraries: 
+- **Input**: hitc_Matrix_190226.csv from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
+- **Input**: DSSTox_Identifiers_and_CASRN.xlsx from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
+- **Output**: Hitcall list of ToxCast and dictionary of endpoints target genes
+- **Needed libraries**: 
 - Preparation of a dictionary for ToxCast target genes and their corresponding endpoints.
 - Conversion of ToxCast DSSTox_Identifiers to CAS registry identifiers and preparation of the final Hitcall list for ToxCast.
 
