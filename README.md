@@ -69,6 +69,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - The ToxCast assay endpoints which their target genes are in the list of nuclear receptor genes will be saved as endpoints related to nuclear receptor.
 
 #### Script 1_4_EDC_Decoy_selection.R 
+- Input: https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv
 - The list of EDCs will be retrieved from DEDuCT as CAS ids.
 - The ToxCast assay endpoints related to nuclear receptor and co-regulators of EDCs will be extracted. 
 - The most significat in vitro assay endpoints for the mechanism of EDCs will be characterized using statistical proportion test.
