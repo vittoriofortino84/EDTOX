@@ -32,12 +32,14 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 
 ## Description of the R scripts used in the pipeline
-# Developing EDC scores
+# Part I: Developing EDC scores
 ### 1. Preparation of the MIES, pathways and training benchmark set 
 
 #### Script '1_1_MIEs_from_CTD.R'
-- Preparation of a binary data matrix for molecular initiating events (MIEs) from compound-gene interactions in CTD. The interactions subtypes related to metabolism
-were grouped as metabolism and the interaction types related to transport are grouped as transport.
+ input:  http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz  in inputData/CTD_chem_gene_ixns.csv.gz
+ output: A R list object of chemical and their related MIEs (genes) outputData/chem2gene_no_out.RData 
+- Preparation of a binary data matrix for molecular initiating events (MIEs) from compound-gene interactions in CTD. 
+- The interactions subtypes related to metabolism were grouped as metabolism and the interaction types related to transport are grouped as transport.
 - Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra. 
 - Selection of reaction,binding,activity,expression,metabolic processing as the more distant types of the interaction based on the plot of MCA.
 - For the compounds with more than 50 gene interactions the less informative gene interactions will be removed.
