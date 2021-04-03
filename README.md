@@ -47,7 +47,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 #### Script 1_2_Pathways_Download.R 
 - input: https://aopwiki.org/downloads/aop-wiki-xml-2019-01-01.gz
--        https://aopwiki.org/downloads/aop_ke_ec.tsv
+- input: https://aopwiki.org/downloads/aop_ke_ec.tsv
 -        https://reactome.org/download/current/ReactomePathways.txt
 -        http://ctdbase.org/reports/CTD_genes_pathways.csv.gz
 -        https://reactome.org/download/current/miRBase2Reactome_PE_All_Levels.txt
