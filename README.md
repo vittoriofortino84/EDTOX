@@ -59,7 +59,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - [x] The classifications tags for the pathways related to KEGG and REACTOME pathways will be downloaded and preprocessed for enrichment analysis.
 
 #### [Script 1_3_TOXCAST_nuclear_receptors_coregulators.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_3_TOXCAST_nuclear_receptors_coregulators.R) 
- **Input**: hitc_Matrix_190226.csv from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
+- **Input**: hitc_Matrix_190226.csv from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
 - **Input**:  inputData/Assay_Summary_190226.csv' from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
 - **Input**: DSSTox_Identifiers_and_CASRN.xlsx from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
 - **Input**:  http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz 
@@ -82,7 +82,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - [x] Pairwise jaccard distance between the MIEs related to remaining EDCs and other compounds in CTD will be calculated.
 - [x] The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).
 
-#### Script 1_5_ToxCast_dictionaries.R
+#### [Script 1_5_ToxCast_dictionaries.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_5_ToxCast_dictionaries.R) 
 - **Input**: hitc_Matrix_190226.csv from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
 - **Input**: DSSTox_Identifiers_and_CASRN.xlsx from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
 - **Output**: Hitcall list of ToxCast and dictionary of endpoints target genes
