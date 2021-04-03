@@ -72,6 +72,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - Input: https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv
 - Output: A list object contatining the MIEs for the benchmark set (known EDCs and Decoys)
 - Needed Libraries: ggplot2, ggrepel, magrittr, data.table, dplyr, reshape, cluster
+- Summary:
 - The list of EDCs will be retrieved from DEDuCT as CAS ids.
 - The ToxCast assay endpoints related to nuclear receptor and co-regulators of EDCs will be extracted. 
 - The most significat in vitro assay endpoints for the mechanism of EDCs will be characterized using statistical proportion test.
@@ -80,6 +81,10 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).
 
 #### 1_5_ToxCast_dictionaries.R
+- Input: hitc_Matrix_190226.csv from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
+- Input: DSSTox_Identifiers_and_CASRN.xlsx from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
+- Output: Hitcall list of ToxCast and dictionary of endpoints target genes
+- Needed libraries: 
 - Preparation of a dictionary for ToxCast target genes and their corresponding endpoints.
 - Conversion of ToxCast DSSTox_Identifiers to CAS registry identifiers and preparation of the final Hitcall list for ToxCast.
 
