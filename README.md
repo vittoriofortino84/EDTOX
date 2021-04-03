@@ -38,8 +38,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 #### Script '1_1_MIEs_from_CTD.R'
 -  input:  http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz 
 -  output: A list object for the chemical and their related MIEs (genes)  
--  needed libraries data.table, FactoMineR, factoextra
-- Preparation of a binary data matrix for molecular initiating events (MIEs) from compound-gene interactions in CTD. 
+-  Needed libraries: data.table, FactoMineR, factoextra
+-  Summary:
+-  Preparation of a binary data matrix for molecular initiating events (MIEs) from compound-gene interactions in CTD. 
 - The interactions subtypes related to metabolism were grouped as metabolism and the interaction types related to transport are grouped as transport.
 - Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra. 
 - Selection of reaction,binding,activity,expression,metabolic processing as the more distant types of the interaction based on the plot of MCA.
@@ -51,6 +52,8 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - input: https://reactome.org/download/current/ReactomePathways.txt
 - input: http://ctdbase.org/reports/CTD_genes_pathways.csv.gz
 - input: https://reactome.org/download/current/miRBase2Reactome_PE_All_Levels.txt
+- Needed libraries: 
+- Summary:
 - Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI with the size of less than 200 will be retrieved.
 - A binary dictionary to link the GO terms with Wiki-AOPs will be generated.
 - The classifications tags for the pathways related to KEGG and REACTOME pathways will be downloaded and preprocessed for enrichment analysis.
