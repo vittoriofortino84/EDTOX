@@ -40,7 +40,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - **Output**: A list object for the chemical and their related MIEs (genes)  
 - ****Needed** libraries**: data.table, FactoMineR, factoextra
 - **Summary**:
--- Preparation of a binary data matrix for molecular initiating events (MIEs) from compound-gene interactions in CTD. 
+- Preparation of a binary data matrix for molecular initiating events (MIEs) from compound-gene interactions in CTD. 
 - The interactions subtypes related to metabolism were grouped as metabolism and the interaction types related to transport are grouped as transport.
 - Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra. 
 - Selection of reaction,binding,activity,expression,metabolic processing as the more distant types of the interaction based on the plot of MCA.
