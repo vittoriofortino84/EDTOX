@@ -59,6 +59,8 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - The classifications tags for the pathways related to KEGG and REACTOME pathways will be downloaded and preprocessed for enrichment analysis.
 
 #### Script 1_3_TOXCAST_nuclear_receptors_coregulators.R 
+- Input:  inputData/Assay_Summary_190226.csv' from ToxCast 3.1
+- Input:         https://nursa.org/nursa/molecules/index.jsf
 - The genes related to nuclear receptors and their co-regulators from experts domain and NURSA will be merged.
 - The target gene ids from ToxCast will be extracted.
 - The ToxCast assay endpoints which their target genes are in the list of nuclear receptor genes will be saved as endpoints related to nuclear receptor.
