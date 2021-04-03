@@ -32,6 +32,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 
 ## Description of the R scripts used in the pipeline
+# Developing EDC scores
 ### 1. Preparation of the MIES, pathways and training benchmark set 
 
 #### Script '1_1_MIEs_from_CTD.R'
