@@ -77,7 +77,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - **Summary**:
 - [x] The list of EDCs will be retrieved from DEDuCT as CAS ids.
 - [x] The ToxCast assay endpoints related to nuclear receptor and co-regulators of EDCs will be extracted. 
-- [x] The most significat in vitro assay endpoints for the mechanism of EDCs will be characterized using statistical proportion test.
+- [x] The most significat in vitro assay endpoints for the mechanism of EDCs will be characterized using statistical proportion test (p_value <0.05).
 - [x] EDCs (DEDuCT list) which are incative for all the significant assay endpoints will be removed from the final list of EDcs.
 - [x] Pairwise jaccard distance between the MIEs related to remaining EDCs and other compounds in CTD will be calculated.
 - [x] The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).
