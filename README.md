@@ -52,7 +52,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - input: https://reactome.org/download/current/ReactomePathways.txt
 - input: http://ctdbase.org/reports/CTD_genes_pathways.csv.gz
 - input: https://reactome.org/download/current/miRBase2Reactome_PE_All_Levels.txt
-- Needed libraries: 
+- Needed libraries: XML, GO.db, org.Hs.eg.db, GSA, msigdbr, rWikiPathways, magrittr, rjson, data.table
 - Summary:
 - Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI with the size of less than 200 will be retrieved.
 - A binary dictionary to link the GO terms with Wiki-AOPs will be generated.
