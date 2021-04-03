@@ -46,7 +46,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - [x] Selection of reaction,binding,activity,expression,metabolic processing as the more distant types of the interaction based on the plot of MCA.
 - [x] For the compounds with more than 50 gene interactions the less informative gene interactions will be removed.
 
-#### Script 1_2_Pathways_Download.R 
+#### [Script 1_2_Pathways_Download.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_2_Pathways_Download.R)
 - **Input**: https://aopwiki.org/downloads/aop-wiki-xml-2019-01-01.gz
 - **Input**: https://aopwiki.org/downloads/aop_ke_ec.tsv
 - **Input**: https://reactome.org/download/current/ReactomePathways.txt
