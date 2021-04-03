@@ -84,9 +84,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - **Input**: hitc_Matrix_190226.csv from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
 - **Input**: DSSTox_Identifiers_and_CASRN.xlsx from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
 - **Output**: Hitcall list of ToxCast and dictionary of endpoints target genes
-- **Needed libraries**: 
+- **Needed libraries**: tidyr, dplyr, readxl
 - Preparation of a dictionary for ToxCast target genes and their corresponding endpoints.
-- Conversion of ToxCast DSSTox_Identifiers to CAS registry identifiers and preparation of the final Hitcall list for ToxCast.
+- Conversion of ToxCast DSSTox_Identifiers to CAS registry identifiers and preparation of the final Hitcall matrix for all  ToxCast endpoints.
 
 ### 2. Generating gene co-expression networks 
 
