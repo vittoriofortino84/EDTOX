@@ -70,6 +70,8 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 #### Script 1_4_EDC_Decoy_selection.R 
 - Input: https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv
+- Output: A list object contatining the MIEs for the benchmark set (known EDCs and Decoys)
+- Needed Libraries: ggplot2, ggrepel, magrittr, data.table, dplyr, reshape, cluster
 - The list of EDCs will be retrieved from DEDuCT as CAS ids.
 - The ToxCast assay endpoints related to nuclear receptor and co-regulators of EDCs will be extracted. 
 - The most significat in vitro assay endpoints for the mechanism of EDCs will be characterized using statistical proportion test.
