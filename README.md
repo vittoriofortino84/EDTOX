@@ -50,7 +50,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 || https://reactome.org/download/current/ReactomePathways.txt|
 || http://ctdbase.org/reports/CTD_genes_pathways.csv.gz|
 || https://reactome.org/download/current/miRBase2Reactome_PE_All_Levels.txt|
-|**Output**| pathways related to KEGG, wiki, Reactome and msigdb|
+|**Output**| List objects for pathways related to KEGG, wiki, Reactome and msigdb|
 |**Dependencies**| XML, GO.db, org.Hs.eg.db, GSA, msigdbr, rWikiPathways, magrittr, rjson, data.table|
 |**Summary**|Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI with the size of less than 200 will be retrieved. A binary dictionary to link the GO terms with Wiki-AOPs will be generated.The classifications tags for the pathways related to KEGG and REACTOME pathways will be downloaded and preprocessed for enrichment analysis.|
 
@@ -61,7 +61,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 ||DSSTox_Identifiers_and_CASRN.xlsx from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data |
 || Result of the script [MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R)|
 || http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz |
-|**Output**| a matrix of chemicals and their corresponding hitcalls for the assay endpoitnts related to nuclear receptors and their co-regulators|
+|**Output**| A binary matrix of chemicals and their corresponding hitcalls for the assay endpoitnts related to nuclear receptors and their co-regulators|
 |**Dependencies**|tidyr, dplyr,org.Hs.eg.db, readxl, data.table|
 |**Summary**|The genes related to nuclear receptors and their co-regulators from experts domain and NURSA will be merged. The target gene ids from ToxCast will be extracted. The ToxCast assay endpoints which their target genes are in the list of nuclear receptor genes will be saved as endpoints related to nuclear receptor.|
 
@@ -76,7 +76,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 | ------------- |--------------|
 |**Input**|hitc_Matrix_190226.csv from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data|
 || DSSTox_Identifiers_and_CASRN.xlsx from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data|
-|**Output**| Hitcall list of ToxCast and dictionary of endpoints target genes|
+|**Output**| Hitcall list of all ToxCast chemicals and target genes of all endpoints|
 |**Dependencies**| tidyr, dplyr, readxl|
 |**Summary**|Preparation of a dictionary for ToxCast target genes and their corresponding endpoints.Conversion of ToxCast DSSTox_Identifiers to CAS registry identifiers and preparation of the final Hitcall matrix for all  ToxCast endpoints.|
 
