@@ -33,30 +33,30 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 ## Description of the R scripts used in the pipeline
 # Part I: Development of EDC scores
-### 1. Preparation of the MIES, pathways and training benchmark set 
+### A. Preparation of the MIES, pathways and training benchmark set 
 
-|Script|[1_1_MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R)|
+|1|[1_1_MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R)|
 | ------------- |--------------|
 | **Input**|  http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz| 
 |**Output**| A list object for the chemical and their related MIEs (genes)|  
 | ****Needed** libraries**| data.table, FactoMineR, factoextra|
 |**Summary**|Preparation of a binary data matrix for molecular initiating events (MIEs) from compound-gene interactions in CTD. The interactions subtypes related to metabolism were grouped as metabolism and the interaction types related to transport are grouped as transport. Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra. Selection of reaction,binding,activity,expression,metabolic processing as the more distant types of the interaction based on the plot of MCA. For the compounds with more than 50 gene interactions the less informative gene interactions will be removed.|
 
-|Script| [1_2_Pathways_Download.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_2_Pathways_Download.R)
+|2| [1_2_Pathways_Download.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_2_Pathways_Download.R)
 | ------------- |--------------|
 |**Input**| https://aopwiki.org/downloads/aop-wiki-xml-2019-01-01.gz|
 ||https://aopwiki.org/downloads/aop_ke_ec.tsv|
 || https://reactome.org/download/current/ReactomePathways.txt|
 || http://ctdbase.org/reports/CTD_genes_pathways.csv.gz|
 || https://reactome.org/download/current/miRBase2Reactome_PE_All_Levels.txt|
-|**Needed librarie**s| XML, GO.db, org.Hs.eg.db, GSA, msigdbr, rWikiPathways, magrittr, rjson, data.table|
+|**Needed libraries**| XML, GO.db, org.Hs.eg.db, GSA, msigdbr, rWikiPathways, magrittr, rjson, data.table|
 |**Summary**|Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI with the size of less than 200 will be retrieved. A binary dictionary to link the GO terms with Wiki-AOPs will be generated.The classifications tags for the pathways related to KEGG and REACTOME pathways will be downloaded and preprocessed for enrichment analysis.|
 
-|Script| [1_3_TOXCAST_nuclear_receptors_coregulators.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_3_TOXCAST_nuclear_receptors_coregulators.R)|
+|3| [1_3_TOXCAST_nuclear_receptors_coregulators.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_3_TOXCAST_nuclear_receptors_coregulators.R)|
 | ------------- |--------------|
-|**Input**| hitc_Matrix_190226.csv from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data|
-||Assay_Summary_190226.csv' from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data|
-||DSSTox_Identifiers_and_CASRN.xlsx from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data|
+|**Input**| hitc_Matrix_190226.csv from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data |
+||Assay_Summary_190226.csv' from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data |
+||DSSTox_Identifiers_and_CASRN.xlsx from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data |
 ||http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz|
 ||**Output**| a matrix of chemicals and their corresponding hitcalls for the assay endpoitnts related to nuclear receptors and their co-regulators|
 || **Needed libraries**|tidyr, dplyr,org.Hs.eg.db, readxl, data.table|
