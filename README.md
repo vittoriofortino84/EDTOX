@@ -88,7 +88,8 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Needed Libraries**| XLSX, doParallel, wTO|
 |**Summary**|Removing the control samples from the preprocessed and normalized LFC values related to Drug Matrix data source for rat in vitro hepatocytes and rat in vivo. Selection of the three exposure time points 1,3 and 5 days for in vivo and 1 day for in vitro and splitting the data as four data frames. Selection of the genes expressed in liver and orthology mapping of the probe IDs to entrez gene values. Compiling 4 gene co-expression networks from the data frames using wTO package with bootstrap resampling method.|
 
-|2_2| [TG_Gates_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R)|  
+|2_2| [TG_Gates_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R)|
+| ------------- |--------------|
 | **Input**| LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-005?query=S-DIXA-AN-005|
 || LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-004?query=S-DIXA-AN-004|
 || LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-007?query=S-DIXA-AN-007|
