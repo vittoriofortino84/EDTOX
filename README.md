@@ -117,6 +117,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |2_5|[PPI_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_5_PPI_wTO.R)|  
 | ------------- |--------------|
+|**Input**| No input is needed|
 |**Output**| PPI network with new combined score|
 |**Dependencies**|STRINGdb, igraph, org.Hs.eg.db |
 |**Summary**|Retrieving protein protein interaction network from stringDB.Mapping nodes to entreg gene IDs.Recompiling a new combined score after elimination of coexpression from the network.Recompiling the final ppi network.|
