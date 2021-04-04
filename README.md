@@ -134,26 +134,26 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 | ------------- |--------------|
 |**Input**| result of the scripts [Drug_matrix_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_1_Drug_matrix_wTO.R), [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R) |
 |**Output**|A matrix of silhouette scores for different combination of Edges percentiles and sorted genes for Drug Matrix networks |
-|**Dependencies**| |
+|**Dependencies**| dnet,igraph,cluster |
 |**Summary**|The top %2, %3, %5 and  %10 edge portions  are extracted from each network.Each network will be subjected to random walk with restart uisng the seeds related to the MIEs of EDCs and decoys (benchmark set). The 200,500,700 and 1000 top most visited genes will be extracted after the random walk. A binary vector will be genrated for each compound (EDCs and decoys) with 1 representing the gene in the list of top visited gene.The pairwise jaccard distance beween the binary vector of each EDCs and decoy will be calculated. Using the jaccard dismilarity matrix and a vector representing the class of each componud as EDC or Decoy average silhouette score was calculated for EDCs.|
 
 |3_2|[TG_GATEs_tuner.R](https://github.com/amir1715/EDTOX/blob/master/scripts/3_2_TG_GATEs_tuner.R)|
 | ------------- |--------------|
 |**Input**| |
 |**Output**|A matrix of silhouette scores for different combination of Edges percentiles and sorted genes for  TG-GATEs networks |
-|**Dependencies**| |
+|**Dependencies**| dnet,igraph,cluster |
 |**Summary**|The top %2, %3, %5 and  %10 edge portions  are extracted from each network.Each network will be subjected to random walk with restart uisng the seeds related to the MIEs of EDCs and decoys (benchmark set). The 200,500,700 and 1000 top most visited genes will be extracted after the random walk. A binary vector will be genrated for each compound (EDCs and decoys) with 1 representing the gene in the list of top visited gene.The pairwise jaccard distance beween the binary vector of each EDCs and decoy will be calculated. Using the jaccard dismilarity matrix and a vector representing the class of each componud as EDC or Decoy average silhouette score was calculated for EDCs.|
 
 |3_3|[Consensus_tuner.R](https://github.com/amir1715/EDTOX/blob/master/scripts/3_3_Consensus_tuner.R)|
 | ------------- |--------------|
 |**Input**| |
 |**Output**|A matrix of silhouette scores for different combination of Edges percentiles and sorted genes for  consensus networks|
-|**Dependencies**| |
+|**Dependencies**| dnet,igraph,cluster |
 |**Summary**|The top %2, %3, %5 and  %10 edge portions  are extracted from each network.Each network will be subjected to random walk with restart uisng the seeds related to the MIEs of EDCs and decoys (benchmark set). The 200,500,700 and 1000 top most visited genes will be extracted after the random walk. A binary vector will be genrated for each compound (EDCs and decoys) with 1 representing the gene in the list of top visited gene.The pairwise jaccard distance beween the binary vector of each EDCs and decoy will be calculated. Using the jaccard dismilarity matrix and a vector representing the class of each componud as EDC or Decoy average silhouette score was calculated for EDCs.|
 
 |3_4|[PPI_tuner.R](https://github.com/amir1715/EDTOX/blob/master/scripts/3_4_PPI_tuner.R)|
 | ------------- |--------------|
-|**Input**| |
+|**Input**| dnet,igraph,cluster |
 |**Output**|A matrix of silhouette scores for different combination of Edges percentiles and sorted genes for PPI network |
 |**Dependencies**| |
 |**Summary**| New ppi networks were compiled using the 0.6,0.65,0.7,0.75,0.8,0.85 values as the cutoffs for the combined score. All networks will be subjected to random walk with restart uisng the seeds related to the MIEs of EDCs and decoys (benchmark set). The 200,500,700 and 1000 top most visited genes will be extracted after the random walk. A binary vector will be genrated for each compound (EDCs and decoys) with 1 representing the gene in the list of top visited gene. The pairwise jaccard distance beween the binary vector of each EDCs and decoy will be calculated. Using the jaccard dismilarity matrix and a vector representing the class of each componud as EDC or Decoy average silhouette score was calculated for EDCs.|
