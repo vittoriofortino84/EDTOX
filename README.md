@@ -39,7 +39,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 | ------------- |--------------|
 | **Input**|  http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz| 
 |**Output**| A list object for the chemical and their related MIEs (genes)|  
-| ****Needed** libraries**| data.table, FactoMineR, factoextra|
+| **Dependencies**| data.table, FactoMineR, factoextra|
 |**Summary**|Preparation of a binary data matrix for molecular initiating events (MIEs) from compound-gene interactions in CTD. The interactions subtypes related to metabolism were grouped as metabolism and the interaction types related to transport are grouped as transport. Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra. Selection of reaction,binding,activity,expression,metabolic processing as the more distant types of the interaction based on the plot of MCA. For the compounds with more than 50 gene interactions the less informative gene interactions will be removed.|
 
 |1_2| [Pathways_Download.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_2_Pathways_Download.R)
@@ -50,7 +50,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 || http://ctdbase.org/reports/CTD_genes_pathways.csv.gz|
 || https://reactome.org/download/current/miRBase2Reactome_PE_All_Levels.txt|
 |**Output**| pathways related to KEGG, wiki, Reactome and msigdb|
-|**Needed libraries**| XML, GO.db, org.Hs.eg.db, GSA, msigdbr, rWikiPathways, magrittr, rjson, data.table|
+|**Dependencies**| XML, GO.db, org.Hs.eg.db, GSA, msigdbr, rWikiPathways, magrittr, rjson, data.table|
 |**Summary**|Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI with the size of less than 200 will be retrieved. A binary dictionary to link the GO terms with Wiki-AOPs will be generated.The classifications tags for the pathways related to KEGG and REACTOME pathways will be downloaded and preprocessed for enrichment analysis.|
 
 |1_3| [TOXCAST_nuclear_receptors_coregulators.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_3_TOXCAST_nuclear_receptors_coregulators.R)|
@@ -60,14 +60,14 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 ||DSSTox_Identifiers_and_CASRN.xlsx from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data |
 || http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz |
 |**Output**| a matrix of chemicals and their corresponding hitcalls for the assay endpoitnts related to nuclear receptors and their co-regulators|
-|**Needed libraries**|tidyr, dplyr,org.Hs.eg.db, readxl, data.table|
+|**Dependencies**|tidyr, dplyr,org.Hs.eg.db, readxl, data.table|
 |**Summary**|The genes related to nuclear receptors and their co-regulators from experts domain and NURSA will be merged. The target gene ids from ToxCast will be extracted. The ToxCast assay endpoints which their target genes are in the list of nuclear receptor genes will be saved as endpoints related to nuclear receptor.|
 
 |1_4|[EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)|
 | ------------- |--------------|
 |**Input**| https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv|
 |**Output**| A list object contatining the MIEs for the benchmark set (known EDCs and Decoys)|
-|**Needed Libraries**| ggplot2, ggrepel, magrittr, data.table, dplyr, reshape, cluster|
+|**Dependencies**| ggplot2, ggrepel, magrittr, data.table, dplyr, reshape, cluster|
 |**Summary**| The list of EDCs will be retrieved from DEDuCT as CAS ids. The ToxCast assay endpoints related to nuclear receptor and co-regulators of EDCs will be extracted. The most significat in vitro assay endpoints for the mechanism of EDCs will be characterized using statistical proportion test (p_value <0.05). EDCs (DEDuCT list) which are incative for all the significant assay endpoints will be removed from the final list of EDcs. Pairwise jaccard distance between the MIEs related to remaining EDCs and other compounds in CTD will be calculated.The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).|
 
 |1_5| [ToxCast_dictionaries.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_5_ToxCast_dictionaries.R) |
@@ -75,7 +75,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Input**|hitc_Matrix_190226.csv from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data|
 || DSSTox_Identifiers_and_CASRN.xlsx from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data|
 |**Output**| Hitcall list of ToxCast and dictionary of endpoints target genes|
-|**Needed libraries**| tidyr, dplyr, readxl|
+|**Dependencies**| tidyr, dplyr, readxl|
 |**Summary**|Preparation of a dictionary for ToxCast target genes and their corresponding endpoints.Conversion of ToxCast DSSTox_Identifiers to CAS registry identifiers and preparation of the final Hitcall matrix for all  ToxCast endpoints.|
 
 ### 2. Generating gene co-expression networks 
@@ -86,7 +86,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Input**| LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-009?query=S-DIXA-AN-009|
 || journal.pcbi.1004847.s026.XLS from https://pubmed.ncbi.nlm.nih.gov/27028627/|
 |**Output**| 4 gene networks for Drug Matrix|
-|**Needed Libraries**| XLSX, doParallel, wTO|
+|**Dependencies**| XLSX, doParallel, wTO|
 |**Summary**|Removing the control samples from the preprocessed and normalized LFC values related to Drug Matrix data source for rat in vitro hepatocytes and rat in vivo. Selection of the three exposure time points 1,3 and 5 days for in vivo and 1 day for in vitro and splitting the data as four data frames. Selection of the genes expressed in liver and orthology mapping of the probe IDs to entrez gene values. Compiling 4 gene co-expression networks from the data frames using wTO package with bootstrap resampling method.|
 
 |2_2| [TG_Gates_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R)|
@@ -96,7 +96,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 || LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-007?query=S-DIXA-AN-007|
 || journal.pcbi.1004847.s026.XLS from https://pubmed.ncbi.nlm.nih.gov/27028627/|
 |**Output**|8 gene networks for TG-Gates|
-|**Needed Libraries**| XLSX, doParallel, wTO|
+|**Dependencies**| XLSX, doParallel, wTO|
 | **Summary**|Removing control samples from the preprocesses and normalized LFC values related to TG-Gates data source for rat in vitro, human invitro and rat in vivo. Selection of three dose levels (high, middle and low) and three time points (8, 15 and 29 days) from the LFC values related to TG-Gates rat in vivo.(6 data frames) Selection of 1 day time exposure related to human and rat in vitro LFC values. (two data frames)Selection of the genes expressed in the liver from each data frame and orthology mapping of probe IDs to gene entrez IDs. Compiling 8 gene co-expression networks from the resulting data frames using wTO package with bootstrap resampling method. |
 
 |2_3 |[LINCS_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_3_LINCS_wTO.R)
@@ -105,12 +105,12 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 ||LFCs and annottations for level 5  from from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92742|
 || journal.pcbi.1004847.s026.XLS from https://pubmed.ncbi.nlm.nih.gov/27028627/|
 |**Output**| 1 consensus gene network for LINCS from phase 1 and phase 2 studies|
-|**Needed Libraries** |cmapR, doParallel, wTO|
+|**Dependencies** |cmapR, doParallel, wTO|
 | **Summary**|Normalized and preproessed LFC values from the level 5 of phase 1 and phase 2 LINCS data source will be used. Selection of cell line HEPG2 with expousre time of 24 hours from phase1 and phase 2 gene expression data in LINCS.Selection of the gene IDS which are expressed in the liver.Compiling 2 gene networks from phase 1 and phase 2 using wTO package with bootstrapping resampling method.Compiling one consensus gene co-expression netowrk from the overlapping genes of the two networks using wTO package.|
 
 |2_4|[Consensus_Rat_in_vitro_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_4_Consensus_Rat_in_vitro_wTO.R)|
 | ------------- |--------------|
-|**Needed libraries**|wTO|
+|**Dependencies**|wTO|
 |**Summary**| Compiling one consensus gene co-expression netowrk from the overlapping genes of the two networks related to in vitro rat from drug matrix and TG-GATEs using wTO package|
 
 #### Script 2_5_PPI_wTO.R   
