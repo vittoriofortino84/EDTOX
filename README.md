@@ -107,8 +107,11 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - Compiling 4 gene co-expression networks from the data frames using wTO package with bootstrap resampling method.
 
 #### Script 2_2_TG_Gates_wTO.R  
-- **Input**: LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-009?query=S-DIXA-AN-009
-- **Output**: 4 gene networks for Drug Matrix
+- **Input**: LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-005?query=S-DIXA-AN-005
+- **Input**: LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-004?query=S-DIXA-AN-004
+- **Input**: LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-007?query=S-DIXA-AN-007
+- **Input**: journal.pcbi.1004847.s026.XLS from https://pubmed.ncbi.nlm.nih.gov/27028627/
+- **Output**: 8 gene networks for TG-Gates
 - **Needed Libraries**: XLSX, doParallel, wTO
 - **Summary**:
 - Removing control samples from the preprocesses and normalized LFC values related to TG-Gates data source for rat in vitro, human invitro and rat in vivo.
