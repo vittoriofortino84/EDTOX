@@ -85,22 +85,21 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Input**| LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-009?query=S-DIXA-AN-009|
 || journal.pcbi.1004847.s026.XLS from https://pubmed.ncbi.nlm.nih.gov/27028627/|
 |**Output**| 4 gene networks for Drug Matrix|
-|**Needed Libraries**: XLSX, doParallel, wTO|
+|**Needed Libraries**| XLSX, doParallel, wTO|
 |**Summary**|Removing the control samples from the preprocessed and normalized LFC values related to Drug Matrix data source for rat in vitro hepatocytes and rat in vivo. Selection of the three exposure time points 1,3 and 5 days for in vivo and 1 day for in vitro and splitting the data as four data frames. Selection of the genes expressed in liver and orthology mapping of the probe IDs to entrez gene values. Compiling 4 gene co-expression networks from the data frames using wTO package with bootstrap resampling method.|
 
-#### [Script 2_2_TG_Gates_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R)  
-- **Input**: LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-005?query=S-DIXA-AN-005
-- **Input**: LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-004?query=S-DIXA-AN-004
-- **Input**: LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-007?query=S-DIXA-AN-007
-- **Input**: journal.pcbi.1004847.s026.XLS from https://pubmed.ncbi.nlm.nih.gov/27028627/
-- **Output**: 8 gene networks for TG-Gates
-- **Needed Libraries**: XLSX, doParallel, wTO
-- **Summary**:
-- [x] Removing control samples from the preprocesses and normalized LFC values related to TG-Gates data source for rat in vitro, human invitro and rat in vivo.
-- [x] Selection of three dose levels (high, middle and low) and three time points (8, 15 and 29 days) from the LFC values related to TG-Gates rat in vivo. (6 data frames)
-- [x] Selection of 1 day time exposure related to human and rat in vitro LFC values. (two data frames)
-- [x] Selection of the genes expressed in the liver from each data frame and orthology mapping of probe IDs to gene entrez IDs.
-- [x] Compiling 8 gene co-expression networks from the resulting data frames using wTO package with bootstrap resampling method. 
+|2_2| [TG_Gates_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R)|  
+| **Input**| LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-005?query=S-DIXA-AN-005|
+|| LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-004?query=S-DIXA-AN-004|
+|| LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-007?query=S-DIXA-AN-007|
+|| journal.pcbi.1004847.s026.XLS from https://pubmed.ncbi.nlm.nih.gov/27028627/|
+|**Output**|8 gene networks for TG-Gates|
+|**Needed Libraries**| XLSX, doParallel, wTO|
+| **Summary**|Removing control samples from the preprocesses and normalized LFC values related to TG-Gates data source for rat in vitro, human invitro and rat in vivo.
+Selection of three dose levels (high, middle and low) and three time points (8, 15 and 29 days) from the LFC values related to TG-Gates rat in vivo. (6 data frames)
+Selection of 1 day time exposure related to human and rat in vitro LFC values. (two data frames)
+Selection of the genes expressed in the liver from each data frame and orthology mapping of probe IDs to gene entrez IDs.
+Compiling 8 gene co-expression networks from the resulting data frames using wTO package with bootstrap resampling method. |
 
 #### Script 2_3_LINCS_wTO.R
 - **Input**: LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-009?query=S-DIXA-AN-009
