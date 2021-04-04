@@ -101,10 +101,11 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |2_3 |[LINCS_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_3_LINCS_wTO.R)
 | ------------- |--------------|
-|**Input**| LFCs and annottations from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92742|
-||LFCs and annottations from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92742|
-|**Output**| 4 gene networks for Drug Matrix|
-|**Needed Libraries** |XLSX, doParallel, wTO|
+|**Input**| LFCs and annottations for level 5  from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92742|
+||LFCs and annottations for level 5  from from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92742|
+|| journal.pcbi.1004847.s026.XLS from https://pubmed.ncbi.nlm.nih.gov/27028627/|
+|**Output**| 1 consensus gene network for LINCS from phase 1 and phase 2 studies|
+|**Needed Libraries** |cmapR, doParallel, wTO|
 | **Summary**|Normalized and preproessed LFC values from the level 5 of phase 1 and phase 2 LINCS data source will be used. Selection of cell line HEPG2 with expousre time of 24 hours from phase1 and phase 2 gene expression data in LINCS.Selection of the gene IDS which are expressed in the liver.Compiling 2 gene networks from phase 1 and phase 2 using wTO package with bootstrapping resampling method.Compiling one consensus gene co-expression netowrk from the overlapping genes of the two networks using wTO package.|
 
 #### Script 2_4_Consensus_Rat_in_vitro_wTO.R 
