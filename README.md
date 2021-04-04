@@ -58,21 +58,15 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 ||Assay_Summary_190226.csv' from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data |
 ||DSSTox_Identifiers_and_CASRN.xlsx from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data |
 || http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz |
-|**Output**|| a matrix of chemicals and their corresponding hitcalls for the assay endpoitnts related to nuclear receptors and their co-regulators|
+|**Output**| a matrix of chemicals and their corresponding hitcalls for the assay endpoitnts related to nuclear receptors and their co-regulators|
 |**Needed libraries**||tidyr, dplyr,org.Hs.eg.db, readxl, data.table|
 |**Summary**|The genes related to nuclear receptors and their co-regulators from experts domain and NURSA will be merged. The target gene ids from ToxCast will be extracted. The ToxCast assay endpoints which their target genes are in the list of nuclear receptor genes will be saved as endpoints related to nuclear receptor.|
 
-#### [Script 1_4_EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R) 
-- **Input**: https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv
-- **Output**: A list object contatining the MIEs for the benchmark set (known EDCs and Decoys)
-- **Needed Libraries**: ggplot2, ggrepel, magrittr, data.table, dplyr, reshape, cluster
-- **Summary**:
-- [x] The list of EDCs will be retrieved from DEDuCT as CAS ids.
-- [x] The ToxCast assay endpoints related to nuclear receptor and co-regulators of EDCs will be extracted. 
-- [x] The most significat in vitro assay endpoints for the mechanism of EDCs will be characterized using statistical proportion test (p_value <0.05).
-- [x] EDCs (DEDuCT list) which are incative for all the significant assay endpoints will be removed from the final list of EDcs.
-- [x] Pairwise jaccard distance between the MIEs related to remaining EDCs and other compounds in CTD will be calculated.
-- [x] The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).
+|1_4|[EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R) |
+|**Input**| https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv|
+|**Output**| A list object contatining the MIEs for the benchmark set (known EDCs and Decoys)|
+|**Needed Libraries**| ggplot2, ggrepel, magrittr, data.table, dplyr, reshape, cluster
+|**Summary**| The list of EDCs will be retrieved from DEDuCT as CAS ids. The ToxCast assay endpoints related to nuclear receptor and co-regulators of EDCs will be extracted. The most significat in vitro assay endpoints for the mechanism of EDCs will be characterized using statistical proportion test (p_value <0.05). EDCs (DEDuCT list) which are incative for all the significant assay endpoints will be removed from the final list of EDcs. Pairwise jaccard distance between the MIEs related to remaining EDCs and other compounds in CTD will be calculated.The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).|
 
 #### [Script 1_5_ToxCast_dictionaries.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_5_ToxCast_dictionaries.R) 
 - **Input**: hitc_Matrix_190226.csv from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
