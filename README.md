@@ -59,7 +59,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 ||DSSTox_Identifiers_and_CASRN.xlsx from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data |
 || http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz |
 |**Output**| a matrix of chemicals and their corresponding hitcalls for the assay endpoitnts related to nuclear receptors and their co-regulators|
-|**Needed libraries**||tidyr, dplyr,org.Hs.eg.db, readxl, data.table|
+|**Needed libraries**|tidyr, dplyr,org.Hs.eg.db, readxl, data.table|
 |**Summary**|The genes related to nuclear receptors and their co-regulators from experts domain and NURSA will be merged. The target gene ids from ToxCast will be extracted. The ToxCast assay endpoints which their target genes are in the list of nuclear receptor genes will be saved as endpoints related to nuclear receptor.|
 
 |1_4|[EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)|
@@ -86,8 +86,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 || journal.pcbi.1004847.s026.XLS from https://pubmed.ncbi.nlm.nih.gov/27028627/|
 |**Output**| 4 gene networks for Drug Matrix|
 |**Needed Libraries**: XLSX, doParallel, wTO|
-|**Summary**|Removing the control samples from the preprocessed and normalized LFC values related to Drug Matrix data source for rat in vitro hepatocytes and rat in vivo. Selection of the three exposure time points 1,3 and 5 days for in vivo and 1 day for in vitro and splitting the data as four data frames.
-Selection of the genes expressed in liver and orthology mapping of the probe IDs to entrez gene values.Compiling 4 gene co-expression networks from the data frames using wTO package with bootstrap resampling method.
+|**Summary**|Removing the control samples from the preprocessed and normalized LFC values related to Drug Matrix data source for rat in vitro hepatocytes and rat in vivo. Selection of the three exposure time points 1,3 and 5 days for in vivo and 1 day for in vitro and splitting the data as four data frames. Selection of the genes expressed in liver and orthology mapping of the probe IDs to entrez gene values. Compiling 4 gene co-expression networks from the data frames using wTO package with bootstrap resampling method.|
 
 #### [Script 2_2_TG_Gates_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R)  
 - **Input**: LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-005?query=S-DIXA-AN-005
