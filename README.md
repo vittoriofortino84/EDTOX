@@ -37,9 +37,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 #### [Script 1_1_MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R)
 
-- **Input**:  http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz 
-- **Output**: A list object for the chemical and their related MIEs (genes)  
-- ****Needed** libraries**: data.table, FactoMineR, factoextra
+| **Input**:  http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz| 
+|**Output**: A list object for the chemical and their related MIEs (genes)|  
+| ****Needed** libraries**: data.table, FactoMineR, factoextra|
 - **Summary**:
 - [x] Preparation of a binary data matrix for molecular initiating events (MIEs) from compound-gene interactions in CTD. 
 - [x] The interactions subtypes related to metabolism were grouped as metabolism and the interaction types related to transport are grouped as transport.
