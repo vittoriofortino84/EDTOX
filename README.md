@@ -110,16 +110,17 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |2_4|[Consensus_Rat_in_vitro_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_4_Consensus_Rat_in_vitro_wTO.R)|
 | ------------- |--------------|
-|**Input**| Result of the sctipts 2_1 and 2_2|
+|**Input**| Results of the scripts 2_1 and 2_2|
 |**Output**| 1 consensus gene network for Drug matrix and TG-Gates hepatocytes after 1 day treatment|
 |**Dependencies**|wTO|
 |**Summary**| Compiling one consensus gene co-expression netowrk from the overlapping genes of the two networks related to in vitro rat from drug matrix and TG-GATEs using wTO package|
 
-#### Script 2_5_PPI_wTO.R   
-- Retrieving protein protein interaction network from stringDB.
-- Mapping nodes to entreg gene IDs.
-- Recompiling a new combined score after elimination of coexpression from the network.
-- Recompiling the final ppi network.
+|2_5|[PPI_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_5_PPI_wTO.R)|  
+| ------------- |--------------|
+|**Input**||
+|**Output**| PPI network with new combined score|
+|**Dependencies**|STRINGdb, igraph, org.Hs.eg.db |
+|**Summary**|Retrieving protein protein interaction network from stringDB.Mapping nodes to entreg gene IDs.Recompiling a new combined score after elimination of coexpression from the network.Recompiling the final ppi network.|
 
 ### 3. Intra tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
 - The top %2, %3, %5 and  %10 edge portions  are extracted from each network. 
