@@ -141,7 +141,7 @@ write.csv(fm,file='outputData/aop_mat.csv')
 # 2.2  kegg_categorization --------------------------------------------------
 system('cp ./scripts/bash/keg2tag.sh   ./inputData/annotaion/kegg')
 setwd('inputData/annotaion/kegg')
-system('./keg2tag.sh')
+#system('./keg2tag.sh')
 main_cat_files<-list.files('.',pattern = "\\.tag$")
 main_tags<-lapply(main_cat_files, function(x)unlist(read.table(x,header=F,stringsAsFactors = F,
                                                                colClasses = 'character')))
