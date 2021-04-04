@@ -101,12 +101,12 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - **Output**: 4 gene networks for Drug Matrix
 - **Needed Libraries**: XLSX, doParallel, wTO
 - **Summary**:
-- Removing the control samples from the preprocessed and normalized LFC values related to Drug Matrix data source for rat in vitro hepatocytes and rat in vivo.
-- Selection of the three exposure time points 1,3 and 5 days for in vivo and 1 day for in vitro and splitting the data as four data frames.
-- Selection of the genes expressed in liver and orthology mapping of the probe IDs to entrez gene values
-- Compiling 4 gene co-expression networks from the data frames using wTO package with bootstrap resampling method.
+- [x] Removing the control samples from the preprocessed and normalized LFC values related to Drug Matrix data source for rat in vitro hepatocytes and rat in vivo.
+- [x] Selection of the three exposure time points 1,3 and 5 days for in vivo and 1 day for in vitro and splitting the data as four data frames.
+- [x] Selection of the genes expressed in liver and orthology mapping of the probe IDs to entrez gene values
+- [x] Compiling 4 gene co-expression networks from the data frames using wTO package with bootstrap resampling method.
 
-#### Script 2_2_TG_Gates_wTO.R  
+#### [Script 2_2_TG_Gates_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R)  
 - **Input**: LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-005?query=S-DIXA-AN-005
 - **Input**: LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-004?query=S-DIXA-AN-004
 - **Input**: LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-007?query=S-DIXA-AN-007
@@ -114,22 +114,22 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - **Output**: 8 gene networks for TG-Gates
 - **Needed Libraries**: XLSX, doParallel, wTO
 - **Summary**:
-- Removing control samples from the preprocesses and normalized LFC values related to TG-Gates data source for rat in vitro, human invitro and rat in vivo.
-- Selection of three dose levels (high, middle and low) and three time points (8, 15 and 29 days) from the LFC values related to TG-Gates rat in vivo. (6 data frames)
-- Selection of 1 day time exposure related to human and rat in vitro LFC values. (two data frames)
-- Selection of the genes expressed in the liver from each data frame and orthology mapping of probe IDs to gene entrez IDs.
-- Compiling 8 gene co-expression networks from the resulting data frames using wTO package with bootstrap resampling method. 
+- [x] Removing control samples from the preprocesses and normalized LFC values related to TG-Gates data source for rat in vitro, human invitro and rat in vivo.
+- [x] Selection of three dose levels (high, middle and low) and three time points (8, 15 and 29 days) from the LFC values related to TG-Gates rat in vivo. (6 data frames)
+- [x] Selection of 1 day time exposure related to human and rat in vitro LFC values. (two data frames)
+- [x] Selection of the genes expressed in the liver from each data frame and orthology mapping of probe IDs to gene entrez IDs.
+- [x] Compiling 8 gene co-expression networks from the resulting data frames using wTO package with bootstrap resampling method. 
 
 #### Script 2_3_LINCS_wTO.R
 - **Input**: LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-009?query=S-DIXA-AN-009
 - **Output**: 4 gene networks for Drug Matrix
 - **Needed Libraries**: XLSX, doParallel, wTO
 - **Summary**:
-- Normalized and preproessed LFC values from the level 5 of phase 1 and phase 2 LINCS data source will be used.
-- Selection of cell line HEPG2 with expousre time of 24 hours from phase1 and phase 2 gene expression data in LINCS.
-- Selection of the gene IDS which are expressed in the liver.
-- Compiling 2 gene networks from phase 1 and phase 2 using wTO package with bootstrapping resampling method.
-- Compiling one consensus gene co-expression netowrk from the overlapping genes of the two networks using wTO package.
+- [x] Normalized and preproessed LFC values from the level 5 of phase 1 and phase 2 LINCS data source will be used.
+- [x] Selection of cell line HEPG2 with expousre time of 24 hours from phase1 and phase 2 gene expression data in LINCS.
+- [x] Selection of the gene IDS which are expressed in the liver.
+- [x] Compiling 2 gene networks from phase 1 and phase 2 using wTO package with bootstrapping resampling method.
+- [x] Compiling one consensus gene co-expression netowrk from the overlapping genes of the two networks using wTO package.
 
 #### Script 2_4_Consensus_Rat_in_vitro_wTO.R 
 - Compiling one consensus gene co-expression netowrk from the overlapping genes of the two networks related to in vitro rat from drug matrix and TG-GATEs using wTO package.
