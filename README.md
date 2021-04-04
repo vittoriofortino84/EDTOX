@@ -35,10 +35,10 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 # Part I: Development of EDC scores
 ### 1. Preparation of the MIES, pathways and training benchmark set 
 
-|1_1|[MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R) tested  for the release of june 2020|
+|1_1|[MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R) |
 | ------------- |--------------|
-| **Input**|  http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz|
-| |  http://ctdbase.org/reports/CTD_chemicals.csv.gz|
+| **Input**|  http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz tested  for the release of june 2020|
+| |  http://ctdbase.org/reports/CTD_chemicals.csv.gz tested  for the release of june 2020|
 |**Output**| A list object for the chemical and their related MIEs (genes)|  
 | **Dependencies**| data.table, FactoMineR, factoextra|
 |**Summary**|Preparation of a binary data matrix for molecular initiating events (MIEs) from compound-gene interactions in CTD. The interactions subtypes related to metabolism were grouped as metabolism and the interaction types related to transport are grouped as transport. Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra. Selection of reaction,binding,activity,expression,metabolic processing as the more distant types of the interaction based on the plot of MCA. For the compounds with more than 50 gene interactions the less informative gene interactions will be removed.|
