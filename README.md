@@ -130,8 +130,12 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - The pairwise jaccard distance beween the binary vector of each EDCs and decoy will be calculated. 
 - Using the jaccard dismilarity matrix and a vector representing the class of each componud as EDC or Decoy average silhouette score was calculated for EDCs. 
 
-#### Script 3_1_Drug_matrix_tuner.R                                 
-- Intra tuning and optimization of 4 Drug Matrix networks
+|3_1|Drug_matrix_tuner.R|
+| ------------- |--------------|
+|**Input**| |
+|**Output**|A matrix of silhouette scores for different combination of Edges percentiles and sorted genes for 4 Drug Matrix networks |
+|**Dependencies**| |
+|**Summary**|The top %2, %3, %5 and  %10 edge portions  are extracted from each network.Each network will be subjected to random walk with restart uisng the seeds related to the MIEs of EDCs and decoys (benchmark set). The 200,500,700 and 1000 top most visited genes will be extracted after the random walk. A binary vector will be genrated for each compound (EDCs and decoys) with 1 representing the gene in the list of top visited gene.The pairwise jaccard distance beween the binary vector of each EDCs and decoy will be calculated. Using the jaccard dismilarity matrix and a vector representing the class of each componud as EDC or Decoy average silhouette score was calculated for EDCs.|
 
 #### Script 3_2_TG_GATEs_tuner.R                                
 - Intra tuning and optimization of 8 TG-GATEs networks
