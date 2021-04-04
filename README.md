@@ -155,7 +155,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |3_5|[pareto_solution_on_tuning_results.R](https://github.com/amir1715/EDTOX/blob/master/scripts/3_5_pareto_solution_on_tuning_results.R)| 
 | ------------- |--------------|
 |**Input**| |
-|**Output**|A matrix of silhouette scores for different combination of Edges percentiles and sorted genes for 4 Drug Matrix networks |
+|**Output**|The optimized genes and edges solutions for all networks based on pareto solution |
 |**Dependencies**| |
 |**Summary**|Using pareto solution to obtain final genesets size and edge percents among none dominant solutions. The pareto solution is used to maximize the silhouette score, minimize the gene and edge percent for the networks. For PPI  pareto is being used to maximize the silhouette score, minimize the edge percent and maximize the combined score. |
 
