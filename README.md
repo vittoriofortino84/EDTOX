@@ -33,7 +33,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 ## Description of the R scripts used in the pipeline
 # Part I: Development of EDC scores
-### A. Preparation of the MIES, pathways and training benchmark set 
+### 1. Preparation of the MIES, pathways and training benchmark set 
 
 |1_1|[MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R)|
 | ------------- |--------------|
@@ -66,7 +66,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 | ------------- |--------------|
 |**Input**| https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv|
 |**Output**| A list object contatining the MIEs for the benchmark set (known EDCs and Decoys)|
-|**Needed Libraries**| ggplot2, ggrepel, magrittr, data.table, dplyr, reshape, cluster
+|**Needed Libraries**| ggplot2, ggrepel, magrittr, data.table, dplyr, reshape, cluster|
 |**Summary**| The list of EDCs will be retrieved from DEDuCT as CAS ids. The ToxCast assay endpoints related to nuclear receptor and co-regulators of EDCs will be extracted. The most significat in vitro assay endpoints for the mechanism of EDCs will be characterized using statistical proportion test (p_value <0.05). EDCs (DEDuCT list) which are incative for all the significant assay endpoints will be removed from the final list of EDcs. Pairwise jaccard distance between the MIEs related to remaining EDCs and other compounds in CTD will be calculated.The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).|
 
 |1_5| [ToxCast_dictionaries.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_5_ToxCast_dictionaries.R) |
@@ -80,16 +80,13 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 ### 2. Generating gene co-expression networks 
 
 
-#### [Script 2_1_Drug_matrix_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_1_Drug_matrix_wTO.R)  
-- **Input**: LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-009?query=S-DIXA-AN-009
-- **Input**: journal.pcbi.1004847.s026.XLS from https://pubmed.ncbi.nlm.nih.gov/27028627/
-- **Output**: 4 gene networks for Drug Matrix
-- **Needed Libraries**: XLSX, doParallel, wTO
-- **Summary**:
-- [x] Removing the control samples from the preprocessed and normalized LFC values related to Drug Matrix data source for rat in vitro hepatocytes and rat in vivo.
-- [x] Selection of the three exposure time points 1,3 and 5 days for in vivo and 1 day for in vitro and splitting the data as four data frames.
-- [x] Selection of the genes expressed in liver and orthology mapping of the probe IDs to entrez gene values
-- [x] Compiling 4 gene co-expression networks from the data frames using wTO package with bootstrap resampling method.
+|2_1|[Drug_matrix_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_1_Drug_matrix_wTO.R)  |
+|**Input**| LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-009?query=S-DIXA-AN-009|
+|| journal.pcbi.1004847.s026.XLS from https://pubmed.ncbi.nlm.nih.gov/27028627/|
+|**Output**| 4 gene networks for Drug Matrix|
+|**Needed Libraries**: XLSX, doParallel, wTO|
+|**Summary**|Removing the control samples from the preprocessed and normalized LFC values related to Drug Matrix data source for rat in vitro hepatocytes and rat in vivo. Selection of the three exposure time points 1,3 and 5 days for in vivo and 1 day for in vitro and splitting the data as four data frames.
+Selection of the genes expressed in liver and orthology mapping of the probe IDs to entrez gene values.Compiling 4 gene co-expression networks from the data frames using wTO package with bootstrap resampling method.
 
 #### [Script 2_2_TG_Gates_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R)  
 - **Input**: LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-005?query=S-DIXA-AN-005
