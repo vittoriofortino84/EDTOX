@@ -45,10 +45,10 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |Script| [1_2_Pathways_Download.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_2_Pathways_Download.R)
 | ------------- |--------------|
 |**Input**| https://aopwiki.org/downloads/aop-wiki-xml-2019-01-01.gz|
-|**Input**|https://aopwiki.org/downloads/aop_ke_ec.tsv|
-| **Input**| https://reactome.org/download/current/ReactomePathways.txt|
-|**Input**| http://ctdbase.org/reports/CTD_genes_pathways.csv.gz|
-|**Input**| https://reactome.org/download/current/miRBase2Reactome_PE_All_Levels.txt|
+||https://aopwiki.org/downloads/aop_ke_ec.tsv|
+| | https://reactome.org/download/current/ReactomePathways.txt|
+|| http://ctdbase.org/reports/CTD_genes_pathways.csv.gz|
+|| https://reactome.org/download/current/miRBase2Reactome_PE_All_Levels.txt|
 |**Needed librarie**s| XML, GO.db, org.Hs.eg.db, GSA, msigdbr, rWikiPathways, magrittr, rjson, data.table|
 |**Summary**|Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI with the size of less than 200 will be retrieved. A binary dictionary to link the GO terms with Wiki-AOPs will be generated.The classifications tags for the pathways related to KEGG and REACTOME pathways will be downloaded and preprocessed for enrichment analysis.|
 
