@@ -35,7 +35,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 # Part I: Development of EDC scores
 ### 1. Preparation of the MIES, pathways and training benchmark set 
 
-|1_1|[MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R)|
+|1_1|[MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R) tested  for the release of june 2020|
 | ------------- |--------------|
 | **Input**|  http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz| 
 |**Output**| A list object for the chemical and their related MIEs (genes)|  
