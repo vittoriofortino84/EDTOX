@@ -62,7 +62,8 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Needed libraries**||tidyr, dplyr,org.Hs.eg.db, readxl, data.table|
 |**Summary**|The genes related to nuclear receptors and their co-regulators from experts domain and NURSA will be merged. The target gene ids from ToxCast will be extracted. The ToxCast assay endpoints which their target genes are in the list of nuclear receptor genes will be saved as endpoints related to nuclear receptor.|
 
-|1_4|[EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R) |
+|1_4|[EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)|
+| ------------- |--------------|
 |**Input**| https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv|
 |**Output**| A list object contatining the MIEs for the benchmark set (known EDCs and Decoys)|
 |**Needed Libraries**| ggplot2, ggrepel, magrittr, data.table, dplyr, reshape, cluster
