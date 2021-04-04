@@ -110,7 +110,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |2_4|[Consensus_Rat_in_vitro_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_4_Consensus_Rat_in_vitro_wTO.R)|
 | ------------- |--------------|
-|**Input**| Results of the scripts 2_1 and 2_2|
+|**Input**| Results of the scripts [Drug_matrix_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_1_Drug_matrix_wTO.R) and [TG_Gates_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R)|
 |**Output**| 1 consensus gene network for Drug matrix and TG-Gates hepatocytes after 1 day treatment|
 |**Dependencies**|wTO|
 |**Summary**| Compiling one consensus gene co-expression netowrk from the overlapping genes of the two networks related to in vitro rat from drug matrix and TG-GATEs using wTO package|
