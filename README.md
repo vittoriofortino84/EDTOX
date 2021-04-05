@@ -237,9 +237,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |5_6|[Integration_of_coefficients_stabilties_NES_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_6_Integration_of_coefficients_stabilties_NES_scores.R)| 
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|The outputs of the scripts [k_fold_cross_validation.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_4_k_fold_cross_validation.R), [glm_modeling.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_3_glm_modeling.R), [Preparation_of_training_datasets.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_2_Preparation_of_training_datasets.R), [manual_curation_of_pathways_as_features.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_1_manual_curation_of_pathways_as_features.R) |
+|**Output**|CSV and excel files with GLM coefs, ROC-AUCS, mean NES scores for each pathway and each network |
+|**Dependencies**|PRROC|
 |**Summary**|For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs and decoys.The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).|
 
 |5_7|[NES_bubble_plot_MOA.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_7_NES_bubble_plot_MOA.R)| 
