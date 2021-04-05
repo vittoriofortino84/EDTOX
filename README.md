@@ -246,7 +246,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 | ------------- |--------------|
 |**Input**|The output of the script [Integration_of_coefficients_stabilties_NES_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_6_Integration_of_coefficients_stabilties_NES_scores.R) |
 |**Output**| graphical represntation of the results of [Integration_of_coefficients_stabilties_NES_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_6_Integration_of_coefficients_stabilties_NES_scores.R) as bubble plot|
-|**Dependencies**|ggplot2|
+|**Dependencies**|ggplot2, RColorBrewer|
 |**Summary**|The map of pathway activation scores and GLM coefficient for each pathway and network will be represented as bubble plot.The generated plot can be used to indicate the putative pathways as mode of action for the EDCs.|
 
 
