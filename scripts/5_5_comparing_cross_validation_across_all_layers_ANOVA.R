@@ -66,24 +66,24 @@ save(dat,nams,color_values,file = 'outputData/plots_tables_functions/F1_scores_E
 
 
 
-a_legend<-paste('a) Two levels of data were used in order to classify EDCs and negative controls', 
-                  'one is matrices compounds and  pathway activation scores from random walk with restart and gene set enrichment analysis on different gene co-expression networks ',
-                  'and the gene level which is the binary matrix of compounds and MIEs',sep='')
-b_legend<-'b) The box plot of accuracy across all data layers'
-text<-paste(a_legend,b_legend,sep = ' ')
-text.p<-ggparagraph(text = text,face='bold',size = 11,color = 'black')
-im<-load.image('images/Untitled.png')
-im2<-load.image('images/prediciotn.jpg')
-theme_set(theme_pubr())
-g1<-rasterGrob(im)
-g2<-rasterGrob(im2)
+#a_legend<-paste('a) Two levels of data were used in order to classify EDCs and negative controls', 
+#                  'one is matrices compounds and  pathway activation scores from random walk with restart and gene set enrichment analysis on different gene co-expression networks ',
+#                  'and the gene level which is the binary matrix of compounds and MIEs',sep='')
+#b_legend<-'b) The box plot of accuracy across all data layers'
+#text<-paste(a_legend,b_legend,sep = ' ')
+#text.p<-ggparagraph(text = text,face='bold',size = 11,color = 'black')
+#im<-load.image('images/Untitled.png')
+#im2<-load.image('images/prediciotn.jpg')
+#theme_set(theme_pubr())
+#g1<-rasterGrob(im)
+#g2<-rasterGrob(im2)
 
 # figure 2
-ggarrange(g1,p,ncol = 2,nrow = 1,labels = c('a)','b)'),font.label = list(size=25,color='black'))
+#ggarrange(g1,p,ncol = 2,nrow = 1,labels = c('a)','b)'),font.label = list(size=25,color='black'))
 
-tiff('plots/figure2.tiff',units = 'in',width = 25,height = 10,res = 300)
-ggarrange(g1,p,ncol = 2,nrow = 1,labels = c('a)','b)'),font.label = list(size=25,color='black'))
-dev.off()
+#tiff('plots/figure2.tiff',units = 'in',width = 25,height = 10,res = 300)
+#ggarrange(g1,p,ncol = 2,nrow = 1,labels = c('a)','b)'),font.label = list(size=25,color='black'))
+#dev.off()
 
 
 #Figure 1
