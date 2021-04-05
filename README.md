@@ -132,7 +132,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**| PPI network with new combined score|
 |**Dependencies**|STRINGdb, igraph, org.Hs.eg.db |
 |**Summary**|Retrieving protein protein interaction network from stringDB.Mapping nodes to entreg gene IDs.Recompiling a new combined score after elimination of coexpression from the network.Recompiling the final ppi network.|
-
+<br/>
+<br/>
+<br/>
 
 
 
@@ -172,13 +174,18 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**|The optimized genes and edges solutions for all networks based on pareto solution |
 |**Dependencies**|rPref,knitr |
 |**Summary**|Using pareto solution to obtain final genesets size and edge percents among none dominant solutions. The pareto solution is used to maximize the silhouette score, minimize the gene and edge percent for the networks. For PPI  pareto is being used to maximize the silhouette score, minimize the edge percent and maximize the combined score. |
-
+<br/>
+<br/>
+<br/>
 
 ### 4. Random walk with restart and fgsea (RWR-FGSEA) 
 
-#### Script 4_1_RWR_FGSEA_for_edc_decoys.R                        
-- Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the the MIEs of each EDCs and decoys as seeds 
-- Fast gene set enrichment analysis is performed using the retrieved pathways as gene sets.
+|4_1|[RWR_FGSEA_for_edc_decoys.R](https://github.com/amir1715/EDTOX/blob/master/scripts/4_1_RWR_FGSEA_for_edc_decoys.R)|
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the the MIEs of each EDCs and decoys as seeds. Fast gene set enrichment analysis is performed using the retrieved pathways as gene sets.|
 
 #### Script 4_2_RWR_FGSEA_for_all_compounds_in_CTD.R               
 - Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the the MIEs of each compounds in CTD as seeds 
