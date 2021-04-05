@@ -201,9 +201,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |5_1|[manual_curation_of_pathways_as_features.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_1_manual_curation_of_pathways_as_features.R)| 
 | ------------- |--------------|
-|**Input**| [Pathways_Download.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_2_Pathways_Download.R)|
-|**Output**||
-|**Dependencies**||
+|**Input**| The result of the script [Pathways_Download.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_2_Pathways_Download.R)|
+|**Output**|A list of pathways to be used in machine learning|
+|**Dependencies**| No dependencies|
 |**Summary**|The pathways related to viral,bacterial, radiation will be removed.The duplicated pathways based on jaccard similarity will be removed.The pathway with no genes expressed in liver are being removed.|
 
 
