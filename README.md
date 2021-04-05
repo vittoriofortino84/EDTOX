@@ -216,16 +216,16 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |5_3|[glm_modeling.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_3_glm_modeling.R)| 
 | ------------- |--------------|
-|**Input**|The output of the scrpipt [Preparation_of_training_datasets.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_2_Preparation_of_training_datasets.R), [MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R), [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)   |
+|**Input**|The output of the scripts [Preparation_of_training_datasets.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_2_Preparation_of_training_datasets.R), [MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R), [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)   |
 |**Output**|List objects with GLM coefficients and models for each network and MIEs level|
 |**Dependencies**|caret, doParallel|
 |**Summary**|Performing elastic net GLM on training set related to each network using 5 fold cross-validation as tuning method for the parameters. Saving the GLM model coefficients for eahc network.|
 
 |5_4|[k_fold_cross_validation.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_4_k_fold_cross_validation.R)| 
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|The output of the scripts [Preparation_of_training_datasets.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_2_Preparation_of_training_datasets.R), [MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R), [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)   |
+|**Output**|List object with the reuslts of k-fold-cross-validation including Accuracy, F1-scores, specificity and sensitivity for each network|
+|**Dependencies**|caret, doParallel|
 |**Summary**|Repeated 5_fold_cross_validation will be performed on all 15 models. (Pathway level).Repeated 5_fold cross_validation will be performed on a binary data matrix of the genes as columns. Compounds of benchmark (EDC,decoy) as rows.(The genes related to MIEs are characterized as 1 in the binary matrix. (Gene level))|
 
 |5_5|[comparing_cross_validation_across_all_layers_ANOVA.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_5_comparing_cross_validation_across_all_layers_ANOVA.R)| 
