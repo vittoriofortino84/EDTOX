@@ -182,8 +182,8 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |4_1|[RWR_FGSEA_for_edc_decoys.R](https://github.com/amir1715/EDTOX/blob/master/scripts/4_1_RWR_FGSEA_for_edc_decoys.R)|
 | ------------- |--------------|
-|**Input**|The results of the scripts [Drug_matrix_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_1_Drug_matrix_wTO.R), [TG_Gates_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R), [LINCS_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_3_LINCS_wTO.R), [Consensus_Rat_in_vitro_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_4_Consensus_Rat_in_vitro_wTO.R), [PPI_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_5_PPI_wTO.R), [Pathways_Download.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_2_Pathways_Download.R), [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R) |
-|**Output**||
+|**Input**|The results of the scripts [Drug_matrix_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_1_Drug_matrix_wTO.R), [TG_Gates_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R), [LINCS_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_3_LINCS_wTO.R), [Consensus_Rat_in_vitro_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_4_Consensus_Rat_in_vitro_wTO.R), [PPI_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_5_PPI_wTO.R), [Pathways_Download.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_2_Pathways_Download.R), [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R),[pareto_solution_on_tuning_results.R](https://github.com/amir1715/EDTOX/blob/master/scripts/3_5_pareto_solution_on_tuning_results.R) |
+|**Output**|A matrix of pathway scores for EDCs and decoys for each network|
 |**Dependencies**||
 |**Summary**|Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the MIEs of each EDC and decoy as seeds. Fast gene set enrichment analysis is performed using the retrieved pathways as gene sets.|
 
@@ -191,8 +191,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 | ------------- |--------------|
 |**Input**||
 |**Output**||
-|**Dependencies**||
-|RWR_FGSEA_for_edc_decoys.R|Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the the MIEs of each compounds in CTD as seeds. Fast gene set enrichment analysis is performed using the retrieved pathways as gene sets.Normalized enrichment scores for all netwworks will be saved.|
+|**Dependencies**|Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the the MIEs of each compounds in CTD as seeds. Fast gene set enrichment analysis is performed using the retrieved pathways as gene sets.Normalized enrichment scores for all netwworks will be saved.|
 
 ### 5. GLM modeling of training set (Pathway scores of EDCs and decoys  and labels), accuracy tests and Visualization 
 
