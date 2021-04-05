@@ -89,7 +89,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 
 
-### 2. Generating gene co-expression networks 
+### 2. Compiling gene co-expression networks 
 
 
 |2_1|[Drug_matrix_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_1_Drug_matrix_wTO.R)  |
@@ -138,7 +138,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 
 
-### 3. Intra tuning and optimization of the pipeline based on  different genesets from Random walk and network edges  
+### 3. Intra tuning and optimization of the pipeline based on combination of different genesets from Random walk with restart and network edges  
 
 |3_1|[Drug_matrix_tuner.R](https://github.com/amir1715/EDTOX/blob/master/scripts/3_1_Drug_matrix_tuner.R)|
 | ------------- |--------------|
@@ -178,7 +178,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 <br/>
 <br/>
 
-### 4. Random walk with restart and fgsea (RWR-FGSEA) 
+### 4. Random walk with restart on gene networks and fast gene set enrichment analysis (RWR-FGSEA) 
 
 |4_1|[RWR_FGSEA_for_edc_decoys.R](https://github.com/amir1715/EDTOX/blob/master/scripts/4_1_RWR_FGSEA_for_edc_decoys.R)|
 | ------------- |--------------|
