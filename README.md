@@ -197,7 +197,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 <br/>
 <br/>
 
-### 5. GLM modeling of training set (Pathway scores of EDCs and decoys  and labels), accuracy tests and Visualization 
+### 5. elastic-net generalized linear model classification on training set of Pathway scores for EDCs and decoys, Visualization of the accuracy levels 
 
 |5_1|[manual_curation_of_pathways_as_features.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_1_manual_curation_of_pathways_as_features.R)| 
 | ------------- |--------------|
