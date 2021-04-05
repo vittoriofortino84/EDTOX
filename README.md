@@ -185,12 +185,13 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Input**||
 |**Output**||
 |**Dependencies**||
-|**Summary**|Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the the MIEs of each EDCs and decoys as seeds. Fast gene set enrichment analysis is performed using the retrieved pathways as gene sets.|
+|**Summary**|Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the MIEs of each EDC and decoy as seeds. Fast gene set enrichment analysis is performed using the retrieved pathways as gene sets.|
 
-#### Script 4_2_RWR_FGSEA_for_all_compounds_in_CTD.R               
-- Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the the MIEs of each compounds in CTD as seeds 
-- Fast gene set enrichment analysis is performed using the retrieved pathways as gene sets.
-- Normalized enrichment scores for all netwworks will be saved.
+|4_2|[RWR_FGSEA_for_all_compounds_in_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/4_2_RWR_FGSEA_for_all_compounds_in_CTD.R)|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|RWR_FGSEA_for_edc_decoys.R|Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the the MIEs of each compounds in CTD as seeds. Fast gene set enrichment analysis is performed using the retrieved pathways as gene sets.Normalized enrichment scores for all netwworks will be saved.|
 
 ### 5. GLM modeling of training set (Pathway scores of EDCs and decoys  and labels), accuracy tests and Visualization 
 
