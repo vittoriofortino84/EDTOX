@@ -42,7 +42,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**| A list object for the chemical and their related MIEs (genes)|  
 | **Dependencies**| data.table, FactoMineR, factoextra|
 |**Summary**|Preparation of a binary data matrix for molecular initiating events (MIEs) from compound-gene interactions in CTD. The interactions subtypes related to metabolism were grouped as metabolism and the interaction types related to transport are grouped as transport. Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra. Selection of reaction,binding,activity,expression,metabolic processing as the more distant types of the interaction based on the plot of MCA. For the compounds with more than 50 gene interactions the less informative gene interactions will be removed.|
-<br/>
+
 |1_2| [Pathways_Download.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_2_Pathways_Download.R)
 | ------------- |--------------|
 |**Input**| https://aopwiki.org/downloads/aop-wiki-xml-2019-01-01.gz|
@@ -53,7 +53,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**| List objects for pathways related to KEGG, wiki, Reactome and msigdb|
 |**Dependencies**| XML, GO.db, org.Hs.eg.db, GSA, msigdbr, rWikiPathways, magrittr, rjson, data.table|
 |**Summary**|Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI with the size of less than 200 will be retrieved. A binary dictionary to link the GO terms with Wiki-AOPs will be generated.The classifications tags for the pathways related to KEGG and REACTOME pathways will be downloaded and preprocessed for enrichment analysis.|
-<br/>
+
 |1_3| [TOXCAST_nuclear_receptors_coregulators.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_3_TOXCAST_nuclear_receptors_coregulators.R)|
 | ------------- |--------------|
 |**Input**| hitc_Matrix_190226.csv from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data |
@@ -64,7 +64,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**| A binary matrix of chemicals and their corresponding hitcalls for the assay endpoitnts related to nuclear receptors and their co-regulators|
 |**Dependencies**|tidyr, dplyr,org.Hs.eg.db, readxl, data.table|
 |**Summary**|The genes related to nuclear receptors and their co-regulators from experts domain and NURSA will be merged. The target gene ids from ToxCast will be extracted. The ToxCast assay endpoints which their target genes are in the list of nuclear receptor genes will be saved as endpoints related to nuclear receptor.|
-<br/>
+
 |1_4|[EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)|
 | ------------- |--------------|
 |**Input**| https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv|
@@ -74,7 +74,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**| A list object contatining the MIEs for the benchmark set (known EDCs and Decoys)|
 |**Dependencies**| ggplot2, ggrepel, magrittr, data.table, dplyr, reshape, cluster|
 |**Summary**| The list of EDCs will be retrieved from DEDuCT as CAS ids. The ToxCast assay endpoints related to nuclear receptor and co-regulators of EDCs will be extracted. The most significat in vitro assay endpoints for the mechanism of EDCs will be characterized using statistical proportion test (p_value <0.05). EDCs (DEDuCT list) which are incative for all the significant assay endpoints will be removed from the final list of EDcs. Pairwise jaccard distance between the MIEs related to remaining EDCs and other compounds in CTD will be calculated.The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).|
-<br/>
+
 |1_5| [ToxCast_dictionaries.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_5_ToxCast_dictionaries.R) |
 | ------------- |--------------|
 |**Input**|hitc_Matrix_190226.csv from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data|
@@ -99,7 +99,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**| 4 gene networks for Drug Matrix|
 |**Dependencies**| XLSX, doParallel, wTO|
 |**Summary**|Removing the control samples from the preprocessed and normalized LFC values related to Drug Matrix data source for rat in vitro hepatocytes and rat in vivo. Selection of the three exposure time points 1,3 and 5 days for in vivo and 1 day for in vitro and splitting the data as four data frames. Selection of the genes expressed in liver and orthology mapping of the probe IDs to entrez gene values. Compiling 4 gene co-expression networks from the data frames using wTO package with bootstrap resampling method.|
-<br/>
+
 |2_2| [TG_Gates_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R)|
 | ------------- |--------------|
 | **Input**| LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-005?query=S-DIXA-AN-005|
@@ -109,7 +109,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**|8 gene networks for TG-Gates|
 |**Dependencies**| XLSX, doParallel, wTO|
 | **Summary**|Removing control samples from the preprocesses and normalized LFC values related to TG-Gates data source for rat in vitro, human invitro and rat in vivo. Selection of three dose levels (high, middle and low) and three time points (8, 15 and 29 days) from the LFC values related to TG-Gates rat in vivo.(6 data frames) Selection of 1 day time exposure related to human and rat in vitro LFC values. (two data frames)Selection of the genes expressed in the liver from each data frame and orthology mapping of probe IDs to gene entrez IDs. Compiling 8 gene co-expression networks from the resulting data frames using wTO package with bootstrap resampling method. |
-<br/>
+
 |2_3 |[LINCS_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_3_LINCS_wTO.R)
 | ------------- |--------------|
 |**Input**| LFCs and annottations for level 5  from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92742|
@@ -118,14 +118,14 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**| 1 consensus gene network for LINCS from phase 1 and phase 2 studies|
 |**Dependencies** |cmapR, doParallel, wTO|
 | **Summary**|Normalized and preproessed LFC values from the level 5 of phase 1 and phase 2 LINCS data source will be used. Selection of cell line HEPG2 with expousre time of 24 hours from phase1 and phase 2 gene expression data in LINCS.Selection of the gene IDS which are expressed in the liver.Compiling 2 gene networks from phase 1 and phase 2 using wTO package with bootstrapping resampling method.Compiling one consensus gene co-expression netowrk from the overlapping genes of the two networks using wTO package.|
-<br/>
+
 |2_4|[Consensus_Rat_in_vitro_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_4_Consensus_Rat_in_vitro_wTO.R)|
 | ------------- |--------------|
 |**Input**| Results of the scripts [Drug_matrix_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_1_Drug_matrix_wTO.R) and [TG_Gates_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R)|
 |**Output**| 1 consensus gene network for Drug matrix and TG-Gates hepatocytes after 1 day treatment|
 |**Dependencies**|wTO|
 |**Summary**| Compiling one consensus gene co-expression netowrk from the overlapping genes of the two networks related to in vitro rat from drug matrix and TG-GATEs using wTO package|
-<br/>
+
 |2_5|[PPI_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_5_PPI_wTO.R)|  
 | ------------- |--------------|
 |**Input**| No input is needed|
@@ -146,28 +146,28 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**|A matrix of silhouette scores for different combination of Edges percentiles and sorted genes for Drug Matrix networks |
 |**Dependencies**| dnet,igraph,cluster |
 |**Summary**|The top %2, %3, %5 and  %10 edge portions  are extracted from each network.Each network will be subjected to random walk with restart uisng the seeds related to the MIEs of EDCs and decoys (benchmark set). The 200,500,700 and 1000 top most visited genes will be extracted after the random walk. A binary vector will be genrated for each compound (EDCs and decoys) with 1 representing the gene in the list of top visited gene.The pairwise jaccard distance beween the binary vector of each EDCs and decoy will be calculated. Using the jaccard dismilarity matrix and a vector representing the class of each componud as EDC or Decoy average silhouette score was calculated for EDCs.|
-<br/>
+
 |3_2|[TG_GATEs_tuner.R](https://github.com/amir1715/EDTOX/blob/master/scripts/3_2_TG_GATEs_tuner.R)|
 | ------------- |--------------|
 |**Input**|result of the scripts [TG_Gates_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R), [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)  |
 |**Output**|A matrix of silhouette scores for different combination of Edges percentiles and sorted genes for  TG-GATEs networks |
 |**Dependencies**| dnet,igraph,cluster |
 |**Summary**|The top %2, %3, %5 and  %10 edge portions  are extracted from each network.Each network will be subjected to random walk with restart uisng the seeds related to the MIEs of EDCs and decoys (benchmark set). The 200,500,700 and 1000 top most visited genes will be extracted after the random walk. A binary vector will be genrated for each compound (EDCs and decoys) with 1 representing the gene in the list of top visited gene.The pairwise jaccard distance beween the binary vector of each EDCs and decoy will be calculated. Using the jaccard dismilarity matrix and a vector representing the class of each componud as EDC or Decoy average silhouette score was calculated for EDCs.|
-<br/>
+
 |3_3|[Consensus_tuner.R](https://github.com/amir1715/EDTOX/blob/master/scripts/3_3_Consensus_tuner.R)|
 | ------------- |--------------|
 |**Input**|result of the scripts [Consensus_Rat_in_vitro_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_4_Consensus_Rat_in_vitro_wTO.R), [LINCS_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_3_LINCS_wTO.R), [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R) |
 |**Output**|A matrix of silhouette scores for different combination of Edges percentiles and sorted genes for  consensus networks|
 |**Dependencies**| dnet,igraph,cluster |
 |**Summary**|The top %2, %3, %5 and  %10 edge portions  are extracted from each network.Each network will be subjected to random walk with restart uisng the seeds related to the MIEs of EDCs and decoys (benchmark set). The 200,500,700 and 1000 top most visited genes will be extracted after the random walk. A binary vector will be genrated for each compound (EDCs and decoys) with 1 representing the gene in the list of top visited gene.The pairwise jaccard distance beween the binary vector of each EDCs and decoy will be calculated. Using the jaccard dismilarity matrix and a vector representing the class of each componud as EDC or Decoy average silhouette score was calculated for EDCs.|
-<br/>
+
 |3_4|[PPI_tuner.R](https://github.com/amir1715/EDTOX/blob/master/scripts/3_4_PPI_tuner.R)|
 | ------------- |--------------|
 |**Input**|result of the script [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R) |
 |**Output**|A matrix of silhouette scores for different combination of combined scores and sorted genes for PPI network |
 |**Dependencies**|dnet,igraph,cluster,STRINGdb,org.Hs.eg.db |
 |**Summary**| New ppi networks were compiled using the 0.6,0.65,0.7,0.75,0.8,0.85 values as the cutoffs for the combined score. All networks will be subjected to random walk with restart uisng the seeds related to the MIEs of EDCs and decoys (benchmark set). The 200,500,700 and 1000 top most visited genes will be extracted after the random walk. A binary vector will be genrated for each compound (EDCs and decoys) with 1 representing the gene in the list of top visited gene. The pairwise jaccard distance beween the binary vector of each EDCs and decoy will be calculated. Using the jaccard dismilarity matrix and a vector representing the class of each componud as EDC or Decoy average silhouette score was calculated for EDCs.|
-<br/>
+
 |3_5|[pareto_solution_on_tuning_results.R](https://github.com/amir1715/EDTOX/blob/master/scripts/3_5_pareto_solution_on_tuning_results.R)| 
 | ------------- |--------------|
 |**Input**|Results of the scripts [PPI_tuner.R](https://github.com/amir1715/EDTOX/blob/master/scripts/3_4_PPI_tuner.R), [Consensus_tuner.R](https://github.com/amir1715/EDTOX/blob/master/scripts/3_3_Consensus_tuner.R), [TG_GATEs_tuner.R](https://github.com/amir1715/EDTOX/blob/master/scripts/3_2_TG_GATEs_tuner.R) ,  [TG_GATEs_tuner.R](https://github.com/amir1715/EDTOX/blob/master/scripts/3_2_TG_GATEs_tuner.R), [Drug_matrix_tuner.R](https://github.com/amir1715/EDTOX/blob/master/scripts/3_1_Drug_matrix_tuner.R)  |
@@ -186,7 +186,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**|A matrix of pathway scores for EDCs and decoys for each network|
 |**Dependencies**|fgsea,dnet,igraph,BiocParallel|
 |**Summary**|Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the MIEs of each EDC and decoy as seeds. Fast gene set enrichment analysis is performed using the retrieved pathways as gene sets.|
-<br/>
+
 |4_2|[RWR_FGSEA_for_all_compounds_in_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/4_2_RWR_FGSEA_for_all_compounds_in_CTD.R)|
 | ------------- |--------------|
 |**Input**|The results of the scripts [Drug_matrix_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_1_Drug_matrix_wTO.R), [TG_Gates_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R), [LINCS_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_3_LINCS_wTO.R), [Consensus_Rat_in_vitro_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_4_Consensus_Rat_in_vitro_wTO.R), [PPI_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_5_PPI_wTO.R), [Pathways_Download.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_2_Pathways_Download.R),[MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R)  ,[pareto_solution_on_tuning_results.R](https://github.com/amir1715/EDTOX/blob/master/scripts/3_5_pareto_solution_on_tuning_results.R)|
@@ -205,7 +205,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**|A list of pathways to be used in machine learning|
 |**Dependencies**| No dependencies|
 |**Summary**|The pathways related to viral,bacterial, radiation will be removed.The duplicated pathways based on jaccard similarity will be removed.The pathway with no genes expressed in liver are being removed.|
-<br/>
+
 
 |5_2|[Preparation_of_training_datasets.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_2_Preparation_of_training_datasets.R)| 
 | ------------- |--------------|
@@ -213,35 +213,35 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**| A list containing training set for each network. A list containing test set for each network|
 |**Dependencies**|No dependencies|
 |**Summary**|Preparation of a list for each network x= the matrix of NES scores from FGSEA and Y = labels as EDC and decoy, n-edc=number of EDCs for each layer and n-decoy= number of decoys for each layer.The pathways with non significant values will be removed.|
-<br/>
+
 |5_3|[glm_modeling.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_3_glm_modeling.R)| 
 | ------------- |--------------|
 |**Input**|The output of the scripts [Preparation_of_training_datasets.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_2_Preparation_of_training_datasets.R), [MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R), [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)   |
 |**Output**|List objects with GLM coefficients and models for each network and MIEs level|
 |**Dependencies**|caret, doParallel|
 |**Summary**|Performing elastic net GLM on training set related to each network using 5 fold cross-validation as tuning method for the parameters. Saving the GLM model coefficients for eahc network.|
-<br/>
+
 |5_4|[k_fold_cross_validation.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_4_k_fold_cross_validation.R)| 
 | ------------- |--------------|
 |**Input**|The output of the scripts [Preparation_of_training_datasets.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_2_Preparation_of_training_datasets.R), [MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R), [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)   |
 |**Output**|List object with the reuslts of k-fold-cross-validation including Accuracy, F1-scores, confusion matrix, specificity and sensitivity for each network|
 |**Dependencies**|caret, doParallel|
 |**Summary**|Repeated 5_fold_cross_validation will be performed on all 15 models. (Pathway level).Repeated 5_fold cross_validation will be performed on a binary data matrix of the genes as columns. Compounds of benchmark (EDC,decoy) as rows.(The genes related to MIEs are characterized as 1 in the binary matrix. (Gene level))|
-<br/>
+
 |5_5|[comparing_cross_validation_across_all_layers_ANOVA.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_5_comparing_cross_validation_across_all_layers_ANOVA.R)| 
 | ------------- |--------------|
 |**Input**|The output of the script [k_fold_cross_validation.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_4_k_fold_cross_validation.R)|
 |**Output**|list of ANOVA results between F1-scores and the boxplot of F1-scores|
 |**Dependencies**|ggplot2|
 |**Summary**|The F1 scores of the k-fold-cross validation will be compared using ANOVA. Boxplot will be used to represent the obtained F1 scors across all GLM models.|
-<br/>
+
 |5_6|[Integration_of_coefficients_stabilties_NES_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_6_Integration_of_coefficients_stabilties_NES_scores.R)| 
 | ------------- |--------------|
 |**Input**|The outputs of the scripts [k_fold_cross_validation.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_4_k_fold_cross_validation.R), [glm_modeling.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_3_glm_modeling.R), [Preparation_of_training_datasets.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_2_Preparation_of_training_datasets.R), [manual_curation_of_pathways_as_features.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_1_manual_curation_of_pathways_as_features.R) |
 |**Output**|CSV and excel files with GLM coefs, ROC-AUCS, mean NES scores for each pathway and each network |
 |**Dependencies**|PRROC|
 |**Summary**|For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs and decoys.The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).|
-<br/>
+
 |5_7|[NES_bubble_plot_MOA.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_7_NES_bubble_plot_MOA.R)| 
 | ------------- |--------------|
 |**Input**|The output of the script [Integration_of_coefficients_stabilties_NES_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_6_Integration_of_coefficients_stabilties_NES_scores.R) |
