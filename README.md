@@ -209,7 +209,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |5_2|[Preparation_of_training_datasets.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_2_Preparation_of_training_datasets.R)| 
 | ------------- |--------------|
-|**Input**|The results of the scripts [manual_curation_of_pathways_as_features.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_1_manual_curation_of_pathways_as_features.R),[RWR_FGSEA_for_all_compounds_in_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/4_2_RWR_FGSEA_for_all_compounds_in_CTD.R), 4_1|[RWR_FGSEA_for_edc_decoys.R](https://github.com/amir1715/EDTOX/blob/master/scripts/4_1_RWR_FGSEA_for_edc_decoys.R),[EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)   |
+|**Input**|The results of the scripts [manual_curation_of_pathways_as_features.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_1_manual_curation_of_pathways_as_features.R),[RWR_FGSEA_for_all_compounds_in_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/4_2_RWR_FGSEA_for_all_compounds_in_CTD.R), [RWR_FGSEA_for_edc_decoys.R](https://github.com/amir1715/EDTOX/blob/master/scripts/4_1_RWR_FGSEA_for_edc_decoys.R),[EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)   |
 |**Output**||
 |**Dependencies**||
 |**Summary**|Preparation of a list for each network x= the matrix of NES scores from FGSEA and Y = labels as EDC and decoy, n-edc=number of EDCs for each layer and n-decoy= number of decoys for each layer.The pathways with non significant values will be removed.|
