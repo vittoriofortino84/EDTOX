@@ -205,7 +205,7 @@ save(all_data_final,file='outputData/patway_glm_coefficients/GLM_univariate_all_
 write.csv(all_data_final,file='outputData/excel_files/NESavg_sd_EDCs_stability_coefficients_pathways_moa.csv')
 
 
-# 5. For presentation to Janni the pathways were seleceted based on the ROC curve of more than .7--------------------------------------------
+# 5. For presentation, the pathways were seleceted based on the ROC curve of more than .7--------------------------------------------
 load('outputData/patway_glm_coefficients/GLM_univariate_all_scores.RData')
 all_data_final<-all_data_final[!all_data_final$glm_coefs==0,]  
 library(magrittr)
@@ -227,40 +227,40 @@ for (i in unique(all_data_final$pathway_type)){
 
 # 6. Spearman correlation comparison between the  profile of pathway activation score for EDCs across in vitro and in vivo data layers --------
 
-load('outputData/patway_glm_coefficients/GLM_univariate_all_scores.RData')
-in_vivo_networks<-unique(all_data_final$network)[grep(x=unique(all_data_final$network),pattern = 'invivo')]   # in vivo
-in_vitro_networks<-unique(all_data_final$network)[-grep(x=unique(all_data_final$network),pattern = 'invivo')] # in vitro
-spearman_pathway_activation_profile<-matrix(NA, nrow = length(in_vivo_networks), ncol = length(in_vitro_networks),dimnames = list(in_vivo_networks,in_vitro_networks))
+#load('outputData/patway_glm_coefficients/GLM_univariate_all_scores.RData')
+#in_vivo_networks<-unique(all_data_final$network)[grep(x=unique(all_data_final$network),pattern = 'invivo')]   # in vivo
+#in_vitro_networks<-unique(all_data_final$network)[-grep(x=unique(all_data_final$network),pattern = 'invivo')] # in vitro
+#spearman_pathway_activation_profile<-matrix(NA, nrow = length(in_vivo_networks), ncol = length(in_vitro_networks),dimnames = list(in_vivo_networks,in_vitro_networks))
 
 # rows are in vivo and columns are in vitro 
-for (i in 1:length(in_vivo_networks)){
-  for (j in 1:length(in_vitro_networks)){
-    vv<-all_data_final[all_data_final$network==in_vivo_networks[i],c('pathways','network','Average_NES_EDC')];colnames(vv)<-c('pathways','network_vivo','Average_NES_EDC_vivo')
-    vt<-all_data_final[all_data_final$network==in_vitro_networks[j],c('pathways','network','Average_NES_EDC')];colnames(vt)<-c('pathways','network_vitro','Average_NES_EDC_vitro')
-    vv_vt<-merge(vv,vt)
-    spearman_pathway_activation_profile[i,j]<-cor(vv_vt$Average_NES_EDC_vivo,vv_vt$Average_NES_EDC_vitro,method = 'spearman')
-  }
-}
-colnames(spearman_pathway_activation_profile)<-gsub(x=colnames(spearman_pathway_activation_profile),pattern = "Consensus_LINCS_HEPG2" ,replacement = "Consensus_LINCS_HEPG2_1_day" )
+#for (i in 1:length(in_vivo_networks)){
+#  for (j in 1:length(in_vitro_networks)){
+#    vv<-all_data_final[all_data_final$network==in_vivo_networks[i],c('pathways','network','Average_NES_EDC')];colnames(vv)<-c('pathways','network_vivo','Average_NES_EDC_vivo')
+#    vt<-all_data_final[all_data_final$network==in_vitro_networks[j],c('pathways','network','Average_NES_EDC')];colnames(vt)<-c('pathways','network_vitro','Average_NES_EDC_vitro')
+#    vv_vt<-merge(vv,vt)
+#    spearman_pathway_activation_profile[i,j]<-cor(vv_vt$Average_NES_EDC_vivo,vv_vt$Average_NES_EDC_vitro,method = 'spearman')
+#  }
+#}
+#colnames(spearman_pathway_activation_profile)<-gsub(x=colnames(spearman_pathway_activation_profile),pattern = "Consensus_LINCS_HEPG2" ,replacement = "Consensus_LINCS_HEPG2_1_day" )
 # gplots::heatmap.2(spearman_pathway_activation_profile,trace = 'none', col = colorRampPalette(c('blue', 'red'))(12),margins = c(20,25),
 #                   density.info = 'none',srtCol = 45,keysize = 1,key.xlab = 'Spearman correlation',key.title = NA,cexRow = 1,cexCol = 1.2)
 # 
 
-library(ComplexHeatmap)
-library(circlize)
-mat=spearman_pathway_activation_profile
-col_fun<-colorRamp2(c(0,1),c('yellow','red'))
-cn<-colnames(mat)
-colnames(mat)<-c()
-column_ha<-HeatmapAnnotation(spearman=anno_boxplot(mat,height = unit(4,'cm')),show_annotation_name =  F)
-botom_ha<-HeatmapAnnotation(text=anno_text(cn,rot=45),show_annotation_name = F)
-row_ha<-rowAnnotation(spearman=anno_boxplot(mat,width  = unit(6,'cm'),axis_param = list(side='bottom',labels_rot=45)),show_annotation_name =  F)
-ht<-Heatmap(mat,name='Spearman Correlation',col = col_fun,
+#library(ComplexHeatmap)
+#library(circlize)
+#mat=spearman_pathway_activation_profile
+#col_fun<-colorRamp2(c(0,1),c('yellow','red'))
+#cn<-colnames(mat)
+#colnames(mat)<-c()
+#column_ha<-HeatmapAnnotation(spearman=anno_boxplot(mat,height = unit(4,'cm')),show_annotation_name =  F)
+#botom_ha<-HeatmapAnnotation(text=anno_text(cn,rot=45),show_annotation_name = F)
+#row_ha<-rowAnnotation(spearman=anno_boxplot(mat,width  = unit(6,'cm'),axis_param = list(side='bottom',labels_rot=45)),show_annotation_name =  F)
+#ht<-Heatmap(mat,name='Spearman Correlation',col = col_fun,
            # top_annotation = column_ha,
-            bottom_annotation = botom_ha,
-            #right_annotation = row_ha,
-            height = unit(12,'cm'),border = )
-draw(ht,padding=unit(c(0,4,0,10),'cm'),heatmap_legend_side='left')
+#            bottom_annotation = botom_ha,
+#            #right_annotation = row_ha,
+#            height = unit(12,'cm'),border = )
+#draw(ht,padding=unit(c(0,4,0,10),'cm'),heatmap_legend_side='left')
 
 
 
