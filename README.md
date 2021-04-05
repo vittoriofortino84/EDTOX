@@ -216,9 +216,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |5_3|[glm_modeling.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_3_glm_modeling.R)| 
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|The output of the scrpipt [Preparation_of_training_datasets.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_2_Preparation_of_training_datasets.R), [MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R), [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)   |
+|**Output**|List objects with GLM coefficients and models for each network and MIEs level|
+|**Dependencies**|caret, doParallel|
 |**Summary**|Performing elastic net GLM on training set related to each network using 5 fold cross-validation as tuning method for the parameters. Saving the GLM model coefficients for eahc network.|
 
 |5_4|[k_fold_cross_validation.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_4_k_fold_cross_validation.R)| 
