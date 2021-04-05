@@ -193,38 +193,63 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**|A matrix of pathway scores for 12k chemical in CTD for each network|
 |**Dependencies**|fgsea,dnet,igraph,BiocParallel|
 |**Summary**|Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the the MIEs of each compounds in CTD as seeds. Fast gene set enrichment analysis is performed using the retrieved pathways as gene sets.Normalized enrichment scores for all netwworks will be saved.|
+<br/>
+<br/>
+<br/>
 
 ### 5. GLM modeling of training set (Pathway scores of EDCs and decoys  and labels), accuracy tests and Visualization 
 
-#### Script 5_1_manual_curation_of_pathways_as_features.R          
-- The pathways related to viral,bacterial, radiation will be removed. 
-- The duplicated pathways based on jaccard similarity will be removed.
-- The pathway with no genes expressed in liver are being removed.
+|5_1|[manual_curation_of_pathways_as_features.R]| 
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|The pathways related to viral,bacterial, radiation will be removed.The duplicated pathways based on jaccard similarity will be removed.The pathway with no genes expressed in liver are being removed.|
 
-#### Script 5_2_Preparation_of_training_datasets.R                   
-- Preparation of a list for each network x= the matrix of NES scores from FGSEA and Y = labels as EDC and decoy, n-edc=number of EDCs for each layer and n-decoy= number of decoys for each layer
-- The pathways with non significant values will be removed.
 
-#### Script 5_3_glm_modeling.R                                  
-- Performing elastic net GLM on training set related to each network using 5 fold cross-validation as tuning method for the parameters.
-- Saving the GLM model coefficients for eahc network.
+|5_2|[Preparation_of_training_datasets.R]| 
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|Preparation of a list for each network x= the matrix of NES scores from FGSEA and Y = labels as EDC and decoy, n-edc=number of EDCs for each layer and n-decoy= number of decoys for each layer.The pathways with non significant values will be removed.|
 
-#### Script 5_4_k_fold_cross_validation.R                          
-- Repeated 5_fold_cross_validation will be performed on all 15 models. (Pathway level)
-- Repeated 5_fold cross_validation will be performed on a binary data matrix of the genes as columns. Compounds of benchmark (EDC,decoy) as rows.
-(The genes related to MIEs are characterized as 1 in the binary matrix. (Gene level))
+|5_3|[glm_modeling.R]| 
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|Performing elastic net GLM on training set related to each network using 5 fold cross-validation as tuning method for the parameters. Saving the GLM model coefficients for eahc network.|
 
-#### Script 5_5_comparing_cross_validation_across_all_layers_ANOVA.R
-- The F1 scores of the k-fold-cross validation will be compared using ANOVA.
-- Boxplot will be used to represent the obtained F1 scors across all GLM models.
+|5_4|[k_fold_cross_validation.R]| 
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|Repeated 5_fold_cross_validation will be performed on all 15 models. (Pathway level).Repeated 5_fold cross_validation will be performed on a binary data matrix of the genes as columns. Compounds of benchmark (EDC,decoy) as rows.(The genes related to MIEs are characterized as 1 in the binary matrix. (Gene level))|
 
-#### Script 5_6_Integration_of_coefficients_stabilties_NES_scores.R
-- For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs and decoys.
-- The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).
+|5_5|[comparing_cross_validation_across_all_layers_ANOVA.R]| 
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|The F1 scores of the k-fold-cross validation will be compared using ANOVA. Boxplot will be used to represent the obtained F1 scors across all GLM models.|
 
-#### Script 5_7_NES_bubble_plot_MOA.R                               
-- The map of pathway activation scores and GLM coefficient for each pathway and network will be represented as bubble plot.
-- The generated plot can be used to indicate the putative pathways as mode of action for the EDCs.
+|5_6|[Integration_of_coefficients_stabilties_NES_scores.R]| 
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs and decoys.The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).|
+
+|5_7|[NES_bubble_plot_MOA.R]| 
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|The map of pathway activation scores and GLM coefficient for each pathway and network will be represented as bubble plot.The generated plot can be used to indicate the putative pathways as mode of action for the EDCs.|
+
+
 
 
 ### 6. Prediction of all compounds toxicity class probility and developing EDC score
