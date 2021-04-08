@@ -254,14 +254,14 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 ### 6. Prediction of all compounds toxicity class probility and developing EDC score
 
-|6_1|[prediction_all_compounds_class_probilities.R]|
+|6_1|[prediction_all_compounds_class_probilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_1_prediction_all_compounds_class_probilities.R)|
 | ------------- |--------------|
 |**Input**|      |
 |**Output**||
 |**Dependencies**| |
 |**Summary**| GLM coefs for each network will be used to predict class probability of all compounds in CTD using their NES scores across different pathways.|
 
-|6_2|[ROC_TOXCAST_vs_class_probabilities.R]|  
+|6_2|[ROC_TOXCAST_vs_class_probabilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_2_ROC_TOXCAST_vs_class_probabilities.R)|  
 | ------------- |--------------|
 |**Input**|      |
 |**Output**||
@@ -269,14 +269,14 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Summary**| ROC analysis will be used between the class probabilty of each network and the binary in vitro experimental hitcall ToxCast assays related to nuclear receptors for each network.- Selection of most informative networks based on the results of ROC curve analysis.|
 
 
-|6_3|[eveloping_Harmonic_and_average_EDC_scores.R]|
+|6_3|[eveloping_Harmonic_and_average_EDC_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_3_eveloping_Harmonic_and_average_EDC_scores.R)|
 | ------------- |--------------|
 |**Input**|      |
 |**Output**||
 |**Dependencies**| |
 |**Summary**|Average EDC score is defined as the average of class probabilties across selected networks for each compound.Harmonic EDC score is Defining defined as the harmonic sum class probabilties across selected networks for each compound.|
 
-|6_4|[ROC_analysis_EDC_scores_vs_TOXCAST_endpoints.R]|  
+|6_4|[ROC_analysis_EDC_scores_vs_TOXCAST_endpoints.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_4_ROC_analysis_EDC_scores_vs_TOXCAST_endpoints.R)|  
 | ------------- |--------------|
 |**Input**|      |
 |**Output**||
