@@ -300,10 +300,10 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |7_2|[Comparison_VAM_scores_vs_TOXPI_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/7_2_Comparison_VAM_scores_vs_TOXPI_scores.R)| 
 | ------------- |--------------|
-|**Input**| http://dx.doi.org/10.1016/j.coph.2014.09.021,  |
-|**Output**|ggplot2, ggrepel |
-|**Dependencies**| |
-|**Summary**|Evaluation of the EDC scores by comparing them with ToxPi scores (The scores developed from ToxCast assay endpoints) |
+|**Input**| Suppl. file of http://dx.doi.org/10.1016/j.coph.2014.09.021, Output of the script [prediction_all_compounds_class_probilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_1_prediction_all_compounds_class_probilities.R),https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv, |
+|**Output**| plot of the Toxpi scores VS EDC scores, excel files of toxpi and edc scores |
+|**Dependencies**| ggplot2, ggrepel|
+|**Summary**|Evaluation of the EDC scores with ToxPi scores (The scores developed from ToxCast assay endpoints) |
 
 
 |7_3|[Comparison_pathway_scores_vs_TOXDB_pathway_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/7_3_Comparison_pathway_scores_vs_TOXDB_pathway_scores.R)|  
