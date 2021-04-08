@@ -256,9 +256,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |6_1|[prediction_all_compounds_class_probilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_1_prediction_all_compounds_class_probilities.R)|
 | ------------- |--------------|
-|**Input**|      |
-|**Output**||
-|**Dependencies**| |
+|**Input**| Output of the scripts [glm_modeling.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_3_glm_modeling.R), [RWR_FGSEA_for_all_compounds_in_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/4_2_RWR_FGSEA_for_all_compounds_in_CTD.R)|
+|**Output**|Class probability of a compound to be EDC for each data layer|
+|**Dependencies**| Caret|
 |**Summary**| GLM coefs for each network will be used to predict class probability of all compounds in CTD using their NES scores across different pathways.|
 
 |6_2|[ROC_TOXCAST_vs_class_probabilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_2_ROC_TOXCAST_vs_class_probabilities.R)|  
