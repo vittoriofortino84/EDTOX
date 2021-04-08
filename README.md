@@ -311,8 +311,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Input**| |
 |**Output**| |
 |**Dependencies**| |
-|**Summary**|Comparison between EDC scores with pathway scores from TOXDB for the pathways aryl hydrocarbon receptor, Breaset cancer and estrogen receptor
-|
+|**Summary**|Comparison between EDC scores with pathway scores from TOXDB for the pathways aryl hydrocarbon receptor, Breaset cancer and estrogen receptor|
 
 
 
