@@ -322,12 +322,6 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Summary**|Evaluation of EDC scores using known EDCs from expert domain and DeDuCT. Calculation of accuaracy for the EDC scores.Representing the validation set compounds as heatmap plot| 
 
 
-|**R Script**|[validation_with_disease_score.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_2_validation_with_disease_score.R)|  
-| ------------- |--------------|
-|**Input**| |
-|**Output**| |
-|**Dependencies**| |
-|**Summary**|For each disease (atherosclerosis, diabetes type2 and metabolic syndrome) a disease score was developed as described in section 9. The disease scores for the known EDCs are represented for each disease as a heatmap plot. |
 
 
 
@@ -429,3 +423,10 @@ atherosclerosis and diabetes type 2.
 
 #### Script 9_10_disease_scores_pie_chart.R                         
 - For each disease (metabolic syndrome, atherosclerosis and diabetes type 2) a pie chart will be depicted to reveal distribution of disease scores across 12k compounds in CTD.
+
+|**R Script**|[validation_with_disease_score.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_2_validation_with_disease_score.R)|  
+| ------------- |--------------|
+|**Input**| |
+|**Output**| |
+|**Dependencies**| |
+|**Summary**|For each disease (atherosclerosis, diabetes type2 and metabolic syndrome) a disease score was developed as described in section 9. The disease scores for the known EDCs are represented for each disease as a heatmap plot. |
