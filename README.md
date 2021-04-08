@@ -308,9 +308,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |**R Script**|[Comparison_pathway_scores_vs_TOXDB_pathway_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/7_3_Comparison_pathway_scores_vs_TOXDB_pathway_scores.R)|  
 | ------------- |--------------|
-|**Input**| ToxDB pathway scores for pathways aryl hydrocarbon receptor,  Breaset cancer and estrogen receptor from http://toxdb.molgen.mpg.de/ |
-|**Output**| |
-|**Dependencies**| |
+|**Input**| ToxDB pathway scores for pathways aryl hydrocarbon receptor,  Breaset cancer and estrogen receptor from http://toxdb.molgen.mpg.de/ , Output of the script [RWR_FGSEA_for_all_compounds_in_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/4_2_RWR_FGSEA_for_all_compounds_in_CTD.R), |
+|**Output**| CSV file with pathway scores of ToxDB and the pathway scores resutling from RWR-FGSEA|
+|**Dependencies**|webchem, ggplot2, ggrepel |
 |**Summary**|Comparison between EDC scores with pathway scores from TOXDB for the pathways aryl hydrocarbon receptor, Breaset cancer and estrogen receptor|
 
 
