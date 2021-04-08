@@ -365,7 +365,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - For each data layer (network) the number selected KEGG pathways by elastic GLM will be categorized and represented in plots 
 - For each data layer (network) the number selected REACTOME pathways by elastic GLM will be categorized and represented in plots 
 
-# Part IV: Sensitivity and enrichment analysis
+# Part IV: Linking MIEs to Adverse outcomes
 
 #### Script 9_1_preparation_data_set_disease_biomarker.R           
 - Retaining the pathways with length of 50 genes for biomarker discovery.
