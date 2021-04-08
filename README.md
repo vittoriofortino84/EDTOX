@@ -289,7 +289,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 # Part II: Evaluation and validation of EDC scores
 
 
-|7_1|[Comparison_of_VAM_on_DeDuCt.R]| 
+|7_1|[Comparison_of_VAM_on_DeDuCt.R](https://github.com/amir1715/EDTOX/blob/master/scripts/7_1_Comparison_of_VAM_on_DeDuCt.R)| 
 | ------------- |--------------|
 |**Input**| |
 |**Output**| |
@@ -298,7 +298,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 
 
-|7_2|[Comparison_VAM_scores_vs_TOXPI_scores.R]| 
+|7_2|[Comparison_VAM_scores_vs_TOXPI_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/7_2_Comparison_VAM_scores_vs_TOXPI_scores.R)| 
 | ------------- |--------------|
 |**Input**| |
 |**Output**| |
@@ -306,7 +306,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Summary**|Evaluation of the EDC scores by comparing them with ToxPi scores (The scores developed from ToxCast assay endpoints) |
 
 
-|7_3|[Comparison_pathway_scores_vs_TOXDB_pathway_scores.R]|  
+|7_3|[Comparison_pathway_scores_vs_TOXDB_pathway_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/7_3_Comparison_pathway_scores_vs_TOXDB_pathway_scores.R)|  
 | ------------- |--------------|
 |**Input**| |
 |**Output**| |
@@ -316,7 +316,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 
 
-|8_1|[Validation_VAM_scores_Eurion_External_set_compounds.R]|
+|8_1|[Validation_VAM_scores_Eurion_External_set_compounds.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_1_Validation_VAM_scores_Eurion_External_set_compounds.R)|
 | ------------- |--------------|
 |**Input**| |
 |**Output**| |
@@ -324,7 +324,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Summary**|Evaluation of EDC scores using known EDCs from expert domain and DeDuCT. Calculation of accuaracy for the EDC scores.Representing the validation set compounds as heatmap plot| 
 
 
-|8_2|[validation_with_disease_score.R]|  
+|8_2|[validation_with_disease_score.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_2_validation_with_disease_score.R)|  
 | ------------- |--------------|
 |**Input**| |
 |**Output**| |
@@ -333,7 +333,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 
 
-|8_3|[Validation_with_ToxCast_mies.R]| 
+|8_3|[Validation_with_ToxCast_mies.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_3_Validation_with_ToxCast_mies.R)| 
 | ------------- |--------------|
 |**Input**| |
 |**Output**| |
