@@ -286,34 +286,65 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 <br/>
 <br/>
 
-
-### 7. Comparison and evaluation of EDC scores with other Toxicity Scores and tools 
-
-#### Script 7_1_Comparison_of_VAM_on_DeDuCt.R                      
-- Representation of the compounds with evidence as EDC in DEDuCT using their EDC scores.
-
-#### Script 7_2_Comparison_VAM_scores_vs_TOXPI_scores.R           
-- Evaluation of the EDC scores by comparing them with ToxPi scores (The scores developed from ToxCast assay endpoints) 
-
-#### Script 7_3_Comparison_pathway_scores_vs_TOXDB_pathway_scores.R  
-- Comparison between EDC scores with pathway scores from TOXDB for the pathways aryl hydrocarbon receptor, Breaset cancer and estrogen receptor
+# Part II: Evaluation and validation of EDC scores
 
 
-### 8. Validation of EDC scores with external data 
+|7_1|[Comparison_of_VAM_on_DeDuCt.R]| 
+| ------------- |--------------|
+|**Input**| |
+|**Output**| |
+|**Dependencies**| |
+|**Summary**|Representation of the compounds with evidence as EDC in DEDuCT using their EDC scores. |
 
-#### Script 8_1_Validation_VAM_scores_Eurion_External_set_compounds.R
-- Evaluation of EDC scores using known EDCs from expert domain and DeDuCT 
-- Calculation of accuaracy for the EDC scores
-- Representing the validation set compounds as heatmap plot 
 
-#### Script 8_2_validation_with_disease_score.R  
-- For each disease (atherosclerosis, diabetes type2 and metabolic syndrome) a disease score was developed as described in section 9.
-- The disease scores for the known EDCs are represented for each disease as a heatmap plot.
 
-#### Script 8_3_Validation_with_ToxCast_mies.R  
-- The target genes for the compounds with positive assay endpoint in ToxCast wil be considered as the MIEs of the compounds. 
-- Random walk with resetart and fast gene set enrichment analysis pipeline will be repeated starting with the MIEs from ToxCast.
-- The obtained NES scores will be subjected to GLM models and the resulting class probabilities will be compared with the class probabilities of the MIEs from CTD.
+|7_2|[Comparison_VAM_scores_vs_TOXPI_scores.R]| 
+| ------------- |--------------|
+|**Input**| |
+|**Output**| |
+|**Dependencies**| |
+|**Summary**|Evaluation of the EDC scores by comparing them with ToxPi scores (The scores developed from ToxCast assay endpoints) |
+
+
+|7_3|[Comparison_pathway_scores_vs_TOXDB_pathway_scores.R]|  
+| ------------- |--------------|
+|**Input**| |
+|**Output**| |
+|**Dependencies**| |
+|**Summary**|Comparison between EDC scores with pathway scores from TOXDB for the pathways aryl hydrocarbon receptor, Breaset cancer and estrogen receptor
+|
+
+
+
+
+|8_1|[Validation_VAM_scores_Eurion_External_set_compounds.R]|
+| ------------- |--------------|
+|**Input**| |
+|**Output**| |
+|**Dependencies**| |
+|**Summary**|
+Evaluation of EDC scores using known EDCs from expert domain and DeDuCT. Calculation of accuaracy for the EDC scores.Representing the validation set compounds as heatmap plot  |
+
+
+|8_2|[validation_with_disease_score.R]|  
+| ------------- |--------------|
+|**Input**| |
+|**Output**| |
+|**Dependencies**| |
+|**Summary**|For each disease (atherosclerosis, diabetes type2 and metabolic syndrome) a disease score was developed as described in section 9. The disease scores for the known EDCs are represented for each disease as a heatmap plot. |
+
+
+
+|8_3|[Validation_with_ToxCast_mies.R]| 
+| ------------- |--------------|
+|**Input**| |
+|**Output**| |
+|**Dependencies**| |
+|**Summary**|The target genes for the compounds with positive assay endpoint in ToxCast wil be considered as the MIEs of the compounds.Random walk with resetart and fast gene set enrichment analysis pipeline will be repeated starting with the MIEs from ToxCast. The obtained NES scores will be subjected to GLM models and the resulting class probabilities will be compared with the class probabilities of the MIEs from CTD. |
+
+<br/>
+<br/>
+<br/>
 
 # Sensitivity and enrichment analysis
 #### Script 8_4_dose_response_TG_GATEs_single.R 
