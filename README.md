@@ -263,9 +263,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |6_2|[ROC_TOXCAST_vs_class_probabilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_2_ROC_TOXCAST_vs_class_probabilities.R)|  
 | ------------- |--------------|
-|**Input**|      |
-|**Output**||
-|**Dependencies**| |
+|**Input**|Output of the scripts [TOXCAST_nuclear_receptors_coregulators.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_3_TOXCAST_nuclear_receptors_coregulators.R), [prediction_all_compounds_class_probilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_1_prediction_all_compounds_class_probilities.R)|
+|**Output**|A matrix of area under the curve for ROC between class probability of each data layer and Hitcall result of ToxCast endpoints |
+|**Dependencies**|PRROC|
 |**Summary**| ROC analysis will be used between the class probabilty of each network and the binary in vitro experimental hitcall ToxCast assays related to nuclear receptors for each network.- Selection of most informative networks based on the results of ROC curve analysis.|
 
 
