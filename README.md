@@ -8,9 +8,10 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 
 ## Description of the Supplementary data Tables 
-
-* Suppl. Tab. 1 – List of ToxCast assay endpoints related to nuclear receptors.
-* Suppl. Tab. 2 – Testing of proportions to identify ToxCast assay endpoints for the selection of EDCs.
+|Suppl. Tab|Description|
+| ------------- |--------------|
+| Tab. 1 | List of ToxCast assay endpoints related to nuclear receptors|
+| Tab. 2 | Testing of proportions to identify ToxCast assay endpoints for the selection of EDCs.|
 * Suppl. Tab. 3 – The result of ANOVA and Tukey post hoc tests for the comparison of test accuracy scores of EDC-based classifiers.
 * Suppl. Tab. 4 – Predicted EDC probability scores for more than 10K compounds annotated in CTD.
 * Suppl. Tab. 5 – Predicted EDC-Atherosclerosis scores for compounds annotated in CTD.
@@ -300,7 +301,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |7_2|[Comparison_VAM_scores_vs_TOXPI_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/7_2_Comparison_VAM_scores_vs_TOXPI_scores.R)| 
 | ------------- |--------------|
-|**Input**| Suppl. file of http://dx.doi.org/10.1016/j.coph.2014.09.021, Output of the script [prediction_all_compounds_class_probilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_1_prediction_all_compounds_class_probilities.R),https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv, |
+|**Input**| Suppl. file of http://dx.doi.org/10.1016/j.coph.2014.09.021, https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv, Output of the script [prediction_all_compounds_class_probilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_1_prediction_all_compounds_class_probilities.R)|
 |**Output**| plot of the Toxpi scores VS EDC scores, excel files of toxpi and edc scores |
 |**Dependencies**| ggplot2, ggrepel|
 |**Summary**|Evaluation of the EDC scores with ToxPi scores (The scores developed from ToxCast assay endpoints) |
