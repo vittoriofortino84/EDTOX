@@ -318,9 +318,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |**R Script**|[Validation_VAM_scores_Eurion_External_set_compounds.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_1_Validation_VAM_scores_Eurion_External_set_compounds.R)|
 | ------------- |--------------|
-|**Input**| |
-|**Output**| |
-|**Dependencies**| |
+|**Input**|https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv, output of the script [prediction_all_compounds_class_probilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_1_prediction_all_compounds_class_probilities.R) |
+|**Output**| Excel file and heatmap plot of EDC scores for external validation set|
+|**Dependencies**|reshape2,RColorBrewer,ggplot,magrittr |
 |**Summary**|Evaluation of EDC scores using known EDCs from expert domain and DeDuCT. Calculation of accuaracy for the EDC scores.Representing the validation set compounds as heatmap plot| 
 
 
