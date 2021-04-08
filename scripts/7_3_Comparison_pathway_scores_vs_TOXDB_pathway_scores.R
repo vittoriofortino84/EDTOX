@@ -109,7 +109,7 @@ newgetid<-function (query, language = "en", match = c("best", "first",
   }    # added to the main code from webchem package
 }
 
-toxdb<-read.csv('inputData/tox2db.csv') # Toxdb:  γ-linolenate biosynthesis pathway
+toxdb<-read.csv('inputData/tox2db.csv') # Toxdb:  γ-linolenate biosynthesis pathway as an instance to retrieve compounds ids
 comps<-unique(toxdb$drug)
 ids<-rep(NA,length(comps))
 for(i in 1:length(comps)){  #getting the id for each compound and saving them in ids 
