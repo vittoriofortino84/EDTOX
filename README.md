@@ -344,7 +344,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 <br/>
 <br/>
 
-# Sensitivity and enrichment analysis
+# Part III: Sensitivity and enrichment analysis
 #### Script 8_4_dose_response_TG_GATEs_single.R 
 - TG-Gates class probability profile of the compounds will be categorized as 4 different patterns (based on increase or decrease pattern at different doses Low, Middle and High)  
 -  The significant pathways based on increases or decrease of pathway activation scores will be determined using ANOVA followed by post tukey test with bootstrap sampling method.
@@ -361,11 +361,11 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 - The highly cited gened will be determined in the plot.
 - The essential genes will be highlighted in the plot.
 
-## 8_8_categorization_enrichment_result.R  
+#### 8_8_categorization_enrichment_result.R  
 - For each data layer (network) the number selected KEGG pathways by elastic GLM will be categorized and represented in plots 
 - For each data layer (network) the number selected REACTOME pathways by elastic GLM will be categorized and represented in plots 
 
-### 9. Linking ED MIEs to AOPs  
+# Part IV: Sensitivity and enrichment analysis
 
 #### Script 9_1_preparation_data_set_disease_biomarker.R           
 - Retaining the pathways with length of 50 genes for biomarker discovery.
