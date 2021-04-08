@@ -321,8 +321,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Input**| |
 |**Output**| |
 |**Dependencies**| |
-|**Summary**|
-Evaluation of EDC scores using known EDCs from expert domain and DeDuCT. Calculation of accuaracy for the EDC scores.Representing the validation set compounds as heatmap plot  |
+|**Summary**|Evaluation of EDC scores using known EDCs from expert domain and DeDuCT. Calculation of accuaracy for the EDC scores.Representing the validation set compounds as heatmap plot| 
 
 
 |8_2|[validation_with_disease_score.R]|  
