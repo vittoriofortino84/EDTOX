@@ -269,7 +269,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Summary**| ROC analysis will be used between the class probabilty of each network and the binary in vitro experimental hitcall ToxCast assays related to nuclear receptors for each network.- Selection of most informative networks based on the results of ROC curve analysis.|
 
 
-|6_3|[eveloping_Harmonic_and_average_EDC_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_3_eveloping_Harmonic_and_average_EDC_scores.R)|
+|6_3|[developing_Harmonic_and_average_EDC_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_3_developing_Harmonic_and_average_EDC_scores.R)|
 | ------------- |--------------|
 |**Input**|      |
 |**Output**||
