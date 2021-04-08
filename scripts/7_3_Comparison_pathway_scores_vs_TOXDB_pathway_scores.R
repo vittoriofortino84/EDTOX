@@ -126,7 +126,7 @@ save(toxdb,file='inputData/ToxDB/annotation_toxdb_dictionary.RData')
 
 
 
-# 2. Intergating with toxdb -----------------------------------------------
+# 2. Intergating our pathways NES scors with toxdb pathway scores -----------------------------------------------
 
 
 load("outputData/class_probilities/integrated_fgsea_allcompounds_results_final_moa.RData");fgs<-fgs[c(1:7,11:15)] #our predicted pathway scores RWR-FGSEA
