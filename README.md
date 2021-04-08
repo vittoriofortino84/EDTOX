@@ -275,19 +275,17 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**|vectors of harmonic scores and average scores for 12K compounds in CTD|
 |**Dependencies**|ggplot2, ggrepel|
 |**Summary**|Average EDC score is defined as the average of class probabilties across selected networks for each compound.Harmonic EDC score is defined as the harmonic sum class probabilties across selected networks for each compound.|
+<br/>
+<br/>
+<br/>
 
+# Part II: Evaluation and validation of EDC scores
 |**R Script**|[ROC_analysis_EDC_scores_vs_TOXCAST_endpoints.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_4_ROC_analysis_EDC_scores_vs_TOXCAST_endpoints.R)|  
 | ------------- |--------------|
 |**Input**| Output of the scripts Output of the scripts [TOXCAST_nuclear_receptors_coregulators.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_3_TOXCAST_nuclear_receptors_coregulators.R), [Developing_Harmonic_and_average_EDC_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_3_Developing_Harmonic_and_average_EDC_scores.R), [ROC_TOXCAST_vs_class_probabilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_2_ROC_TOXCAST_vs_class_probabilities.R)|
 |**Output**|Matrix of Area under the curve of ROC between harmonic and average EDC scores with ToxCast Hitcall, P_values of ROC proportion test |
 |**Dependencies**|PRROC, gplots |
 |**Summary**|Validating the compiled EDC scores by ROC analysis between  EDC scores and ToxCast hitcall data for each assay endpoint.|
-<br/>
-<br/>
-<br/>
-
-# Part II: Evaluation and validation of EDC scores
-
 
 |**R Script**|[Comparison_of_VAM_on_DeDuCt.R](https://github.com/amir1715/EDTOX/blob/master/scripts/7_1_Comparison_of_VAM_on_DeDuCt.R)| 
 | ------------- |--------------|
