@@ -335,9 +335,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |**R Script**|[Validation_with_ToxCast_mies.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_3_Validation_with_ToxCast_mies.R)| 
 | ------------- |--------------|
-|**Input**| |
+|**Input**|Outout of the script  [ToxCast_dictionaries.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_5_ToxCast_dictionaries.R), [MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R),  |
 |**Output**| |
-|**Dependencies**| |
+|**Dependencies**|ggplot2, ggrepel, knitr |
 |**Summary**|The target genes for the compounds with positive assay endpoint in ToxCast wil be considered as the MIEs of the compounds.Random walk with resetart and fast gene set enrichment analysis pipeline will be repeated starting with the MIEs from ToxCast. The obtained NES scores will be subjected to GLM models and the resulting class probabilities will be compared with the class probabilities of the MIEs from CTD. |
 
 <br/>
