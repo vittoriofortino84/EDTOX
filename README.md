@@ -291,10 +291,10 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |7_1|[Comparison_of_VAM_on_DeDuCt.R](https://github.com/amir1715/EDTOX/blob/master/scripts/7_1_Comparison_of_VAM_on_DeDuCt.R)| 
 | ------------- |--------------|
-|**Input**| |
-|**Output**| |
-|**Dependencies**| |
-|**Summary**|Representation of the compounds with evidence as EDC in DEDuCT using their EDC scores. |
+|**Input**|https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv, Output of the scripts [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R), [prediction_all_compounds_class_probilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_1_prediction_all_compounds_class_probilities.R) |
+|**Output**| Excel table with harmonic scores and the compounds in DeDUCT |
+|**Dependencies**| XLSX|
+|**Summary**|Evaluation of the scores for the compounds in DeDUCT |
 
 
 
