@@ -279,7 +279,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |6_4|[ROC_analysis_EDC_scores_vs_TOXCAST_endpoints.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_4_ROC_analysis_EDC_scores_vs_TOXCAST_endpoints.R)|  
 | ------------- |--------------|
 |**Input**| Output of the scripts Output of the scripts [TOXCAST_nuclear_receptors_coregulators.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_3_TOXCAST_nuclear_receptors_coregulators.R), [Developing_Harmonic_and_average_EDC_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_3_Developing_Harmonic_and_average_EDC_scores.R), [ROC_TOXCAST_vs_class_probabilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_2_ROC_TOXCAST_vs_class_probabilities.R)|
-|**Output**|Area under the curve of ROC between harmonic and average EDC scores with ToxCast Hitcall, P_values of ROC proportion test |
+|**Output**|Matrix of Area under the curve of ROC between harmonic and average EDC scores with ToxCast Hitcall, P_values of ROC proportion test |
 |**Dependencies**|PRROC, gplots |
 |**Summary**|Validating the compiled EDC scores by ROC analysis between  EDC scores and ToxCast hitcall data for each assay endpoint.|
 <br/>
@@ -300,8 +300,8 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |7_2|[Comparison_VAM_scores_vs_TOXPI_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/7_2_Comparison_VAM_scores_vs_TOXPI_scores.R)| 
 | ------------- |--------------|
-|**Input**| |
-|**Output**| |
+|**Input**| http://dx.doi.org/10.1016/j.coph.2014.09.021,  |
+|**Output**|ggplot2, ggrepel |
 |**Dependencies**| |
 |**Summary**|Evaluation of the EDC scores by comparing them with ToxPi scores (The scores developed from ToxCast assay endpoints) |
 
