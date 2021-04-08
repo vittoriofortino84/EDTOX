@@ -12,24 +12,24 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 | ------------- |--------------|
 | Tab. 1 | List of ToxCast assay endpoints related to nuclear receptors|
 | Tab. 2 | Testing of proportions to identify ToxCast assay endpoints for the selection of EDCs.|
-* Suppl. Tab. 3 – The result of ANOVA and Tukey post hoc tests for the comparison of test accuracy scores of EDC-based classifiers.
-* Suppl. Tab. 4 – Predicted EDC probability scores for more than 10K compounds annotated in CTD.
-* Suppl. Tab. 5 – Predicted EDC-Atherosclerosis scores for compounds annotated in CTD.
-* Suppl. Tab. 6 – Predicted EDC-Metabolic-Syndrome scores for compounds annotated in CTD.
-* Suppl. Tab. 7 – Predicted EDC-Type2-Diabetes scores for compounds annotated in CTD.
-* Suppl. Tab. 8 – List of relevant EDC-MIEs and related pathways.
-* Suppl. Tab. 9 – List of informative genes that are currently not annotated as EDC-MIEs in CTD. 
-* Suppl. Tab. 10 – Pathway activation scores generated for the classification between EDCs and decoys (or negative controls).
-* Suppl. Tab. 11 – Pathway activation scores generated for the classification of EDCs leading to Atherosclerosis.
-* Suppl. Tab. 12 – Pathway activation scores generated for the classification of EDCs leading to Metabolic Syndrome.
-* Suppl. Tab. 13 – Pathway activation scores generated for the classification of EDCs leading to Type2 Diabetes.
-* Suppl. Tab. 14– Pathway selected based on AUC values greater than 0.7. 
-* Suppl. Tab. 15 – ROC-curve-based analysis between EDC-class probabilities across different data layers and ToxCast assay endpoints.
-* Suppl. Tab. 16 – Predicted EDC scores for the compounds in DEDuCT.
-* Suppl. Tab. 17 – Predicted EDC scores for the compounds selected by domain experts.
-* Suppl. Tab. 18 – Comparison between predicted EDC scores and ToxPi scores.
-* Suppl. Tab. 19 – EDC Class probabilities of in vivo models with MIEs from in vitro ToxCast endpoints.
-* Suppl. Tab. 20 – Comparison between predicted EDC scores and ToxDB scores.
+| Tab. 3 | The result of ANOVA and Tukey post hoc tests for the comparison of test accuracy scores of EDC-based classifiers.
+| Tab. 4 | Predicted EDC probability scores for more than 10K compounds annotated in CTD.|
+| Tab. 5 | Predicted EDC-Atherosclerosis scores for compounds annotated in CTD.|
+| Tab. 6 | Predicted EDC-Metabolic-Syndrome scores for compounds annotated in CTD.|
+| Tab. 7 | Predicted EDC-Type2-Diabetes scores for compounds annotated in CTD.|
+| Tab. 8 | List of relevant EDC-MIEs and related pathways.|
+| Tab. 9 | List of informative genes that are currently not annotated as EDC-MIEs in CTD.| 
+| Tab. 10 | Pathway activation scores generated for the classification between EDCs and decoys (or negative controls).|
+| Tab. 11 | Pathway activation scores generated for the classification of EDCs leading to Atherosclerosis.|
+| Tab. 12 | Pathway activation scores generated for the classification of EDCs leading to Metabolic Syndrome.|
+| Tab. 13 | Pathway activation scores generated for the classification of EDCs leading to Type2 Diabetes.|
+| Tab. 14 | Pathway selected based on AUC values greater than 0.7. |
+| Tab. 15 | ROC-curve-based analysis between EDC-class probabilities across different data layers and ToxCast assay endpoints.|
+| Tab. 16 | Predicted EDC scores for the compounds in DEDuCT.|
+| Tab. 17 | Predicted EDC scores for the compounds selected by domain experts.|
+| Tab. 18 | Comparison between predicted EDC scores and ToxPi scores.|
+| Tab. 19 | EDC Class probabilities of in vivo models with MIEs from in vitro ToxCast endpoints.|
+| Tab. 20 | Comparison between predicted EDC scores and ToxDB scores.|
 
 
 ## Description of the R scripts used in the pipeline
