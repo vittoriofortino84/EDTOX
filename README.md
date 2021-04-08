@@ -30,9 +30,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 | Tab. 18 | Comparison between predicted EDC scores and ToxPi scores.|
 | Tab. 19 | EDC Class probabilities of in vivo models with MIEs from in vitro ToxCast endpoints.|
 | Tab. 20 | Comparison between predicted EDC scores and ToxDB scores.|
-|<br/>|
-|<br/>|
-|<br/>|
+
 ## Description of the R scripts used in the pipeline
 # Part I: Development of EDC scores
 ### 1. Preparation of the MIES, pathways and training benchmark set 
