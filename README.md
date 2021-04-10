@@ -492,53 +492,28 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Dependencies**||
 |**Summary**|For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs leading to diabetes type 2 vs edcs not leading to diabetes type 2.The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).|
 
-| | |
+
+|9_8 |bubble_plots_pathways.R   |
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
-|**Summary**||
+|**Summary**|The map of pathway activation scores and GLM coefficient for each pathway and network will be represented as bubble plots for the three diseases metabolic syndrome, atherosclerosis and diabetes type 2. The generated plots can be used to indicate the putative pathways linking EDCs to adverse outcome.|
 
-| | |
+|9_9 |disease_scores.R |
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
-|**Summary**||
+|**Summary**|For each disease (metabolic syndrome, atherosclerosis and diabetes type 2), harmonic sum and average score will be compiled across all 15 networks for 12k compounds in CTD.|
 
-| | |
+|9_10 |disease_scores_pie_chart.R |
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
-|**Summary**||
+|**Summary**|For each disease (metabolic syndrome, atherosclerosis and diabetes type 2) a pie chart will be depicted to reveal distribution of disease scores across 12k compounds in CTD.|
 
-| | |
-| ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
-|**Summary**||
-
-| | |
-| ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
-|**Summary**||
-
-
-
-#### Script 9_8_bubble_plots_pathways.R                           
-- The map of pathway activation scores and GLM coefficient for each pathway and network will be represented as bubble plots for the three diseases metabolic syndrome,
-atherosclerosis and diabetes type 2.
-- The generated plots can be used to indicate the putative pathways linking EDCs to adverse outcome.
-
-#### Script 9_9_disease_scores.R
-- For each disease (metabolic syndrome, atherosclerosis and diabetes type 2), harmonic sum and average score will be compiled across all 15 networks for 12k compounds in CTD.
-
-#### Script 9_10_disease_scores_pie_chart.R                         
-- For each disease (metabolic syndrome, atherosclerosis and diabetes type 2) a pie chart will be depicted to reveal distribution of disease scores across 12k compounds in CTD.
 
 |**R Script**|[validation_with_disease_score.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_2_validation_with_disease_score.R)|  
 | ------------- |--------------|
