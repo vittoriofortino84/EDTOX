@@ -327,7 +327,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |**R Script**|[Validation_with_ToxCast_mies.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_3_Validation_with_ToxCast_mies.R)| 
 | ------------- |--------------|
-|**Input**|Outout of the script  [ToxCast_dictionaries.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_5_ToxCast_dictionaries.R), [MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R),  |
+|**Input**|Output of the script  [ToxCast_dictionaries.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_5_ToxCast_dictionaries.R), [MIEs_from_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R),  |
 |**Output**|Plot of predicted EDC scores from ToxCast MIES VS EDC scores predicted from CTD MIES|
 |**Dependencies**|ggplot2, ggrepel, knitr |
 |**Summary**|The target genes for the compounds with positive assay endpoint in ToxCast wil be considered as the MIEs of the compounds.Random walk with resetart and fast gene set enrichment analysis pipeline will be repeated starting with the MIEs from ToxCast. The obtained NES scores will be subjected to GLM models and the resulting class probabilities will be compared with the class probabilities of the MIEs from CTD. |
@@ -367,9 +367,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |**R Script**|[categorization_enrichment_result.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_8_categorization_enrichment_result.R)|
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|Output of the script [Integration_of_coefficients_stabilties_NES_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_6_Integration_of_coefficients_stabilties_NES_scores.R), |
+|**Output**|plots of categorization for specific pathways related to KEGG, REACTOME and wiki AOP|
+|**Dependencies**|UpSetR, ggplot2, RColorBrewer |
 |**Summary**|For each data layer (network) the number selected KEGG pathways by elastic GLM will be categorized and represented in plots.For each data layer (network) the number selected REACTOME pathways by elastic GLM will be categorized and represented in plots.|
 <br/>
 <br/>
