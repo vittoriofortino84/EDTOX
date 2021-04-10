@@ -340,7 +340,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |8_4|dose_response_TG_GATEs_single.R| 
 | ------------- |--------------|
 |**Input**||
-|**Output| |
+|**Output**| |
 |**Dependencies**||
 |**Summary**|TG-Gates class probability profile of the compounds will be categorized as 4 different patterns (based on increase or decrease pattern at different doses Low, Middle and High) The significant pathways based on increases or decrease of pathway activation scores will be determined using ANOVA followed by post tukey test with bootstrap sampling method.|
 
