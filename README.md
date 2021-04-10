@@ -376,14 +376,14 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 # Part IV: Linking MIEs to Adverse outcomes
 
-|9_1|preparation_data_set_disease_biomarker.R|  
+||[preparation_data_set_disease_biomarker.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_1_preparation_data_set_disease_biomarker.R)|  
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|Retaining the pathways with length of 50 genes for biomarker discovery. Preparation of the NES scores for each data layer based on the selected pathways. |
 
-|9_2|chem2disease_CTD.R| 
+||[chem2disease_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_2_chem2disease_CTD.R)| 
 | ------------- |--------------|
 |**Input**||
 |**Output**||
@@ -391,28 +391,28 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Summary**|Compiling a binary matrix from chem-disease associations in CTD. The rows of the matrix are the compound names and the columns are the disease names. The compound disease associations are represented by 1 in the matrix.|
 
 
-|9_3 |preparation_two_class_training_set_by_disease_name.R  |
+| |[preparation_two_class_training_set_by_disease_name.R] (https://github.com/amir1715/EDTOX/blob/master/scripts/9_3_preparation_two_class_training_set_by_disease_name.R) |
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|Preparation of training set (NES scores and class labels) for atherosclerosis, metabolic syndrome, diabetes type 2 and coronary artery disease|
 
-|9_4_1 |metabolic_syndrome_two_class_traning_models_glm.R |
+| |[metabolic_syndrome_two_class_traning_models_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_4_1_metabolic_syndrome_two_class_traning_models_glm.R) |
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|Training GLM  models of metabolic syndrome for all 15 data layers|
 
-|9_4_2 | artherosclerosis_two_class_training_models_glm.R|
+| | [artherosclerosis_two_class_training_models_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_4_2_artherosclerosis_two_class_training_models_glm.R)|
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|Training GLM  models of atherosclerosis for all 15 data layers|
 
-|9_4_3 | diabetes_2_two_class_traning_models_glm.R |
+| | [diabetes_2_two_class_traning_models_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_4_3_diabetes_2_two_class_traning_models_glm.R)|
 | ------------- |--------------|
 |**Input**||
 |**Output**||
@@ -420,42 +420,42 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Summary**|Training GLM  models of diabetes T2 for all 15 data layers|
 
 
-| 9_5_1| kfold_CV_two_class_metabolic_syndrome_glm.R|
+|| [kfold_CV_two_class_metabolic_syndrome_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/ 9_5_1_kfold_CV_two_class_metabolic_syndrome_glm.R)|
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|Performing K-fold-Cross validation on models of metabolic syndrome for all 15 data layers|
 
-|9_5_2 |kfold_CV_two_class_artherosclerosis_glm.R |
+| |[kfold_CV_two_class_artherosclerosis_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_5_2_kfold_CV_two_class_artherosclerosis_glm.R) |
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|Performing K-fold-Cross validation on models of atherosclerosis for all 15 data layers|
 
-|9_5_3 |kfold_CV_two_class_diabetes_2_glm.R |
+| |[kfold_CV_two_class_diabetes_2_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_5_3_kfold_CV_two_class_diabetes_2_glm.R) |
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|Performing K-fold-Cross validation on models of diabetes type 2 for all 15 data layers|
 
-|9_6_1 |comparison_CV_F1_scores_all_layers_ANOVA_metabolic_syndrome.R |
+| |[comparison_CV_F1_scores_all_layers_ANOVA_metabolic_syndrome.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_6_1_comparison_CV_F1_scores_all_layers_ANOVA_metabolic_syndrome.R) |
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**| The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for metabolic syndrome.Boxplot will be used to represent the obtained F1 scors across all GLM models for metabolic syndrome.|
 
-|9_6_2 |comparison_CV_F1_scores_all_layers_ANOVA_atherosclerosis.R |
+||[comparison_CV_F1_scores_all_layers_ANOVA_atherosclerosis.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_6_2_comparison_CV_F1_scores_all_layers_ANOVA_atherosclerosis.R) |
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for atherosclerosis. Boxplot will be used to represent the obtained F1 scors across all GLM models for atherosclerosis.|
 
-|9_6_3 |comparison_CV_F1_scores_all_layers_ANOVA_diabetes.R  |
+| |[comparison_CV_F1_scores_all_layers_ANOVA_diabetes.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_6_3_comparison_CV_F1_scores_all_layers_ANOVA_diabetes.R)  |
 | ------------- |--------------|
 |**Input**||
 |**Output**||
@@ -463,29 +463,21 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Summary**|The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for diabetes type 2. Boxplot will be used to represent the obtained F1 scors across all GLM models for diyabetes type 2.|
 
 
-
-
-#### Script _
-
-
-
-
-
-|9_7_1 |Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R |
+| |[Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_7_1_Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R) |
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs leading to metabolic synndrome vs edcs not leading to metabolic syndrome. The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).|
 
-|9_7_2 |Integration_of_glm_coefs_stabilities_NES_ROC_atherosclerosis.R |
+| |[Integration_of_glm_coefs_stabilities_NES_ROC_atherosclerosis.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_7_2_Integration_of_glm_coefs_stabilities_NES_ROC_atherosclerosis.R) |
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs leading to atherosclerosis vs edcs not leading to atherosclerosis. The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).|
 
-|9_7_3 | Integration_of_glm_coefs_stabilities_NES_ROC_diabetes_2.R|
+| | [Integration_of_glm_coefs_stabilities_NES_ROC_diabetes_2.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_7_3_Integration_of_glm_coefs_stabilities_NES_ROC_diabetes_2.R)|
 | ------------- |--------------|
 |**Input**||
 |**Output**||
@@ -493,21 +485,21 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Summary**|For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs leading to diabetes type 2 vs edcs not leading to diabetes type 2.The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).|
 
 
-|9_8 |bubble_plots_pathways.R   |
+| |[bubble_plots_pathways.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_8_bubble_plots_pathways.R)   |
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|The map of pathway activation scores and GLM coefficient for each pathway and network will be represented as bubble plots for the three diseases metabolic syndrome, atherosclerosis and diabetes type 2. The generated plots can be used to indicate the putative pathways linking EDCs to adverse outcome.|
 
-|9_9 |disease_scores.R |
+| |[disease_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_9_disease_scores.R) |
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|For each disease (metabolic syndrome, atherosclerosis and diabetes type 2), harmonic sum and average score will be compiled across all 15 networks for 12k compounds in CTD.|
 
-|9_10 |disease_scores_pie_chart.R |
+||[disease_scores_pie_chart.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_10_disease_scores_pie_chart.R) |
 | ------------- |--------------|
 |**Input**||
 |**Output**||
