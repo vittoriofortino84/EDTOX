@@ -419,6 +419,28 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Dependencies**||
 |**Summary**|Training GLM  models of diabetes T2 for all 15 data layers|
 
+
+| 9_5_1| kfold_CV_two_class_metabolic_syndrome_glm.R|
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|Performing K-fold-Cross validation on models of metabolic syndrome for all 15 data layers|
+
+|9_5_2 |kfold_CV_two_class_artherosclerosis_glm.R |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|Performing K-fold-Cross validation on models of atherosclerosis for all 15 data layers|
+
+|9_5_3 |kfold_CV_two_class_diabetes_2_glm.R |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|Performing K-fold-Cross validation on models of diabetes type 2 for all 15 data layers|
+
 | | |
 | ------------- |--------------|
 |**Input**||
@@ -496,35 +518,6 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Dependencies**||
 |**Summary**||
 
-| | |
-| ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
-|**Summary**||
-
-| | |
-| ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
-|**Summary**||
-
-| | |
-| ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
-|**Summary**||
-
-#### Script 9_5_1_kfold_CV_two_class_metabolic_syndrome_glm.R        
-- Performing K-fold-Cross validation on models of metabolic syndrome for all 15 data layers
-
-#### Script 9_5_2_kfold_CV_two_class_artherosclerosis_glm.R         
-- Performing K-fold-Cross validation on models of atherosclerosis for all 15 data layers
-
-#### Script 9_5_3_kfold_CV_two_class_diabetes_2_glm.R                
-- Performing K-fold-Cross validation on models of metabolic syndrome for all 15 data layers
 
 #### Script 9_6_1_comparison_CV_F1_scores_all_layers_ANOVA_metabolic_syndrome.R
 - The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for metabolic syndrome.
