@@ -353,9 +353,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |**R Script**|[textmining_16_april_2020_endocrine_disruption.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_6_textmining_16_april_2020_endocrine_disruption.R)|
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|The abstract results of pubmed search for endocrine disruption |
+|**Output**|A data frame with entrez gene names and their frequencies across different papers |
+|**Dependencies**|pubmed.mineR, magrittr|
 |**Summary**|After the search in pubmed for the term endocrine disruption (ED) the genes related to ED will be determined using text mining with pubmed.mineR.|
 
 |**R Script**|[time_dose_plots_heatplot.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_7_time_dose_plots_heatplot.R)|
