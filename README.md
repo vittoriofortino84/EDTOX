@@ -340,14 +340,14 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**R Script**|[dose_response_TG_GATEs_single.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_4_dose_response_TG_GATEs_single.R)| 
 | ------------- |--------------|
 |**Input**|Output of the scripts [Developing_Harmonic_and_average_EDC_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_3_Developing_Harmonic_and_average_EDC_scores.R), [RWR_FGSEA_for_all_compounds_in_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/4_2_RWR_FGSEA_for_all_compounds_in_CTD.R),[Integration_of_coefficients_stabilties_NES_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_6_Integration_of_coefficients_stabilties_NES_scores.R)|
-|**Output**|List of the compounds based on the patterns of increase and decrease, List of ANOVA results for dose response, plot depictions|
+|**Output**|List of the compounds based on the patterns of increase and decrease, List of ANOVA results for pathways in different dose response scenarios, plot depictions|
 |**Dependencies**|dplyr,ggplot2|
 |**Summary**|TG-Gates class probability profile of the compounds will be categorized as 4 different groups (based on increase or decrease pattern at different doses Low, Middle and High) The significant pathways based on increases or decrease of pathway activation scores will be determined using ANOVA followed by post tukey test with bootstrap sampling method.|
 
 |**R Script**|[time_exposure_response_TG_GATEs_repeated.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_5_time_exposure_response_TG_GATEs_repeated.R)|
 | ------------- |--------------|
 |**Input**|Output of the scripts [Developing_Harmonic_and_average_EDC_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_3_Developing_Harmonic_and_average_EDC_scores.R), [RWR_FGSEA_for_all_compounds_in_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/4_2_RWR_FGSEA_for_all_compounds_in_CTD.R),[Integration_of_coefficients_stabilties_NES_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_6_Integration_of_coefficients_stabilties_NES_scores.R)|
-|**Output**|List of the compounds based on the patterns of increase and decrease, List of ANOVA results for dose response, Plot depictions|
+|**Output**|List of the compounds based on the patterns of increase and decrease, List of ANOVA results for pathways in different time of exposure scenarios, Plot depictions|
 |**Dependencies**|dplyr,ggplot2|
 |**Summary**|TG-Gates class probability profile of the compounds will be categorized as 4 different patterns (based on increase or decrease pattern at different Time of exposure 8 days, 15 days and 29 days). The significant pathways based on increases or decrease of pathway activation scores will be determined using ANOVA followed by post tukey test with bootstrap sampling method|
 
@@ -371,7 +371,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**||
 |**Dependencies**||
 |**Summary**|For each data layer (network) the number selected KEGG pathways by elastic GLM will be categorized and represented in plots.For each data layer (network) the number selected REACTOME pathways by elastic GLM will be categorized and represented in plots.|
-
+<br/>
+<br/>
+<br/>
 
 
 # Part IV: Linking MIEs to Adverse outcomes
