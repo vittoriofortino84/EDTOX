@@ -339,29 +339,33 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 # Part III: Sensitivity and enrichment analysis
 |8_4|dose_response_TG_GATEs_single.R| 
 | ------------- |--------------|
-|**Inout**||
+|**Input**||
 |**Output| |
 |**Dependencies**||
 |**Summary**|TG-Gates class probability profile of the compounds will be categorized as 4 different patterns (based on increase or decrease pattern at different doses Low, Middle and High) The significant pathways based on increases or decrease of pathway activation scores will be determined using ANOVA followed by post tukey test with bootstrap sampling method.|
 
 |8_5|time_exposure_response_TG_GATEs_repeated.R|
+| ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|TG-Gates class probability profile of the compounds will be categorized as 4 different patterns (based on increase or decrease pattern at different Time of exposure 8 days, 15 days and 29 days). The significant pathways based on increases or decrease of pathway activation scores will be determined using ANOVA followed by post tukey test with bootstrap sampling method.|
 |8_6|textmining_16_april_2020_endocrine_disruption.R|
+| ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|After the search in pubmed for the term endocrine disruption (ED) the genes related to ED will be determined using text mining with pubmed.mineR.|
 
 |8_7|time_dose_plots_heatplot.R|
+| ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|The pathways versus thier genes will be represented as two heatplots (dose and time point).The highly cited gened will be determined in the plot.The essential genes will be highlighted in the plot.|
 
 |8_8|categorization_enrichment_result.R|
+| ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
