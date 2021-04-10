@@ -360,9 +360,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |**R Script**|[time_dose_plots_heatplot.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_7_time_dose_plots_heatplot.R)|
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|Output of the scripts [time_exposure_response_TG_GATEs_repeated.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_5_time_exposure_response_TG_GATEs_repeated.R), [dose_response_TG_GATEs_single.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_4_dose_response_TG_GATEs_single.R),[Pathways_Download.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_2_Pathways_Download.R) |
+|**Output**|Plots of time of exposure and dose for sensitivity analysis, heatplot eseential genes and pathways|
+|**Dependencies**|ggpubr, RColorBrewer, ggplot2|
 |**Summary**|The pathways versus thier genes will be represented as two heatplots (dose and time point).The highly cited gened will be determined in the plot.The essential genes will be highlighted in the plot.|
 
 |**R Script**|[categorization_enrichment_result.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_8_categorization_enrichment_result.R)|
