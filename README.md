@@ -349,7 +349,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Input**||
 |**Output**||
 |**Dependencies**||
-|**Summary**|TG-Gates class probability profile of the compounds will be categorized as 4 different patterns (based on increase or decrease pattern at different Time of exposure 8 days, 15 days and 29 days). The significant pathways based on increases or decrease of pathway activation scores will be determined using ANOVA followed by post tukey test with bootstrap sampling method.|
+|**Summary**|TG-Gates class probability profile of the compounds will be categorized as 4 different patterns (based on increase or decrease pattern at different Time of exposure 8 days, 15 days and 29 days). The significant pathways based on increases or decrease of pathway activation scores will be determined using ANOVA followed by post tukey test with bootstrap sampling method|
 |8_6|textmining_16_april_2020_endocrine_disruption.R|
 | ------------- |--------------|
 |**Input**||
