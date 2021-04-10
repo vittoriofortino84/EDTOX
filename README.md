@@ -390,17 +390,132 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Dependencies**||
 |**Summary**|Compiling a binary matrix from chem-disease associations in CTD. The rows of the matrix are the compound names and the columns are the disease names. The compound disease associations are represented by 1 in the matrix.|
 
-#### Script 9_3_preparation_two_class_training_set_by_disease_name.R 
-- Preparation of training set (NES scores and class labels) for atherosclerosis, metabolic syndrome, diabetes type 2 and coronary artery disease
 
-#### Script 9_4_1_metabolic_syndrome_two_class_traning_models_glm.R   
-- Training GLM  models of metabolic syndrome for all 15 data layers
+|9_3 |preparation_two_class_training_set_by_disease_name.R  |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|Preparation of training set (NES scores and class labels) for atherosclerosis, metabolic syndrome, diabetes type 2 and coronary artery disease|
 
-#### Script 9_4_2_artherosclerosis_two_class_training_models_glm.R  
-- Training GLM  models of atherosclerosis for all 15 data layers
+|9_4_1 |metabolic_syndrome_two_class_traning_models_glm.R |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|Training GLM  models of metabolic syndrome for all 15 data layers|
 
-#### Script 9_4_3_diabetes_2_two_class_traning_models_glm.R         
-- Training GLM  models of diabetes T2 for all 15 data layers
+|9_4_2 | artherosclerosis_two_class_training_models_glm.R|
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|Training GLM  models of atherosclerosis for all 15 data layers|
+
+|9_4_3 | diabetes_2_two_class_traning_models_glm.R |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|Training GLM  models of diabetes T2 for all 15 data layers|
+
+| | |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**||
+
+| | |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**||
+
+| | |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**||
+
+| | |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**||
+
+| | |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**||
+
+| | |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**||
+
+| | |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**||
+
+| | |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**||
+
+| | |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**||
+
+| | |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**||
+
+| | |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**||
+
+| | |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**||
+
+| | |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**||
+
+| | |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**||
 
 #### Script 9_5_1_kfold_CV_two_class_metabolic_syndrome_glm.R        
 - Performing K-fold-Cross validation on models of metabolic syndrome for all 15 data layers
