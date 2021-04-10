@@ -337,35 +337,35 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 <br/>
 
 # Part III: Sensitivity and enrichment analysis
-|8_4|[dose_response_TG_GATEs_single.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_4_dose_response_TG_GATEs_single.R)| 
+|**R Script**|[dose_response_TG_GATEs_single.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_4_dose_response_TG_GATEs_single.R)| 
 | ------------- |--------------|
 |**Input**||
 |**Output**| |
 |**Dependencies**||
 |**Summary**|TG-Gates class probability profile of the compounds will be categorized as 4 different patterns (based on increase or decrease pattern at different doses Low, Middle and High) The significant pathways based on increases or decrease of pathway activation scores will be determined using ANOVA followed by post tukey test with bootstrap sampling method.|
 
-|8_5|[time_exposure_response_TG_GATEs_repeated.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_5_time_exposure_response_TG_GATEs_repeated.R)|
+|**R Script**|[time_exposure_response_TG_GATEs_repeated.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_5_time_exposure_response_TG_GATEs_repeated.R)|
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|TG-Gates class probability profile of the compounds will be categorized as 4 different patterns (based on increase or decrease pattern at different Time of exposure 8 days, 15 days and 29 days). The significant pathways based on increases or decrease of pathway activation scores will be determined using ANOVA followed by post tukey test with bootstrap sampling method|
 
-|8_6|[textmining_16_april_2020_endocrine_disruption.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_6_textmining_16_april_2020_endocrine_disruption.R)|
+|**R Script**|[textmining_16_april_2020_endocrine_disruption.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_6_textmining_16_april_2020_endocrine_disruption.R)|
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|After the search in pubmed for the term endocrine disruption (ED) the genes related to ED will be determined using text mining with pubmed.mineR.|
 
-|8_7|[time_dose_plots_heatplot.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_7_time_dose_plots_heatplot.R)|
+|**R Script**|[time_dose_plots_heatplot.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_7_time_dose_plots_heatplot.R)|
 | ------------- |--------------|
 |**Input**||
 |**Output**||
 |**Dependencies**||
 |**Summary**|The pathways versus thier genes will be represented as two heatplots (dose and time point).The highly cited gened will be determined in the plot.The essential genes will be highlighted in the plot.|
 
-|8_8|[categorization_enrichment_result.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_8_categorization_enrichment_result.R)|
+|**R Script**|[categorization_enrichment_result.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_8_categorization_enrichment_result.R)|
 | ------------- |--------------|
 |**Input**||
 |**Output**||
@@ -376,14 +376,19 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 # Part IV: Linking MIEs to Adverse outcomes
 
-#### Script 9_1_preparation_data_set_disease_biomarker.R           
-- Retaining the pathways with length of 50 genes for biomarker discovery.
-- Preparation of the NES scores for each data layer based on the selected pathways. 
+|9_1|preparation_data_set_disease_biomarker.R|  
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|Retaining the pathways with length of 50 genes for biomarker discovery. Preparation of the NES scores for each data layer based on the selected pathways. |
 
-#### Script 9_2_chem2disease_CTD.R                               
-- Compiling a binary matrix from chem-disease associations in CTD.
-- The rows of the matrix are the compound names and the columns are the disease names.
-- The compound disease associations are represented by 1 in the matrix.
+|9_2|chem2disease_CTD.R| 
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|Compiling a binary matrix from chem-disease associations in CTD. The rows of the matrix are the compound names and the columns are the disease names. The compound disease associations are represented by 1 in the matrix.|
 
 #### Script 9_3_preparation_two_class_training_set_by_disease_name.R 
 - Preparation of training set (NES scores and class labels) for atherosclerosis, metabolic syndrome, diabetes type 2 and coronary artery disease
