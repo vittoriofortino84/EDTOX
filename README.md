@@ -252,7 +252,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 <br/>
 <br/>
 
-### 6. Prediction of EDC class probilities for 12k compounds in CTD and final development of EDC scores
+### 6. Prediction of EDC class probilities for 12k compounds in CTD and compiling of EDC scores
 
 |**R Script**|[prediction_all_compounds_class_probilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_1_prediction_all_compounds_class_probilities.R)|
 | ------------- |--------------|
