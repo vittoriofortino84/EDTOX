@@ -441,6 +441,57 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Dependencies**||
 |**Summary**|Performing K-fold-Cross validation on models of diabetes type 2 for all 15 data layers|
 
+|9_6_1 |comparison_CV_F1_scores_all_layers_ANOVA_metabolic_syndrome.R |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**| The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for metabolic syndrome.Boxplot will be used to represent the obtained F1 scors across all GLM models for metabolic syndrome.|
+
+|9_6_2 |comparison_CV_F1_scores_all_layers_ANOVA_atherosclerosis.R |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for atherosclerosis. Boxplot will be used to represent the obtained F1 scors across all GLM models for atherosclerosis.|
+
+|9_6_3 |comparison_CV_F1_scores_all_layers_ANOVA_diabetes.R  |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for diabetes type 2. Boxplot will be used to represent the obtained F1 scors across all GLM models for diyabetes type 2.|
+
+
+
+
+#### Script _
+
+
+
+
+
+|9_7_1 |Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs leading to metabolic synndrome vs edcs not leading to metabolic syndrome. The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).|
+
+|9_7_2 |Integration_of_glm_coefs_stabilities_NES_ROC_atherosclerosis.R |
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs leading to atherosclerosis vs edcs not leading to atherosclerosis. The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).|
+
+|9_7_3 | Integration_of_glm_coefs_stabilities_NES_ROC_diabetes_2.R|
+| ------------- |--------------|
+|**Input**||
+|**Output**||
+|**Dependencies**||
+|**Summary**|For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs leading to diabetes type 2 vs edcs not leading to diabetes type 2.The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).|
+
 | | |
 | ------------- |--------------|
 |**Input**||
@@ -476,72 +527,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Dependencies**||
 |**Summary**||
 
-| | |
-| ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
-|**Summary**||
 
-| | |
-| ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
-|**Summary**||
-
-| | |
-| ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
-|**Summary**||
-
-| | |
-| ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
-|**Summary**||
-
-| | |
-| ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
-|**Summary**||
-
-| | |
-| ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
-|**Summary**||
-
-
-#### Script 9_6_1_comparison_CV_F1_scores_all_layers_ANOVA_metabolic_syndrome.R
-- The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for metabolic syndrome.
-- Boxplot will be used to represent the obtained F1 scors across all GLM models for metabolic syndrome.
-
-#### Script 9_6_2_comparison_CV_F1_scores_all_layers_ANOVA_atherosclerosis.R
-- The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for atherosclerosis.
-- Boxplot will be used to represent the obtained F1 scors across all GLM models for atherosclerosis.
-
-#### Script 9_6_3_comparison_CV_F1_scores_all_layers_ANOVA_diabetes.R 
-- The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for diabetes type 2.
-- Boxplot will be used to represent the obtained F1 scors across all GLM models for dyabetes type 2.
-
-#### Script 9_7_1_Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R
-- For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs leading to metabolic synndrome vs edcs not leading to metabolic syndrome.
-- The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).
-
-#### Script 9_7_2_Integration_of_glm_coefs_stabilities_NES_ROC_atherosclerosis.R
-- For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs leading to atherosclerosis vs edcs not leading to atherosclerosis.
-- The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).
-
-#### Script 9_7_3_Integration_of_glm_coefs_stabilities_NES_ROC_diabetes_2.R
-- For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs leading to diabetes type 2 vs edcs not leading to diabetes type 2.
-- The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).
 
 #### Script 9_8_bubble_plots_pathways.R                           
 - The map of pathway activation scores and GLM coefficient for each pathway and network will be represented as bubble plots for the three diseases metabolic syndrome,
