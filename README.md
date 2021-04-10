@@ -391,7 +391,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Summary**|Compiling a binary matrix from chem-disease associations in CTD. The rows of the matrix are the compound names and the columns are the disease names. The compound disease associations are represented by 1 in the matrix.|
 
 
-| |[preparation_two_class_training_set_by_disease_name.R] (https://github.com/amir1715/EDTOX/blob/master/scripts/9_3_preparation_two_class_training_set_by_disease_name.R) |
+| |[preparation_two_class_training_set_by_disease_name.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_3_preparation_two_class_training_set_by_disease_name.R) |
 | ------------- |--------------|
 |**Input**||
 |**Output**||
@@ -420,7 +420,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Summary**|Training GLM  models of diabetes T2 for all 15 data layers|
 
 
-|| [kfold_CV_two_class_metabolic_syndrome_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/ 9_5_1_kfold_CV_two_class_metabolic_syndrome_glm.R)|
+|| [kfold_CV_two_class_metabolic_syndrome_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_5_1_kfold_CV_two_class_metabolic_syndrome_glm.R)|
 | ------------- |--------------|
 |**Input**||
 |**Output**||
