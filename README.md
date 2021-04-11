@@ -399,26 +399,31 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**|A list object with training x data and y vector for each data layer|
 |**Dependencies**|No dependencies|
 |**Summary**|Preparation of training set (NES scores and class labels) for atherosclerosis, metabolic syndrome and diabetes type 2|
+
+
+<br/>
+<br/>
+<br/>
 ### 2. Training elastic-net GLM classifier for the metabolic syndrome, diabetes type2 and atherosclerosis with EDCs 
 |**R Script** |[metabolic_syndrome_two_class_traning_models_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_4_1_metabolic_syndrome_two_class_traning_models_glm.R) |
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|Output of the script [preparation_two_class_training_set_by_disease_name.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_3_preparation_two_class_training_set_by_disease_name.R) |
+|**Output**|A list classification models and coeffecients for each data layer|
+|**Dependencies**|caret, doParallel|
 |**Summary**|Training GLM  models of metabolic syndrome for all 15 data layers|
 
 |**R Script** | [artherosclerosis_two_class_training_models_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_4_2_artherosclerosis_two_class_training_models_glm.R)|
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|Output of the script [preparation_two_class_training_set_by_disease_name.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_3_preparation_two_class_training_set_by_disease_name.R) |
+|**Output**|A list classification models and coeffecients for each data layer|
+|**Dependencies**|caret, doParallel|
 |**Summary**|Training GLM  models of atherosclerosis for all 15 data layers|
 
 |**R Script** | [diabetes_2_two_class_traning_models_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_4_3_diabetes_2_two_class_traning_models_glm.R)|
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|Output of the script [preparation_two_class_training_set_by_disease_name.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_3_preparation_two_class_training_set_by_disease_name.R) |
+|**Output**|A list classification models and coeffecients for each data layer|
+|**Dependencies**|caret, doParallel|
 |**Summary**|Training GLM  models of diabetes T2 for all 15 data layers|
 
 
