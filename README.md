@@ -380,10 +380,10 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |**R Script**|[preparation_data_set_disease_biomarker.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_1_preparation_data_set_disease_biomarker.R)|  
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
-|**Summary**|Retaining the pathways with length of 50 genes for biomarker discovery. Preparation of the NES scores for each data layer based on the selected pathways. |
+|**Input**|Output of the scripts [Pathways_Download.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_2_Pathways_Download.R), [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R),[RWR_FGSEA_for_all_compounds_in_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/4_2_RWR_FGSEA_for_all_compounds_in_CTD.R)  |
+|**Output**|A list of pathway scores for each data layer with specefic pathways|
+|**Dependencies**|No dependencies|
+|**Summary**|Retaining the pathways with max length of 50 genes for biomarker discovery study. Preparation of the NES scores for each data layer based on the selected pathways. |
 
 |**R Script**|[chem2disease_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_2_chem2disease_CTD.R)| 
 | ------------- |--------------|
