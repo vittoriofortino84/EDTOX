@@ -474,30 +474,30 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**R Script** |[Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_7_1_Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R) |
 | ------------- |--------------|
 |**Input**|Output of the scripts [preparation_two_class_training_set_by_disease_name.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_3_preparation_two_class_training_set_by_disease_name.R), [kfold_CV_two_class_metabolic_syndrome_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_5_1_kfold_CV_two_class_metabolic_syndrome_glm.R), [metabolic_syndrome_two_class_traning_models_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_4_1_metabolic_syndrome_two_class_traning_models_glm.R)   |
-|**Output**||
-|**Dependencies**||
+|**Output**|A data frame with stability index, AUC-ROC and GLM coef for each pathway across all data layers|
+|**Dependencies**|magrittr, PRROC|
 |**Summary**|For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs leading to metabolic synndrome vs edcs not leading to metabolic syndrome. The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).|
 
 |**R Script** |[Integration_of_glm_coefs_stabilities_NES_ROC_atherosclerosis.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_7_2_Integration_of_glm_coefs_stabilities_NES_ROC_atherosclerosis.R) |
 | ------------- |--------------|
 |**Input**|Output of the scripts [preparation_two_class_training_set_by_disease_name.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_3_preparation_two_class_training_set_by_disease_name.R), [kfold_CV_two_class_artherosclerosis_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_5_2_kfold_CV_two_class_artherosclerosis_glm.R), [artherosclerosis_two_class_training_models_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_4_2_artherosclerosis_two_class_training_models_glm.R)|
-|**Output**||
-|**Dependencies**||
+|**Output**|A data frame with stability index, AUC-ROC and GLM coef for each pathway across all data layers|
+|**Dependencies**|magrittr, PRROC|
 |**Summary**|For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs leading to atherosclerosis vs edcs not leading to atherosclerosis. The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).|
 
 |**R Script** | [Integration_of_glm_coefs_stabilities_NES_ROC_diabetes_2.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_7_3_Integration_of_glm_coefs_stabilities_NES_ROC_diabetes_2.R)|
 | ------------- |--------------|
 |**Input**|Output of the scripts [preparation_two_class_training_set_by_disease_name.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_3_preparation_two_class_training_set_by_disease_name.R), [kfold_CV_two_class_diabetes_2_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_5_3_kfold_CV_two_class_diabetes_2_glm.R), [diabetes_2_two_class_traning_models_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_4_3_diabetes_2_two_class_traning_models_glm.R)|
-|**Output**||
-|**Dependencies**||
+|**Output**|A data frame with stability index, AUC-ROC and GLM coef for each pathway across all data layers|
+|**Dependencies**|magrittr, PRROC|
 |**Summary**|For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs leading to diabetes type 2 vs edcs not leading to diabetes type 2.The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).|
 
 
 |**R Script** |[bubble_plots_pathways.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_8_bubble_plots_pathways.R)   |
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|The output of the scripts [Integration_of_glm_coefs_stabilities_NES_ROC_diabetes_2.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_7_3_Integration_of_glm_coefs_stabilities_NES_ROC_diabetes_2.R), [Integration_of_glm_coefs_stabilities_NES_ROC_atherosclerosis.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_7_2_Integration_of_glm_coefs_stabilities_NES_ROC_atherosclerosis.R), [Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_7_1_Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R)   |
+|**Output**|Bubble plot for each disease across all data layers representing the pathways and their coeffeicients|
+|**Dependencies**|ggplot2, ggarrange|
 |**Summary**|The map of pathway activation scores and GLM coefficient for each pathway and network will be represented as bubble plots for the three diseases metabolic syndrome, atherosclerosis and diabetes type 2. The generated plots can be used to indicate the putative pathways linking EDCs to adverse outcome.|
 
 
