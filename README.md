@@ -97,7 +97,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Input**| LFCs and annottations from https://www.ebi.ac.uk/biostudies/studies/S-DIXA-AN-009?query=S-DIXA-AN-009|
 || journal.pcbi.1004847.s026.XLS from https://pubmed.ncbi.nlm.nih.gov/27028627/|
 |**Output**| 4 gene networks for Drug Matrix|
-|**Dependencies**| XLSX, doParallel, wTO|
+|**Dependencies**| xlsx, doParallel, wTO|
 |**Summary**|Removing the control samples from the preprocessed and normalized LFC values related to Drug Matrix data source for rat in vitro hepatocytes and rat in vivo. Selection of the three exposure time points 1,3 and 5 days for in vivo and 1 day for in vitro and splitting the data as four data frames. Selection of the genes expressed in liver and orthology mapping of the probe IDs to entrez gene values. Compiling 4 gene co-expression networks from the data frames using wTO package with bootstrap resampling method.|
 
 |**R Script**| [TG_Gates_wTO.R](https://github.com/amir1715/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R)|
@@ -258,7 +258,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 | ------------- |--------------|
 |**Input**| Output of the scripts [glm_modeling.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_3_glm_modeling.R), [RWR_FGSEA_for_all_compounds_in_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/4_2_RWR_FGSEA_for_all_compounds_in_CTD.R)|
 |**Output**|Class probability of a compound to be EDC for each data layer|
-|**Dependencies**| Caret|
+|**Dependencies**| caret|
 |**Summary**| GLM coefs for each network will be used to predict class probability of all compounds in CTD using their NES scores across different pathways.|
 
 |**R Script**|[ROC_TOXCAST_vs_class_probabilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_2_ROC_TOXCAST_vs_class_probabilities.R)|  
@@ -291,7 +291,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 | ------------- |--------------|
 |**Input**|https://cb.imsc.res.in/deduct/images/Batch_Download/DEDuCT_ChemicalBasicInformation.csv, Output of the scripts [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R), [prediction_all_compounds_class_probilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_1_prediction_all_compounds_class_probilities.R) |
 |**Output**| Excel table with harmonic scores and the compounds in DeDUCT |
-|**Dependencies**| XLSX|
+|**Dependencies**| xlsx|
 |**Summary**|Evaluation of the scores for the compounds in DeDUCT |
 
 
@@ -377,7 +377,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 
 # Part IV: Linking MIEs to Adverse outcomes
-
+### 1. Preparation of the training benchmark set 
 |**R Script**|[preparation_data_set_disease_biomarker.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_1_preparation_data_set_disease_biomarker.R)|  
 | ------------- |--------------|
 |**Input**|Output of the scripts [Pathways_Download.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_2_Pathways_Download.R), [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R),[RWR_FGSEA_for_all_compounds_in_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/4_2_RWR_FGSEA_for_all_compounds_in_CTD.R)  |
@@ -389,17 +389,17 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 | ------------- |--------------|
 |**Input**|http://ctdbase.org/reports/CTD_chemicals_diseases.csv.gz, output of the script  [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R),  |
 |**Output**|A binary matrix of chemicals and diseases with 1 representing the association of a disease and the chemical|
-|**Dependencies**|Xlsx|
+|**Dependencies**|xlsx|
 |**Summary**|Compiling a binary matrix from chem-disease associations in CTD. The rows of the matrix are the compound names and the columns are the disease names. The compound disease associations are represented by 1 in the matrix.|
 
 
 |**R Script** |[preparation_two_class_training_set_by_disease_name.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_3_preparation_two_class_training_set_by_disease_name.R) |
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
-|**Summary**|Preparation of training set (NES scores and class labels) for atherosclerosis, metabolic syndrome, diabetes type 2 and coronary artery disease|
-
+|**Input**|Output of the scripts [preparation_data_set_disease_biomarker.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_1_preparation_data_set_disease_biomarker.R) |
+|**Output**|A list object with training x data and y vector for each data layer|
+|**Dependencies**|No dependencies|
+|**Summary**|Preparation of training set (NES scores and class labels) for atherosclerosis, metabolic syndrome and diabetes type 2|
+### 2. Training elastic-net GLM classifier for the metabolic syndrome, diabetes type2 and atherosclerosis with EDCs 
 |**R Script** |[metabolic_syndrome_two_class_traning_models_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_4_1_metabolic_syndrome_two_class_traning_models_glm.R) |
 | ------------- |--------------|
 |**Input**||
