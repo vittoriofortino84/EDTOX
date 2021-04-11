@@ -1,0 +1,1594 @@
+2-Oxocarboxylic acid metabolism - Homo sapiens (human)	path:hsa01210	kegg	isPartOf	Amino Acid metabolism	WP3925	wikipathways
+AMPK signaling pathway - Homo sapiens (human)	path:hsa04152	kegg	equivalentTo	AMP-activated Protein Kinase (AMPK) Signaling	WP1403	wikipathways
+Leptin and adiponectin	WP3934	wikipathways	isPartOf	Adipocytokine signaling pathway - Homo sapiens (human)	path:hsa04920	kegg
+Alanine, aspartate and glutamate metabolism - Homo sapiens (human)	path:hsa00250	kegg	isPartOf	Amino Acid metabolism	WP3925	wikipathways
+Alanine and aspartate metabolism	WP106	wikipathways	isPartOf	Alanine, aspartate and glutamate metabolism - Homo sapiens (human)	path:hsa00250	kegg
+Alcoholism - Homo sapiens (human)	path:hsa05034	kegg	isPartOf	Common Pathways Underlying Drug Addiction	WP2636	wikipathways
+Aldosterone synthesis and secretion - Homo sapiens (human)	path:hsa04925	kegg	isPartOf	Glucocorticoid and Mineralcorticoid Metabolism	WP237	wikipathways
+Allograft rejection - Homo sapiens (human)	path:hsa05330	kegg	equivalentTo	Allograft Rejection	WP2328	wikipathways
+Alzheimer disease - Homo sapiens (human)	path:hsa05010	kegg	equivalentTo	Alzheimers Disease	WP2059	wikipathways
+Amphetamine addiction - Homo sapiens (human)	path:hsa05031	kegg	isPartOf	Common Pathways Underlying Drug Addiction	WP2636	wikipathways
+Amyotrophic lateral sclerosis (ALS) - Homo sapiens (human)	path:hsa05014	kegg	equivalentTo	Amyotrophic lateral sclerosis (ALS)	WP2447	wikipathways
+Apoptosis - Homo sapiens (human)	path:hsa04210	kegg	equivalentTo	Apoptosis	WP254	wikipathways
+Apoptosis Modulation by HSP70	WP384	wikipathways	isPartOf	Apoptosis - Homo sapiens (human)	path:hsa04210	kegg
+Nanomaterial induced apoptosis	WP2507	wikipathways	isPartOf	Apoptosis - Homo sapiens (human)	path:hsa04210	kegg
+Apoptosis Modulation and Signaling	WP1772	wikipathways	isPartOf	Apoptosis - Homo sapiens (human)	path:hsa04210	kegg
+Nanomaterial induced apoptosis	WP2507	wikipathways	isPartOf	Apoptosis - multiple species - Homo sapiens (human)	path:hsa04215	kegg
+Apoptosis Modulation by HSP70	WP384	wikipathways	isPartOf	Apoptosis - multiple species - Homo sapiens (human)	path:hsa04215	kegg
+Apoptosis Modulation and Signaling	WP1772	wikipathways	isPartOf	Apoptosis - multiple species - Homo sapiens (human)	path:hsa04215	kegg
+Arginine and proline metabolism - Homo sapiens (human)	path:hsa00330	kegg	isPartOf	Amino Acid metabolism	WP3925	wikipathways
+Arginine and proline metabolism - Homo sapiens (human)	path:hsa00330	kegg	isPartOf	Urea cycle and metabolism of amino groups	WP497	wikipathways
+Arginine biosynthesis - Homo sapiens (human)	path:hsa00220	kegg	isPartOf	Amino Acid metabolism	WP3925	wikipathways
+Arginine biosynthesis - Homo sapiens (human)	path:hsa00220	kegg	isPartOf	Urea cycle and metabolism of amino groups	WP497	wikipathways
+Arrhythmogenic right ventricular cardiomyopathy (ARVC) - Homo sapiens (human)	path:hsa05412	kegg	equivalentTo	Arrhythmogenic Right Ventricular Cardiomyopathy	WP2118	wikipathways
+B cell receptor signaling pathway - Homo sapiens (human)	path:hsa04662	kegg	equivalentTo	B Cell Receptor Signaling Pathway	WP23	wikipathways
+Eukaryotic Transcription Initiation	WP405	wikipathways	isPartOf	Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg
+Drug Induction of Bile Acid Pathway	WP2289	wikipathways	isPartOf	Bile secretion - Homo sapiens (human)	path:hsa04976	kegg
+Alanine and aspartate metabolism	WP106	wikipathways	isPartOf	Biosynthesis of amino acids - Homo sapiens (human)	path:hsa01230	kegg
+Urea cycle and metabolism of amino groups	WP497	wikipathways	isPartOf	Biosynthesis of amino acids - Homo sapiens (human)	path:hsa01230	kegg
+Biosynthesis of unsaturated fatty acids - Homo sapiens (human)	path:hsa01040	kegg	isPartOf	Fatty Acid Biosynthesis	WP357	wikipathways
+Bladder cancer - Homo sapiens (human)	path:hsa05219	kegg	equivalentTo	Bladder Cancer	WP2828	wikipathways
+Caffeine metabolism - Homo sapiens (human)	path:hsa00232	kegg	isPartOf	Caffeine and Theobromine metabolism	WP3633	wikipathways
+Cori Cycle	WP1946	wikipathways	isPartOf	Carbon metabolism - Homo sapiens (human)	path:hsa01200	kegg
+Pentose Phosphate Pathway	WP134	wikipathways	isPartOf	Carbon metabolism - Homo sapiens (human)	path:hsa01200	kegg
+Glycolysis and Gluconeogenesis	WP534	wikipathways	isPartOf	Carbon metabolism - Homo sapiens (human)	path:hsa01200	kegg
+TCA Cycle	WP78	wikipathways	isPartOf	Carbon metabolism - Homo sapiens (human)	path:hsa01200	kegg
+One Carbon Metabolism	WP241	wikipathways	isPartOf	Carbon metabolism - Homo sapiens (human)	path:hsa01200	kegg
+Cell cycle - Homo sapiens (human)	path:hsa04110	kegg	equivalentTo	Cell Cycle	WP179	wikipathways
+G1 to S cell cycle control	WP45	wikipathways	isPartOf	Cell cycle - Homo sapiens (human)	path:hsa04110	kegg
+Chemokine signaling pathway - Homo sapiens (human)	path:hsa04062	kegg	equivalentTo	Chemokine signaling pathway	WP3929	wikipathways
+Cholesterol Biosynthesis	WP197	wikipathways	isPartOf	Cholesterol metabolism - Homo sapiens (human)	path:hsa04979	kegg
+Imatinib and Chronic Myeloid Leukemia	WP3640	wikipathways	isPartOf	Chronic myeloid leukemia - Homo sapiens (human)	path:hsa05220	kegg
+Circadian rythm related genes	WP3594	wikipathways	isPartOf	Circadian rhythm - Homo sapiens (human)	path:hsa04710	kegg
+Citrate cycle (TCA cycle) - Homo sapiens (human)	path:hsa00020	kegg	equivalentTo	TCA Cycle	WP78	wikipathways
+TCA Cycle and Deficiency of Pyruvate Dehydrogenase complex (PDHc)	WP2453	wikipathways	isPartOf	Citrate cycle (TCA cycle) - Homo sapiens (human)	path:hsa00020	kegg
+Cocaine addiction - Homo sapiens (human)	path:hsa05030	kegg	isPartOf	Common Pathways Underlying Drug Addiction	WP2636	wikipathways
+Complement and coagulation cascades - Homo sapiens (human)	path:hsa04610	kegg	equivalentTo	Complement and Coagulation Cascades	WP558	wikipathways
+Complement Activation	WP545	wikipathways	isPartOf	Complement and coagulation cascades - Homo sapiens (human)	path:hsa04610	kegg
+Cortisol synthesis and secretion - Homo sapiens (human)	path:hsa04927	kegg	isPartOf	Glucocorticoid and Mineralcorticoid Metabolism	WP237	wikipathways
+Cysteine and methionine metabolism - Homo sapiens (human)	path:hsa00270	kegg	isPartOf	Amino Acid metabolism	WP3925	wikipathways
+Methionine De Novo and Salvage Pathway	WP3580	wikipathways	isPartOf	Cysteine and methionine metabolism - Homo sapiens (human)	path:hsa00270	kegg
+Cytokine-cytokine receptor interaction - Homo sapiens (human)	path:hsa04060	kegg	isPartOf	Cytokines and Inflammatory Response	WP530	wikipathways
+Cytokine-cytokine receptor interaction - Homo sapiens (human)	path:hsa04060	kegg	isPartOf	Inflammatory Response Pathway	WP453	wikipathways
+DNA replication - Homo sapiens (human)	path:hsa03030	kegg	equivalentTo	DNA Replication	WP466	wikipathways
+Nicotine Activity on Dopaminergic Neurons	WP1602	wikipathways	isPartOf	Dopaminergic synapse - Homo sapiens (human)	path:hsa04728	kegg
+Lidocaine metabolism	WP2646	wikipathways	isPartOf	Drug metabolism - cytochrome P450 - Homo sapiens (human)	path:hsa00982	kegg
+Codeine and Morphine Metabolism	WP1604	wikipathways	isPartOf	Drug metabolism - cytochrome P450 - Homo sapiens (human)	path:hsa00982	kegg
+Valproic acid pathway	WP3871	wikipathways	isPartOf	Drug metabolism - cytochrome P450 - Homo sapiens (human)	path:hsa00982	kegg
+Nicotine Metabolism	WP1600	wikipathways	isPartOf	Drug metabolism - cytochrome P450 - Homo sapiens (human)	path:hsa00982	kegg
+Tamoxifen metabolism	WP691	wikipathways	isPartOf	Drug metabolism - cytochrome P450 - Homo sapiens (human)	path:hsa00982	kegg
+Felbamate Metabolism	WP2816	wikipathways	isPartOf	Drug metabolism - cytochrome P450 - Homo sapiens (human)	path:hsa00982	kegg
+Diclofenac Metabolic Pathway	WP2491	wikipathways	isPartOf	Drug metabolism - cytochrome P450 - Homo sapiens (human)	path:hsa00982	kegg
+Codeine and Morphine Metabolism	WP1604	wikipathways	isPartOf	Drug metabolism - other enzymes - Homo sapiens (human)	path:hsa00983	kegg
+Caffeine and Theobromine metabolism	WP3633	wikipathways	isPartOf	Drug metabolism - other enzymes - Homo sapiens (human)	path:hsa00983	kegg
+Glucuronidation	WP698	wikipathways	isPartOf	Drug metabolism - other enzymes - Homo sapiens (human)	path:hsa00983	kegg
+Arylamine metabolism	WP694	wikipathways	isPartOf	Drug metabolism - other enzymes - Homo sapiens (human)	path:hsa00983	kegg
+Felbamate Metabolism	WP2816	wikipathways	isPartOf	Drug metabolism - other enzymes - Homo sapiens (human)	path:hsa00983	kegg
+Colchicine Metabolic Pathway	WP2536	wikipathways	isPartOf	Drug metabolism - other enzymes - Homo sapiens (human)	path:hsa00983	kegg
+Cocaine metabolism	WP2826	wikipathways	isPartOf	Drug metabolism - other enzymes - Homo sapiens (human)	path:hsa00983	kegg
+Heroin metabolism	WP2645	wikipathways	isPartOf	Drug metabolism - other enzymes - Homo sapiens (human)	path:hsa00983	kegg
+ECM-receptor interaction - Homo sapiens (human)	path:hsa04512	kegg	isPartOf	Focal Adhesion	WP306	wikipathways
+Endometrial cancer - Homo sapiens (human)	path:hsa05213	kegg	equivalentTo	Endometrial cancer	WP4155	wikipathways
+ErbB signaling pathway - Homo sapiens (human)	path:hsa04012	kegg	equivalentTo	ErbB Signaling Pathway	WP673	wikipathways
+Estrogen signaling pathway - Homo sapiens (human)	path:hsa04915	kegg	equivalentTo	Estrogen signaling pathway	WP712	wikipathways
+Fatty acid biosynthesis - Homo sapiens (human)	path:hsa00061	kegg	equivalentTo	Fatty Acid Biosynthesis	WP357	wikipathways
+Fatty Acid Omega Oxidation	WP206	wikipathways	isPartOf	Fatty acid degradation - Homo sapiens (human)	path:hsa00071	kegg
+Peroxisomal beta-oxidation of tetracosanoyl-CoA	WP1941	wikipathways	isPartOf	Fatty acid degradation - Homo sapiens (human)	path:hsa00071	kegg
+Mitochondrial LC-Fatty Acid Beta-Oxidation	WP368	wikipathways	isPartOf	Fatty acid degradation - Homo sapiens (human)	path:hsa00071	kegg
+Fatty Acid Beta Oxidation	WP143	wikipathways	isPartOf	Fatty acid degradation - Homo sapiens (human)	path:hsa00071	kegg
+Peroxisomal beta-oxidation of tetracosanoyl-CoA	WP1941	wikipathways	isPartOf	Fatty acid metabolism - Homo sapiens (human)	path:hsa01212	kegg
+Mitochondrial LC-Fatty Acid Beta-Oxidation	WP368	wikipathways	isPartOf	Fatty acid metabolism - Homo sapiens (human)	path:hsa01212	kegg
+Fatty Acid Beta Oxidation	WP143	wikipathways	isPartOf	Fatty acid metabolism - Homo sapiens (human)	path:hsa01212	kegg
+Fatty Acid Biosynthesis	WP357	wikipathways	isPartOf	Fatty acid metabolism - Homo sapiens (human)	path:hsa01212	kegg
+Focal adhesion - Homo sapiens (human)	path:hsa04510	kegg	equivalentTo	Focal Adhesion	WP306	wikipathways
+Biosynthesis and regeneration of tetrahydrobiopterin (BH4) and catabolism of phenylalanine, including diseases	WP4156	wikipathways	isPartOf	Folate biosynthesis - Homo sapiens (human)	path:hsa00790	kegg
+GABAergic synapse - Homo sapiens (human)	path:hsa04727	kegg	isPartOf	GABA receptor Signaling	WP4159	wikipathways
+Gastric acid secretion - Homo sapiens (human)	path:hsa04971	kegg	equivalentTo	Secretion of Hydrochloric Acid in Parietal Cells	WP2597	wikipathways
+Gastric Cancer Network 2	WP2363	wikipathways	isPartOf	Gastric cancer - Homo sapiens (human)	path:hsa05226	kegg
+Gastric Cancer Network 1	WP2361	wikipathways	isPartOf	Gastric cancer - Homo sapiens (human)	path:hsa05226	kegg
+Glucagon signaling pathway - Homo sapiens (human)	path:hsa04922	kegg	isPartOf	Glycolysis and Gluconeogenesis	WP534	wikipathways
+Glucagon signaling pathway - Homo sapiens (human)	path:hsa04922	kegg	isPartOf	Energy Metabolism	WP1541	wikipathways
+Glucagon signaling pathway - Homo sapiens (human)	path:hsa04922	kegg	isPartOf	Glycogen Metabolism	WP500	wikipathways
+Glutathione metabolism - Homo sapiens (human)	path:hsa00480	kegg	equivalentTo	Glutathione metabolism	WP100	wikipathways
+Glycerophospholipid Biosynthetic Pathway	WP2533	wikipathways	isPartOf	Glycerolipid metabolism - Homo sapiens (human)	path:hsa00561	kegg
+Degradation pathway of sphingolipids, including diseases	WP4153	wikipathways	isPartOf	Glycerolipid metabolism - Homo sapiens (human)	path:hsa00561	kegg
+Triacylglyceride Synthesis	WP325	wikipathways	isPartOf	Glycerolipid metabolism - Homo sapiens (human)	path:hsa00561	kegg
+Glycerophospholipid Biosynthetic Pathway	WP2533	wikipathways	isPartOf	Glycerophospholipid metabolism - Homo sapiens (human)	path:hsa00564	kegg
+Triacylglyceride Synthesis	WP325	wikipathways	isPartOf	Glycerophospholipid metabolism - Homo sapiens (human)	path:hsa00564	kegg
+Glycine, serine and threonine metabolism - Homo sapiens (human)	path:hsa00260	kegg	isPartOf	Urea cycle and metabolism of amino groups	WP497	wikipathways
+Glycine, serine and threonine metabolism - Homo sapiens (human)	path:hsa00260	kegg	isPartOf	Amino Acid metabolism	WP3925	wikipathways
+Glycolysis / Gluconeogenesis - Homo sapiens (human)	path:hsa00010	kegg	equivalentTo	Glycolysis and Gluconeogenesis	WP534	wikipathways
+Glycosphingolipid biosynthesis - ganglio series - Homo sapiens (human)	path:hsa00604	kegg	isPartOf	Ganglio Sphingolipid Metabolism	WP1423	wikipathways
+Glycosphingolipid biosynthesis - globo and isoglobo series - Homo sapiens (human)	path:hsa00603	kegg	isPartOf	Globo Sphingolipid Metabolism	WP1424	wikipathways
+Graft-versus-host disease - Homo sapiens (human)	path:hsa05332	kegg	isPartOf	Allograft Rejection	WP2328	wikipathways
+Hedgehog signaling pathway - Homo sapiens (human)	path:hsa04340	kegg	equivalentTo	Hedgehog Signaling Pathway	WP47	wikipathways
+Hepatocellular carcinoma - Homo sapiens (human)	path:hsa05225	kegg	isPartOf	Hepatitis C and Hepatocellular Carcinoma	WP3646	wikipathways
+Histidine metabolism - Homo sapiens (human)	path:hsa00340	kegg	isPartOf	Amino Acid metabolism	WP3925	wikipathways
+Homologous recombination - Homo sapiens (human)	path:hsa03440	kegg	equivalentTo	Homologous recombination	WP186	wikipathways
+ERK Pathway in Huntington's Disease	WP3853	wikipathways	isPartOf	Huntington disease - Homo sapiens (human)	path:hsa05016	kegg
+IL-17 signaling pathway - Homo sapiens (human)	path:hsa04657	kegg	equivalentTo	IL17 signaling pathway	WP2112	wikipathways
+Insulin resistance - Homo sapiens (human)	path:hsa04931	kegg	isPartOf	Type II diabetes mellitus	WP1584	wikipathways
+Insulin resistance - Homo sapiens (human)	path:hsa04931	kegg	isPartOf	Insulin signalling in human adipocytes (diabetic condition)	WP3635	wikipathways
+Insulin signaling pathway - Homo sapiens (human)	path:hsa04910	kegg	isPartOf	Insulin signalling in human adipocytes (normal condition)	WP3634	wikipathways
+Insulin signaling pathway - Homo sapiens (human)	path:hsa04910	kegg	isPartOf	Glucose Homeostasis	WP661	wikipathways
+Lipoic acid metabolism - Homo sapiens (human)	path:hsa00785	kegg	isPartOf	Lipid Metabolism Pathway	WP3965	wikipathways
+Lysine degradation - Homo sapiens (human)	path:hsa00310	kegg	isPartOf	Amino Acid metabolism	WP3925	wikipathways
+MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg	equivalentTo	MAPK Signaling Pathway	WP382	wikipathways
+p38 MAPK Signaling Pathway	WP400	wikipathways	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+MAPK Cascade	WP422	wikipathways	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+Caffeine and Theobromine metabolism	WP3633	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+NAD+ biosynthetic pathways	WP3645	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Lidocaine metabolism	WP2646	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Cori Cycle	WP1946	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Prostaglandin Synthesis and Regulation	WP98	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Tryptophan metabolism	WP465	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Fatty Acid Biosynthesis	WP357	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Heroin metabolism	WP2645	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Polyol Pathway	WP690	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Ganglio Sphingolipid Metabolism	WP1423	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Biogenic Amine Synthesis	WP550	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Methionine De Novo and Salvage Pathway	WP3580	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Arylamine metabolism	WP694	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Glycolysis and Gluconeogenesis	WP534	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Dopamine metabolism	WP2436	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Acetylcholine Synthesis	WP528	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Codeine and Morphine Metabolism	WP1604	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Synthesis and Degradation of Ketone Bodies	WP311	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Trans-sulfuration and one carbon metabolism	WP2525	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Glutathione metabolism	WP100	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+TCA Cycle	WP78	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Steroid Biosynthesis	WP496	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Eicosanoid Synthesis	WP167	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+NAD Biosynthesis II (from tryptophan)	WP2485	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Heme Biosynthesis	WP561	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Trans-sulfuration pathway	WP2333	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Oxidative phosphorylation	WP623	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Degradation pathway of sphingolipids, including diseases	WP4153	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Arachidonate Epoxygenase / Epoxide Hydrolase	WP678	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+PPAR Alpha Pathway	WP2878	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Peroxisomal beta-oxidation of tetracosanoyl-CoA	WP1941	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+NAD+ metabolism	WP3644	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Sphingolipid Metabolism	WP1422	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+TCA Cycle and Deficiency of Pyruvate Dehydrogenase complex (PDHc)	WP2453	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Methylation Pathways	WP704	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Nicotine Metabolism	WP1600	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Triacylglyceride Synthesis	WP325	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Irinotecan Pathway	WP229	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Nucleotide Metabolism	WP404	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Biosynthesis and regeneration of tetrahydrobiopterin (BH4) and catabolism of phenylalanine, including diseases	WP4156	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Benzo(a)pyrene metabolism	WP696	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Mitochondrial LC-Fatty Acid Beta-Oxidation	WP368	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Amino Acid metabolism	WP3925	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Cholesterol Biosynthesis	WP197	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Oxytocin signaling	WP2889	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Fatty Acid Omega Oxidation	WP206	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Glycogen Metabolism	WP500	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Colchicine Metabolic Pathway	WP2536	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Cannabinoid receptor signaling	WP3869	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Cytosine methylation	WP3585	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Tryptophan catabolism leading to NAD+ production	WP4210	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Oxidation by Cytochrome P450	WP43	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Eukaryotic Transcription Initiation	WP405	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Kennedy pathway from Sphingolipids	WP3933	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Pentose Phosphate Pathway	WP134	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Tamoxifen metabolism	WP691	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Vitamin A and Carotenoid Metabolism	WP716	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Aflatoxin B1 metabolism	WP699	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+One carbon donor	WP2190	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Glycerophospholipid Biosynthetic Pathway	WP2533	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+One carbon metabolism and related pathways	WP3940	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Glucocorticoid and Mineralcorticoid Metabolism	WP237	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+One Carbon Metabolism	WP241	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Vitamin D Metabolism	WP1531	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Globo Sphingolipid Metabolism	WP1424	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Pyrimidine metabolism	WP4022	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Alanine and aspartate metabolism	WP106	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Lipid Metabolism Pathway	WP3965	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Glucuronidation	WP698	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Urea cycle and metabolism of amino groups	WP497	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Cocaine metabolism	WP2826	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Metabolism of Tetrahydrocannabinol (THC)	WP4174	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Electron Transport Chain	WP111	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Estrogen metabolism	WP697	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Diclofenac Metabolic Pathway	WP2491	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Metabolism of Spingolipids in ER and Golgi apparatus	WP4142	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Felbamate Metabolism	WP2816	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Fatty Acid Beta Oxidation	WP143	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Folate Metabolism	WP176	wikipathways	isPartOf	Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg
+Mismatch repair - Homo sapiens (human)	path:hsa03430	kegg	equivalentTo	Mismatch repair	WP531	wikipathways
+Morphine addiction - Homo sapiens (human)	path:hsa05032	kegg	isPartOf	Common Pathways Underlying Drug Addiction	WP2636	wikipathways
+Nanoparticle triggered regulated necrosis	WP2513	wikipathways	isPartOf	Necroptosis - Homo sapiens (human)	path:hsa04217	kegg
+GPCRs, Class C Metabotropic glutamate, pheromone	WP501	wikipathways	isPartOf	Neuroactive ligand-receptor interaction - Homo sapiens (human)	path:hsa04080	kegg
+GPCRs, Class B Secretin-like	WP334	wikipathways	isPartOf	Neuroactive ligand-receptor interaction - Homo sapiens (human)	path:hsa04080	kegg
+Small Ligand GPCRs	WP247	wikipathways	isPartOf	Neuroactive ligand-receptor interaction - Homo sapiens (human)	path:hsa04080	kegg
+Peptide GPCRs	WP24	wikipathways	isPartOf	Neuroactive ligand-receptor interaction - Homo sapiens (human)	path:hsa04080	kegg
+Monoamine GPCRs	WP58	wikipathways	isPartOf	Neuroactive ligand-receptor interaction - Homo sapiens (human)	path:hsa04080	kegg
+GPCRs, Class A Rhodopsin-like	WP455	wikipathways	isPartOf	Neuroactive ligand-receptor interaction - Homo sapiens (human)	path:hsa04080	kegg
+NAD Biosynthesis II (from tryptophan)	WP2485	wikipathways	isPartOf	Nicotinate and nicotinamide metabolism - Homo sapiens (human)	path:hsa00760	kegg
+Tryptophan catabolism leading to NAD+ production	WP4210	wikipathways	isPartOf	Nicotinate and nicotinamide metabolism - Homo sapiens (human)	path:hsa00760	kegg
+NAD+ metabolism	WP3644	wikipathways	isPartOf	Nicotinate and nicotinamide metabolism - Homo sapiens (human)	path:hsa00760	kegg
+Nicotine Metabolism	WP1600	wikipathways	isPartOf	Nicotinate and nicotinamide metabolism - Homo sapiens (human)	path:hsa00760	kegg
+NAD+ biosynthetic pathways	WP3645	wikipathways	isPartOf	Nicotinate and nicotinamide metabolism - Homo sapiens (human)	path:hsa00760	kegg
+GABA receptor Signaling	WP4159	wikipathways	isPartOf	Nicotine addiction - Homo sapiens (human)	path:hsa05033	kegg
+Nicotine Activity on Dopaminergic Neurons	WP1602	wikipathways	isPartOf	Nicotine addiction - Homo sapiens (human)	path:hsa05033	kegg
+Non-homologous end-joining - Homo sapiens (human)	path:hsa03450	kegg	equivalentTo	Non-homologous end joining	WP438	wikipathways
+Notch signaling pathway - Homo sapiens (human)	path:hsa04330	kegg	equivalentTo	Notch Signaling Pathway	WP61	wikipathways
+Notch signaling pathway - Homo sapiens (human)	path:hsa04330	kegg	equivalentTo	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+Homologous recombination	WP186	wikipathways	isPartOf	Nucleotide excision repair - Homo sapiens (human)	path:hsa03420	kegg
+Mismatch repair	WP531	wikipathways	isPartOf	Nucleotide excision repair - Homo sapiens (human)	path:hsa03420	kegg
+One carbon pool by folate - Homo sapiens (human)	path:hsa00670	kegg	isPartOf	One carbon metabolism and related pathways	WP3940	wikipathways
+One carbon pool by folate - Homo sapiens (human)	path:hsa00670	kegg	isPartOf	One carbon donor	WP2190	wikipathways
+One carbon pool by folate - Homo sapiens (human)	path:hsa00670	kegg	isPartOf	One Carbon Metabolism	WP241	wikipathways
+One carbon pool by folate - Homo sapiens (human)	path:hsa00670	kegg	isPartOf	Folate Metabolism	WP176	wikipathways
+RANKL/RANK (Receptor activator of NFKB (ligand)) Signaling Pathway	WP2018	wikipathways	isPartOf	Osteoclast differentiation - Homo sapiens (human)	path:hsa04380	kegg
+Oxidative phosphorylation - Homo sapiens (human)	path:hsa00190	kegg	equivalentTo	Oxidative phosphorylation	WP623	wikipathways
+Oxytocin signaling pathway - Homo sapiens (human)	path:hsa04921	kegg	equivalentTo	Oxytocin signaling	WP2889	wikipathways
+PI3K-Akt signaling pathway - Homo sapiens (human)	path:hsa04151	kegg	equivalentTo	PI3K-Akt Signaling Pathway	WP4172	wikipathways
+PPAR signaling pathway - Homo sapiens (human)	path:hsa03320	kegg	equivalentTo	PPAR signaling pathway	WP3942	wikipathways
+Cell-type Dependent Selectivity of CCK2R Signaling	WP3679	wikipathways	isPartOf	Pancreatic secretion - Homo sapiens (human)	path:hsa04972	kegg
+Parkinson disease - Homo sapiens (human)	path:hsa05012	kegg	equivalentTo	Parkinsons Disease Pathway	WP2371	wikipathways
+Pathogenic Escherichia coli infection - Homo sapiens (human)	path:hsa05130	kegg	equivalentTo	Pathogenic Escherichia coli infection	WP2272	wikipathways
+Integrated Cancer Pathway	WP1971	wikipathways	isPartOf	Pathways in cancer - Homo sapiens (human)	path:hsa05200	kegg
+Bladder Cancer	WP2828	wikipathways	isPartOf	Pathways in cancer - Homo sapiens (human)	path:hsa05200	kegg
+Signaling Pathways in Glioblastoma	WP2261	wikipathways	isPartOf	Pathways in cancer - Homo sapiens (human)	path:hsa05200	kegg
+Pentose and glucuronate interconversions - Homo sapiens (human)	path:hsa00040	kegg	isPartOf	Glucuronidation	WP698	wikipathways
+Pentose phosphate pathway - Homo sapiens (human)	path:hsa00030	kegg	equivalentTo	Pentose Phosphate Pathway	WP134	wikipathways
+Pentose phosphate pathway - Homo sapiens (human)	path:hsa00030	kegg	isPartOf	Glycolysis and Gluconeogenesis	WP534	wikipathways
+Peroxisomal beta-oxidation of tetracosanoyl-CoA	WP1941	wikipathways	isPartOf	Peroxisome - Homo sapiens (human)	path:hsa04146	kegg
+Phenylalanine metabolism - Homo sapiens (human)	path:hsa00360	kegg	isPartOf	Amino Acid metabolism	WP3925	wikipathways
+Phenylalanine metabolism - Homo sapiens (human)	path:hsa00360	kegg	isPartOf	Biogenic Amine Synthesis	WP550	wikipathways
+Phenylalanine, tyrosine and tryptophan biosynthesis - Homo sapiens (human)	path:hsa00400	kegg	isPartOf	Biogenic Amine Synthesis	WP550	wikipathways
+Prion diseases - Homo sapiens (human)	path:hsa05020	kegg	equivalentTo	Prion disease pathway	WP3995	wikipathways
+Prolactin signaling pathway - Homo sapiens (human)	path:hsa04917	kegg	equivalentTo	Prolactin Signaling Pathway	WP2037	wikipathways
+Proteasome - Homo sapiens (human)	path:hsa03050	kegg	equivalentTo	Proteasome Degradation	WP183	wikipathways
+Parkin-Ubiquitin Proteasomal System pathway	WP2359	wikipathways	isPartOf	Proteasome - Homo sapiens (human)	path:hsa03050	kegg
+Purine metabolism - Homo sapiens (human)	path:hsa00230	kegg	isPartOf	Nucleotide Metabolism	WP404	wikipathways
+Purine metabolism - Homo sapiens (human)	path:hsa00230	kegg	isPartOf	DNA Replication	WP466	wikipathways
+Purine metabolism - Homo sapiens (human)	path:hsa00230	kegg	isPartOf	Homologous recombination	WP186	wikipathways
+Pyrimidine metabolism - Homo sapiens (human)	path:hsa00240	kegg	equivalentTo	Pyrimidine metabolism	WP4022	wikipathways
+RIG-I-like receptor signaling pathway - Homo sapiens (human)	path:hsa04622	kegg	equivalentTo	RIG-I-like Receptor Signaling	WP3865	wikipathways
+RNA polymerase - Homo sapiens (human)	path:hsa03020	kegg	isPartOf	Eukaryotic Transcription Initiation	WP405	wikipathways
+Regulation of actin cytoskeleton - Homo sapiens (human)	path:hsa04810	kegg	equivalentTo	Regulation of Actin Cytoskeleton	WP51	wikipathways
+Regulation of lipolysis in adipocytes - Homo sapiens (human)	path:hsa04923	kegg	isPartOf	Lipid Metabolism Pathway	WP3965	wikipathways
+MET in type 1 papillary renal cell carcinoma	WP4205	wikipathways	isPartOf	Renal cell carcinoma - Homo sapiens (human)	path:hsa05211	kegg
+ACE Inhibitor Pathway	WP554	wikipathways	isPartOf	Renin-angiotensin system - Homo sapiens (human)	path:hsa04614	kegg
+Retrograde endocannabinoid signaling - Homo sapiens (human)	path:hsa04723	kegg	isPartOf	Cannabinoid receptor signaling	WP3869	wikipathways
+Cytoplasmic Ribosomal Proteins	WP477	wikipathways	isPartOf	Ribosome - Homo sapiens (human)	path:hsa03010	kegg
+SNARE interactions in vesicular transport - Homo sapiens (human)	path:hsa04130	kegg	isPartOf	Synaptic Vesicle Pathway	WP2267	wikipathways
+Selenocompound metabolism - Homo sapiens (human)	path:hsa00450	kegg	equivalentTo	Selenium Metabolism and Selenoproteins	WP28	wikipathways
+Serotonin Receptor 2 and ELK-SRF/GATA4 signaling	WP732	wikipathways	isPartOf	Serotonergic synapse - Homo sapiens (human)	path:hsa04726	kegg
+Serotonin Receptor 2 and STAT3 Signaling	WP733	wikipathways	isPartOf	Serotonergic synapse - Homo sapiens (human)	path:hsa04726	kegg
+ESC Pluripotency Pathways	WP3931	wikipathways	isPartOf	Signaling pathways regulating pluripotency of stem cells - Homo sapiens (human)	path:hsa04550	kegg
+Sphingolipid metabolism - Homo sapiens (human)	path:hsa00600	kegg	equivalentTo	Sphingolipid Metabolism	WP1422	wikipathways
+Sphingolipid metabolism - Homo sapiens (human)	path:hsa00600	kegg	isPartOf	Sphingolipid Metabolism	WP1422	wikipathways
+Sphingolipid signaling pathway - Homo sapiens (human)	path:hsa04071	kegg	isPartOf	Sphingolipid Metabolism	WP1422	wikipathways
+Spliceosome - Homo sapiens (human)	path:hsa03040	kegg	isPartOf	mRNA Processing	WP411	wikipathways
+Steroid biosynthesis - Homo sapiens (human)	path:hsa00100	kegg	equivalentTo	Steroid Biosynthesis	WP496	wikipathways
+Glucocorticoid and Mineralcorticoid Metabolism	WP237	wikipathways	isPartOf	Steroid hormone biosynthesis - Homo sapiens (human)	path:hsa00140	kegg
+Sulfation Biotransformation Reaction	WP692	wikipathways	isPartOf	Sulfur metabolism - Homo sapiens (human)	path:hsa00920	kegg
+Synaptic vesicle cycle - Homo sapiens (human)	path:hsa04721	kegg	equivalentTo	Synaptic Vesicle Pathway	WP2267	wikipathways
+Synthesis and degradation of ketone bodies - Homo sapiens (human)	path:hsa00072	kegg	equivalentTo	Synthesis and Degradation of Ketone Bodies	WP311	wikipathways
+T-Cell antigen Receptor (TCR)  Signaling Pathway	WP69	wikipathways	isPartOf	T cell receptor signaling pathway - Homo sapiens (human)	path:hsa04660	kegg
+T-Cell Receptor and Co-stimulatory Signaling	WP2583	wikipathways	isPartOf	T cell receptor signaling pathway - Homo sapiens (human)	path:hsa04660	kegg
+TGF-beta signaling pathway - Homo sapiens (human)	path:hsa04350	kegg	equivalentTo	TGF-beta Signaling Pathway	WP366	wikipathways
+Th17 cell differentiation - Homo sapiens (human)	path:hsa04659	kegg	isPartOf	IL17 signaling pathway	WP2112	wikipathways
+Th17 cell differentiation - Homo sapiens (human)	path:hsa04659	kegg	isPartOf	Cell Differentiation - Index	WP2029	wikipathways
+Thyroid hormone synthesis - Homo sapiens (human)	path:hsa04918	kegg	equivalentTo	Thyroxine (Thyroid Hormone) Production	WP1981	wikipathways
+Toll-like receptor signaling pathway - Homo sapiens (human)	path:hsa04620	kegg	equivalentTo	Toll-like Receptor Signaling Pathway	WP75	wikipathways
+Toll-like receptor signaling pathway - Homo sapiens (human)	path:hsa04620	kegg	equivalentTo	Toll-like Receptor Signaling	WP3858	wikipathways
+Tryptophan metabolism - Homo sapiens (human)	path:hsa00380	kegg	equivalentTo	Tryptophan metabolism	WP465	wikipathways
+Type II diabetes mellitus - Homo sapiens (human)	path:hsa04930	kegg	equivalentTo	Type II diabetes mellitus	WP1584	wikipathways
+Tyrosine metabolism - Homo sapiens (human)	path:hsa00350	kegg	isPartOf	Amino Acid metabolism	WP3925	wikipathways
+Tyrosine metabolism - Homo sapiens (human)	path:hsa00350	kegg	isPartOf	Biogenic Amine Synthesis	WP550	wikipathways
+Ubiquitin mediated proteolysis - Homo sapiens (human)	path:hsa04120	kegg	isPartOf	Parkin-Ubiquitin Proteasomal System pathway	WP2359	wikipathways
+Ubiquitin mediated proteolysis - Homo sapiens (human)	path:hsa04120	kegg	isPartOf	Proteasome Degradation	WP183	wikipathways
+Robo4 and VEGF Signaling Pathways Crosstalk	WP3943	wikipathways	isPartOf	VEGF signaling pathway - Homo sapiens (human)	path:hsa04370	kegg
+VEGF signaling pathway - Homo sapiens (human)	path:hsa04370	kegg	isPartOf	VEGFA-VEGFR2 Signaling Pathway	WP3888	wikipathways
+VEGFA-VEGFR2 Signaling Pathway	WP3888	wikipathways	isPartOf	VEGF signaling pathway - Homo sapiens (human)	path:hsa04370	kegg
+Valine, leucine and isoleucine biosynthesis - Homo sapiens (human)	path:hsa00290	kegg	isPartOf	Amino Acid metabolism	WP3925	wikipathways
+Valine, leucine and isoleucine degradation - Homo sapiens (human)	path:hsa00280	kegg	isPartOf	Amino Acid metabolism	WP3925	wikipathways
+Endothelin Pathways	WP2197	wikipathways	isPartOf	Vascular smooth muscle contraction - Homo sapiens (human)	path:hsa04270	kegg
+Vitamin B12 Metabolism	WP1533	wikipathways	isPartOf	Vitamin digestion and absorption - Homo sapiens (human)	path:hsa04977	kegg
+Wnt signaling pathway - Homo sapiens (human)	path:hsa04310	kegg	equivalentTo	Wnt Signaling Pathway	WP428	wikipathways
+Wnt Signaling Pathway and Pluripotency	WP399	wikipathways	isPartOf	Wnt signaling pathway - Homo sapiens (human)	path:hsa04310	kegg
+beta-Alanine metabolism - Homo sapiens (human)	path:hsa00410	kegg	isPartOf	Urea cycle and metabolism of amino groups	WP497	wikipathways
+beta-Alanine metabolism - Homo sapiens (human)	path:hsa00410	kegg	isPartOf	Biogenic Amine Synthesis	WP550	wikipathways
+beta-Alanine metabolism - Homo sapiens (human)	path:hsa00410	kegg	isPartOf	Alanine and aspartate metabolism	WP106	wikipathways
+beta-Alanine metabolism - Homo sapiens (human)	path:hsa00410	kegg	isPartOf	Amino Acid metabolism	WP3925	wikipathways
+mTOR signaling pathway - Homo sapiens (human)	path:hsa04150	kegg	equivalentTo	Target Of Rapamycin (TOR) Signaling	WP1471	wikipathways
+mTOR signaling pathway - Homo sapiens (human)	path:hsa04150	kegg	isPartOf	PI3K-Akt Signaling Pathway	WP4172	wikipathways
+mTOR signaling pathway - Homo sapiens (human)	path:hsa04150	kegg	isPartOf	PI3K-AKT-mTOR signaling pathway and therapeutic opportunities	WP3844	wikipathways
+mTOR signaling pathway - Homo sapiens (human)	path:hsa04150	kegg	isPartOf	Focal Adhesion-PI3K-Akt-mTOR-signaling pathway	WP3932	wikipathways
+Abnormal conversion of 2-oxoglutarate to 2-hydroxyglutarate	R-HSA-2978092	reactome	isPartOf	2-Oxocarboxylic acid metabolism - Homo sapiens (human)	path:hsa01210	kegg
+Pyruvate metabolism and Citric Acid (TCA) cycle	R-HSA-71406	reactome	isPartOf	2-Oxocarboxylic acid metabolism - Homo sapiens (human)	path:hsa01210	kegg
+ABC transporters - Homo sapiens (human)	path:hsa02010	kegg	equivalentTo	Mitochondrial ABC transporters	R-HSA-1369007	reactome
+Defective ABCC8 can cause hypoglycemias and hyperglycemias	R-HSA-5683177	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+Defective ABCC2 causes Dubin-Johnson syndrome	R-HSA-5679001	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+Defective ABCG5 causes sitosterolemia	R-HSA-5679096	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+Defective ABCD4 causes methylmalonic aciduria and homocystinuria, cblj type (MAHCJ)	R-HSA-5683329	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+Defective ABCB11 causes progressive familial intrahepatic cholestasis 2 and benign recurrent intrahepatic cholestasis 2	R-HSA-5678520	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+Defective ABCC6 causes pseudoxanthoma elasticum (PXE)	R-HSA-5690338	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+Defective ABCC9 causes dilated cardiomyopathy 10, familial atrial fibrillation 12 and hypertrichotic osteochondrodysplasia	R-HSA-5678420	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+Defective ABCG8 causes gallbladder disease 4 and sitosterolemia	R-HSA-5679090	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+Defective ABCB4 causes progressive familial intrahepatic cholestasis 3, intrahepatic cholestasis of pregnancy 3 and gallbladder disease 1	R-HSA-5678771	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+Defective ABCD1 causes adrenoleukodystrophy (ALD)	R-HSA-5684045	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+Defective ABCA12 causes autosomal recessive congenital ichthyosis type 4B	R-HSA-5682294	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+Defective ABCB6 causes isolated colobomatous microphthalmia 7 (MCOPCB7)	R-HSA-5683371	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+ABC transporter disorders	R-HSA-5619084	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+Defective ABCA1 causes Tangier disease	R-HSA-5682113	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+Defective ABCA3 causes pulmonary surfactant metabolism dysfunction 3 (SMDP3)	R-HSA-5688399	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+ABC transporters in lipid homeostasis	R-HSA-1369062	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+Defective ABCA3 causes pulmonary surfactant metabolism dysfunction type 3 (SMDP3)	R-HSA-5683678	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+ABC-family proteins mediated transport	R-HSA-382556	reactome	isPartOf	ABC transporters - Homo sapiens (human)	path:hsa02010	kegg
+AMPK inhibits chREBP transcriptional activation activity	R-HSA-163680	reactome	isPartOf	AMPK signaling pathway - Homo sapiens (human)	path:hsa04152	kegg
+Adherens junction - Homo sapiens (human)	path:hsa04520	kegg	equivalentTo	Adherens junctions interactions	R-HSA-418990	reactome
+Signaling by Leptin	R-HSA-2586552	reactome	isPartOf	Adipocytokine signaling pathway - Homo sapiens (human)	path:hsa04920	kegg
+Adipocytokine signaling pathway - Homo sapiens (human)	path:hsa04920	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Alanine, aspartate and glutamate metabolism - Homo sapiens (human)	path:hsa00250	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Alanine, aspartate and glutamate metabolism - Homo sapiens (human)	path:hsa00250	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Aldosterone synthesis and secretion - Homo sapiens (human)	path:hsa04925	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Allograft rejection - Homo sapiens (human)	path:hsa05330	kegg	isPartOf	Adaptive Immune System	R-HSA-1280218	reactome
+Allograft rejection - Homo sapiens (human)	path:hsa05330	kegg	isPartOf	Immune System	R-HSA-168256	reactome
+Deregulated CDK5 triggers multiple neurodegenerative pathways in Alzheimer's disease models	R-HSA-8862803	reactome	isPartOf	Alzheimer disease - Homo sapiens (human)	path:hsa05010	kegg
+Amino sugar and nucleotide sugar metabolism - Homo sapiens (human)	path:hsa00520	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Aminoacyl-tRNA biosynthesis - Homo sapiens (human)	path:hsa00970	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+tRNA Aminoacylation	R-HSA-379724	reactome	isPartOf	Aminoacyl-tRNA biosynthesis - Homo sapiens (human)	path:hsa00970	kegg
+Mitochondrial tRNA aminoacylation	R-HSA-379726	reactome	isPartOf	Aminoacyl-tRNA biosynthesis - Homo sapiens (human)	path:hsa00970	kegg
+Cytosolic tRNA aminoacylation	R-HSA-379716	reactome	isPartOf	Aminoacyl-tRNA biosynthesis - Homo sapiens (human)	path:hsa00970	kegg
+Antigen processing and presentation - Homo sapiens (human)	path:hsa04612	kegg	equivalentTo	Antigen processing-Cross presentation	R-HSA-1236975	reactome
+MHC class II antigen presentation	R-HSA-2132295	reactome	isPartOf	Antigen processing and presentation - Homo sapiens (human)	path:hsa04612	kegg
+Antigen Presentation: Folding, assembly and peptide loading of class I MHC	R-HSA-983170	reactome	isPartOf	Antigen processing and presentation - Homo sapiens (human)	path:hsa04612	kegg
+Class I MHC mediated antigen processing & presentation	R-HSA-983169	reactome	isPartOf	Antigen processing and presentation - Homo sapiens (human)	path:hsa04612	kegg
+Apoptosis - Homo sapiens (human)	path:hsa04210	kegg	equivalentTo	Apoptosis	R-HSA-109581	reactome
+Apoptosis	R-HSA-109581	reactome	isPartOf	Apoptosis - multiple species - Homo sapiens (human)	path:hsa04215	kegg
+Arachidonic acid metabolism - Homo sapiens (human)	path:hsa00590	kegg	equivalentTo	Arachidonic acid metabolism	R-HSA-2142753	reactome
+Proline catabolism	R-HSA-70688	reactome	isPartOf	Arginine and proline metabolism - Homo sapiens (human)	path:hsa00330	kegg
+Arginine and proline metabolism - Homo sapiens (human)	path:hsa00330	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Arginine and proline metabolism - Homo sapiens (human)	path:hsa00330	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Arginine biosynthesis - Homo sapiens (human)	path:hsa00220	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Arginine biosynthesis - Homo sapiens (human)	path:hsa00220	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Arginine biosynthesis - Homo sapiens (human)	path:hsa00220	kegg	isPartOf	Urea cycle	R-HSA-70635	reactome
+Ascorbate and aldarate metabolism - Homo sapiens (human)	path:hsa00053	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Autophagy - other - Homo sapiens (human)	path:hsa04136	kegg	equivalentTo	Macroautophagy	R-HSA-1632852	reactome
+Autophagy - other - Homo sapiens (human)	path:hsa04136	kegg	isPartOf	Immune System	R-HSA-168256	reactome
+Cellular responses to external stimuli	R-HSA-8953897	reactome	isPartOf	Autophagy - other - Homo sapiens (human)	path:hsa04136	kegg
+Axon guidance - Homo sapiens (human)	path:hsa04360	kegg	equivalentTo	Axon guidance	R-HSA-422475	reactome
+B cell receptor signaling pathway - Homo sapiens (human)	path:hsa04662	kegg	equivalentTo	Signaling by the B Cell Receptor (BCR)	R-HSA-983705	reactome
+B cell receptor signaling pathway - Homo sapiens (human)	path:hsa04662	kegg	isPartOf	Adaptive Immune System	R-HSA-1280218	reactome
+B cell receptor signaling pathway - Homo sapiens (human)	path:hsa04662	kegg	isPartOf	Immune System	R-HSA-168256	reactome
+RNA polymerase II transcribes snRNA genes	R-HSA-6807505	reactome	isPartOf	Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg
+RNA Polymerase II Pre-transcription Events	R-HSA-674695	reactome	isPartOf	Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg
+RNA Polymerase II Promoter Escape	R-HSA-73776	reactome	isPartOf	Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg
+RNA Pol II CTD phosphorylation and interaction with CE during HIV infection	R-HSA-167160	reactome	isPartOf	Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg
+Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg	isPartOf	RNA Polymerase II Transcription	R-HSA-73857	reactome
+RNA Pol II CTD phosphorylation and interaction with CE	R-HSA-77075	reactome	isPartOf	Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg
+Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg	isPartOf	Generic Transcription Pathway	R-HSA-212436	reactome
+RNA Polymerase II Transcription Initiation	R-HSA-75953	reactome	isPartOf	Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg
+RNA Polymerase II HIV Promoter Escape	R-HSA-167162	reactome	isPartOf	Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg
+Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg	isPartOf	Metabolism of RNA	R-HSA-8953854	reactome
+RNA Polymerase I Transcription Termination	R-HSA-73863	reactome	isPartOf	Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg
+RNA Polymerase I Promoter Escape	R-HSA-73772	reactome	isPartOf	Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg
+RNA Polymerase II Transcription	R-HSA-73857	reactome	isPartOf	Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg
+RNA Polymerase II Transcription Pre-Initiation And Promoter Opening	R-HSA-73779	reactome	isPartOf	Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg
+Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg	isPartOf	Gene expression (Transcription)	R-HSA-74160	reactome
+RNA Polymerase II Transcription Initiation And Promoter Clearance	R-HSA-76042	reactome	isPartOf	Basal transcription factors - Homo sapiens (human)	path:hsa03022	kegg
+Base excision repair - Homo sapiens (human)	path:hsa03410	kegg	equivalentTo	Base Excision Repair	R-HSA-73884	reactome
+Bile secretion - Homo sapiens (human)	path:hsa04976	kegg	isPartOf	Digestion	R-HSA-8935690	reactome
+Amino acid synthesis and interconversion (transamination)	R-HSA-70614	reactome	isPartOf	Biosynthesis of amino acids - Homo sapiens (human)	path:hsa01230	kegg
+Cysteine formation from homocysteine	R-HSA-1614603	reactome	isPartOf	Biosynthesis of amino acids - Homo sapiens (human)	path:hsa01230	kegg
+Biosynthesis of amino acids - Homo sapiens (human)	path:hsa01230	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Urea cycle	R-HSA-70635	reactome	isPartOf	Biosynthesis of amino acids - Homo sapiens (human)	path:hsa01230	kegg
+Phenylalanine and tyrosine catabolism	R-HSA-71182	reactome	isPartOf	Biosynthesis of amino acids - Homo sapiens (human)	path:hsa01230	kegg
+Biosynthesis of amino acids - Homo sapiens (human)	path:hsa01230	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Linoleic acid (LA) metabolism	R-HSA-2046105	reactome	isPartOf	Biosynthesis of unsaturated fatty acids - Homo sapiens (human)	path:hsa01040	kegg
+Fatty acyl-CoA biosynthesis	R-HSA-75105	reactome	isPartOf	Biosynthesis of unsaturated fatty acids - Homo sapiens (human)	path:hsa01040	kegg
+Synthesis of very long-chain fatty acyl-CoAs	R-HSA-75876	reactome	isPartOf	Biosynthesis of unsaturated fatty acids - Homo sapiens (human)	path:hsa01040	kegg
+Biosynthesis of unsaturated fatty acids - Homo sapiens (human)	path:hsa01040	kegg	isPartOf	Fatty acid metabolism	R-HSA-8978868	reactome
+Biosynthesis of unsaturated fatty acids - Homo sapiens (human)	path:hsa01040	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Synthesis of 5-eicosatetraenoic acids	R-HSA-2142688	reactome	isPartOf	Biosynthesis of unsaturated fatty acids - Homo sapiens (human)	path:hsa01040	kegg
+Biosynthesis of unsaturated fatty acids - Homo sapiens (human)	path:hsa01040	kegg	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Biotin metabolism - Homo sapiens (human)	path:hsa00780	kegg	isPartOf	Biotin transport and metabolism	R-HSA-196780	reactome
+Beta oxidation of hexanoyl-CoA to butanoyl-CoA	R-HSA-77350	reactome	isPartOf	Butanoate metabolism - Homo sapiens (human)	path:hsa00650	kegg
+Beta oxidation of butanoyl-CoA to acetyl-CoA	R-HSA-77352	reactome	isPartOf	Butanoate metabolism - Homo sapiens (human)	path:hsa00650	kegg
+Butanoate metabolism - Homo sapiens (human)	path:hsa00650	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Caffeine metabolism - Homo sapiens (human)	path:hsa00232	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Elevation of cytosolic Ca2+ levels	R-HSA-139853	reactome	isPartOf	Calcium signaling pathway - Homo sapiens (human)	path:hsa04020	kegg
+CaM pathway	R-HSA-111997	reactome	isPartOf	Calcium signaling pathway - Homo sapiens (human)	path:hsa04020	kegg
+Platelet calcium homeostasis	R-HSA-418360	reactome	isPartOf	Calcium signaling pathway - Homo sapiens (human)	path:hsa04020	kegg
+Activation of CaMK IV	R-HSA-442745	reactome	isPartOf	Calcium signaling pathway - Homo sapiens (human)	path:hsa04020	kegg
+Reduction of cytosolic Ca++ levels	R-HSA-418359	reactome	isPartOf	Calcium signaling pathway - Homo sapiens (human)	path:hsa04020	kegg
+Intestinal absorption	R-HSA-8963676	reactome	isPartOf	Carbohydrate digestion and absorption - Homo sapiens (human)	path:hsa04973	kegg
+Digestion of dietary carbohydrate	R-HSA-189085	reactome	isPartOf	Carbohydrate digestion and absorption - Homo sapiens (human)	path:hsa04973	kegg
+Intestinal saccharidase deficiencies	R-HSA-5659898	reactome	isPartOf	Carbohydrate digestion and absorption - Homo sapiens (human)	path:hsa04973	kegg
+Intestinal hexose absorption	R-HSA-8981373	reactome	isPartOf	Carbohydrate digestion and absorption - Homo sapiens (human)	path:hsa04973	kegg
+Digestion and absorption	R-HSA-8963743	reactome	isPartOf	Carbohydrate digestion and absorption - Homo sapiens (human)	path:hsa04973	kegg
+Carbon metabolism - Homo sapiens (human)	path:hsa01200	kegg	equivalentTo	Metabolism of carbohydrates	R-HSA-71387	reactome
+Glucose metabolism	R-HSA-70326	reactome	isPartOf	Carbon metabolism - Homo sapiens (human)	path:hsa01200	kegg
+Fructose metabolism	R-HSA-5652084	reactome	isPartOf	Carbon metabolism - Homo sapiens (human)	path:hsa01200	kegg
+Carbon metabolism - Homo sapiens (human)	path:hsa01200	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+5-Phosphoribose 1-diphosphate biosynthesis	R-HSA-73843	reactome	isPartOf	Carbon metabolism - Homo sapiens (human)	path:hsa01200	kegg
+Glycogen metabolism	R-HSA-8982491	reactome	isPartOf	Carbon metabolism - Homo sapiens (human)	path:hsa01200	kegg
+Pyruvate metabolism and Citric Acid (TCA) cycle	R-HSA-71406	reactome	isPartOf	Carbon metabolism - Homo sapiens (human)	path:hsa01200	kegg
+Carbon metabolism - Homo sapiens (human)	path:hsa01200	kegg	isPartOf	Pentose phosphate pathway disease	R-HSA-6791465	reactome
+Glycolysis	R-HSA-70171	reactome	isPartOf	Carbon metabolism - Homo sapiens (human)	path:hsa01200	kegg
+Cardiac muscle contraction - Homo sapiens (human)	path:hsa04260	kegg	isPartOf	Muscle contraction	R-HSA-397014	reactome
+Cell adhesion molecules (CAMs) - Homo sapiens (human)	path:hsa04514	kegg	isPartOf	Cell-cell junction organization	R-HSA-421270	reactome
+Neurofascin interactions	R-HSA-447043	reactome	isPartOf	Cell adhesion molecules (CAMs) - Homo sapiens (human)	path:hsa04514	kegg
+Cell-cell junction organization	R-HSA-421270	reactome	isPartOf	Cell adhesion molecules (CAMs) - Homo sapiens (human)	path:hsa04514	kegg
+Cell adhesion molecules (CAMs) - Homo sapiens (human)	path:hsa04514	kegg	isPartOf	Tight junction interactions	R-HSA-420029	reactome
+Cell cycle - Homo sapiens (human)	path:hsa04110	kegg	equivalentTo	Cell Cycle	R-HSA-1640170	reactome
+Cellular senescence - Homo sapiens (human)	path:hsa04218	kegg	equivalentTo	Cellular Senescence	R-HSA-2559583	reactome
+Chemokine receptors bind chemokines	R-HSA-380108	reactome	isPartOf	Chemokine signaling pathway - Homo sapiens (human)	path:hsa04062	kegg
+LDL remodeling	R-HSA-8964041	reactome	isPartOf	Cholesterol metabolism - Homo sapiens (human)	path:hsa04979	kegg
+Chylomicron assembly	R-HSA-8963888	reactome	isPartOf	Cholesterol metabolism - Homo sapiens (human)	path:hsa04979	kegg
+Cholesterol metabolism - Homo sapiens (human)	path:hsa04979	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+HDL clearance	R-HSA-8964011	reactome	isPartOf	Cholesterol metabolism - Homo sapiens (human)	path:hsa04979	kegg
+HDL remodeling	R-HSA-8964058	reactome	isPartOf	Cholesterol metabolism - Homo sapiens (human)	path:hsa04979	kegg
+Chylomicron remodeling	R-HSA-8963901	reactome	isPartOf	Cholesterol metabolism - Homo sapiens (human)	path:hsa04979	kegg
+Plasma lipoprotein clearance	R-HSA-8964043	reactome	isPartOf	Cholesterol metabolism - Homo sapiens (human)	path:hsa04979	kegg
+Plasma lipoprotein assembly	R-HSA-8963898	reactome	isPartOf	Cholesterol metabolism - Homo sapiens (human)	path:hsa04979	kegg
+VLDL assembly	R-HSA-8866423	reactome	isPartOf	Cholesterol metabolism - Homo sapiens (human)	path:hsa04979	kegg
+Chylomicron clearance	R-HSA-8964026	reactome	isPartOf	Cholesterol metabolism - Homo sapiens (human)	path:hsa04979	kegg
+LDL clearance	R-HSA-8964038	reactome	isPartOf	Cholesterol metabolism - Homo sapiens (human)	path:hsa04979	kegg
+Muscarinic acetylcholine receptors	R-HSA-390648	reactome	isPartOf	Cholinergic synapse - Homo sapiens (human)	path:hsa04725	kegg
+Citrate cycle (TCA cycle) - Homo sapiens (human)	path:hsa00020	kegg	equivalentTo	Citric acid cycle (TCA cycle)	R-HSA-71403	reactome
+Defective Mismatch Repair Associated With MSH3	R-HSA-5632927	reactome	isPartOf	Colorectal cancer - Homo sapiens (human)	path:hsa05210	kegg
+Defective Mismatch Repair Associated With MSH2	R-HSA-5632928	reactome	isPartOf	Colorectal cancer - Homo sapiens (human)	path:hsa05210	kegg
+Defective Mismatch Repair Associated With MSH6	R-HSA-5632968	reactome	isPartOf	Colorectal cancer - Homo sapiens (human)	path:hsa05210	kegg
+Complement and coagulation cascades - Homo sapiens (human)	path:hsa04610	kegg	isPartOf	Immune System	R-HSA-168256	reactome
+Hemostasis	R-HSA-109582	reactome	isPartOf	Complement and coagulation cascades - Homo sapiens (human)	path:hsa04610	kegg
+Alternative complement activation	R-HSA-173736	reactome	isPartOf	Complement and coagulation cascades - Homo sapiens (human)	path:hsa04610	kegg
+Activation of C3 and C5	R-HSA-174577	reactome	isPartOf	Complement and coagulation cascades - Homo sapiens (human)	path:hsa04610	kegg
+Regulation of Complement cascade	R-HSA-977606	reactome	isPartOf	Complement and coagulation cascades - Homo sapiens (human)	path:hsa04610	kegg
+Complement cascade	R-HSA-166658	reactome	isPartOf	Complement and coagulation cascades - Homo sapiens (human)	path:hsa04610	kegg
+Common Pathway of Fibrin Clot Formation	R-HSA-140875	reactome	isPartOf	Complement and coagulation cascades - Homo sapiens (human)	path:hsa04610	kegg
+Formation of Fibrin Clot (Clotting Cascade)	R-HSA-140877	reactome	isPartOf	Complement and coagulation cascades - Homo sapiens (human)	path:hsa04610	kegg
+Dissolution of Fibrin Clot	R-HSA-75205	reactome	isPartOf	Complement and coagulation cascades - Homo sapiens (human)	path:hsa04610	kegg
+Terminal pathway of complement	R-HSA-166665	reactome	isPartOf	Complement and coagulation cascades - Homo sapiens (human)	path:hsa04610	kegg
+Extrinsic Pathway of Fibrin Clot Formation	R-HSA-140834	reactome	isPartOf	Complement and coagulation cascades - Homo sapiens (human)	path:hsa04610	kegg
+Intrinsic Pathway of Fibrin Clot Formation	R-HSA-140837	reactome	isPartOf	Complement and coagulation cascades - Homo sapiens (human)	path:hsa04610	kegg
+Mineralocorticoid biosynthesis	R-HSA-193993	reactome	isPartOf	Cortisol synthesis and secretion - Homo sapiens (human)	path:hsa04927	kegg
+Cholesterol biosynthesis via desmosterol	R-HSA-6807047	reactome	isPartOf	Cortisol synthesis and secretion - Homo sapiens (human)	path:hsa04927	kegg
+Cholesterol biosynthesis via lathosterol	R-HSA-6807062	reactome	isPartOf	Cortisol synthesis and secretion - Homo sapiens (human)	path:hsa04927	kegg
+Glucocorticoid biosynthesis	R-HSA-194002	reactome	isPartOf	Cortisol synthesis and secretion - Homo sapiens (human)	path:hsa04927	kegg
+Cortisol synthesis and secretion - Homo sapiens (human)	path:hsa04927	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Cysteine and methionine metabolism - Homo sapiens (human)	path:hsa00270	kegg	isPartOf	Sulfur amino acid metabolism	R-HSA-1614635	reactome
+Cysteine formation from homocysteine	R-HSA-1614603	reactome	isPartOf	Cysteine and methionine metabolism - Homo sapiens (human)	path:hsa00270	kegg
+Cysteine and methionine metabolism - Homo sapiens (human)	path:hsa00270	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Cysteine and methionine metabolism - Homo sapiens (human)	path:hsa00270	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Cytokine-cytokine receptor interaction - Homo sapiens (human)	path:hsa04060	kegg	isPartOf	Cytokine Signaling in Immune system	R-HSA-1280215	reactome
+Cytokine-cytokine receptor interaction - Homo sapiens (human)	path:hsa04060	kegg	isPartOf	Immune System	R-HSA-168256	reactome
+IL-6-type cytokine receptor ligand interactions	R-HSA-6788467	reactome	isPartOf	Cytokine-cytokine receptor interaction - Homo sapiens (human)	path:hsa04060	kegg
+TNFs bind their physiological receptors	R-HSA-5669034	reactome	isPartOf	Cytokine-cytokine receptor interaction - Homo sapiens (human)	path:hsa04060	kegg
+Chemokine receptors bind chemokines	R-HSA-380108	reactome	isPartOf	Cytokine-cytokine receptor interaction - Homo sapiens (human)	path:hsa04060	kegg
+Cytokine-cytokine receptor interaction - Homo sapiens (human)	path:hsa04060	kegg	isPartOf	Ligand-receptor interactions	R-HSA-5632681	reactome
+Cytosolic DNA-sensing pathway - Homo sapiens (human)	path:hsa04623	kegg	isPartOf	Cytosolic sensors of pathogen-associated DNA	R-HSA-1834949	reactome
+D-Arginine and D-ornithine metabolism - Homo sapiens (human)	path:hsa00472	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+D-Arginine and D-ornithine metabolism - Homo sapiens (human)	path:hsa00472	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+D-Glutamine and D-glutamate metabolism - Homo sapiens (human)	path:hsa00471	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+D-Glutamine and D-glutamate metabolism - Homo sapiens (human)	path:hsa00471	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+D-Glutamine and D-glutamate metabolism - Homo sapiens (human)	path:hsa00471	kegg	isPartOf	Amino acid synthesis and interconversion (transamination)	R-HSA-70614	reactome
+DNA replication - Homo sapiens (human)	path:hsa03030	kegg	equivalentTo	DNA Replication	R-HSA-69306	reactome
+Dopamine receptors	R-HSA-390651	reactome	isPartOf	Dopaminergic synapse - Homo sapiens (human)	path:hsa04728	kegg
+Enzymatic degradation of dopamine by COMT	R-HSA-379397	reactome	isPartOf	Dopaminergic synapse - Homo sapiens (human)	path:hsa04728	kegg
+Activation of AMPA receptors	R-HSA-399710	reactome	isPartOf	Dopaminergic synapse - Homo sapiens (human)	path:hsa04728	kegg
+Enzymatic degradation of Dopamine by monoamine oxidase	R-HSA-379398	reactome	isPartOf	Dopaminergic synapse - Homo sapiens (human)	path:hsa04728	kegg
+Biogenic amines are oxidatively deaminated to aldehydes by MAOA and MAOB	R-HSA-141333	reactome	isPartOf	Dopaminergic synapse - Homo sapiens (human)	path:hsa04728	kegg
+Dopamine clearance from the synaptic cleft	R-HSA-379401	reactome	isPartOf	Dopaminergic synapse - Homo sapiens (human)	path:hsa04728	kegg
+Ethanol oxidation	R-HSA-71384	reactome	isPartOf	Drug metabolism - cytochrome P450 - Homo sapiens (human)	path:hsa00982	kegg
+Biogenic amines are oxidatively deaminated to aldehydes by MAOA and MAOB	R-HSA-141333	reactome	isPartOf	Drug metabolism - cytochrome P450 - Homo sapiens (human)	path:hsa00982	kegg
+Drug metabolism - cytochrome P450 - Homo sapiens (human)	path:hsa00982	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+CYP2E1 reactions	R-HSA-211999	reactome	isPartOf	Drug metabolism - cytochrome P450 - Homo sapiens (human)	path:hsa00982	kegg
+Drug metabolism - other enzymes - Homo sapiens (human)	path:hsa00983	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+ECM proteoglycans	R-HSA-3000178	reactome	isPartOf	ECM-receptor interaction - Homo sapiens (human)	path:hsa04512	kegg
+ECM-receptor interaction - Homo sapiens (human)	path:hsa04512	kegg	isPartOf	Extracellular matrix organization	R-HSA-1474244	reactome
+Laminin interactions	R-HSA-3000157	reactome	isPartOf	ECM-receptor interaction - Homo sapiens (human)	path:hsa04512	kegg
+Endosomal Sorting Complex Required For Transport (ESCRT)	R-HSA-917729	reactome	isPartOf	Endocytosis - Homo sapiens (human)	path:hsa04144	kegg
+Cargo recognition for clathrin-mediated endocytosis	R-HSA-8856825	reactome	isPartOf	Endocytosis - Homo sapiens (human)	path:hsa04144	kegg
+Clathrin-mediated endocytosis	R-HSA-8856828	reactome	isPartOf	Endocytosis - Homo sapiens (human)	path:hsa04144	kegg
+PI3K events in ERBB4 signaling	R-HSA-1250342	reactome	isPartOf	ErbB signaling pathway - Homo sapiens (human)	path:hsa04012	kegg
+Signaling by ERBB4	R-HSA-1236394	reactome	isPartOf	ErbB signaling pathway - Homo sapiens (human)	path:hsa04012	kegg
+GRB2 events in ERBB2 signaling	R-HSA-1963640	reactome	isPartOf	ErbB signaling pathway - Homo sapiens (human)	path:hsa04012	kegg
+ERBB2 Regulates Cell Motility	R-HSA-6785631	reactome	isPartOf	ErbB signaling pathway - Homo sapiens (human)	path:hsa04012	kegg
+PI3K events in ERBB2 signaling	R-HSA-1963642	reactome	isPartOf	ErbB signaling pathway - Homo sapiens (human)	path:hsa04012	kegg
+ERBB2 Activates PTK6 Signaling	R-HSA-8847993	reactome	isPartOf	ErbB signaling pathway - Homo sapiens (human)	path:hsa04012	kegg
+GRB7 events in ERBB2 signaling	R-HSA-1306955	reactome	isPartOf	ErbB signaling pathway - Homo sapiens (human)	path:hsa04012	kegg
+Downregulation of ERBB2:ERBB3 signaling	R-HSA-1358803	reactome	isPartOf	ErbB signaling pathway - Homo sapiens (human)	path:hsa04012	kegg
+Downregulation of ERBB4 signaling	R-HSA-1253288	reactome	isPartOf	ErbB signaling pathway - Homo sapiens (human)	path:hsa04012	kegg
+Downregulation of ERBB2 signaling	R-HSA-8863795	reactome	isPartOf	ErbB signaling pathway - Homo sapiens (human)	path:hsa04012	kegg
+SHC1 events in ERBB4 signaling	R-HSA-1250347	reactome	isPartOf	ErbB signaling pathway - Homo sapiens (human)	path:hsa04012	kegg
+Signaling by ERBB2	R-HSA-1227986	reactome	isPartOf	ErbB signaling pathway - Homo sapiens (human)	path:hsa04012	kegg
+Nuclear signaling by ERBB4	R-HSA-1251985	reactome	isPartOf	ErbB signaling pathway - Homo sapiens (human)	path:hsa04012	kegg
+SHC1 events in ERBB2 signaling	R-HSA-1250196	reactome	isPartOf	ErbB signaling pathway - Homo sapiens (human)	path:hsa04012	kegg
+PLCG1 events in ERBB2 signaling	R-HSA-1251932	reactome	isPartOf	ErbB signaling pathway - Homo sapiens (human)	path:hsa04012	kegg
+Ether lipid metabolism - Homo sapiens (human)	path:hsa00565	kegg	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Phospholipid metabolism	R-HSA-1483257	reactome	isPartOf	Ether lipid metabolism - Homo sapiens (human)	path:hsa00565	kegg
+Ether lipid metabolism - Homo sapiens (human)	path:hsa00565	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Fanconi anemia pathway - Homo sapiens (human)	path:hsa03460	kegg	equivalentTo	Fanconi Anemia Pathway	R-HSA-6783310	reactome
+Digestion of dietary lipid	R-HSA-192456	reactome	isPartOf	Fat digestion and absorption - Homo sapiens (human)	path:hsa04975	kegg
+Intestinal lipid absorption	R-HSA-8963678	reactome	isPartOf	Fat digestion and absorption - Homo sapiens (human)	path:hsa04975	kegg
+Fat digestion and absorption - Homo sapiens (human)	path:hsa04975	kegg	isPartOf	Intestinal absorption	R-HSA-8963676	reactome
+Fat digestion and absorption - Homo sapiens (human)	path:hsa04975	kegg	isPartOf	Digestion and absorption	R-HSA-8963743	reactome
+Fatty acid biosynthesis - Homo sapiens (human)	path:hsa00061	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Fatty acyl-CoA biosynthesis	R-HSA-75105	reactome	isPartOf	Fatty acid biosynthesis - Homo sapiens (human)	path:hsa00061	kegg
+Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA	R-HSA-77346	reactome	isPartOf	Fatty acid degradation - Homo sapiens (human)	path:hsa00071	kegg
+Beta oxidation of hexanoyl-CoA to butanoyl-CoA	R-HSA-77350	reactome	isPartOf	Fatty acid degradation - Homo sapiens (human)	path:hsa00071	kegg
+Beta oxidation of octanoyl-CoA to hexanoyl-CoA	R-HSA-77348	reactome	isPartOf	Fatty acid degradation - Homo sapiens (human)	path:hsa00071	kegg
+Fatty acid degradation - Homo sapiens (human)	path:hsa00071	kegg	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+mitochondrial fatty acid beta-oxidation of saturated fatty acids	R-HSA-77286	reactome	isPartOf	Fatty acid degradation - Homo sapiens (human)	path:hsa00071	kegg
+Fatty acid degradation - Homo sapiens (human)	path:hsa00071	kegg	isPartOf	Fatty acid metabolism	R-HSA-8978868	reactome
+Fatty acid degradation - Homo sapiens (human)	path:hsa00071	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Beta oxidation of myristoyl-CoA to lauroyl-CoA	R-HSA-77285	reactome	isPartOf	Fatty acid degradation - Homo sapiens (human)	path:hsa00071	kegg
+mitochondrial fatty acid beta-oxidation of unsaturated fatty acids	R-HSA-77288	reactome	isPartOf	Fatty acid degradation - Homo sapiens (human)	path:hsa00071	kegg
+Beta oxidation of lauroyl-CoA to decanoyl-CoA-CoA	R-HSA-77310	reactome	isPartOf	Fatty acid degradation - Homo sapiens (human)	path:hsa00071	kegg
+Beta oxidation of palmitoyl-CoA to myristoyl-CoA	R-HSA-77305	reactome	isPartOf	Fatty acid degradation - Homo sapiens (human)	path:hsa00071	kegg
+Fatty acid elongation - Homo sapiens (human)	path:hsa00062	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Fatty acid elongation - Homo sapiens (human)	path:hsa00062	kegg	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Fatty acid elongation - Homo sapiens (human)	path:hsa00062	kegg	isPartOf	Fatty acid metabolism	R-HSA-8978868	reactome
+Fatty acid elongation - Homo sapiens (human)	path:hsa00062	kegg	isPartOf	Fatty acids	R-HSA-211935	reactome
+Fatty acid metabolism - Homo sapiens (human)	path:hsa01212	kegg	equivalentTo	Fatty acid metabolism	R-HSA-8978868	reactome
+Fatty acid metabolism - Homo sapiens (human)	path:hsa01212	kegg	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Fatty acid metabolism - Homo sapiens (human)	path:hsa01212	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Fc epsilon RI signaling pathway - Homo sapiens (human)	path:hsa04664	kegg	equivalentTo	Fc epsilon receptor (FCERI) signaling	R-HSA-2454202	reactome
+phospho-PLA2 pathway	R-HSA-111995	reactome	isPartOf	Fc epsilon RI signaling pathway - Homo sapiens (human)	path:hsa04664	kegg
+Fc epsilon receptor (FCERI) signaling	R-HSA-2454202	reactome	isPartOf	Fc epsilon RI signaling pathway - Homo sapiens (human)	path:hsa04664	kegg
+Fc gamma R-mediated phagocytosis - Homo sapiens (human)	path:hsa04666	kegg	equivalentTo	Fcgamma receptor (FCGR) dependent phagocytosis	R-HSA-2029480	reactome
+Defective SLC11A2 causes hypochromic microcytic anemia, with iron overload 1 (AHMIO1)	R-HSA-5619048	reactome	isPartOf	Ferroptosis - Homo sapiens (human)	path:hsa04216	kegg
+Defective GCLC causes Hemolytic anemia due to gamma-glutamylcysteine synthetase deficiency (HAGGSD)	R-HSA-5578999	reactome	isPartOf	Ferroptosis - Homo sapiens (human)	path:hsa04216	kegg
+Laminin interactions	R-HSA-3000157	reactome	isPartOf	Focal adhesion - Homo sapiens (human)	path:hsa04510	kegg
+Localization of the PINCH-ILK-PARVIN complex to focal adhesions	R-HSA-446343	reactome	isPartOf	Focal adhesion - Homo sapiens (human)	path:hsa04510	kegg
+Integrin signaling	R-HSA-9006921	reactome	isPartOf	Focal adhesion - Homo sapiens (human)	path:hsa04510	kegg
+Non-integrin membrane-ECM interactions	R-HSA-3000171	reactome	isPartOf	Focal adhesion - Homo sapiens (human)	path:hsa04510	kegg
+Integrin alphaIIb beta3 signaling	R-HSA-354192	reactome	isPartOf	Focal adhesion - Homo sapiens (human)	path:hsa04510	kegg
+Folate biosynthesis - Homo sapiens (human)	path:hsa00790	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Molybdenum cofactor biosynthesis	R-HSA-947581	reactome	isPartOf	Folate biosynthesis - Homo sapiens (human)	path:hsa00790	kegg
+Folate biosynthesis - Homo sapiens (human)	path:hsa00790	kegg	isPartOf	Metabolism of water-soluble vitamins and cofactors	R-HSA-196849	reactome
+Folate biosynthesis - Homo sapiens (human)	path:hsa00790	kegg	isPartOf	Metabolism of vitamins and cofactors	R-HSA-196854	reactome
+AKT-mediated inactivation of FOXO1A	R-HSA-211163	reactome	isPartOf	FoxO signaling pathway - Homo sapiens (human)	path:hsa04068	kegg
+Fructose biosynthesis	R-HSA-5652227	reactome	isPartOf	Fructose and mannose metabolism - Homo sapiens (human)	path:hsa00051	kegg
+Synthesis of GDP-mannose	R-HSA-446205	reactome	isPartOf	Fructose and mannose metabolism - Homo sapiens (human)	path:hsa00051	kegg
+Fructose and mannose metabolism - Homo sapiens (human)	path:hsa00051	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Fructose catabolism	R-HSA-70350	reactome	isPartOf	Fructose and mannose metabolism - Homo sapiens (human)	path:hsa00051	kegg
+Fructose metabolism	R-HSA-5652084	reactome	isPartOf	Fructose and mannose metabolism - Homo sapiens (human)	path:hsa00051	kegg
+GABA receptor activation	R-HSA-977443	reactome	isPartOf	GABAergic synapse - Homo sapiens (human)	path:hsa04727	kegg
+GABA B receptor activation	R-HSA-977444	reactome	isPartOf	GABAergic synapse - Homo sapiens (human)	path:hsa04727	kegg
+GABA A (rho) receptor activation	R-HSA-977442	reactome	isPartOf	GABAergic synapse - Homo sapiens (human)	path:hsa04727	kegg
+GABA A receptor activation	R-HSA-977441	reactome	isPartOf	GABAergic synapse - Homo sapiens (human)	path:hsa04727	kegg
+Galactose catabolism	R-HSA-70370	reactome	isPartOf	Galactose metabolism - Homo sapiens (human)	path:hsa00052	kegg
+Gap junction degradation	R-HSA-190873	reactome	isPartOf	Gap junction - Homo sapiens (human)	path:hsa04540	kegg
+c-src mediated regulation of Cx43 function and closure of gap junctions	R-HSA-191647	reactome	isPartOf	Gap junction - Homo sapiens (human)	path:hsa04540	kegg
+Gap junction trafficking	R-HSA-190828	reactome	isPartOf	Gap junction - Homo sapiens (human)	path:hsa04540	kegg
+Formation of annular gap junctions	R-HSA-196025	reactome	isPartOf	Gap junction - Homo sapiens (human)	path:hsa04540	kegg
+Gap junction assembly	R-HSA-190861	reactome	isPartOf	Gap junction - Homo sapiens (human)	path:hsa04540	kegg
+Gap junction trafficking and regulation	R-HSA-157858	reactome	isPartOf	Gap junction - Homo sapiens (human)	path:hsa04540	kegg
+Regulation of gap junction activity	R-HSA-191650	reactome	isPartOf	Gap junction - Homo sapiens (human)	path:hsa04540	kegg
+Glucagon signaling pathway - Homo sapiens (human)	path:hsa04922	kegg	equivalentTo	Glucagon signaling in metabolic regulation	R-HSA-163359	reactome
+Activation of kainate receptors upon glutamate binding	R-HSA-451326	reactome	isPartOf	Glutamatergic synapse - Homo sapiens (human)	path:hsa04724	kegg
+Glutamatergic synapse - Homo sapiens (human)	path:hsa04724	kegg	isPartOf	Neurotransmitter uptake and metabolism In glial cells	R-HSA-112313	reactome
+Unblocking of NMDA receptor, glutamate binding and activation	R-HSA-438066	reactome	isPartOf	Glutamatergic synapse - Homo sapiens (human)	path:hsa04724	kegg
+Activation of AMPA receptors	R-HSA-399710	reactome	isPartOf	Glutamatergic synapse - Homo sapiens (human)	path:hsa04724	kegg
+Presynaptic function of Kainate receptors	R-HSA-500657	reactome	isPartOf	Glutamatergic synapse - Homo sapiens (human)	path:hsa04724	kegg
+Glutamate Neurotransmitter Release Cycle	R-HSA-210500	reactome	isPartOf	Glutamatergic synapse - Homo sapiens (human)	path:hsa04724	kegg
+Neurotransmitter uptake and metabolism In glial cells	R-HSA-112313	reactome	isPartOf	Glutamatergic synapse - Homo sapiens (human)	path:hsa04724	kegg
+Glutathione metabolism - Homo sapiens (human)	path:hsa00480	kegg	equivalentTo	Glutathione synthesis and recycling	R-HSA-174403	reactome
+Glycerolipid metabolism - Homo sapiens (human)	path:hsa00561	kegg	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Glycerolipid metabolism - Homo sapiens (human)	path:hsa00561	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Acyl chain remodeling of DAG and TAG	R-HSA-1482883	reactome	isPartOf	Glycerolipid metabolism - Homo sapiens (human)	path:hsa00561	kegg
+Glycerophospholipid catabolism	R-HSA-6814848	reactome	isPartOf	Glycerolipid metabolism - Homo sapiens (human)	path:hsa00561	kegg
+Acyl chain remodelling of PI	R-HSA-1482922	reactome	isPartOf	Glycerophospholipid metabolism - Homo sapiens (human)	path:hsa00564	kegg
+Synthesis of PS	R-HSA-1483101	reactome	isPartOf	Glycerophospholipid metabolism - Homo sapiens (human)	path:hsa00564	kegg
+Glycerophospholipid metabolism - Homo sapiens (human)	path:hsa00564	kegg	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Synthesis of PE	R-HSA-1483213	reactome	isPartOf	Glycerophospholipid metabolism - Homo sapiens (human)	path:hsa00564	kegg
+Glycerophospholipid biosynthesis	R-HSA-1483206	reactome	isPartOf	Glycerophospholipid metabolism - Homo sapiens (human)	path:hsa00564	kegg
+Glycerophospholipid metabolism - Homo sapiens (human)	path:hsa00564	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Digestion of dietary lipid	R-HSA-192456	reactome	isPartOf	Glycerophospholipid metabolism - Homo sapiens (human)	path:hsa00564	kegg
+Glycerophospholipid catabolism	R-HSA-6814848	reactome	isPartOf	Glycerophospholipid metabolism - Homo sapiens (human)	path:hsa00564	kegg
+Acyl chain remodelling of PC	R-HSA-1482788	reactome	isPartOf	Glycerophospholipid metabolism - Homo sapiens (human)	path:hsa00564	kegg
+Glycine, serine and threonine metabolism - Homo sapiens (human)	path:hsa00260	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Glycine, serine and threonine metabolism - Homo sapiens (human)	path:hsa00260	kegg	isPartOf	Amine Oxidase reactions	R-HSA-140179	reactome
+Glycine degradation	R-HSA-6783984	reactome	isPartOf	Glycine, serine and threonine metabolism - Homo sapiens (human)	path:hsa00260	kegg
+Glycine, serine and threonine metabolism - Homo sapiens (human)	path:hsa00260	kegg	isPartOf	Amino acid synthesis and interconversion (transamination)	R-HSA-70614	reactome
+Glycine, serine and threonine metabolism - Homo sapiens (human)	path:hsa00260	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Glycolysis / Gluconeogenesis - Homo sapiens (human)	path:hsa00010	kegg	isPartOf	Glucose metabolism	R-HSA-70326	reactome
+Gluconeogenesis	R-HSA-70263	reactome	isPartOf	Glycolysis / Gluconeogenesis - Homo sapiens (human)	path:hsa00010	kegg
+Glycolysis / Gluconeogenesis - Homo sapiens (human)	path:hsa00010	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Glycolysis / Gluconeogenesis - Homo sapiens (human)	path:hsa00010	kegg	isPartOf	Metabolism of carbohydrates	R-HSA-71387	reactome
+Glycolysis	R-HSA-70171	reactome	isPartOf	Glycolysis / Gluconeogenesis - Homo sapiens (human)	path:hsa00010	kegg
+Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate - Homo sapiens (human)	path:hsa00532	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Chondroitin sulfate biosynthesis	R-HSA-2022870	reactome	isPartOf	Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate - Homo sapiens (human)	path:hsa00532	kegg
+Glycosaminoglycan metabolism	R-HSA-1630316	reactome	isPartOf	Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate - Homo sapiens (human)	path:hsa00532	kegg
+Chondroitin sulfate/dermatan sulfate metabolism	R-HSA-1793185	reactome	isPartOf	Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate - Homo sapiens (human)	path:hsa00532	kegg
+Dermatan sulfate biosynthesis	R-HSA-2022923	reactome	isPartOf	Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate - Homo sapiens (human)	path:hsa00532	kegg
+Glycosaminoglycan biosynthesis - heparan sulfate / heparin - Homo sapiens (human)	path:hsa00534	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Glycosaminoglycan biosynthesis - heparan sulfate / heparin - Homo sapiens (human)	path:hsa00534	kegg	isPartOf	Glycosaminoglycan metabolism	R-HSA-1630316	reactome
+Heparan sulfate/heparin (HS-GAG) metabolism	R-HSA-1638091	reactome	isPartOf	Glycosaminoglycan biosynthesis - heparan sulfate / heparin - Homo sapiens (human)	path:hsa00534	kegg
+Glycosaminoglycan biosynthesis - keratan sulfate - Homo sapiens (human)	path:hsa00533	kegg	isPartOf	Glycosaminoglycan metabolism	R-HSA-1630316	reactome
+Glycosaminoglycan biosynthesis - keratan sulfate - Homo sapiens (human)	path:hsa00533	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Keratan sulfate biosynthesis	R-HSA-2022854	reactome	isPartOf	Glycosaminoglycan biosynthesis - keratan sulfate - Homo sapiens (human)	path:hsa00533	kegg
+Glycosaminoglycan degradation - Homo sapiens (human)	path:hsa00531	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Glycosaminoglycan degradation - Homo sapiens (human)	path:hsa00531	kegg	isPartOf	Glycosaminoglycan metabolism	R-HSA-1630316	reactome
+Glycosphingolipid biosynthesis - globo and isoglobo series - Homo sapiens (human)	path:hsa00603	kegg	isPartOf	Sphingolipid metabolism	R-HSA-428157	reactome
+Glycosphingolipid biosynthesis - globo and isoglobo series - Homo sapiens (human)	path:hsa00603	kegg	isPartOf	Glycosphingolipid metabolism	R-HSA-1660662	reactome
+Glycosphingolipid biosynthesis - globo and isoglobo series - Homo sapiens (human)	path:hsa00603	kegg	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Glycosphingolipid biosynthesis - lacto and neolacto series - Homo sapiens (human)	path:hsa00601	kegg	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Glycosphingolipid biosynthesis - lacto and neolacto series - Homo sapiens (human)	path:hsa00601	kegg	isPartOf	Glycosphingolipid metabolism	R-HSA-1660662	reactome
+Glycosphingolipid biosynthesis - lacto and neolacto series - Homo sapiens (human)	path:hsa00601	kegg	isPartOf	Sphingolipid metabolism	R-HSA-428157	reactome
+Glycosylphosphatidylinositol (GPI)-anchor biosynthesis - Homo sapiens (human)	path:hsa00563	kegg	equivalentTo	Synthesis of glycosylphosphatidylinositol (GPI)	R-HSA-162710	reactome
+Synthesis of glycosylphosphatidylinositol (GPI)	R-HSA-162710	reactome	isPartOf	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis - Homo sapiens (human)	path:hsa00563	kegg
+Post-translational modification: synthesis of GPI-anchored proteins	R-HSA-163125	reactome	isPartOf	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis - Homo sapiens (human)	path:hsa00563	kegg
+Glyoxylate metabolism and glycine degradation	R-HSA-389661	reactome	isPartOf	Glyoxylate and dicarboxylate metabolism - Homo sapiens (human)	path:hsa00630	kegg
+Glyoxylate and dicarboxylate metabolism - Homo sapiens (human)	path:hsa00630	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Glyoxylate and dicarboxylate metabolism - Homo sapiens (human)	path:hsa00630	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Graft-versus-host disease - Homo sapiens (human)	path:hsa05332	kegg	isPartOf	Adaptive Immune System	R-HSA-1280218	reactome
+Graft-versus-host disease - Homo sapiens (human)	path:hsa05332	kegg	isPartOf	Immune System	R-HSA-168256	reactome
+Hedgehog signaling pathway - Homo sapiens (human)	path:hsa04340	kegg	equivalentTo	Signaling by Hedgehog	R-HSA-5358351	reactome
+Hedgehog 'on' state	R-HSA-5632684	reactome	isPartOf	Hedgehog signaling pathway - Homo sapiens (human)	path:hsa04340	kegg
+Hedgehog ligand biogenesis	R-HSA-5358346	reactome	isPartOf	Hedgehog signaling pathway - Homo sapiens (human)	path:hsa04340	kegg
+Signaling by Hedgehog	R-HSA-5358351	reactome	isPartOf	Hedgehog signaling pathway - Homo sapiens (human)	path:hsa04340	kegg
+Hedgehog 'off' state	R-HSA-5610787	reactome	isPartOf	Hedgehog signaling pathway - Homo sapiens (human)	path:hsa04340	kegg
+Hippo signaling pathway - Homo sapiens (human)	path:hsa04390	kegg	equivalentTo	Signaling by Hippo	R-HSA-2028269	reactome
+Hippo signaling pathway - multiple species - Homo sapiens (human)	path:hsa04392	kegg	equivalentTo	Signaling by Hippo	R-HSA-2028269	reactome
+Histidine metabolism - Homo sapiens (human)	path:hsa00340	kegg	isPartOf	Histidine, lysine, phenylalanine, tyrosine, proline and tryptophan catabolism	R-HSA-6788656	reactome
+Histidine metabolism - Homo sapiens (human)	path:hsa00340	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Histidine metabolism - Homo sapiens (human)	path:hsa00340	kegg	isPartOf	Amine Oxidase reactions	R-HSA-140179	reactome
+Histidine metabolism - Homo sapiens (human)	path:hsa00340	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Histidine catabolism	R-HSA-70921	reactome	isPartOf	Histidine metabolism - Homo sapiens (human)	path:hsa00340	kegg
+Homology Directed Repair	R-HSA-5693538	reactome	isPartOf	Homologous recombination - Homo sapiens (human)	path:hsa03440	kegg
+IL-17 signaling pathway - Homo sapiens (human)	path:hsa04657	kegg	equivalentTo	Interleukin-17 signaling	R-HSA-448424	reactome
+IL-17 signaling pathway - Homo sapiens (human)	path:hsa04657	kegg	isPartOf	Cytokine Signaling in Immune system	R-HSA-1280215	reactome
+IL-17 signaling pathway - Homo sapiens (human)	path:hsa04657	kegg	isPartOf	Signaling by Interleukins	R-HSA-449147	reactome
+IL-17 signaling pathway - Homo sapiens (human)	path:hsa04657	kegg	isPartOf	Immune System	R-HSA-168256	reactome
+Influenza Virus Induced Apoptosis	R-HSA-168277	reactome	isPartOf	Influenza A - Homo sapiens (human)	path:hsa05164	kegg
+Influenza Life Cycle	R-HSA-168255	reactome	isPartOf	Influenza A - Homo sapiens (human)	path:hsa05164	kegg
+Influenza A - Homo sapiens (human)	path:hsa05164	kegg	isPartOf	Influenza Life Cycle	R-HSA-168255	reactome
+Influenza A - Homo sapiens (human)	path:hsa05164	kegg	isPartOf	Influenza Infection	R-HSA-168254	reactome
+Influenza Infection	R-HSA-168254	reactome	isPartOf	Influenza A - Homo sapiens (human)	path:hsa05164	kegg
+Inositol phosphate metabolism - Homo sapiens (human)	path:hsa00562	kegg	equivalentTo	Inositol phosphate metabolism	R-HSA-1483249	reactome
+Insulin secretion - Homo sapiens (human)	path:hsa04911	kegg	equivalentTo	Regulation of insulin secretion	R-HSA-422356	reactome
+Signaling by Insulin receptor	R-HSA-74752	reactome	isPartOf	Insulin signaling pathway - Homo sapiens (human)	path:hsa04910	kegg
+Insulin receptor signalling cascade	R-HSA-74751	reactome	isPartOf	Insulin signaling pathway - Homo sapiens (human)	path:hsa04910	kegg
+Intestinal immune network for IgA production - Homo sapiens (human)	path:hsa04672	kegg	isPartOf	Immune System	R-HSA-168256	reactome
+Intestinal immune network for IgA production - Homo sapiens (human)	path:hsa04672	kegg	isPartOf	Adaptive Immune System	R-HSA-1280218	reactome
+Regulation of IFNG signaling	R-HSA-877312	reactome	isPartOf	JAK-STAT signaling pathway - Homo sapiens (human)	path:hsa04630	kegg
+Interleukin-21 signaling	R-HSA-9020958	reactome	isPartOf	JAK-STAT signaling pathway - Homo sapiens (human)	path:hsa04630	kegg
+Interleukin-15 signaling	R-HSA-8983432	reactome	isPartOf	JAK-STAT signaling pathway - Homo sapiens (human)	path:hsa04630	kegg
+Interleukin-9 signaling	R-HSA-8985947	reactome	isPartOf	JAK-STAT signaling pathway - Homo sapiens (human)	path:hsa04630	kegg
+Interleukin-6 signaling	R-HSA-1059683	reactome	isPartOf	JAK-STAT signaling pathway - Homo sapiens (human)	path:hsa04630	kegg
+Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation	R-HSA-8950505	reactome	isPartOf	JAK-STAT signaling pathway - Homo sapiens (human)	path:hsa04630	kegg
+Interleukin-23 signaling	R-HSA-9020933	reactome	isPartOf	JAK-STAT signaling pathway - Homo sapiens (human)	path:hsa04630	kegg
+Linoleic acid metabolism - Homo sapiens (human)	path:hsa00591	kegg	equivalentTo	Linoleic acid (LA) metabolism	R-HSA-2046105	reactome
+Linoleic acid metabolism - Homo sapiens (human)	path:hsa00591	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Linoleic acid metabolism - Homo sapiens (human)	path:hsa00591	kegg	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Lipoic acid metabolism - Homo sapiens (human)	path:hsa00785	kegg	isPartOf	Fatty acid metabolism	R-HSA-8978868	reactome
+Lipoic acid metabolism - Homo sapiens (human)	path:hsa00785	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Lysine degradation - Homo sapiens (human)	path:hsa00310	kegg	equivalentTo	Lysine catabolism	R-HSA-71064	reactome
+Lysosomal oligosaccharide catabolism	R-HSA-8853383	reactome	isPartOf	Lysosome - Homo sapiens (human)	path:hsa04142	kegg
+Lysosome Vesicle Biogenesis	R-HSA-432720	reactome	isPartOf	Lysosome - Homo sapiens (human)	path:hsa04142	kegg
+MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg	equivalentTo	MAPK family signaling cascades	R-HSA-5683057	reactome
+ERK/MAPK targets	R-HSA-198753	reactome	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+MAPK1/MAPK3 signaling	R-HSA-5684996	reactome	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+Negative regulation of MAPK pathway	R-HSA-5675221	reactome	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+Negative feedback regulation of MAPK pathway	R-HSA-5674499	reactome	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+MAPK targets/ Nuclear events mediated by MAP kinases	R-HSA-450282	reactome	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+MAP3K8 (TPL2)-dependent MAPK1/3 activation	R-HSA-5684264	reactome	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+FCERI mediated MAPK activation	R-HSA-2871796	reactome	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+p130Cas linkage to MAPK signaling for integrins	R-HSA-372708	reactome	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+MAPK1 (ERK2) activation	R-HSA-112411	reactome	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+p38MAPK events	R-HSA-171007	reactome	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+MAP2K and MAPK activation	R-HSA-5674135	reactome	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+MAPK6/MAPK4 signaling	R-HSA-5687128	reactome	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+activated TAK1 mediates p38 MAPK activation	R-HSA-450302	reactome	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+RAF-independent MAPK1/3 activation	R-HSA-112409	reactome	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+MAPK3 (ERK1) activation	R-HSA-110056	reactome	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+Gastrin-CREB signalling pathway via PKC and MAPK	R-HSA-881907	reactome	isPartOf	MAPK signaling pathway - Homo sapiens (human)	path:hsa04010	kegg
+Termination of O-glycan biosynthesis	R-HSA-977068	reactome	isPartOf	Mannose type O-glycan biosynthesis - Homo sapiens (human)	path:hsa00515	kegg
+O-linked glycosylation	R-HSA-5173105	reactome	isPartOf	Mannose type O-glycan biosynthesis - Homo sapiens (human)	path:hsa00515	kegg
+Defective GCK causes maturity-onset diabetes of the young 2 (MODY2)	R-HSA-5619073	reactome	isPartOf	Maturity onset diabetes of the young - Homo sapiens (human)	path:hsa04950	kegg
+Melanogenesis - Homo sapiens (human)	path:hsa04916	kegg	equivalentTo	Melanin biosynthesis	R-HSA-5662702	reactome
+Melanin biosynthesis	R-HSA-5662702	reactome	isPartOf	Melanogenesis - Homo sapiens (human)	path:hsa04916	kegg
+Metabolic pathways - Homo sapiens (human)	path:hsa01100	kegg	equivalentTo	Metabolism	R-HSA-1430728	reactome
+Metabolism of xenobiotics by cytochrome P450 - Homo sapiens (human)	path:hsa00980	kegg	isPartOf	Xenobiotics	R-HSA-211981	reactome
+Mineral absorption - Homo sapiens (human)	path:hsa04978	kegg	isPartOf	Intestinal absorption	R-HSA-8963676	reactome
+Mineral absorption - Homo sapiens (human)	path:hsa04978	kegg	isPartOf	Digestion and absorption	R-HSA-8963743	reactome
+Mineral absorption - Homo sapiens (human)	path:hsa04978	kegg	isPartOf	Transport of small molecules	R-HSA-382551	reactome
+Mismatch repair - Homo sapiens (human)	path:hsa03430	kegg	equivalentTo	Mismatch Repair	R-HSA-5358508	reactome
+Mitophagy - animal - Homo sapiens (human)	path:hsa04137	kegg	equivalentTo	Mitophagy	R-HSA-5205647	reactome
+N-glycan trimming and elongation in the cis-Golgi	R-HSA-964739	reactome	isPartOf	N-Glycan biosynthesis - Homo sapiens (human)	path:hsa00510	kegg
+N-Glycan antennae elongation	R-HSA-975577	reactome	isPartOf	N-Glycan biosynthesis - Homo sapiens (human)	path:hsa00510	kegg
+N-glycan antennae elongation in the medial/trans-Golgi	R-HSA-975576	reactome	isPartOf	N-Glycan biosynthesis - Homo sapiens (human)	path:hsa00510	kegg
+TNFR1-induced NFkappaB signaling pathway	R-HSA-5357956	reactome	isPartOf	NF-kappa B signaling pathway - Homo sapiens (human)	path:hsa04064	kegg
+NF-kB is activated and signals survival	R-HSA-209560	reactome	isPartOf	NF-kappa B signaling pathway - Homo sapiens (human)	path:hsa04064	kegg
+Natural killer cell mediated cytotoxicity - Homo sapiens (human)	path:hsa04650	kegg	isPartOf	Immune System	R-HSA-168256	reactome
+Necroptosis - Homo sapiens (human)	path:hsa04217	kegg	equivalentTo	Regulation of necroptotic cell death	R-HSA-5675482	reactome
+Neomycin, kanamycin and gentamicin biosynthesis - Homo sapiens (human)	path:hsa00524	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+NFG and proNGF binds to p75NTR	R-HSA-205017	reactome	isPartOf	Neurotrophin signaling pathway - Homo sapiens (human)	path:hsa04722	kegg
+Nicotinate and nicotinamide metabolism - Homo sapiens (human)	path:hsa00760	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Nicotinate metabolism	R-HSA-196807	reactome	isPartOf	Nicotinate and nicotinamide metabolism - Homo sapiens (human)	path:hsa00760	kegg
+Nicotinamide salvaging	R-HSA-197264	reactome	isPartOf	Nicotinate and nicotinamide metabolism - Homo sapiens (human)	path:hsa00760	kegg
+Nitrogen metabolism - Homo sapiens (human)	path:hsa00910	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Nitrogen metabolism - Homo sapiens (human)	path:hsa00910	kegg	isPartOf	Amino acid synthesis and interconversion (transamination)	R-HSA-70614	reactome
+Nitrogen metabolism - Homo sapiens (human)	path:hsa00910	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Non-homologous end-joining - Homo sapiens (human)	path:hsa03450	kegg	equivalentTo	Nonhomologous End-Joining (NHEJ)	R-HSA-5693571	reactome
+Notch signaling pathway - Homo sapiens (human)	path:hsa04330	kegg	equivalentTo	Signaling by NOTCH	R-HSA-157118	reactome
+Nucleotide excision repair - Homo sapiens (human)	path:hsa03420	kegg	equivalentTo	Nucleotide Excision Repair	R-HSA-5696398	reactome
+Olfactory transduction - Homo sapiens (human)	path:hsa04740	kegg	equivalentTo	Olfactory Signaling Pathway	R-HSA-381753	reactome
+One carbon pool by folate - Homo sapiens (human)	path:hsa00670	kegg	isPartOf	Metabolism of folate and pterines	R-HSA-196757	reactome
+One carbon pool by folate - Homo sapiens (human)	path:hsa00670	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+One carbon pool by folate - Homo sapiens (human)	path:hsa00670	kegg	isPartOf	Metabolism of vitamins and cofactors	R-HSA-196854	reactome
+Other glycan degradation - Homo sapiens (human)	path:hsa00511	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Termination of O-glycan biosynthesis	R-HSA-977068	reactome	isPartOf	Other types of O-glycan biosynthesis - Homo sapiens (human)	path:hsa00514	kegg
+Estrogen biosynthesis	R-HSA-193144	reactome	isPartOf	Ovarian steroidogenesis - Homo sapiens (human)	path:hsa04913	kegg
+Androgen biosynthesis	R-HSA-193048	reactome	isPartOf	Ovarian steroidogenesis - Homo sapiens (human)	path:hsa04913	kegg
+Ovarian steroidogenesis - Homo sapiens (human)	path:hsa04913	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Oxidative phosphorylation - Homo sapiens (human)	path:hsa00190	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Pyrophosphate hydrolysis	R-HSA-71737	reactome	isPartOf	Oxidative phosphorylation - Homo sapiens (human)	path:hsa00190	kegg
+Oxidative phosphorylation - Homo sapiens (human)	path:hsa00190	kegg	isPartOf	The citric acid (TCA) cycle and respiratory electron transport	R-HSA-1428517	reactome
+Formation of ATP by chemiosmotic coupling	R-HSA-163210	reactome	isPartOf	Oxidative phosphorylation - Homo sapiens (human)	path:hsa00190	kegg
+PI3K-Akt signaling pathway - Homo sapiens (human)	path:hsa04151	kegg	equivalentTo	PI3K/AKT activation	R-HSA-198203	reactome
+Coenzyme A biosynthesis	R-HSA-196783	reactome	isPartOf	Pantothenate and CoA biosynthesis - Homo sapiens (human)	path:hsa00770	kegg
+Pantothenate and CoA biosynthesis - Homo sapiens (human)	path:hsa00770	kegg	isPartOf	Metabolism of vitamins and cofactors	R-HSA-196854	reactome
+Pantothenate and CoA biosynthesis - Homo sapiens (human)	path:hsa00770	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Vitamin B5 (pantothenate) metabolism	R-HSA-199220	reactome	isPartOf	Pantothenate and CoA biosynthesis - Homo sapiens (human)	path:hsa00770	kegg
+Defective SLC6A3 causes Parkinsonism-dystonia infantile (PKDYS)	R-HSA-5619081	reactome	isPartOf	Parkinson disease - Homo sapiens (human)	path:hsa05012	kegg
+Activation and oligomerization of BAK protein	R-HSA-111452	reactome	isPartOf	Pathways in cancer - Homo sapiens (human)	path:hsa05200	kegg
+Defective Mismatch Repair Associated With MSH2	R-HSA-5632928	reactome	isPartOf	Pathways in cancer - Homo sapiens (human)	path:hsa05200	kegg
+AKT-mediated inactivation of FOXO1A	R-HSA-211163	reactome	isPartOf	Pathways in cancer - Homo sapiens (human)	path:hsa05200	kegg
+Cytochrome c-mediated apoptotic response	R-HSA-111461	reactome	isPartOf	Pathways in cancer - Homo sapiens (human)	path:hsa05200	kegg
+Activation of RAS in B cells	R-HSA-1169092	reactome	isPartOf	Pathways in cancer - Homo sapiens (human)	path:hsa05200	kegg
+Defective Mismatch Repair Associated With MSH3	R-HSA-5632927	reactome	isPartOf	Pathways in cancer - Homo sapiens (human)	path:hsa05200	kegg
+Activated point mutants of FGFR2	R-HSA-2033519	reactome	isPartOf	Pathways in cancer - Homo sapiens (human)	path:hsa05200	kegg
+Formation of xylulose-5-phosphate	R-HSA-5661270	reactome	isPartOf	Pentose and glucuronate interconversions - Homo sapiens (human)	path:hsa00040	kegg
+Pentose and glucuronate interconversions - Homo sapiens (human)	path:hsa00040	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Pentose phosphate pathway - Homo sapiens (human)	path:hsa00030	kegg	equivalentTo	Pentose phosphate pathway	R-HSA-71336	reactome
+Peroxisomal lipid metabolism	R-HSA-390918	reactome	isPartOf	Peroxisome - Homo sapiens (human)	path:hsa04146	kegg
+NADPH regeneration	R-HSA-389542	reactome	isPartOf	Peroxisome - Homo sapiens (human)	path:hsa04146	kegg
+Peroxisome - Homo sapiens (human)	path:hsa04146	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Phagosome - Homo sapiens (human)	path:hsa04145	kegg	isPartOf	Adaptive Immune System	R-HSA-1280218	reactome
+ER-Phagosome pathway	R-HSA-1236974	reactome	isPartOf	Phagosome - Homo sapiens (human)	path:hsa04145	kegg
+Phagosome - Homo sapiens (human)	path:hsa04145	kegg	isPartOf	Immune System	R-HSA-168256	reactome
+Phagosome - Homo sapiens (human)	path:hsa04145	kegg	isPartOf	Innate Immune System	R-HSA-168249	reactome
+Phenylalanine metabolism - Homo sapiens (human)	path:hsa00360	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Phenylalanine metabolism - Homo sapiens (human)	path:hsa00360	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Phenylalanine metabolism - Homo sapiens (human)	path:hsa00360	kegg	isPartOf	Amino acid synthesis and interconversion (transamination)	R-HSA-70614	reactome
+Phenylalanine metabolism - Homo sapiens (human)	path:hsa00360	kegg	isPartOf	Histidine, lysine, phenylalanine, tyrosine, proline and tryptophan catabolism	R-HSA-6788656	reactome
+Phenylalanine, tyrosine and tryptophan biosynthesis - Homo sapiens (human)	path:hsa00400	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Phenylalanine and tyrosine catabolism	R-HSA-71182	reactome	isPartOf	Phenylalanine, tyrosine and tryptophan biosynthesis - Homo sapiens (human)	path:hsa00400	kegg
+Phenylalanine, tyrosine and tryptophan biosynthesis - Homo sapiens (human)	path:hsa00400	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Phenylalanine, tyrosine and tryptophan biosynthesis - Homo sapiens (human)	path:hsa00400	kegg	isPartOf	Amino acid synthesis and interconversion (transamination)	R-HSA-70614	reactome
+Phenylalanine, tyrosine and tryptophan biosynthesis - Homo sapiens (human)	path:hsa00400	kegg	isPartOf	Histidine, lysine, phenylalanine, tyrosine, proline and tryptophan catabolism	R-HSA-6788656	reactome
+Synthesis of PIPs in the nucleus	R-HSA-8847453	reactome	isPartOf	Phosphatidylinositol signaling system - Homo sapiens (human)	path:hsa04070	kegg
+Synthesis of PIPs at the early endosome membrane	R-HSA-1660516	reactome	isPartOf	Phosphatidylinositol signaling system - Homo sapiens (human)	path:hsa04070	kegg
+Synthesis of PIPs at the late endosome membrane	R-HSA-1660517	reactome	isPartOf	Phosphatidylinositol signaling system - Homo sapiens (human)	path:hsa04070	kegg
+Inositol phosphate metabolism	R-HSA-1483249	reactome	isPartOf	Phosphatidylinositol signaling system - Homo sapiens (human)	path:hsa04070	kegg
+Synthesis of IP3 and IP4 in the cytosol	R-HSA-1855204	reactome	isPartOf	Phosphatidylinositol signaling system - Homo sapiens (human)	path:hsa04070	kegg
+Phosphatidylinositol signaling system - Homo sapiens (human)	path:hsa04070	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Synthesis of PIPs at the ER membrane	R-HSA-1483248	reactome	isPartOf	Phosphatidylinositol signaling system - Homo sapiens (human)	path:hsa04070	kegg
+Synthesis of IP2, IP, and Ins in the cytosol	R-HSA-1855183	reactome	isPartOf	Phosphatidylinositol signaling system - Homo sapiens (human)	path:hsa04070	kegg
+Synthesis of PIPs at the plasma membrane	R-HSA-1660499	reactome	isPartOf	Phosphatidylinositol signaling system - Homo sapiens (human)	path:hsa04070	kegg
+Synthesis of IPs in the nucleus	R-HSA-1855191	reactome	isPartOf	Phosphatidylinositol signaling system - Homo sapiens (human)	path:hsa04070	kegg
+Synthesis of PIPs at the Golgi membrane	R-HSA-1660514	reactome	isPartOf	Phosphatidylinositol signaling system - Homo sapiens (human)	path:hsa04070	kegg
+Phosphonate and phosphinate metabolism - Homo sapiens (human)	path:hsa00440	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Phototransduction - Homo sapiens (human)	path:hsa04744	kegg	equivalentTo	Visual phototransduction	R-HSA-2187338	reactome
+Platelet Adhesion to exposed collagen	R-HSA-75892	reactome	isPartOf	Platelet activation - Homo sapiens (human)	path:hsa04611	kegg
+Porphyrin and chlorophyll metabolism - Homo sapiens (human)	path:hsa00860	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Heme degradation	R-HSA-189483	reactome	isPartOf	Porphyrin and chlorophyll metabolism - Homo sapiens (human)	path:hsa00860	kegg
+Metabolism of porphyrins	R-HSA-189445	reactome	isPartOf	Porphyrin and chlorophyll metabolism - Homo sapiens (human)	path:hsa00860	kegg
+Heme biosynthesis	R-HSA-189451	reactome	isPartOf	Porphyrin and chlorophyll metabolism - Homo sapiens (human)	path:hsa00860	kegg
+Primary bile acid biosynthesis - Homo sapiens (human)	path:hsa00120	kegg	isPartOf	Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol	R-HSA-193368	reactome
+Primary bile acid biosynthesis - Homo sapiens (human)	path:hsa00120	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Primary bile acid biosynthesis - Homo sapiens (human)	path:hsa00120	kegg	isPartOf	Synthesis of bile acids and bile salts	R-HSA-192105	reactome
+Primary bile acid biosynthesis - Homo sapiens (human)	path:hsa00120	kegg	isPartOf	Synthesis of bile acids and bile salts via 24-hydroxycholesterol	R-HSA-193775	reactome
+Primary bile acid biosynthesis - Homo sapiens (human)	path:hsa00120	kegg	isPartOf	Bile acid and bile salt metabolism	R-HSA-194068	reactome
+Prolactin signaling pathway - Homo sapiens (human)	path:hsa04917	kegg	equivalentTo	Prolactin receptor signaling	R-HSA-1170546	reactome
+Propionyl-CoA catabolism	R-HSA-71032	reactome	isPartOf	Propanoate metabolism - Homo sapiens (human)	path:hsa00640	kegg
+Propanoate metabolism - Homo sapiens (human)	path:hsa00640	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+GLI3 is processed to GLI3R by the proteasome	R-HSA-5610785	reactome	isPartOf	Proteasome - Homo sapiens (human)	path:hsa03050	kegg
+Ub-specific processing proteases	R-HSA-5689880	reactome	isPartOf	Proteasome - Homo sapiens (human)	path:hsa03050	kegg
+Regulation of activated PAK-2p34 by proteasome mediated degradation	R-HSA-211733	reactome	isPartOf	Proteasome - Homo sapiens (human)	path:hsa03050	kegg
+Proteasome - Homo sapiens (human)	path:hsa03050	kegg	isPartOf	Metabolism of proteins	R-HSA-392499	reactome
+Degradation of GLI1 by the proteasome	R-HSA-5610780	reactome	isPartOf	Proteasome - Homo sapiens (human)	path:hsa03050	kegg
+Degradation of GLI2 by the proteasome	R-HSA-5610783	reactome	isPartOf	Proteasome - Homo sapiens (human)	path:hsa03050	kegg
+Autodegradation of the E3 ubiquitin ligase COP1	R-HSA-349425	reactome	isPartOf	Proteasome - Homo sapiens (human)	path:hsa03050	kegg
+Antigen processing: Ubiquitination & Proteasome degradation	R-HSA-983168	reactome	isPartOf	Proteasome - Homo sapiens (human)	path:hsa03050	kegg
+Protein digestion and absorption - Homo sapiens (human)	path:hsa04974	kegg	isPartOf	Intestinal absorption	R-HSA-8963676	reactome
+Protein digestion and absorption - Homo sapiens (human)	path:hsa04974	kegg	isPartOf	Digestion and absorption	R-HSA-8963743	reactome
+Protein digestion and absorption - Homo sapiens (human)	path:hsa04974	kegg	isPartOf	Metabolism of proteins	R-HSA-392499	reactome
+Protein processing in endoplasmic reticulum - Homo sapiens (human)	path:hsa04141	kegg	isPartOf	Metabolism of proteins	R-HSA-392499	reactome
+Pre-NOTCH Processing in the Endoplasmic Reticulum	R-HSA-1912399	reactome	isPartOf	Protein processing in endoplasmic reticulum - Homo sapiens (human)	path:hsa04141	kegg
+Purine metabolism - Homo sapiens (human)	path:hsa00230	kegg	isPartOf	Nucleobase catabolism	R-HSA-8956319	reactome
+Purine catabolism	R-HSA-74259	reactome	isPartOf	Purine metabolism - Homo sapiens (human)	path:hsa00230	kegg
+Purine ribonucleoside monophosphate biosynthesis	R-HSA-73817	reactome	isPartOf	Purine metabolism - Homo sapiens (human)	path:hsa00230	kegg
+Purine salvage	R-HSA-74217	reactome	isPartOf	Purine metabolism - Homo sapiens (human)	path:hsa00230	kegg
+Purine metabolism - Homo sapiens (human)	path:hsa00230	kegg	isPartOf	Metabolism of nucleotides	R-HSA-15869	reactome
+Pyrimidine catabolism	R-HSA-73621	reactome	isPartOf	Pyrimidine metabolism - Homo sapiens (human)	path:hsa00240	kegg
+Pyrimidine salvage	R-HSA-73614	reactome	isPartOf	Pyrimidine metabolism - Homo sapiens (human)	path:hsa00240	kegg
+Pyrimidine metabolism - Homo sapiens (human)	path:hsa00240	kegg	isPartOf	Metabolism of nucleotides	R-HSA-15869	reactome
+Pyrimidine biosynthesis	R-HSA-500753	reactome	isPartOf	Pyrimidine metabolism - Homo sapiens (human)	path:hsa00240	kegg
+Pyruvate metabolism - Homo sapiens (human)	path:hsa00620	kegg	equivalentTo	Pyruvate metabolism	R-HSA-70268	reactome
+RIG-I-like receptor signaling pathway - Homo sapiens (human)	path:hsa04622	kegg	isPartOf	Immune System	R-HSA-168256	reactome
+RIG-I-like receptor signaling pathway - Homo sapiens (human)	path:hsa04622	kegg	isPartOf	Innate Immune System	R-HSA-168249	reactome
+mRNA decay by 3' to 5' exoribonuclease	R-HSA-429958	reactome	isPartOf	RNA degradation - Homo sapiens (human)	path:hsa03018	kegg
+RNA degradation - Homo sapiens (human)	path:hsa03018	kegg	isPartOf	Metabolism of RNA	R-HSA-8953854	reactome
+mRNA decay by 5' to 3' exoribonuclease	R-HSA-430039	reactome	isPartOf	RNA degradation - Homo sapiens (human)	path:hsa03018	kegg
+Transport of Mature mRNAs Derived from Intronless Transcripts	R-HSA-159234	reactome	isPartOf	RNA transport - Homo sapiens (human)	path:hsa03013	kegg
+Rev-mediated nuclear export of HIV RNA	R-HSA-165054	reactome	isPartOf	RNA transport - Homo sapiens (human)	path:hsa03013	kegg
+Transport of Mature mRNA Derived from an Intronless Transcript	R-HSA-159231	reactome	isPartOf	RNA transport - Homo sapiens (human)	path:hsa03013	kegg
+Transport of the SLBP Dependant Mature mRNA	R-HSA-159230	reactome	isPartOf	RNA transport - Homo sapiens (human)	path:hsa03013	kegg
+Transport of the SLBP independent Mature mRNA	R-HSA-159227	reactome	isPartOf	RNA transport - Homo sapiens (human)	path:hsa03013	kegg
+Rap1 signaling pathway - Homo sapiens (human)	path:hsa04015	kegg	equivalentTo	Rap1 signalling	R-HSA-392517	reactome
+Signaling by RAS mutants	R-HSA-6802949	reactome	isPartOf	Ras signaling pathway - Homo sapiens (human)	path:hsa04014	kegg
+MET activates RAS signaling	R-HSA-8851805	reactome	isPartOf	Ras signaling pathway - Homo sapiens (human)	path:hsa04014	kegg
+CREB phosphorylation through the activation of Ras	R-HSA-442742	reactome	isPartOf	Ras signaling pathway - Homo sapiens (human)	path:hsa04014	kegg
+Regulation of RAS by GAPs	R-HSA-5658442	reactome	isPartOf	Ras signaling pathway - Homo sapiens (human)	path:hsa04014	kegg
+Ras activation upon Ca2+ influx through NMDA receptor	R-HSA-442982	reactome	isPartOf	Ras signaling pathway - Homo sapiens (human)	path:hsa04014	kegg
+Activation of RAS in B cells	R-HSA-1169092	reactome	isPartOf	Ras signaling pathway - Homo sapiens (human)	path:hsa04014	kegg
+RAS signaling downstream of NF1 loss-of-function variants	R-HSA-6802953	reactome	isPartOf	Ras signaling pathway - Homo sapiens (human)	path:hsa04014	kegg
+Regulation of lipolysis in adipocytes - Homo sapiens (human)	path:hsa04923	kegg	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Relaxin receptors	R-HSA-444821	reactome	isPartOf	Relaxin signaling pathway - Homo sapiens (human)	path:hsa04926	kegg
+Metabolism of Angiotensinogen to Angiotensins	R-HSA-2022377	reactome	isPartOf	Renin-angiotensin system - Homo sapiens (human)	path:hsa04614	kegg
+Retinol metabolism - Homo sapiens (human)	path:hsa00830	kegg	isPartOf	Vitamins	R-HSA-211916	reactome
+Retinol metabolism - Homo sapiens (human)	path:hsa00830	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Riboflavin metabolism - Homo sapiens (human)	path:hsa00740	kegg	equivalentTo	Vitamin B2 (riboflavin) metabolism	R-HSA-196843	reactome
+rRNA modification in the nucleus and cytosol	R-HSA-6790901	reactome	isPartOf	Ribosome biogenesis in eukaryotes - Homo sapiens (human)	path:hsa03008	kegg
+rRNA processing in the nucleus and cytosol	R-HSA-8868773	reactome	isPartOf	Ribosome biogenesis in eukaryotes - Homo sapiens (human)	path:hsa03008	kegg
+rRNA processing	R-HSA-72312	reactome	isPartOf	Ribosome biogenesis in eukaryotes - Homo sapiens (human)	path:hsa03008	kegg
+Ribosome biogenesis in eukaryotes - Homo sapiens (human)	path:hsa03008	kegg	isPartOf	Metabolism of RNA	R-HSA-8953854	reactome
+SNARE interactions in vesicular transport - Homo sapiens (human)	path:hsa04130	kegg	isPartOf	Vesicle-mediated transport	R-HSA-5653656	reactome
+SNARE interactions in vesicular transport - Homo sapiens (human)	path:hsa04130	kegg	isPartOf	Membrane Trafficking	R-HSA-199991	reactome
+Selenocompound metabolism - Homo sapiens (human)	path:hsa00450	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Selenoamino acid metabolism	R-HSA-2408522	reactome	isPartOf	Selenocompound metabolism - Homo sapiens (human)	path:hsa00450	kegg
+Serotonin receptors	R-HSA-390666	reactome	isPartOf	Serotonergic synapse - Homo sapiens (human)	path:hsa04726	kegg
+Serotonin clearance from the synaptic cleft	R-HSA-380615	reactome	isPartOf	Serotonergic synapse - Homo sapiens (human)	path:hsa04726	kegg
+POU5F1 (OCT4), SOX2, NANOG repress genes related to differentiation	R-HSA-2892245	reactome	isPartOf	Signaling pathways regulating pluripotency of stem cells - Homo sapiens (human)	path:hsa04550	kegg
+Signaling by FGFR1 amplification mutants	R-HSA-1839120	reactome	isPartOf	Signaling pathways regulating pluripotency of stem cells - Homo sapiens (human)	path:hsa04550	kegg
+Signaling by FGFR2 amplification mutants	R-HSA-2023837	reactome	isPartOf	Signaling pathways regulating pluripotency of stem cells - Homo sapiens (human)	path:hsa04550	kegg
+Sphingolipid metabolism - Homo sapiens (human)	path:hsa00600	kegg	equivalentTo	Sphingolipid metabolism	R-HSA-428157	reactome
+Spliceosome - Homo sapiens (human)	path:hsa03040	kegg	isPartOf	Processing of Capped Intronless Pre-mRNA	R-HSA-75067	reactome
+Spliceosome - Homo sapiens (human)	path:hsa03040	kegg	isPartOf	mRNA Splicing	R-HSA-72172	reactome
+Spliceosome - Homo sapiens (human)	path:hsa03040	kegg	isPartOf	Metabolism of RNA	R-HSA-8953854	reactome
+Spliceosome - Homo sapiens (human)	path:hsa03040	kegg	isPartOf	mRNA Splicing - Major Pathway	R-HSA-72163	reactome
+Spliceosome - Homo sapiens (human)	path:hsa03040	kegg	isPartOf	Gene expression (Transcription)	R-HSA-74160	reactome
+Spliceosome - Homo sapiens (human)	path:hsa03040	kegg	isPartOf	mRNA Splicing - Minor Pathway	R-HSA-72165	reactome
+Spliceosome - Homo sapiens (human)	path:hsa03040	kegg	isPartOf	Processing of Capped Intron-Containing Pre-mRNA	R-HSA-72203	reactome
+Spliceosome - Homo sapiens (human)	path:hsa03040	kegg	isPartOf	RNA Polymerase II Transcription Termination	R-HSA-73856	reactome
+Starch and sucrose metabolism - Homo sapiens (human)	path:hsa00500	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Starch and sucrose metabolism - Homo sapiens (human)	path:hsa00500	kegg	isPartOf	Metabolism of carbohydrates	R-HSA-71387	reactome
+Steroid biosynthesis - Homo sapiens (human)	path:hsa00100	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Steroid biosynthesis - Homo sapiens (human)	path:hsa00100	kegg	isPartOf	Metabolism of steroids	R-HSA-8957322	reactome
+Steroid hormone biosynthesis - Homo sapiens (human)	path:hsa00140	kegg	isPartOf	Metabolism of steroid hormones	R-HSA-196071	reactome
+Estrogen biosynthesis	R-HSA-193144	reactome	isPartOf	Steroid hormone biosynthesis - Homo sapiens (human)	path:hsa00140	kegg
+Glucocorticoid biosynthesis	R-HSA-194002	reactome	isPartOf	Steroid hormone biosynthesis - Homo sapiens (human)	path:hsa00140	kegg
+Steroid hormone biosynthesis - Homo sapiens (human)	path:hsa00140	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Mineralocorticoid biosynthesis	R-HSA-193993	reactome	isPartOf	Steroid hormone biosynthesis - Homo sapiens (human)	path:hsa00140	kegg
+Sulfur metabolism - Homo sapiens (human)	path:hsa00920	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Sulfur metabolism - Homo sapiens (human)	path:hsa00920	kegg	isPartOf	Sulfur amino acid metabolism	R-HSA-1614635	reactome
+Sulfur metabolism - Homo sapiens (human)	path:hsa00920	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Synaptic vesicle cycle - Homo sapiens (human)	path:hsa04721	kegg	isPartOf	Vesicle-mediated transport	R-HSA-5653656	reactome
+Synthesis and degradation of ketone bodies - Homo sapiens (human)	path:hsa00072	kegg	equivalentTo	Ketone body metabolism	R-HSA-74182	reactome
+Synthesis and degradation of ketone bodies - Homo sapiens (human)	path:hsa00072	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Nef mediated downregulation of CD28 cell surface expression	R-HSA-164939	reactome	isPartOf	T cell receptor signaling pathway - Homo sapiens (human)	path:hsa04660	kegg
+T cell receptor signaling pathway - Homo sapiens (human)	path:hsa04660	kegg	isPartOf	Immune System	R-HSA-168256	reactome
+CD28 dependent Vav1 pathway	R-HSA-389359	reactome	isPartOf	T cell receptor signaling pathway - Homo sapiens (human)	path:hsa04660	kegg
+CD28 co-stimulation	R-HSA-389356	reactome	isPartOf	T cell receptor signaling pathway - Homo sapiens (human)	path:hsa04660	kegg
+TGF-beta signaling pathway - Homo sapiens (human)	path:hsa04350	kegg	equivalentTo	Signaling by TGF-beta family members	R-HSA-9006936	reactome
+TNF signaling pathway - Homo sapiens (human)	path:hsa04668	kegg	equivalentTo	TNF signaling	R-HSA-75893	reactome
+Taurine and hypotaurine metabolism - Homo sapiens (human)	path:hsa00430	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Terpenoid backbone biosynthesis - Homo sapiens (human)	path:hsa00900	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Th1 and Th2 cell differentiation - Homo sapiens (human)	path:hsa04658	kegg	isPartOf	Adaptive Immune System	R-HSA-1280218	reactome
+Th17 cell differentiation - Homo sapiens (human)	path:hsa04659	kegg	isPartOf	Immune System	R-HSA-168256	reactome
+Thermogenesis - Homo sapiens (human)	path:hsa04714	kegg	isPartOf	Formation of ATP by chemiosmotic coupling	R-HSA-163210	reactome
+Thermogenesis - Homo sapiens (human)	path:hsa04714	kegg	isPartOf	Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins.	R-HSA-163200	reactome
+Thermogenesis - Homo sapiens (human)	path:hsa04714	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Thermogenesis - Homo sapiens (human)	path:hsa04714	kegg	isPartOf	Respiratory electron transport	R-HSA-611105	reactome
+Thiamine metabolism - Homo sapiens (human)	path:hsa00730	kegg	equivalentTo	Vitamin B1 (thiamin) metabolism	R-HSA-196819	reactome
+Thiamine metabolism - Homo sapiens (human)	path:hsa00730	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Regulation of thyroid hormone activity	R-HSA-350864	reactome	isPartOf	Thyroid hormone signaling pathway - Homo sapiens (human)	path:hsa04919	kegg
+Thyroid hormone synthesis - Homo sapiens (human)	path:hsa04918	kegg	equivalentTo	Thyroxine biosynthesis	R-HSA-209968	reactome
+Tight junction - Homo sapiens (human)	path:hsa04530	kegg	equivalentTo	Tight junction interactions	R-HSA-420029	reactome
+RUNX1 regulates expression of components of tight junctions	R-HSA-8935964	reactome	isPartOf	Tight junction - Homo sapiens (human)	path:hsa04530	kegg
+Toll-like receptor signaling pathway - Homo sapiens (human)	path:hsa04620	kegg	equivalentTo	Toll-Like Receptors Cascades	R-HSA-168898	reactome
+Toll Like Receptor 4 (TLR4) Cascade	R-HSA-166016	reactome	isPartOf	Toll-like receptor signaling pathway - Homo sapiens (human)	path:hsa04620	kegg
+Toll Like Receptor 2 (TLR2) Cascade	R-HSA-181438	reactome	isPartOf	Toll-like receptor signaling pathway - Homo sapiens (human)	path:hsa04620	kegg
+Toll Like Receptor TLR6:TLR2 Cascade	R-HSA-168188	reactome	isPartOf	Toll-like receptor signaling pathway - Homo sapiens (human)	path:hsa04620	kegg
+Toll Like Receptor 5 (TLR5) Cascade	R-HSA-168176	reactome	isPartOf	Toll-like receptor signaling pathway - Homo sapiens (human)	path:hsa04620	kegg
+Toll Like Receptor 10 (TLR10) Cascade	R-HSA-168142	reactome	isPartOf	Toll-like receptor signaling pathway - Homo sapiens (human)	path:hsa04620	kegg
+Toll Like Receptor TLR1:TLR2 Cascade	R-HSA-168179	reactome	isPartOf	Toll-like receptor signaling pathway - Homo sapiens (human)	path:hsa04620	kegg
+Toll Like Receptor 9 (TLR9) Cascade	R-HSA-168138	reactome	isPartOf	Toll-like receptor signaling pathway - Homo sapiens (human)	path:hsa04620	kegg
+Toll Like Receptor 3 (TLR3) Cascade	R-HSA-168164	reactome	isPartOf	Toll-like receptor signaling pathway - Homo sapiens (human)	path:hsa04620	kegg
+Toll Like Receptor 7/8 (TLR7/8) Cascade	R-HSA-168181	reactome	isPartOf	Toll-like receptor signaling pathway - Homo sapiens (human)	path:hsa04620	kegg
+Tryptophan catabolism	R-HSA-71240	reactome	isPartOf	Tryptophan metabolism - Homo sapiens (human)	path:hsa00380	kegg
+Tyrosine metabolism - Homo sapiens (human)	path:hsa00350	kegg	isPartOf	Amino acid synthesis and interconversion (transamination)	R-HSA-70614	reactome
+Tyrosine metabolism - Homo sapiens (human)	path:hsa00350	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Phenylalanine and tyrosine catabolism	R-HSA-71182	reactome	isPartOf	Tyrosine metabolism - Homo sapiens (human)	path:hsa00350	kegg
+Tyrosine metabolism - Homo sapiens (human)	path:hsa00350	kegg	isPartOf	Histidine, lysine, phenylalanine, tyrosine, proline and tryptophan catabolism	R-HSA-6788656	reactome
+Tyrosine metabolism - Homo sapiens (human)	path:hsa00350	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Ubiquinone and other terpenoid-quinone biosynthesis - Homo sapiens (human)	path:hsa00130	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Ubiquinone and other terpenoid-quinone biosynthesis - Homo sapiens (human)	path:hsa00130	kegg	isPartOf	Metabolism of vitamins and cofactors	R-HSA-196854	reactome
+Valine, leucine and isoleucine biosynthesis - Homo sapiens (human)	path:hsa00290	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Valine, leucine and isoleucine biosynthesis - Homo sapiens (human)	path:hsa00290	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Valine, leucine and isoleucine degradation - Homo sapiens (human)	path:hsa00280	kegg	isPartOf	Branched-chain amino acid catabolism	R-HSA-70895	reactome
+Valine, leucine and isoleucine degradation - Homo sapiens (human)	path:hsa00280	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Valine, leucine and isoleucine degradation - Homo sapiens (human)	path:hsa00280	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Vascular smooth muscle contraction - Homo sapiens (human)	path:hsa04270	kegg	isPartOf	Smooth Muscle Contraction	R-HSA-445355	reactome
+Vascular smooth muscle contraction - Homo sapiens (human)	path:hsa04270	kegg	isPartOf	Muscle contraction	R-HSA-397014	reactome
+Vasopressin-regulated water reabsorption - Homo sapiens (human)	path:hsa04962	kegg	equivalentTo	Vasopressin regulates renal water homeostasis via Aquaporins	R-HSA-432040	reactome
+Vitamin B6 metabolism - Homo sapiens (human)	path:hsa00750	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Vitamin B6 metabolism - Homo sapiens (human)	path:hsa00750	kegg	isPartOf	Metabolism of water-soluble vitamins and cofactors	R-HSA-196849	reactome
+Vitamin B6 metabolism - Homo sapiens (human)	path:hsa00750	kegg	isPartOf	Metabolism of vitamins and cofactors	R-HSA-196854	reactome
+Vitamins B6 activation to pyridoxal phosphate	R-HSA-964975	reactome	isPartOf	Vitamin B6 metabolism - Homo sapiens (human)	path:hsa00750	kegg
+Vitamin digestion and absorption - Homo sapiens (human)	path:hsa04977	kegg	isPartOf	Intestinal absorption	R-HSA-8963676	reactome
+Vitamin digestion and absorption - Homo sapiens (human)	path:hsa04977	kegg	isPartOf	Digestion and absorption	R-HSA-8963743	reactome
+Vitamin digestion and absorption - Homo sapiens (human)	path:hsa04977	kegg	isPartOf	Metabolism of vitamins and cofactors	R-HSA-196854	reactome
+Wnt signaling pathway - Homo sapiens (human)	path:hsa04310	kegg	equivalentTo	Signaling by WNT	R-HSA-195721	reactome
+RUNX3 regulates WNT signaling	R-HSA-8951430	reactome	isPartOf	Wnt signaling pathway - Homo sapiens (human)	path:hsa04310	kegg
+WNT mediated activation of DVL	R-HSA-201688	reactome	isPartOf	Wnt signaling pathway - Homo sapiens (human)	path:hsa04310	kegg
+WNT ligand secretion is abrogated by the PORCN inhibitor LGK974	R-HSA-5340573	reactome	isPartOf	Wnt signaling pathway - Homo sapiens (human)	path:hsa04310	kegg
+alpha-Linolenic acid metabolism - Homo sapiens (human)	path:hsa00592	kegg	equivalentTo	alpha-linolenic acid (ALA) metabolism	R-HSA-2046106	reactome
+alpha-Linolenic acid metabolism - Homo sapiens (human)	path:hsa00592	kegg	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+alpha-Linolenic acid metabolism - Homo sapiens (human)	path:hsa00592	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+beta-Alanine metabolism - Homo sapiens (human)	path:hsa00410	kegg	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+beta-Alanine metabolism - Homo sapiens (human)	path:hsa00410	kegg	isPartOf	Metabolism	R-HSA-1430728	reactome
+Adenylate cyclase activating pathway	R-HSA-170660	reactome	isPartOf	cAMP signaling pathway - Homo sapiens (human)	path:hsa04024	kegg
+cGMP effects	R-HSA-418457	reactome	isPartOf	cGMP-PKG signaling pathway - Homo sapiens (human)	path:hsa04022	kegg
+Inhibition of Host mRNA Processing and RNA Silencing	R-HSA-168315	reactome	isPartOf	mRNA surveillance pathway - Homo sapiens (human)	path:hsa03015	kegg
+Processing of Capped Intron-Containing Pre-mRNA	R-HSA-72203	reactome	isPartOf	mRNA surveillance pathway - Homo sapiens (human)	path:hsa03015	kegg
+mRNA Splicing	R-HSA-72172	reactome	isPartOf	mRNA surveillance pathway - Homo sapiens (human)	path:hsa03015	kegg
+Processing of Capped Intronless Pre-mRNA	R-HSA-75067	reactome	isPartOf	mRNA surveillance pathway - Homo sapiens (human)	path:hsa03015	kegg
+mRNA 3'-end processing	R-HSA-72187	reactome	isPartOf	mRNA surveillance pathway - Homo sapiens (human)	path:hsa03015	kegg
+Processing of Intronless Pre-mRNAs	R-HSA-77595	reactome	isPartOf	mRNA surveillance pathway - Homo sapiens (human)	path:hsa03015	kegg
+mRNA Splicing - Major Pathway	R-HSA-72163	reactome	isPartOf	mRNA surveillance pathway - Homo sapiens (human)	path:hsa03015	kegg
+mTOR signaling pathway - Homo sapiens (human)	path:hsa04150	kegg	equivalentTo	mTOR signalling	R-HSA-165159	reactome
+TP53 Regulates Transcription of Cell Death Genes	R-HSA-5633008	reactome	isPartOf	p53 signaling pathway - Homo sapiens (human)	path:hsa04115	kegg
+Regulation of TP53 Expression	R-HSA-6804754	reactome	isPartOf	p53 signaling pathway - Homo sapiens (human)	path:hsa04115	kegg
+TP53 Regulates Transcription of Cell Cycle Genes	R-HSA-6791312	reactome	isPartOf	p53 signaling pathway - Homo sapiens (human)	path:hsa04115	kegg
+TP53 Regulates Transcription of Death Receptors and Ligands	R-HSA-6803211	reactome	isPartOf	p53 signaling pathway - Homo sapiens (human)	path:hsa04115	kegg
+TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain	R-HSA-6803205	reactome	isPartOf	p53 signaling pathway - Homo sapiens (human)	path:hsa04115	kegg
+TP53 Regulates Transcription of Caspase Activators and Caspases	R-HSA-6803207	reactome	isPartOf	p53 signaling pathway - Homo sapiens (human)	path:hsa04115	kegg
+TP53 Regulates Metabolic Genes	R-HSA-5628897	reactome	isPartOf	p53 signaling pathway - Homo sapiens (human)	path:hsa04115	kegg
+Regulation of TP53 Activity through Methylation	R-HSA-6804760	reactome	isPartOf	p53 signaling pathway - Homo sapiens (human)	path:hsa04115	kegg
+TP53 Regulates Transcription of Genes Involved in G1 Cell Cycle Arrest	R-HSA-6804116	reactome	isPartOf	p53 signaling pathway - Homo sapiens (human)	path:hsa04115	kegg
+TP53 Regulates Transcription of Genes Involved in Cytochrome C Release	R-HSA-6803204	reactome	isPartOf	p53 signaling pathway - Homo sapiens (human)	path:hsa04115	kegg
+Regulation of TP53 Expression and Degradation	R-HSA-6806003	reactome	isPartOf	p53 signaling pathway - Homo sapiens (human)	path:hsa04115	kegg
+Regulation of TP53 Degradation	R-HSA-6804757	reactome	isPartOf	p53 signaling pathway - Homo sapiens (human)	path:hsa04115	kegg
+AMPK inhibits chREBP transcriptional activation activity	R-HSA-163680	reactome	isPartOf	AMP-activated Protein Kinase (AMPK) Signaling	WP1403	wikipathways
+Activation of ATR in response to replication stress	R-HSA-176187	reactome	isPartOf	ATR Signaling	WP3875	wikipathways
+Acetylcholine Synthesis	WP528	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Aflatoxin B1 metabolism	WP699	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Aflatoxin activation and detoxification	R-HSA-5423646	reactome	isPartOf	Aflatoxin B1 metabolism	WP699	wikipathways
+Alanine and aspartate metabolism	WP106	wikipathways	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Alanine and aspartate metabolism	WP106	wikipathways	isPartOf	Amino acid synthesis and interconversion (transamination)	R-HSA-70614	reactome
+Alanine and aspartate metabolism	WP106	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Allograft Rejection	WP2328	wikipathways	isPartOf	Adaptive Immune System	R-HSA-1280218	reactome
+Allograft Rejection	WP2328	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+SOS-mediated signalling	R-HSA-112412	reactome	isPartOf	Alpha 6 Beta 4 signaling pathway	WP244	wikipathways
+Alpha 6 Beta 4 signaling pathway	WP244	wikipathways	isPartOf	Signal Transduction	R-HSA-162582	reactome
+Metabolism of amino acids and derivatives	R-HSA-71291	reactome	equivalentTo	Amino Acid metabolism	WP3925	wikipathways
+Amino Acid metabolism	WP3925	wikipathways	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Amino Acid metabolism	WP3925	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Amino acid conjugation of benzoic acid	WP521	wikipathways	isPartOf	Conjugation of carboxylic acids	R-HSA-159424	reactome
+Amino acid conjugation of benzoic acid	WP521	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Amino acid conjugation of benzoic acid	WP521	wikipathways	isPartOf	Amino Acid conjugation	R-HSA-156587	reactome
+Binding of TCF/LEF:CTNNB1 to target gene promoters	R-HSA-4411364	reactome	isPartOf	Amplification and Expansion of Oncogenic Pathways as Metastatic Traits	WP3678	wikipathways
+Apoptosis	R-HSA-109581	reactome	equivalentTo	Apoptosis	WP254	wikipathways
+Dimerization of procaspase-8	R-HSA-69416	reactome	isPartOf	Apoptosis Modulation and Signaling	WP1772	wikipathways
+Cytochrome c-mediated apoptotic response	R-HSA-111461	reactome	isPartOf	Apoptosis Modulation and Signaling	WP1772	wikipathways
+Release of apoptotic factors from the mitochondria	R-HSA-111457	reactome	isPartOf	Apoptosis Modulation and Signaling	WP1772	wikipathways
+FasL/ CD95L signaling	R-HSA-75157	reactome	isPartOf	Apoptosis Modulation and Signaling	WP1772	wikipathways
+Formation of apoptosome	R-HSA-111458	reactome	isPartOf	Apoptosis Modulation and Signaling	WP1772	wikipathways
+Caspase activation via extrinsic apoptotic signalling pathway	R-HSA-5357769	reactome	isPartOf	Apoptosis Modulation and Signaling	WP1772	wikipathways
+TP53 Regulates Transcription of Caspase Activators and Caspases	R-HSA-6803207	reactome	isPartOf	Apoptosis Modulation and Signaling	WP1772	wikipathways
+CASP8 activity is inhibited	R-HSA-5218900	reactome	isPartOf	Apoptosis Modulation and Signaling	WP1772	wikipathways
+Apoptotic factor-mediated response	R-HSA-111471	reactome	isPartOf	Apoptosis Modulation and Signaling	WP1772	wikipathways
+Activation, translocation and oligomerization of BAX	R-HSA-114294	reactome	isPartOf	Apoptosis Modulation and Signaling	WP1772	wikipathways
+Activation and oligomerization of BAK protein	R-HSA-111452	reactome	isPartOf	Apoptosis Modulation and Signaling	WP1772	wikipathways
+BH3-only proteins associate with and inactivate anti-apoptotic BCL-2 members	R-HSA-111453	reactome	isPartOf	Apoptosis Modulation and Signaling	WP1772	wikipathways
+Apoptosis Modulation and Signaling	WP1772	wikipathways	isPartOf	Apoptosis	R-HSA-109581	reactome
+Activation of caspases through apoptosome-mediated cleavage	R-HSA-111459	reactome	isPartOf	Apoptosis Modulation and Signaling	WP1772	wikipathways
+Apoptosis Modulation by HSP70	WP384	wikipathways	isPartOf	Apoptotic factor-mediated response	R-HSA-111471	reactome
+Apoptosis Modulation by HSP70	WP384	wikipathways	isPartOf	Apoptosis	R-HSA-109581	reactome
+Apoptosis Modulation by HSP70	WP384	wikipathways	isPartOf	Programmed Cell Death	R-HSA-5357801	reactome
+Arachidonate Epoxygenase / Epoxide Hydrolase	WP678	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Arachidonate Epoxygenase / Epoxide Hydrolase	WP678	wikipathways	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Arachidonate Epoxygenase / Epoxide Hydrolase	WP678	wikipathways	isPartOf	Biological oxidations	R-HSA-211859	reactome
+Arachidonate Epoxygenase / Epoxide Hydrolase	WP678	wikipathways	isPartOf	Fatty acid metabolism	R-HSA-8978868	reactome
+Arachidonate Epoxygenase / Epoxide Hydrolase	WP678	wikipathways	isPartOf	Arachidonic acid metabolism	R-HSA-2142753	reactome
+Aryl hydrocarbon receptor signalling	R-HSA-8937144	reactome	equivalentTo	Aryl Hydrocarbon Receptor	WP2586	wikipathways
+Aryl hydrocarbon receptor signalling	R-HSA-8937144	reactome	equivalentTo	Aryl Hydrocarbon Receptor Pathway	WP2873	wikipathways
+Arylamine metabolism	WP694	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Signaling by the B Cell Receptor (BCR)	R-HSA-983705	reactome	equivalentTo	B Cell Receptor Signaling Pathway	WP23	wikipathways
+B Cell Receptor Signaling Pathway	WP23	wikipathways	isPartOf	Adaptive Immune System	R-HSA-1280218	reactome
+B Cell Receptor Signaling Pathway	WP23	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+BDNF-TrkB Signaling	WP3676	wikipathways	isPartOf	Signal Transduction	R-HSA-162582	reactome
+Benzene metabolism	WP3891	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Benzo(a)pyrene metabolism	WP696	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Metabolism of serotonin	R-HSA-380612	reactome	isPartOf	Biogenic Amine Synthesis	WP550	wikipathways
+GABA synthesis	R-HSA-888568	reactome	isPartOf	Biogenic Amine Synthesis	WP550	wikipathways
+Serotonin and melatonin biosynthesis	R-HSA-209931	reactome	isPartOf	Biogenic Amine Synthesis	WP550	wikipathways
+GABA synthesis, release, reuptake and degradation	R-HSA-888590	reactome	isPartOf	Biogenic Amine Synthesis	WP550	wikipathways
+Catecholamine biosynthesis	R-HSA-209905	reactome	isPartOf	Biogenic Amine Synthesis	WP550	wikipathways
+Biogenic Amine Synthesis	WP550	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Biosynthesis and regeneration of tetrahydrobiopterin (BH4) and catabolism of phenylalanine, including diseases	WP4156	wikipathways	isPartOf	Metabolism of cofactors	R-HSA-8978934	reactome
+Biosynthesis and regeneration of tetrahydrobiopterin (BH4) and catabolism of phenylalanine, including diseases	WP4156	wikipathways	isPartOf	Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation	R-HSA-1474151	reactome
+Biosynthesis and regeneration of tetrahydrobiopterin (BH4) and catabolism of phenylalanine, including diseases	WP4156	wikipathways	isPartOf	Metabolism of vitamins and cofactors	R-HSA-196854	reactome
+Biosynthesis and regeneration of tetrahydrobiopterin (BH4) and catabolism of phenylalanine, including diseases	WP4156	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Extrinsic Pathway of Fibrin Clot Formation	R-HSA-140834	reactome	isPartOf	Blood Clotting Cascade	WP272	wikipathways
+Dissolution of Fibrin Clot	R-HSA-75205	reactome	isPartOf	Blood Clotting Cascade	WP272	wikipathways
+Blood Clotting Cascade	WP272	wikipathways	isPartOf	Hemostasis	R-HSA-109582	reactome
+Formation of Fibrin Clot (Clotting Cascade)	R-HSA-140877	reactome	isPartOf	Blood Clotting Cascade	WP272	wikipathways
+Signaling by BMP	R-HSA-201451	reactome	equivalentTo	Bone Morphogenic Protein (BMP) Signalling and Regulation	WP1425	wikipathways
+Butyrate-induced histone acetylation	WP2366	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Caffeine and Theobromine metabolism	WP3633	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Aromatic amines can be N-hydroxylated or N-dealkylated by CYP1A2	R-HSA-211957	reactome	isPartOf	Caffeine and Theobromine metabolism	WP3633	wikipathways
+Caffeine and Theobromine metabolism	WP3633	wikipathways	isPartOf	Xenobiotics	R-HSA-211981	reactome
+Muscarinic acetylcholine receptors	R-HSA-390648	reactome	isPartOf	Calcium Regulation in the Cardiac Cell	WP536	wikipathways
+Transport of connexins along the secretory pathway	R-HSA-190827	reactome	isPartOf	Calcium Regulation in the Cardiac Cell	WP536	wikipathways
+Cannabinoid receptor signaling	WP3869	wikipathways	isPartOf	Signal Transduction	R-HSA-162582	reactome
+Signaling by NOTCH	R-HSA-157118	reactome	equivalentTo	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+Signaling by NOTCH3	R-HSA-9012852	reactome	isPartOf	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+NOTCH2 Activation and Transmission of Signal to the Nucleus	R-HSA-2979096	reactome	isPartOf	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+Signaling by NOTCH4	R-HSA-9013694	reactome	isPartOf	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+Notch-HLH transcription pathway	R-HSA-350054	reactome	isPartOf	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+Canonical  and Non-canonical Notch signaling	WP3845	wikipathways	isPartOf	Signal Transduction	R-HSA-162582	reactome
+Signaling by NOTCH1	R-HSA-1980143	reactome	isPartOf	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+Signaling by NOTCH1 t(7;9)(NOTCH1:M1580_K2555) Translocation Mutant	R-HSA-2660825	reactome	isPartOf	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+Activated NOTCH1 Transmits Signal to the Nucleus	R-HSA-2122948	reactome	isPartOf	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+Signaling by NOTCH	R-HSA-157118	reactome	isPartOf	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+NOTCH3 Intracellular Domain Regulates Transcription	R-HSA-9013508	reactome	isPartOf	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+Signaling by NOTCH2	R-HSA-1980145	reactome	isPartOf	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+Pre-NOTCH Processing in the Endoplasmic Reticulum	R-HSA-1912399	reactome	isPartOf	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+Defective LFNG causes SCDO3	R-HSA-5083630	reactome	isPartOf	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+RUNX3 regulates NOTCH signaling	R-HSA-8941856	reactome	isPartOf	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+Constitutive Signaling by NOTCH1 t(7;9)(NOTCH1:M1580_K2555) Translocation Mutant	R-HSA-2660826	reactome	isPartOf	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+NOTCH3 Activation and Transmission of Signal to the Nucleus	R-HSA-9013507	reactome	isPartOf	Canonical  and Non-canonical Notch signaling	WP3845	wikipathways
+Signaling by TGF-beta Receptor Complex	R-HSA-170834	reactome	equivalentTo	Canonical and Non-Canonical TGF-B signaling	WP3874	wikipathways
+Signaling by TGF-beta Receptor Complex in Cancer	R-HSA-3304351	reactome	isPartOf	Canonical and Non-Canonical TGF-B signaling	WP3874	wikipathways
+Cell Cycle	R-HSA-1640170	reactome	equivalentTo	Cell Cycle	WP179	wikipathways
+Chemokine receptors bind chemokines	R-HSA-380108	reactome	isPartOf	Chemokine signaling pathway	WP3929	wikipathways
+Cholesterol biosynthesis	R-HSA-191273	reactome	equivalentTo	Cholesterol Biosynthesis	WP197	wikipathways
+Cholesterol Biosynthesis	WP197	wikipathways	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Cholesterol Biosynthesis	WP197	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Cholesterol biosynthesis via desmosterol	R-HSA-6807047	reactome	isPartOf	Cholesterol Biosynthesis	WP197	wikipathways
+Cholesterol Biosynthesis	WP197	wikipathways	isPartOf	Metabolism of steroids	R-HSA-8957322	reactome
+Cholesterol biosynthesis via lathosterol	R-HSA-6807062	reactome	isPartOf	Cholesterol Biosynthesis	WP197	wikipathways
+SMAD2/3 MH2 Domain Mutants in Cancer	R-HSA-3315487	reactome	isPartOf	Chromosomal and microsatellite instability in colorectal cancer	WP4216	wikipathways
+SMAD4 MH2 Domain Mutants in Cancer	R-HSA-3311021	reactome	isPartOf	Chromosomal and microsatellite instability in colorectal cancer	WP4216	wikipathways
+Loss of Function of SMAD4 in Cancer	R-HSA-3304347	reactome	isPartOf	Chromosomal and microsatellite instability in colorectal cancer	WP4216	wikipathways
+Cocaine metabolism	WP2826	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Codeine and Morphine Metabolism	WP1604	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Colchicine Metabolic Pathway	WP2536	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Complement cascade	R-HSA-166658	reactome	equivalentTo	Complement Activation	WP545	wikipathways
+Regulation of Complement cascade	R-HSA-977606	reactome	isPartOf	Complement Activation	WP545	wikipathways
+Activation of C3 and C5	R-HSA-174577	reactome	isPartOf	Complement Activation	WP545	wikipathways
+Terminal pathway of complement	R-HSA-166665	reactome	isPartOf	Complement Activation	WP545	wikipathways
+Initial triggering of complement	R-HSA-166663	reactome	isPartOf	Complement Activation	WP545	wikipathways
+Lectin pathway of complement activation	R-HSA-166662	reactome	isPartOf	Complement and Coagulation Cascades	WP558	wikipathways
+Platelet activation, signaling and aggregation	R-HSA-76002	reactome	isPartOf	Complement and Coagulation Cascades	WP558	wikipathways
+Regulation of Complement cascade	R-HSA-977606	reactome	isPartOf	Complement and Coagulation Cascades	WP558	wikipathways
+Activation of C3 and C5	R-HSA-174577	reactome	isPartOf	Complement and Coagulation Cascades	WP558	wikipathways
+Intrinsic Pathway of Fibrin Clot Formation	R-HSA-140837	reactome	isPartOf	Complement and Coagulation Cascades	WP558	wikipathways
+Extrinsic Pathway of Fibrin Clot Formation	R-HSA-140834	reactome	isPartOf	Complement and Coagulation Cascades	WP558	wikipathways
+Terminal pathway of complement	R-HSA-166665	reactome	isPartOf	Complement and Coagulation Cascades	WP558	wikipathways
+Hemostasis	R-HSA-109582	reactome	isPartOf	Complement and Coagulation Cascades	WP558	wikipathways
+Common Pathway of Fibrin Clot Formation	R-HSA-140875	reactome	isPartOf	Complement and Coagulation Cascades	WP558	wikipathways
+Immune System	R-HSA-168256	reactome	isPartOf	Complement and Coagulation Cascades	WP558	wikipathways
+Formation of Fibrin Clot (Clotting Cascade)	R-HSA-140877	reactome	isPartOf	Complement and Coagulation Cascades	WP558	wikipathways
+Dissolution of Fibrin Clot	R-HSA-75205	reactome	isPartOf	Complement and Coagulation Cascades	WP558	wikipathways
+Alternative complement activation	R-HSA-173736	reactome	isPartOf	Complement and Coagulation Cascades	WP558	wikipathways
+Complement cascade	R-HSA-166658	reactome	isPartOf	Complement and Coagulation Cascades	WP558	wikipathways
+Composition of Lipid Particles	WP3601	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Copper homeostasis	WP3286	wikipathways	isPartOf	Cell redox homeostasis	R-HSA-1222541	reactome
+Cori Cycle	WP1946	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Cori Cycle	WP1946	wikipathways	isPartOf	Glucose metabolism	R-HSA-70326	reactome
+Cori Cycle	WP1946	wikipathways	isPartOf	Metabolism of carbohydrates	R-HSA-71387	reactome
+Corticotropin-releasing hormone signaling pathway	WP2355	wikipathways	isPartOf	Glucocorticoid biosynthesis	R-HSA-194002	reactome
+Cytokine Signaling in Immune system	R-HSA-1280215	reactome	equivalentTo	Cytokines and Inflammatory Response	WP530	wikipathways
+Interleukin-1 processing	R-HSA-448706	reactome	isPartOf	Cytokines and Inflammatory Response	WP530	wikipathways
+Interleukin-4 and Interleukin-13 signaling	R-HSA-6785807	reactome	isPartOf	Cytokines and Inflammatory Response	WP530	wikipathways
+Signaling by Interleukins	R-HSA-449147	reactome	isPartOf	Cytokines and Inflammatory Response	WP530	wikipathways
+Cytokines and Inflammatory Response	WP530	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+Cytosine methylation	WP3585	wikipathways	isPartOf	DNA methylation	R-HSA-5334118	reactome
+Cytosine methylation	WP3585	wikipathways	isPartOf	Methylation	R-HSA-156581	reactome
+p53-Dependent G1 DNA Damage Response	R-HSA-69563	reactome	isPartOf	DNA Damage Response	WP707	wikipathways
+DNA Damage Bypass	R-HSA-73893	reactome	isPartOf	DNA Damage Response	WP707	wikipathways
+p53-Independent DNA Damage Response	R-HSA-69610	reactome	isPartOf	DNA Damage Response	WP707	wikipathways
+G1/S DNA Damage Checkpoints	R-HSA-69615	reactome	isPartOf	DNA Damage Response	WP707	wikipathways
+DNA Damage Reversal	R-HSA-73942	reactome	isPartOf	DNA Damage Response	WP707	wikipathways
+SOS-mediated signalling	R-HSA-112412	reactome	isPartOf	DNA Damage Response (only ATM dependent)	WP710	wikipathways
+DNA IR-Double Strand Breaks (DSBs) and cellular response via ATM	WP3959	wikipathways	isPartOf	DNA Repair	R-HSA-73894	reactome
+DNA IR-Double Strand Breaks (DSBs) and cellular response via ATM	WP3959	wikipathways	isPartOf	DNA Double Strand Break Response	R-HSA-5693606	reactome
+DNA IR-damage and cellular response via ATR	WP4016	wikipathways	isPartOf	Sensing of DNA Double Strand Breaks	R-HSA-5693548	reactome
+DNA IR-damage and cellular response via ATR	WP4016	wikipathways	isPartOf	DNA Repair	R-HSA-73894	reactome
+DNA Replication	R-HSA-69306	reactome	equivalentTo	DNA Replication	WP466	wikipathways
+Degradation pathway of sphingolipids, including diseases	WP4153	wikipathways	isPartOf	Sphingolipid metabolism	R-HSA-428157	reactome
+Degradation pathway of sphingolipids, including diseases	WP4153	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Degradation pathway of sphingolipids, including diseases	WP4153	wikipathways	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Degradation pathway of sphingolipids, including diseases	WP4153	wikipathways	isPartOf	Glycosphingolipid metabolism	R-HSA-1660662	reactome
+Development of pulmonary dendritic cells and macrophage subsets	WP3892	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+Diclofenac Metabolic Pathway	WP2491	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Diclofenac Metabolic Pathway	WP2491	wikipathways	isPartOf	Cytochrome P450 - arranged by substrate type	R-HSA-211897	reactome
+Transcriptional regulation of white adipocyte differentiation	R-HSA-381340	reactome	isPartOf	Differentiation of white and brown adipocyte	WP2895	wikipathways
+Differentiation of white and brown adipocyte	WP2895	wikipathways	isPartOf	Developmental Biology	R-HSA-1266738	reactome
+Amine Oxidase reactions	R-HSA-140179	reactome	isPartOf	Dopamine metabolism	WP2436	wikipathways
+Dopamine receptors	R-HSA-390651	reactome	isPartOf	Dopamine metabolism	WP2436	wikipathways
+Enzymatic degradation of Dopamine by monoamine oxidase	R-HSA-379398	reactome	isPartOf	Dopamine metabolism	WP2436	wikipathways
+Dopamine metabolism	WP2436	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Enzymatic degradation of dopamine by COMT	R-HSA-379397	reactome	isPartOf	Dopamine metabolism	WP2436	wikipathways
+Biogenic amines are oxidatively deaminated to aldehydes by MAOA and MAOB	R-HSA-141333	reactome	isPartOf	Dopamine metabolism	WP2436	wikipathways
+Dopamine clearance from the synaptic cleft	R-HSA-379401	reactome	isPartOf	Dopamine metabolism	WP2436	wikipathways
+Dual hijack model of Vif in HIV infection	WP3300	wikipathways	isPartOf	HIV Infection	R-HSA-162906	reactome
+SHC1 events in EGFR signaling	R-HSA-180336	reactome	isPartOf	EGF/EGFR Signaling Pathway	WP437	wikipathways
+EGFR downregulation	R-HSA-182971	reactome	isPartOf	EGF/EGFR Signaling Pathway	WP437	wikipathways
+PLCG1 events in ERBB2 signaling	R-HSA-1251932	reactome	isPartOf	EGF/EGFR Signaling Pathway	WP437	wikipathways
+EGF/EGFR Signaling Pathway	WP437	wikipathways	isPartOf	EGFR interacts with phospholipase C-gamma	R-HSA-212718	reactome
+EGFR interacts with phospholipase C-gamma	R-HSA-212718	reactome	isPartOf	EGF/EGFR Signaling Pathway	WP437	wikipathways
+EGF/EGFR Signaling Pathway	WP437	wikipathways	isPartOf	Inhibition of Signaling by Overexpressed EGFR	R-HSA-5638303	reactome
+Inhibition of Signaling by Overexpressed EGFR	R-HSA-5638303	reactome	isPartOf	EGF/EGFR Signaling Pathway	WP437	wikipathways
+GRB2 events in EGFR signaling	R-HSA-179812	reactome	isPartOf	EGF/EGFR Signaling Pathway	WP437	wikipathways
+EGFR Transactivation by Gastrin	R-HSA-2179392	reactome	isPartOf	EGF/EGFR Signaling Pathway	WP437	wikipathways
+Nitric oxide stimulates guanylate cyclase	R-HSA-392154	reactome	isPartOf	Effects of Nitric Oxide	WP1995	wikipathways
+Eicosanoid Synthesis	WP167	wikipathways	isPartOf	Arachidonic acid metabolism	R-HSA-2142753	reactome
+Eicosanoid Synthesis	WP167	wikipathways	isPartOf	Eicosanoids	R-HSA-211979	reactome
+Eicosanoid Synthesis	WP167	wikipathways	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Eicosanoid Synthesis	WP167	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Respiratory electron transport	R-HSA-611105	reactome	equivalentTo	Electron Transport Chain	WP111	wikipathways
+RUNX2 regulates chondrocyte maturation	R-HSA-8941284	reactome	isPartOf	Endochondral Ossification	WP474	wikipathways
+CREB phosphorylation through the activation of CaMKK	R-HSA-442717	reactome	isPartOf	Energy Metabolism	WP1541	wikipathways
+CaMK IV-mediated phosphorylation of CREB	R-HSA-111932	reactome	isPartOf	Energy Metabolism	WP1541	wikipathways
+Energy Metabolism	WP1541	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Mitochondrial biogenesis	R-HSA-1592230	reactome	isPartOf	Energy Metabolism	WP1541	wikipathways
+EGFR interacts with phospholipase C-gamma	R-HSA-212718	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+Signaling by ERBB2	R-HSA-1227986	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+SHC1 events in ERBB4 signaling	R-HSA-1250347	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+PI3K events in ERBB2 signaling	R-HSA-1963642	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+ERBB2 Regulates Cell Motility	R-HSA-6785631	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+ERBB2 Activates PTK6 Signaling	R-HSA-8847993	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+SHC1 events in EGFR signaling	R-HSA-180336	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+Constitutive Signaling by Ligand-Responsive EGFR Cancer Variants	R-HSA-1236382	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+PI3K events in ERBB4 signaling	R-HSA-1250342	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+PLCG1 events in ERBB2 signaling	R-HSA-1251932	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+Signaling by EGFR in Cancer	R-HSA-1643713	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+Inhibition of Signaling by Overexpressed EGFR	R-HSA-5638303	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+SHC1 events in ERBB2 signaling	R-HSA-1250196	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+GRB2 events in EGFR signaling	R-HSA-179812	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+EGFR Transactivation by Gastrin	R-HSA-2179392	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+Signaling by Overexpressed Wild-Type EGFR in Cancer	R-HSA-5638302	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+GRB7 events in ERBB2 signaling	R-HSA-1306955	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+Signaling by Ligand-Responsive EGFR Variants in Cancer	R-HSA-5637815	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+GRB2 events in ERBB2 signaling	R-HSA-1963640	reactome	isPartOf	ErbB Signaling Pathway	WP673	wikipathways
+Estrogen metabolism	WP697	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Fas Ligand (FasL) pathway and Stress induction of Heat Shock Proteins (HSP) regulation	WP314	wikipathways	isPartOf	via Death Receptors in the presence of ligand	R-HSA-140534	reactome
+Fas Ligand (FasL) pathway and Stress induction of Heat Shock Proteins (HSP) regulation	WP314	wikipathways	isPartOf	Apoptosis	R-HSA-109581	reactome
+Fas Ligand (FasL) pathway and Stress induction of Heat Shock Proteins (HSP) regulation	WP314	wikipathways	isPartOf	Programmed Cell Death	R-HSA-5357801	reactome
+Fas Ligand (FasL) pathway and Stress induction of Heat Shock Proteins (HSP) regulation	WP314	wikipathways	isPartOf	Stimulation of the cell death response by PAK-2p34	R-HSA-211736	reactome
+FasL/ CD95L signaling	R-HSA-75157	reactome	isPartOf	Fas Ligand (FasL) pathway and Stress induction of Heat Shock Proteins (HSP) regulation	WP314	wikipathways
+Fas Ligand (FasL) pathway and Stress induction of Heat Shock Proteins (HSP) regulation	WP314	wikipathways	isPartOf	Formation of apoptosome	R-HSA-111458	reactome
+Mitochondrial Fatty Acid Beta-Oxidation	R-HSA-77289	reactome	equivalentTo	Fatty Acid Beta Oxidation	WP143	wikipathways
+Beta oxidation of hexanoyl-CoA to butanoyl-CoA	R-HSA-77350	reactome	isPartOf	Fatty Acid Beta Oxidation	WP143	wikipathways
+Beta oxidation of butanoyl-CoA to acetyl-CoA	R-HSA-77352	reactome	isPartOf	Fatty Acid Beta Oxidation	WP143	wikipathways
+mitochondrial fatty acid beta-oxidation of saturated fatty acids	R-HSA-77286	reactome	isPartOf	Fatty Acid Beta Oxidation	WP143	wikipathways
+Beta oxidation of lauroyl-CoA to decanoyl-CoA-CoA	R-HSA-77310	reactome	isPartOf	Fatty Acid Beta Oxidation	WP143	wikipathways
+Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA	R-HSA-77346	reactome	isPartOf	Fatty Acid Beta Oxidation	WP143	wikipathways
+Beta oxidation of palmitoyl-CoA to myristoyl-CoA	R-HSA-77305	reactome	isPartOf	Fatty Acid Beta Oxidation	WP143	wikipathways
+Fatty Acid Beta Oxidation	WP143	wikipathways	isPartOf	Fatty acid metabolism	R-HSA-8978868	reactome
+mitochondrial fatty acid beta-oxidation of unsaturated fatty acids	R-HSA-77288	reactome	isPartOf	Fatty Acid Beta Oxidation	WP143	wikipathways
+Beta oxidation of myristoyl-CoA to lauroyl-CoA	R-HSA-77285	reactome	isPartOf	Fatty Acid Beta Oxidation	WP143	wikipathways
+Fatty Acid Beta Oxidation	WP143	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Fatty Acid Beta Oxidation	WP143	wikipathways	isPartOf	Mitochondrial Fatty Acid Beta-Oxidation	R-HSA-77289	reactome
+Beta oxidation of octanoyl-CoA to hexanoyl-CoA	R-HSA-77348	reactome	isPartOf	Fatty Acid Beta Oxidation	WP143	wikipathways
+Fatty Acid Beta Oxidation	WP143	wikipathways	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Fatty Acid Biosynthesis	WP357	wikipathways	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Fatty Acid Biosynthesis	WP357	wikipathways	isPartOf	Fatty acid metabolism	R-HSA-8978868	reactome
+Fatty acyl-CoA biosynthesis	R-HSA-75105	reactome	isPartOf	Fatty Acid Biosynthesis	WP357	wikipathways
+Fatty Acid Biosynthesis	WP357	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Fatty Acid Omega Oxidation	WP206	wikipathways	isPartOf	Mitochondrial Fatty Acid Beta-Oxidation	R-HSA-77289	reactome
+Fatty Acid Omega Oxidation	WP206	wikipathways	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Fatty Acid Omega Oxidation	WP206	wikipathways	isPartOf	Biological oxidations	R-HSA-211859	reactome
+Fatty Acid Omega Oxidation	WP206	wikipathways	isPartOf	Fatty acid metabolism	R-HSA-8978868	reactome
+Fatty Acid Omega Oxidation	WP206	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Felbamate Metabolism	WP2816	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Fibrin Complement Receptor 3 Signaling Pathway	WP4136	wikipathways	isPartOf	Innate Immune System	R-HSA-168249	reactome
+Fibrin Complement Receptor 3 Signaling Pathway	WP4136	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+Fluoropyrimidine Activity	WP1601	wikipathways	isPartOf	Pyrimidine catabolism	R-HSA-73621	reactome
+Fluoropyrimidine Activity	WP1601	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Fluoropyrimidine Activity	WP1601	wikipathways	isPartOf	Metabolism of nucleotides	R-HSA-15869	reactome
+Integrin signaling	R-HSA-9006921	reactome	isPartOf	Focal Adhesion	WP306	wikipathways
+Laminin interactions	R-HSA-3000157	reactome	isPartOf	Focal Adhesion	WP306	wikipathways
+Folate Metabolism	WP176	wikipathways	isPartOf	Metabolism of water-soluble vitamins and cofactors	R-HSA-196849	reactome
+Folate Metabolism	WP176	wikipathways	isPartOf	Metabolism of folate and pterines	R-HSA-196757	reactome
+Folate Metabolism	WP176	wikipathways	isPartOf	Metabolism of vitamins and cofactors	R-HSA-196854	reactome
+Folate Metabolism	WP176	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Cysteine formation from homocysteine	R-HSA-1614603	reactome	isPartOf	Folate Metabolism	WP176	wikipathways
+G1 to S cell cycle control	WP45	wikipathways	isPartOf	Mitotic G1-G1/S phases	R-HSA-453279	reactome
+G1 to S cell cycle control	WP45	wikipathways	isPartOf	Cell Cycle	R-HSA-1640170	reactome
+Assembly of the ORC complex at the origin of replication	R-HSA-68616	reactome	isPartOf	G1 to S cell cycle control	WP45	wikipathways
+Phosphorylation of proteins involved in G1/S transition by active Cyclin E:Cdk2 complexes	R-HSA-69200	reactome	isPartOf	G1 to S cell cycle control	WP45	wikipathways
+G1 to S cell cycle control	WP45	wikipathways	isPartOf	Cell Cycle, Mitotic	R-HSA-69278	reactome
+G1 to S cell cycle control	WP45	wikipathways	isPartOf	G1/S Transition	R-HSA-69206	reactome
+G13 Signaling Pathway	WP524	wikipathways	isPartOf	Signal Transduction	R-HSA-162582	reactome
+GABA receptor activation	R-HSA-977443	reactome	equivalentTo	GABA receptor Signaling	WP4159	wikipathways
+Reuptake of GABA	R-HSA-888593	reactome	isPartOf	GABA receptor Signaling	WP4159	wikipathways
+GABA A receptor activation	R-HSA-977441	reactome	isPartOf	GABA receptor Signaling	WP4159	wikipathways
+Class A/1 (Rhodopsin-like receptors)	R-HSA-373076	reactome	equivalentTo	GPCRs, Class A Rhodopsin-like	WP455	wikipathways
+Class B/2 (Secretin family receptors)	R-HSA-373080	reactome	equivalentTo	GPCRs, Class B Secretin-like	WP334	wikipathways
+Class C/3 (Metabotropic glutamate/pheromone receptors)	R-HSA-420499	reactome	equivalentTo	GPCRs, Class C Metabotropic glutamate, pheromone	WP501	wikipathways
+GPCRs, Other	WP117	wikipathways	isPartOf	GPCR downstream signalling	R-HSA-388396	reactome
+GPCRs, Other	WP117	wikipathways	isPartOf	Signaling by GPCR	R-HSA-372790	reactome
+GPCRs, Other	WP117	wikipathways	isPartOf	GPCR ligand binding	R-HSA-500792	reactome
+Fatty Acids bound to GPR40 (FFAR1) regulate insulin secretion	R-HSA-434316	reactome	equivalentTo	GPR40 Pathway	WP3958	wikipathways
+Ganglio Sphingolipid Metabolism	WP1423	wikipathways	isPartOf	Sphingolipid metabolism	R-HSA-428157	reactome
+Ganglio Sphingolipid Metabolism	WP1423	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Glial Cell Differentiation	WP2276	wikipathways	isPartOf	Developmental Biology	R-HSA-1266738	reactome
+Globo Sphingolipid Metabolism	WP1424	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Globo Sphingolipid Metabolism	WP1424	wikipathways	isPartOf	Sphingolipid metabolism	R-HSA-428157	reactome
+Glucocorticoid and Mineralcorticoid Metabolism	WP237	wikipathways	isPartOf	Metabolism of steroid hormones	R-HSA-196071	reactome
+Mineralocorticoid biosynthesis	R-HSA-193993	reactome	isPartOf	Glucocorticoid and Mineralcorticoid Metabolism	WP237	wikipathways
+Glucocorticoid biosynthesis	R-HSA-194002	reactome	isPartOf	Glucocorticoid and Mineralcorticoid Metabolism	WP237	wikipathways
+Glucocorticoid and Mineralcorticoid Metabolism	WP237	wikipathways	isPartOf	Metabolism of steroids	R-HSA-8957322	reactome
+Glucocorticoid and Mineralcorticoid Metabolism	WP237	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Regulation of insulin secretion	R-HSA-422356	reactome	isPartOf	Glucose Homeostasis	WP661	wikipathways
+Glucose Homeostasis	WP661	wikipathways	isPartOf	Glucose metabolism	R-HSA-70326	reactome
+Insulin receptor signalling cascade	R-HSA-74751	reactome	isPartOf	Glucose Homeostasis	WP661	wikipathways
+Glucuronidation	R-HSA-156588	reactome	equivalentTo	Glucuronidation	WP698	wikipathways
+Glutathione metabolism	WP100	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Glutathione conjugation	R-HSA-156590	reactome	isPartOf	Glutathione metabolism	WP100	wikipathways
+Glycerophospholipid biosynthesis	R-HSA-1483206	reactome	equivalentTo	Glycerophospholipid Biosynthetic Pathway	WP2533	wikipathways
+Glycogen metabolism	R-HSA-8982491	reactome	equivalentTo	Glycogen Metabolism	WP500	wikipathways
+Glycolysis and Gluconeogenesis	WP534	wikipathways	isPartOf	Metabolism of carbohydrates	R-HSA-71387	reactome
+Glycolysis	R-HSA-70171	reactome	isPartOf	Glycolysis and Gluconeogenesis	WP534	wikipathways
+Glycolysis and Gluconeogenesis	WP534	wikipathways	isPartOf	Glucose metabolism	R-HSA-70326	reactome
+Glycolysis and Gluconeogenesis	WP534	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Gluconeogenesis	R-HSA-70263	reactome	isPartOf	Glycolysis and Gluconeogenesis	WP534	wikipathways
+CYP2E1 reactions	R-HSA-211999	reactome	isPartOf	Gut-Liver Indole Metabolism	WP3627	wikipathways
+Gut-Liver Indole Metabolism	WP3627	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+HIF1A and PPARG regulation of glycolysis	WP2456	wikipathways	isPartOf	Glycolysis	R-HSA-70171	reactome
+HIF1A and PPARG regulation of glycolysis	WP2456	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+HIF1A and PPARG regulation of glycolysis	WP2456	wikipathways	isPartOf	Glucose metabolism	R-HSA-70326	reactome
+HIF1A and PPARG regulation of glycolysis	WP2456	wikipathways	isPartOf	Metabolism of carbohydrates	R-HSA-71387	reactome
+Signaling by Hedgehog	R-HSA-5358351	reactome	equivalentTo	Hedgehog Signaling Pathway	WP47	wikipathways
+Heme biosynthesis	R-HSA-189451	reactome	equivalentTo	Heme Biosynthesis	WP561	wikipathways
+Heroin metabolism	WP2645	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Chromatin modifying enzymes	R-HSA-3247509	reactome	isPartOf	Histone Modifications	WP2369	wikipathways
+PKMTs methylate histone lysines	R-HSA-3214841	reactome	isPartOf	Histone Modifications	WP2369	wikipathways
+Homology Directed Repair	R-HSA-5693538	reactome	isPartOf	Homologous recombination	WP186	wikipathways
+Interleukin-1 family signaling	R-HSA-446652	reactome	equivalentTo	IL-1 signaling pathway	WP195	wikipathways
+Interleukin-2 signaling	R-HSA-9020558	reactome	equivalentTo	IL-2 Signaling Pathway	WP49	wikipathways
+IL-3 Signaling Pathway	WP286	wikipathways	isPartOf	Innate Immune System	R-HSA-168249	reactome
+IL-3 Signaling Pathway	WP286	wikipathways	isPartOf	Cytokine Signaling in Immune system	R-HSA-1280215	reactome
+IL-3 Signaling Pathway	WP286	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+IL-3 Signaling Pathway	WP286	wikipathways	isPartOf	Interleukin-3, Interleukin-5 and GM-CSF signaling	R-HSA-512988	reactome
+IL-3 Signaling Pathway	WP286	wikipathways	isPartOf	Signaling by Interleukins	R-HSA-449147	reactome
+IL-4 Signaling Pathway	WP395	wikipathways	isPartOf	Cytokine Signaling in Immune system	R-HSA-1280215	reactome
+IL-4 Signaling Pathway	WP395	wikipathways	isPartOf	Innate Immune System	R-HSA-168249	reactome
+IL-4 Signaling Pathway	WP395	wikipathways	isPartOf	Signaling by Interleukins	R-HSA-449147	reactome
+IL-4 Signaling Pathway	WP395	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+IL-5 Signaling Pathway	WP127	wikipathways	isPartOf	Signaling by Interleukins	R-HSA-449147	reactome
+IL-5 Signaling Pathway	WP127	wikipathways	isPartOf	Innate Immune System	R-HSA-168249	reactome
+IL-5 Signaling Pathway	WP127	wikipathways	isPartOf	Cytokine Signaling in Immune system	R-HSA-1280215	reactome
+IL-5 Signaling Pathway	WP127	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+Interleukin-6 signaling	R-HSA-1059683	reactome	equivalentTo	IL-6 signaling pathway	WP364	wikipathways
+Interleukin-7 signaling	R-HSA-1266695	reactome	equivalentTo	IL-7 Signaling Pathway	WP205	wikipathways
+Interleukin-9 signaling	R-HSA-8985947	reactome	equivalentTo	IL-9 Signaling Pathway	WP22	wikipathways
+IL1 and megakaryocytes in obesity	WP2865	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+Interleukin-17 signaling	R-HSA-448424	reactome	equivalentTo	IL17 signaling pathway	WP2112	wikipathways
+Inflammatory Response Pathway	WP453	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+Inflammatory Response Pathway	WP453	wikipathways	isPartOf	Cytokine Signaling in Immune system	R-HSA-1280215	reactome
+Influenza A virus infection	WP1438	wikipathways	isPartOf	Influenza Infection	R-HSA-168254	reactome
+Insulin signalling in human adipocytes (diabetic condition)	WP3635	wikipathways	isPartOf	Signal Transduction	R-HSA-162582	reactome
+Insulin signalling in human adipocytes (normal condition)	WP3634	wikipathways	isPartOf	Signal Transduction	R-HSA-162582	reactome
+Defective Mismatch Repair Associated With MSH6	R-HSA-5632968	reactome	isPartOf	Integrated Cancer Pathway	WP1971	wikipathways
+Defective Mismatch Repair Associated With MSH2	R-HSA-5632928	reactome	isPartOf	Integrated Cancer Pathway	WP1971	wikipathways
+PTEN Loss of Function in Cancer	R-HSA-5674404	reactome	isPartOf	Integrated Cancer Pathway	WP1971	wikipathways
+SMAD4 MH2 Domain Mutants in Cancer	R-HSA-3311021	reactome	isPartOf	Integrated Cancer Pathway	WP1971	wikipathways
+Loss of Function of SMAD4 in Cancer	R-HSA-3304347	reactome	isPartOf	Integrated Cancer Pathway	WP1971	wikipathways
+Integrin signaling	R-HSA-9006921	reactome	isPartOf	Integrin-mediated Cell Adhesion	WP185	wikipathways
+Integrin alphaIIb beta3 signaling	R-HSA-354192	reactome	isPartOf	Integrin-mediated Cell Adhesion	WP185	wikipathways
+Interferon type I signaling pathways	WP585	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+Interferon type I signaling pathways	WP585	wikipathways	isPartOf	Cytokine Signaling in Immune system	R-HSA-1280215	reactome
+Interferon type I signaling pathways	WP585	wikipathways	isPartOf	Innate Immune System	R-HSA-168249	reactome
+Interferon type I signaling pathways	WP585	wikipathways	isPartOf	Adaptive Immune System	R-HSA-1280218	reactome
+Interferon type I signaling pathways	WP585	wikipathways	isPartOf	Interferon Signaling	R-HSA-913531	reactome
+Interleukin-1 Induced Activation of NF-kappa-B	WP3656	wikipathways	isPartOf	Cytokine Signaling in Immune system	R-HSA-1280215	reactome
+Interleukin-1 Induced Activation of NF-kappa-B	WP3656	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+Interleukin-1 Induced Activation of NF-kappa-B	WP3656	wikipathways	isPartOf	Signaling by Interleukins	R-HSA-449147	reactome
+Interleukin-1 Induced Activation of NF-kappa-B	WP3656	wikipathways	isPartOf	Interleukin-1 signaling	R-HSA-9020702	reactome
+Interleukin-1 Induced Activation of NF-kappa-B	WP3656	wikipathways	isPartOf	Innate Immune System	R-HSA-168249	reactome
+Interleukin-1 Induced Activation of NF-kappa-B	WP3656	wikipathways	isPartOf	Interleukin-1 family signaling	R-HSA-446652	reactome
+Interleukin-11 Signaling Pathway	WP2332	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+Interleukin-11 Signaling Pathway	WP2332	wikipathways	isPartOf	Innate Immune System	R-HSA-168249	reactome
+Interleukin-11 Signaling Pathway	WP2332	wikipathways	isPartOf	Cytokine Signaling in Immune system	R-HSA-1280215	reactome
+Interleukin-11 Signaling Pathway	WP2332	wikipathways	isPartOf	Signaling by Interleukins	R-HSA-449147	reactome
+Iron metabolism in placenta	WP2007	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Kennedy pathway from Sphingolipids	WP3933	wikipathways	isPartOf	Synthesis of PC	R-HSA-1483191	reactome
+Kennedy pathway from Sphingolipids	WP3933	wikipathways	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Kennedy pathway from Sphingolipids	WP3933	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Kennedy pathway from Sphingolipids	WP3933	wikipathways	isPartOf	Sphingolipid metabolism	R-HSA-428157	reactome
+Regulation of KIT signaling	R-HSA-1433559	reactome	isPartOf	Kit receptor signaling pathway	WP304	wikipathways
+Leptin Insulin Overlap	WP3935	wikipathways	isPartOf	Signaling by Leptin	R-HSA-2586552	reactome
+Leptin and adiponectin	WP3934	wikipathways	isPartOf	Signaling by Leptin	R-HSA-2586552	reactome
+Signaling by Leptin	R-HSA-2586552	reactome	equivalentTo	Leptin signaling pathway	WP2034	wikipathways
+Lidocaine metabolism	WP2646	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Cytochrome P450 - arranged by substrate type	R-HSA-211897	reactome	isPartOf	Lidocaine metabolism	WP2646	wikipathways
+Metabolism of lipids	R-HSA-556833	reactome	equivalentTo	Lipid Metabolism Pathway	WP3965	wikipathways
+Regulation of cholesterol biosynthesis by SREBP (SREBF)	R-HSA-1655829	reactome	isPartOf	Liver X Receptor Pathway	WP2874	wikipathways
+MAPK family signaling cascades	R-HSA-5683057	reactome	equivalentTo	MAPK Cascade	WP422	wikipathways
+MAPK family signaling cascades	R-HSA-5683057	reactome	equivalentTo	MAPK Signaling Pathway	WP382	wikipathways
+Macrophage markers	WP4146	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+Macrophage markers	WP4146	wikipathways	isPartOf	Innate Immune System	R-HSA-168249	reactome
+Macrophage markers	WP4146	wikipathways	isPartOf	Adaptive Immune System	R-HSA-1280218	reactome
+Metalloprotease DUBs	R-HSA-5689901	reactome	isPartOf	Matrix Metalloproteinases	WP129	wikipathways
+Activation of Matrix Metalloproteinases	R-HSA-1592389	reactome	isPartOf	Matrix Metalloproteinases	WP129	wikipathways
+Matrix Metalloproteinases	WP129	wikipathways	isPartOf	Extracellular matrix organization	R-HSA-1474244	reactome
+Degradation of the extracellular matrix	R-HSA-1474228	reactome	isPartOf	Matrix Metalloproteinases	WP129	wikipathways
+Metabolism of Spingolipids in ER and Golgi apparatus	WP4142	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Metabolism of Spingolipids in ER and Golgi apparatus	WP4142	wikipathways	isPartOf	Metabolism of proteins	R-HSA-392499	reactome
+Metabolism of Spingolipids in ER and Golgi apparatus	WP4142	wikipathways	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Metabolism of Spingolipids in ER and Golgi apparatus	WP4142	wikipathways	isPartOf	Sphingolipid metabolism	R-HSA-428157	reactome
+Metabolism of Tetrahydrocannabinol (THC)	WP4174	wikipathways	isPartOf	Xenobiotics	R-HSA-211981	reactome
+Metabolism of Tetrahydrocannabinol (THC)	WP4174	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Metabolism of Tetrahydrocannabinol (THC)	WP4174	wikipathways	isPartOf	Cytochrome P450 - arranged by substrate type	R-HSA-211897	reactome
+Methionine salvage pathway	R-HSA-1237112	reactome	equivalentTo	Methionine De Novo and Salvage Pathway	WP3580	wikipathways
+Methionine salvage pathway	R-HSA-1237112	reactome	isPartOf	Methionine De Novo and Salvage Pathway	WP3580	wikipathways
+Methylation	R-HSA-156581	reactome	equivalentTo	Methylation Pathways	WP704	wikipathways
+Microglia Pathogen Phagocytosis Pathway	WP3937	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+Microglia Pathogen Phagocytosis Pathway	WP3937	wikipathways	isPartOf	Innate Immune System	R-HSA-168249	reactome
+Mismatch Repair	R-HSA-5358508	reactome	equivalentTo	Mismatch repair	WP531	wikipathways
+Mitochondrial transcription initiation	R-HSA-163282	reactome	isPartOf	Mitochondrial Gene Expression	WP391	wikipathways
+Transcription from mitochondrial promoters	R-HSA-75944	reactome	isPartOf	Mitochondrial Gene Expression	WP391	wikipathways
+Mitochondrial Gene Expression	WP391	wikipathways	isPartOf	Mitochondrial transcription termination	R-HSA-163316	reactome
+Mitochondrial biogenesis	R-HSA-1592230	reactome	isPartOf	Mitochondrial Gene Expression	WP391	wikipathways
+Mitochondrial transcription termination	R-HSA-163316	reactome	isPartOf	Mitochondrial Gene Expression	WP391	wikipathways
+Mitochondrial Gene Expression	WP391	wikipathways	isPartOf	Transcription from mitochondrial promoters	R-HSA-75944	reactome
+Mitochondrial Gene Expression	WP391	wikipathways	isPartOf	Organelle biogenesis and maintenance	R-HSA-1852241	reactome
+Mitochondrial Gene Expression	WP391	wikipathways	isPartOf	Transcriptional activation of mitochondrial biogenesis	R-HSA-2151201	reactome
+Mitochondrial Gene Expression	WP391	wikipathways	isPartOf	Mitochondrial transcription initiation	R-HSA-163282	reactome
+Beta oxidation of hexanoyl-CoA to butanoyl-CoA	R-HSA-77350	reactome	isPartOf	Mitochondrial LC-Fatty Acid Beta-Oxidation	WP368	wikipathways
+Mitochondrial LC-Fatty Acid Beta-Oxidation	WP368	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+mitochondrial fatty acid beta-oxidation of unsaturated fatty acids	R-HSA-77288	reactome	isPartOf	Mitochondrial LC-Fatty Acid Beta-Oxidation	WP368	wikipathways
+Mitochondrial LC-Fatty Acid Beta-Oxidation	WP368	wikipathways	isPartOf	Fatty acid metabolism	R-HSA-8978868	reactome
+Mitochondrial LC-Fatty Acid Beta-Oxidation	WP368	wikipathways	isPartOf	mitochondrial fatty acid beta-oxidation of saturated fatty acids	R-HSA-77286	reactome
+Beta oxidation of lauroyl-CoA to decanoyl-CoA-CoA	R-HSA-77310	reactome	isPartOf	Mitochondrial LC-Fatty Acid Beta-Oxidation	WP368	wikipathways
+Beta oxidation of octanoyl-CoA to hexanoyl-CoA	R-HSA-77348	reactome	isPartOf	Mitochondrial LC-Fatty Acid Beta-Oxidation	WP368	wikipathways
+Beta oxidation of palmitoyl-CoA to myristoyl-CoA	R-HSA-77305	reactome	isPartOf	Mitochondrial LC-Fatty Acid Beta-Oxidation	WP368	wikipathways
+Mitochondrial LC-Fatty Acid Beta-Oxidation	WP368	wikipathways	isPartOf	Mitochondrial Fatty Acid Beta-Oxidation	R-HSA-77289	reactome
+Beta oxidation of myristoyl-CoA to lauroyl-CoA	R-HSA-77285	reactome	isPartOf	Mitochondrial LC-Fatty Acid Beta-Oxidation	WP368	wikipathways
+Mitochondrial LC-Fatty Acid Beta-Oxidation	WP368	wikipathways	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Serotonin receptors	R-HSA-390666	reactome	isPartOf	Monoamine GPCRs	WP58	wikipathways
+GPCR ligand binding	R-HSA-500792	reactome	isPartOf	Monoamine GPCRs	WP58	wikipathways
+Monoamine GPCRs	WP58	wikipathways	isPartOf	Class A/1 (Rhodopsin-like receptors)	R-HSA-373076	reactome
+Dopamine receptors	R-HSA-390651	reactome	isPartOf	Monoamine GPCRs	WP58	wikipathways
+G alpha (i) signalling events	R-HSA-418594	reactome	isPartOf	Monoamine GPCRs	WP58	wikipathways
+Monoamine Transport	WP727	wikipathways	isPartOf	Neurotransmitter clearance	R-HSA-112311	reactome
+Monoamine Transport	WP727	wikipathways	isPartOf	Serotonin clearance from the synaptic cleft	R-HSA-380615	reactome
+Monoamine Transport	WP727	wikipathways	isPartOf	Catecholamine biosynthesis	R-HSA-209905	reactome
+NAD Biosynthesis II (from tryptophan)	WP2485	wikipathways	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+NAD Biosynthesis II (from tryptophan)	WP2485	wikipathways	isPartOf	Histidine, lysine, phenylalanine, tyrosine, proline and tryptophan catabolism	R-HSA-6788656	reactome
+NAD Biosynthesis II (from tryptophan)	WP2485	wikipathways	isPartOf	Tryptophan catabolism	R-HSA-71240	reactome
+NAD Biosynthesis II (from tryptophan)	WP2485	wikipathways	isPartOf	Nicotinate metabolism	R-HSA-196807	reactome
+NAD Biosynthesis II (from tryptophan)	WP2485	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+NAD Biosynthesis II (from tryptophan)	WP2485	wikipathways	isPartOf	Metabolism of vitamins and cofactors	R-HSA-196854	reactome
+NAD Biosynthesis II (from tryptophan)	WP2485	wikipathways	isPartOf	Metabolism of water-soluble vitamins and cofactors	R-HSA-196849	reactome
+NAD+ biosynthetic pathways	WP3645	wikipathways	isPartOf	Metabolism of vitamins and cofactors	R-HSA-196854	reactome
+NAD+ biosynthetic pathways	WP3645	wikipathways	isPartOf	Metabolism of water-soluble vitamins and cofactors	R-HSA-196849	reactome
+NAD+ biosynthetic pathways	WP3645	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+NAD+ biosynthetic pathways	WP3645	wikipathways	isPartOf	Nicotinate metabolism	R-HSA-196807	reactome
+NAD+ metabolism	WP3644	wikipathways	isPartOf	Metabolism of vitamins and cofactors	R-HSA-196854	reactome
+NAD+ metabolism	WP3644	wikipathways	isPartOf	Metabolism of water-soluble vitamins and cofactors	R-HSA-196849	reactome
+NAD+ metabolism	WP3644	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+NAD+ metabolism	WP3644	wikipathways	isPartOf	Nicotinate metabolism	R-HSA-196807	reactome
+NLR Proteins	WP288	wikipathways	isPartOf	Innate Immune System	R-HSA-168249	reactome
+NLR Proteins	WP288	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+Nanomaterial induced apoptosis	WP2507	wikipathways	isPartOf	Apoptosis	R-HSA-109581	reactome
+Nanomaterial induced apoptosis	WP2507	wikipathways	isPartOf	via Death Receptors in the presence of ligand	R-HSA-140534	reactome
+Nanoparticle triggered regulated necrosis	WP2513	wikipathways	isPartOf	Apoptosis	R-HSA-109581	reactome
+Defective SLC6A3 causes Parkinsonism-dystonia infantile (PKDYS)	R-HSA-5619081	reactome	isPartOf	Neurotransmitter Disorders	WP4220	wikipathways
+Defective MAOA causes Brunner syndrome (BRUNS)	R-HSA-5579012	reactome	isPartOf	Neurotransmitter Disorders	WP4220	wikipathways
+Nicotine Activity on Dopaminergic Neurons	WP1602	wikipathways	isPartOf	Neuronal System	R-HSA-112316	reactome
+Nicotine Activity on Dopaminergic Neurons	WP1602	wikipathways	isPartOf	Dopamine receptors	R-HSA-390651	reactome
+Nicotine Metabolism	WP1600	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Nonhomologous End-Joining (NHEJ)	R-HSA-5693571	reactome	equivalentTo	Non-homologous end joining	WP438	wikipathways
+Signaling by NOTCH	R-HSA-157118	reactome	equivalentTo	Notch Signaling Pathway	WP61	wikipathways
+Nuclear Receptors	WP170	wikipathways	isPartOf	Signaling by Nuclear Receptors	R-HSA-9006931	reactome
+Nuclear Receptors	WP170	wikipathways	isPartOf	Nuclear Receptor transcription pathway	R-HSA-383280	reactome
+Nuclear Receptor transcription pathway	R-HSA-383280	reactome	isPartOf	Nuclear Receptors	WP170	wikipathways
+Nuclear Receptors in Lipid Metabolism and Toxicity	WP299	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Nuclear Receptors in Lipid Metabolism and Toxicity	WP299	wikipathways	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Metabolism of nucleotides	R-HSA-15869	reactome	equivalentTo	Nucleotide Metabolism	WP404	wikipathways
+One Carbon Metabolism	WP241	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+One carbon donor	WP2190	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+One carbon metabolism and related pathways	WP3940	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+CYP2E1 reactions	R-HSA-211999	reactome	isPartOf	Oxidation by Cytochrome P450	WP43	wikipathways
+Cytochrome P450 - arranged by substrate type	R-HSA-211897	reactome	isPartOf	Oxidation by Cytochrome P450	WP43	wikipathways
+Apoptotic factor-mediated response	R-HSA-111471	reactome	isPartOf	Oxidative Damage	WP3941	wikipathways
+Oxidative Stress	WP408	wikipathways	isPartOf	Cellular responses to stress	R-HSA-2262752	reactome
+Oxidative Stress	WP408	wikipathways	isPartOf	Cellular responses to external stimuli	R-HSA-8953897	reactome
+Oxidative Stress Induced Senescence	R-HSA-2559580	reactome	isPartOf	Oxidative Stress	WP408	wikipathways
+Formation of ATP by chemiosmotic coupling	R-HSA-163210	reactome	equivalentTo	Oxidative phosphorylation	WP623	wikipathways
+PDGF Pathway	WP2526	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+PDGF Pathway	WP2526	wikipathways	isPartOf	Platelet activation, signaling and aggregation	R-HSA-76002	reactome
+PIP3 activates AKT signaling	R-HSA-1257604	reactome	isPartOf	PI3K-AKT-mTOR signaling pathway and therapeutic opportunities	WP3844	wikipathways
+PI3K/AKT activation	R-HSA-198203	reactome	equivalentTo	PI3K-Akt Signaling Pathway	WP4172	wikipathways
+PPAR Alpha Pathway	WP2878	wikipathways	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+PPAR Alpha Pathway	WP2878	wikipathways	isPartOf	PPARA activates gene expression	R-HSA-1989781	reactome
+PPAR Alpha Pathway	WP2878	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+PPAR signaling pathway	WP3942	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+PPAR signaling pathway	WP3942	wikipathways	isPartOf	Fatty acid metabolism	R-HSA-8978868	reactome
+Defective SLC6A3 causes Parkinsonism-dystonia infantile (PKDYS)	R-HSA-5619081	reactome	isPartOf	Parkinsons Disease Pathway	WP2371	wikipathways
+Pentose phosphate pathway	R-HSA-71336	reactome	equivalentTo	Pentose Phosphate Pathway	WP134	wikipathways
+Peptide GPCRs	WP24	wikipathways	isPartOf	Signaling by GPCR	R-HSA-372790	reactome
+Peptide GPCRs	WP24	wikipathways	isPartOf	GPCR downstream signalling	R-HSA-388396	reactome
+Peptide GPCRs	WP24	wikipathways	isPartOf	GPCR ligand binding	R-HSA-500792	reactome
+Peroxisomal beta-oxidation of tetracosanoyl-CoA	WP1941	wikipathways	isPartOf	Fatty acid metabolism	R-HSA-8978868	reactome
+Peroxisomal beta-oxidation of tetracosanoyl-CoA	WP1941	wikipathways	isPartOf	Beta-oxidation of very long chain fatty acids	R-HSA-390247	reactome
+Peroxisomal beta-oxidation of tetracosanoyl-CoA	WP1941	wikipathways	isPartOf	Peroxisomal lipid metabolism	R-HSA-390918	reactome
+Peroxisomal beta-oxidation of tetracosanoyl-CoA	WP1941	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Peroxisomal beta-oxidation of tetracosanoyl-CoA	WP1941	wikipathways	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Phase I biotransformations, non P450	WP136	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Polyol Pathway	WP690	wikipathways	isPartOf	Fructose metabolism	R-HSA-5652084	reactome
+Polyol Pathway	WP690	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Polyol Pathway	WP690	wikipathways	isPartOf	Metabolism of carbohydrates	R-HSA-71387	reactome
+Prolactin receptor signaling	R-HSA-1170546	reactome	equivalentTo	Prolactin Signaling Pathway	WP2037	wikipathways
+COX reactions	R-HSA-140180	reactome	isPartOf	Prostaglandin Synthesis and Regulation	WP98	wikipathways
+Prostaglandin Synthesis and Regulation	WP98	wikipathways	isPartOf	Metabolism of lipids	R-HSA-556833	reactome
+Eicosanoid ligand-binding receptors	R-HSA-391903	reactome	isPartOf	Prostaglandin Synthesis and Regulation	WP98	wikipathways
+Synthesis of Prostaglandins (PG) and Thromboxanes (TX)	R-HSA-2162123	reactome	isPartOf	Prostaglandin Synthesis and Regulation	WP98	wikipathways
+Prostanoid ligand receptors	R-HSA-391908	reactome	isPartOf	Prostaglandin Synthesis and Regulation	WP98	wikipathways
+Prostaglandin Synthesis and Regulation	WP98	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Proteasome Degradation	WP183	wikipathways	isPartOf	Regulation of activated PAK-2p34 by proteasome mediated degradation	R-HSA-211733	reactome
+Antigen processing: Ubiquitination & Proteasome degradation	R-HSA-983168	reactome	isPartOf	Proteasome Degradation	WP183	wikipathways
+Pyrimidine biosynthesis	R-HSA-500753	reactome	isPartOf	Pyrimidine metabolism	WP4022	wikipathways
+Pyrimidine catabolism	R-HSA-73621	reactome	isPartOf	Pyrimidine metabolism	WP4022	wikipathways
+Pyrimidine metabolism	WP4022	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Pyrimidine salvage	R-HSA-73614	reactome	isPartOf	Pyrimidine metabolism	WP4022	wikipathways
+RIG-I-like Receptor Signaling	WP3865	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+RIG-I-like Receptor Signaling	WP3865	wikipathways	isPartOf	Innate Immune System	R-HSA-168249	reactome
+p38MAPK events	R-HSA-171007	reactome	isPartOf	RAC1/PAK1/p38/MMP2 Pathway	WP3303	wikipathways
+Regulation of Apoptosis by Parathyroid Hormone-related Protein	WP3872	wikipathways	isPartOf	Apoptosis	R-HSA-109581	reactome
+Regulation of Apoptosis by Parathyroid Hormone-related Protein	WP3872	wikipathways	isPartOf	Programmed Cell Death	R-HSA-5357801	reactome
+Regulation of Wnt/B-catenin Signaling by Small Molecule Compounds	WP3664	wikipathways	isPartOf	Signaling by WNT	R-HSA-195721	reactome
+Transfer of LPS from LBP carrier to CD14	R-HSA-166020	reactome	isPartOf	Regulation of toll-like receptor signaling pathway	WP1449	wikipathways
+VEGF binds to VEGFR leading to receptor dimerization	R-HSA-195399	reactome	isPartOf	Robo4 and VEGF Signaling Pathways Crosstalk	WP3943	wikipathways
+Signaling by VEGF	R-HSA-194138	reactome	isPartOf	Robo4 and VEGF Signaling Pathways Crosstalk	WP3943	wikipathways
+VEGFA-VEGFR2 Pathway	R-HSA-4420097	reactome	isPartOf	Robo4 and VEGF Signaling Pathways Crosstalk	WP3943	wikipathways
+VEGF ligand-receptor interactions	R-HSA-194313	reactome	isPartOf	Robo4 and VEGF Signaling Pathways Crosstalk	WP3943	wikipathways
+Regulation of cholesterol biosynthesis by SREBP (SREBF)	R-HSA-1655829	reactome	isPartOf	SREBF and miR33 in cholesterol and lipid homeostasis	WP2011	wikipathways
+Metabolism of ingested SeMet, Sec, MeSec into H2Se	R-HSA-2408508	reactome	isPartOf	Selenium Metabolism and Selenoproteins	WP28	wikipathways
+Selenium Metabolism and Selenoproteins	WP28	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Selenoamino acid metabolism	R-HSA-2408522	reactome	isPartOf	Selenium Metabolism and Selenoproteins	WP28	wikipathways
+Metabolism of proteins	R-HSA-392499	reactome	isPartOf	Selenium Metabolism and Selenoproteins	WP28	wikipathways
+Metabolism of ingested MeSeO2H into MeSeH	R-HSA-5263617	reactome	isPartOf	Selenium Metabolism and Selenoproteins	WP28	wikipathways
+Metabolism of ingested H2SeO4 and H2SeO3 into H2Se	R-HSA-2408550	reactome	isPartOf	Selenium Metabolism and Selenoproteins	WP28	wikipathways
+Metabolism of ingested H2SeO4 and H2SeO3 into H2Se	R-HSA-2408550	reactome	isPartOf	Selenium Micronutrient Network	WP15	wikipathways
+Serotonin Receptor 2 and STAT3 Signaling	WP733	wikipathways	isPartOf	GPCR downstream signalling	R-HSA-388396	reactome
+Serotonin Receptor 2 and STAT3 Signaling	WP733	wikipathways	isPartOf	G alpha (q) signalling events	R-HSA-416476	reactome
+Serotonin Receptor 2 and STAT3 Signaling	WP733	wikipathways	isPartOf	Serotonin receptors	R-HSA-390666	reactome
+Serotonin Receptor 2 and STAT3 Signaling	WP733	wikipathways	isPartOf	Signaling by GPCR	R-HSA-372790	reactome
+Serotonin Receptor 4/6/7 and NR3C Signaling	WP734	wikipathways	isPartOf	Serotonin receptors	R-HSA-390666	reactome
+Serotonin Transporter Activity	WP1455	wikipathways	isPartOf	Serotonin clearance from the synaptic cleft	R-HSA-380615	reactome
+Signal Transduction of S1P Receptor	WP26	wikipathways	isPartOf	Signal Transduction	R-HSA-162582	reactome
+MyD88 dependent cascade initiated on endosome	R-HSA-975155	reactome	isPartOf	Simplified Depiction of MYD88 Distinct Input-Output Pathway	WP3877	wikipathways
+MyD88:Mal cascade initiated on plasma membrane	R-HSA-166058	reactome	isPartOf	Simplified Depiction of MYD88 Distinct Input-Output Pathway	WP3877	wikipathways
+Small Ligand GPCRs	WP247	wikipathways	isPartOf	Signal Transduction	R-HSA-162582	reactome
+Small Ligand GPCRs	WP247	wikipathways	isPartOf	Signaling by GPCR	R-HSA-372790	reactome
+Small Ligand GPCRs	WP247	wikipathways	isPartOf	GPCR downstream signalling	R-HSA-388396	reactome
+Small Ligand GPCRs	WP247	wikipathways	isPartOf	GPCR ligand binding	R-HSA-500792	reactome
+Sphingolipid metabolism	R-HSA-428157	reactome	equivalentTo	Sphingolipid Metabolism	WP1422	wikipathways
+Steroid Biosynthesis	WP496	wikipathways	isPartOf	Metabolism of steroids	R-HSA-8957322	reactome
+Steroid Biosynthesis	WP496	wikipathways	isPartOf	Metabolism of steroid hormones	R-HSA-196071	reactome
+Androgen biosynthesis	R-HSA-193048	reactome	isPartOf	Steroid Biosynthesis	WP496	wikipathways
+Estrogen biosynthesis	R-HSA-193144	reactome	isPartOf	Steroid Biosynthesis	WP496	wikipathways
+Cholesterol biosynthesis	R-HSA-191273	reactome	isPartOf	Steroid Biosynthesis	WP496	wikipathways
+Mineralocorticoid biosynthesis	R-HSA-193993	reactome	isPartOf	Steroid Biosynthesis	WP496	wikipathways
+Glucocorticoid biosynthesis	R-HSA-194002	reactome	isPartOf	Steroid Biosynthesis	WP496	wikipathways
+Steroid Biosynthesis	WP496	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Regulation of cholesterol biosynthesis by SREBP (SREBF)	R-HSA-1655829	reactome	isPartOf	Sterol Regulatory Element-Binding Proteins (SREBP) signalling	WP1982	wikipathways
+Activation of gene expression by SREBF (SREBP)	R-HSA-2426168	reactome	isPartOf	Sterol Regulatory Element-Binding Proteins (SREBP) signalling	WP1982	wikipathways
+Striated Muscle Contraction	R-HSA-390522	reactome	equivalentTo	Striated Muscle Contraction	WP383	wikipathways
+Structural Pathway of Interleukin 1 (IL-1)	WP2637	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+Structural Pathway of Interleukin 1 (IL-1)	WP2637	wikipathways	isPartOf	Cytokine Signaling in Immune system	R-HSA-1280215	reactome
+Structural Pathway of Interleukin 1 (IL-1)	WP2637	wikipathways	isPartOf	Innate Immune System	R-HSA-168249	reactome
+Structural Pathway of Interleukin 1 (IL-1)	WP2637	wikipathways	isPartOf	Signaling by Interleukins	R-HSA-449147	reactome
+Sulfation Biotransformation Reaction	WP692	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Acetylcholine Neurotransmitter Release Cycle	R-HSA-264642	reactome	isPartOf	Synaptic Vesicle Pathway	WP2267	wikipathways
+GABA synthesis, release, reuptake and degradation	R-HSA-888590	reactome	isPartOf	Synaptic Vesicle Pathway	WP2267	wikipathways
+Norepinephrine Neurotransmitter Release Cycle	R-HSA-181430	reactome	isPartOf	Synaptic Vesicle Pathway	WP2267	wikipathways
+Serotonin Neurotransmitter Release Cycle	R-HSA-181429	reactome	isPartOf	Synaptic Vesicle Pathway	WP2267	wikipathways
+Synaptic Vesicle Pathway	WP2267	wikipathways	isPartOf	Neuronal System	R-HSA-112316	reactome
+Dopamine Neurotransmitter Release Cycle	R-HSA-212676	reactome	isPartOf	Synaptic Vesicle Pathway	WP2267	wikipathways
+Ketone body metabolism	R-HSA-74182	reactome	equivalentTo	Synthesis and Degradation of Ketone Bodies	WP311	wikipathways
+T-Cell Receptor and Co-stimulatory Signaling	WP2583	wikipathways	isPartOf	Adaptive Immune System	R-HSA-1280218	reactome
+T-Cell Receptor and Co-stimulatory Signaling	WP2583	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+T-Cell antigen Receptor (TCR)  Signaling Pathway	WP69	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+T-Cell antigen Receptor (TCR)  Signaling Pathway	WP69	wikipathways	isPartOf	Adaptive Immune System	R-HSA-1280218	reactome
+Citric acid cycle (TCA cycle)	R-HSA-71403	reactome	equivalentTo	TCA Cycle	WP78	wikipathways
+TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)	R-HSA-2173791	reactome	equivalentTo	TGF-B Signaling in Thyroid Cells for Epithelial-Mesenchymal Transition	WP3859	wikipathways
+Signaling by TGF-beta family members	R-HSA-9006936	reactome	equivalentTo	TGF-beta Receptor Signaling	WP560	wikipathways
+Signaling by TGF-beta family members	R-HSA-9006936	reactome	equivalentTo	TGF-beta Signaling Pathway	WP366	wikipathways
+Toll Like Receptor 4 (TLR4) Cascade	R-HSA-166016	reactome	isPartOf	TLR4 Signaling and Tolerance	WP3851	wikipathways
+TLR4 Signaling and Tolerance	WP3851	wikipathways	isPartOf	Innate Immune System	R-HSA-168249	reactome
+TLR4 Signaling and Tolerance	WP3851	wikipathways	isPartOf	Toll-Like Receptors Cascades	R-HSA-168898	reactome
+Tamoxifen metabolism	WP691	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+mTOR signalling	R-HSA-165159	reactome	equivalentTo	Target Of Rapamycin (TOR) Signaling	WP1471	wikipathways
+Thyroxine biosynthesis	R-HSA-209968	reactome	equivalentTo	Thyroxine (Thyroid Hormone) Production	WP1981	wikipathways
+Toll-Like Receptors Cascades	R-HSA-168898	reactome	equivalentTo	Toll-like Receptor Signaling	WP3858	wikipathways
+Toll-Like Receptors Cascades	R-HSA-168898	reactome	equivalentTo	Toll-like Receptor Signaling Pathway	WP75	wikipathways
+Trans-sulfuration and one carbon metabolism	WP2525	wikipathways	isPartOf	Integration of energy metabolism	R-HSA-163685	reactome
+Trans-sulfuration and one carbon metabolism	WP2525	wikipathways	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Cysteine formation from homocysteine	R-HSA-1614603	reactome	isPartOf	Trans-sulfuration and one carbon metabolism	WP2525	wikipathways
+Trans-sulfuration and one carbon metabolism	WP2525	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Cysteine formation from homocysteine	R-HSA-1614603	reactome	equivalentTo	Trans-sulfuration pathway	WP2333	wikipathways
+Trans-sulfuration pathway	WP2333	wikipathways	isPartOf	Sulfur amino acid metabolism	R-HSA-1614635	reactome
+Trans-sulfuration pathway	WP2333	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Trans-sulfuration pathway	WP2333	wikipathways	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Transcriptional regulation of white adipocyte differentiation	R-HSA-381340	reactome	isPartOf	Transcription factor regulation in adipogenesis	WP3599	wikipathways
+Transcription factor regulation in adipogenesis	WP3599	wikipathways	isPartOf	Transcriptional regulation of white adipocyte differentiation	R-HSA-381340	reactome
+Transcriptional regulation of white adipocyte differentiation	R-HSA-381340	reactome	isPartOf	Transcriptional cascade regulating adipogenesis	WP4211	wikipathways
+Transcriptional cascade regulating adipogenesis	WP4211	wikipathways	isPartOf	Transcriptional regulation of white adipocyte differentiation	R-HSA-381340	reactome
+Translation Factors	WP107	wikipathways	isPartOf	Eukaryotic Translation Initiation	R-HSA-72613	reactome
+Translation Factors	WP107	wikipathways	isPartOf	Translation	R-HSA-72766	reactome
+Triglyceride biosynthesis	R-HSA-75109	reactome	equivalentTo	Triacylglyceride Synthesis	WP325	wikipathways
+Tryptophan catabolism leading to NAD+ production	WP4210	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Tryptophan catabolism leading to NAD+ production	WP4210	wikipathways	isPartOf	Nicotinate metabolism	R-HSA-196807	reactome
+Tryptophan catabolism leading to NAD+ production	WP4210	wikipathways	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+Tryptophan catabolism leading to NAD+ production	WP4210	wikipathways	isPartOf	Tryptophan catabolism	R-HSA-71240	reactome
+Tryptophan catabolism leading to NAD+ production	WP4210	wikipathways	isPartOf	Metabolism of vitamins and cofactors	R-HSA-196854	reactome
+Tryptophan catabolism leading to NAD+ production	WP4210	wikipathways	isPartOf	Metabolism of water-soluble vitamins and cofactors	R-HSA-196849	reactome
+Tryptophan catabolism leading to NAD+ production	WP4210	wikipathways	isPartOf	Histidine, lysine, phenylalanine, tyrosine, proline and tryptophan catabolism	R-HSA-6788656	reactome
+Tryptophan catabolism	R-HSA-71240	reactome	isPartOf	Tryptophan metabolism	WP465	wikipathways
+Tryptophan metabolism	WP465	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Interferon gamma signaling	R-HSA-877300	reactome	equivalentTo	Type II interferon signaling (IFNG)	WP619	wikipathways
+Type III interferon signaling	WP2113	wikipathways	isPartOf	Signaling by Interleukins	R-HSA-449147	reactome
+Type III interferon signaling	WP2113	wikipathways	isPartOf	Other interleukin signaling	R-HSA-449836	reactome
+Type III interferon signaling	WP2113	wikipathways	isPartOf	Cytokine Signaling in Immune system	R-HSA-1280215	reactome
+Type III interferon signaling	WP2113	wikipathways	isPartOf	Immune System	R-HSA-168256	reactome
+Type III interferon signaling	WP2113	wikipathways	isPartOf	Interferon Signaling	R-HSA-913531	reactome
+Urea cycle and metabolism of amino groups	WP497	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Urea cycle	R-HSA-70635	reactome	isPartOf	Urea cycle and metabolism of amino groups	WP497	wikipathways
+Urea cycle and metabolism of amino groups	WP497	wikipathways	isPartOf	Metabolism of amino acids and derivatives	R-HSA-71291	reactome
+VEGFA-VEGFR2 Pathway	R-HSA-4420097	reactome	equivalentTo	VEGFA-VEGFR2 Signaling Pathway	WP3888	wikipathways
+Valproic acid pathway	WP3871	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+RA biosynthesis pathway	R-HSA-5365859	reactome	isPartOf	Vitamin A and Carotenoid Metabolism	WP716	wikipathways
+Vitamin A and Carotenoid Metabolism	WP716	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Vitamin A and Carotenoid Metabolism	WP716	wikipathways	isPartOf	Metabolism of vitamins and cofactors	R-HSA-196854	reactome
+Vitamin B12 Metabolism	WP1533	wikipathways	isPartOf	Cobalamin (Cbl, vitamin B12) transport and metabolism	R-HSA-196741	reactome
+Vitamin B12 Metabolism	WP1533	wikipathways	isPartOf	Metabolism	R-HSA-1430728	reactome
+Defects in cobalamin (B12) metabolism	R-HSA-3296469	reactome	isPartOf	Vitamin B12 Metabolism	WP1533	wikipathways
+Vitamin B12 Metabolism	WP1533	wikipathways	isPartOf	Metabolism of vitamins and cofactors	R-HSA-196854	reactome
+Vitamin D (calciferol) metabolism	R-HSA-196791	reactome	equivalentTo	Vitamin D Metabolism	WP1531	wikipathways
+Transcriptional regulation of white adipocyte differentiation	R-HSA-381340	reactome	isPartOf	White fat cell differentiation	WP4149	wikipathways
+White fat cell differentiation	WP4149	wikipathways	isPartOf	Developmental Biology	R-HSA-1266738	reactome
+Signaling by WNT	R-HSA-195721	reactome	equivalentTo	Wnt Signaling Pathway	WP428	wikipathways
+Signaling by WNT	R-HSA-195721	reactome	isPartOf	Wnt Signaling Pathway and Pluripotency	WP399	wikipathways
+Zinc efflux and compartmentalization by the SLC30 family	R-HSA-435368	reactome	isPartOf	Zinc homeostasis	WP3529	wikipathways
+Zinc influx into cells by the SLC39 gene family	R-HSA-442380	reactome	isPartOf	Zinc homeostasis	WP3529	wikipathways
+Zinc transporters	R-HSA-435354	reactome	isPartOf	Zinc homeostasis	WP3529	wikipathways
+mRNA Processing	WP411	wikipathways	isPartOf	mRNA Splicing	R-HSA-72172	reactome
+Metabolism of non-coding RNA	R-HSA-194441	reactome	isPartOf	mRNA Processing	WP411	wikipathways
+mRNA Splicing	R-HSA-72172	reactome	isPartOf	mRNA Processing	WP411	wikipathways
+Processing of Capped Intronless Pre-mRNA	R-HSA-75067	reactome	isPartOf	mRNA Processing	WP411	wikipathways
+mRNA Processing	WP411	wikipathways	isPartOf	Metabolism of RNA	R-HSA-8953854	reactome
+mRNA 3'-end processing	R-HSA-72187	reactome	isPartOf	mRNA Processing	WP411	wikipathways
+mRNA Splicing - Major Pathway	R-HSA-72163	reactome	isPartOf	mRNA Processing	WP411	wikipathways
+mRNA Splicing - Minor Pathway	R-HSA-72165	reactome	isPartOf	mRNA Processing	WP411	wikipathways
+Processing of Capped Intron-Containing Pre-mRNA	R-HSA-72203	reactome	isPartOf	mRNA Processing	WP411	wikipathways
+Processing of Intronless Pre-mRNAs	R-HSA-77595	reactome	isPartOf	mRNA Processing	WP411	wikipathways
+MicroRNA (miRNA) biogenesis	R-HSA-203927	reactome	equivalentTo	miRNA Biogenesis	WP2338	wikipathways
+p38MAPK events	R-HSA-171007	reactome	equivalentTo	p38 MAPK Signaling Pathway	WP400	wikipathways
+Wnt Signaling Pathway	WP428	wikipathways	equivalentTo	Wnt Signaling Pathway	WP363	wikipathways
+Canonical  and Non-canonical Notch signaling	WP3845	wikipathways	equivalentTo	Notch Signaling Pathway	WP61	wikipathways
+Alanine and aspartate metabolism	WP106	wikipathways	isPartOf	Amino Acid metabolism	WP3925	wikipathways
+Apoptosis Modulation by HSP70	WP384	wikipathways	isPartOf	Apoptosis	WP254	wikipathways
+Apoptosis Modulation and Signaling	WP1772	wikipathways	isPartOf	Apoptosis	WP254	wikipathways
+Nanomaterial induced apoptosis	WP2507	wikipathways	isPartOf	Apoptosis	WP254	wikipathways
+G1 to S cell cycle control	WP45	wikipathways	isPartOf	Cell Cycle	WP179	wikipathways
+TCA Cycle and Deficiency of Pyruvate Dehydrogenase complex (PDHc)	WP2453	wikipathways	isPartOf	TCA Cycle	WP78	wikipathways
+Complement Activation	WP545	wikipathways	isPartOf	Complement and Coagulation Cascades	WP558	wikipathways
+Toll-like Receptor Signaling	WP3858	wikipathways	equivalentTo	Toll-like Receptor Signaling Pathway	WP75	wikipathways
+GPCRs, Class C Metabotropic glutamate, pheromone	WP501	wikipathways	isPartOf	GPCRs, Other	WP117	wikipathways
+GPCRs, Class A Rhodopsin-like	WP455	wikipathways	isPartOf	GPCRs, Other	WP117	wikipathways
+GPCRs, Class B Secretin-like	WP334	wikipathways	isPartOf	GPCRs, Other	WP117	wikipathways
+Monoamine GPCRs	WP58	wikipathways	isPartOf	GPCRs, Class A Rhodopsin-like	WP455	wikipathways
+MAPK Cascade	WP422	wikipathways	isPartOf	MAPK Signaling Pathway	WP382	wikipathways
+Aryl Hydrocarbon Receptor	WP2586	wikipathways	equivalentTo	Aryl Hydrocarbon Receptor Pathway	WP2873	wikipathways
+Apoptosis - Homo sapiens (human)	path:hsa04210	kegg	equivalentTo	Apoptosis - multiple species - Homo sapiens (human)	path:hsa04215	kegg
+Apoptosis	R-HSA-109581	reactome	equivalentTo	Regulation of Complement cascade	R-HSA-977606	reactome
+Fatty acid metabolism - Homo sapiens (human)	path:hsa01212	kegg	isPartOf	Mitochondrial Fatty Acid Beta-Oxidation	R-HSA-77289	reactome

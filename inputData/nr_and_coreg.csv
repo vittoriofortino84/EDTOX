@@ -1,0 +1,378 @@
+Type,Symbol,Name,genename,ensemble,entrez,protein,refseq
+Nuclear Receptor,AR,Androgen receptor,androgen receptor,ENSG00000169083,367,P10275,NM_000044
+Nuclear Receptor,DHR38,Hormone receptor-like 38,NA,NA,NA,NA,NA
+Nuclear Receptor,dHR78,Nuclear hormone receptor HR78,NA,NA,NA,NA,NA
+Nuclear Receptor,egon,Embryonic gonad protein,NA,NA,NA,NA,NA
+Nuclear Receptor,Eip75,Ecdysone-inducible protein E75,NA,NA,NA,NA,NA
+Nuclear Receptor,ESR1,Estrogen receptor ?,estrogen receptor 1,ENSG00000091831,2099,G4XH65,NM_000125
+Nuclear Receptor,ESR2,Estrogen receptor ?,estrogen receptor 2,ENSG00000140009,2100,F1D8N3,NM_001040275
+Nuclear Receptor,ESRRA,Estrogen-related receptor ?,estrogen related receptor alpha,ENSG00000173153,2101,P11474,NM_001282450
+Nuclear Receptor,ESRRB,Estrogen-related receptor ?,estrogen related receptor beta,ENSG00000119715,2103,O95718,NM_004452
+Nuclear Receptor,ESRRG,Estrogen-related receptor ?,estrogen related receptor gamma,ENSG00000196482,2104,F1D8R6,NM_001134285
+Nuclear Receptor,FXR-?,Farnesoid receptor ?,NA,NA,NA,NA,NA
+Nuclear Receptor,HNF4A,Hepatocyte nuclear factor 4 receptor ?,hepatocyte nuclear factor 4 alpha,ENSG00000101076,3172,F1D8T1,NM_000457
+Nuclear Receptor,HNF4G,Hepatocyte nuclear factor 4 receptor ?,hepatocyte nuclear factor 4 gamma,ENSG00000164749,3174,Q14541,NM_001330561
+Nuclear Receptor,Hr39,Hormone receptor-like in 39,NA,NA,NA,NA,NA
+Nuclear Receptor,NOR1,Neuron-derived orphan receptor 1,NA,NA,NA,NA,NA
+Nuclear Receptor,NR0B1,"Dosage-sensitive sex reversal-adrenal hypoplasia congenita critical region on the X chromosome, gene 1",nuclear receptor subfamily 0 group B member 1,ENSG00000169297,190,F1D8P4,NM_000475
+Nuclear Receptor,NR0B2,Small heterodimeric partner,nuclear receptor subfamily 0 group B member 2,ENSG00000131910,8431,Q15466,NM_021969
+Nuclear Receptor,NR1D1,Rev-Erb ?,nuclear receptor subfamily 1 group D member 1,ENSG00000126368,9572,F1D8S3,NM_021724
+Nuclear Receptor,NR1D2,Rev-Erb ?,nuclear receptor subfamily 1 group D member 2,ENSG00000174738,9975,B4DXD3,NM_001145425
+Nuclear Receptor,NR1H2,Oxysterol receptor ?,nuclear receptor subfamily 1 group H member 2,ENSG00000131408,7376,P55055,NM_001256647
+Nuclear Receptor,NR1H3,Oxysterol receptor ?,nuclear receptor subfamily 1 group H member 3,ENSG00000025434,10062,Q13133,NM_001130101
+Nuclear Receptor,NR1H4,Farnesoid receptor ?,nuclear receptor subfamily 1 group H member 4,ENSG00000012504,9971,F1DAL1,NM_001206977
+Nuclear Receptor,NR1I2,Pregnane X receptor,nuclear receptor subfamily 1 group I member 2,ENSG00000144852,8856,O75469,NM_003889
+Nuclear Receptor,NR1I3,Constitutive androstane receptor,nuclear receptor subfamily 1 group I member 3,ENSG00000143257,9970,Q14994,NM_001077469
+Nuclear Receptor,NR2C1,TR2,nuclear receptor subfamily 2 group C member 1,ENSG00000120798,7181,H9NIM3,NM_001032287
+Nuclear Receptor,NR2C2,TR4,nuclear receptor subfamily 2 group C member 2,ENSG00000177463,7182,P49116,NM_001291694
+Nuclear Receptor,NR2E1,Tailless homolog,nuclear receptor subfamily 2 group E member 1,ENSG00000112333,7101,Q9Y466,NM_001286102
+Nuclear Receptor,NR2E3,Photoreceptor-specific nuclear receptor,nuclear receptor subfamily 2 group E member 3,ENSG00000278570,10002,Q9Y5X4,NM_001281446
+Nuclear Receptor,NR2F1,Chicken ovalbumin upstream promoter transcription factor I,nuclear receptor subfamily 2 group F member 1,ENSG00000175745,7025,P10589,NM_005654
+Nuclear Receptor,NR2F2,Chicken ovalbumin upstream promoter transcription factor II,nuclear receptor subfamily 2 group F member 2,ENSG00000185551,7026,P24468,NM_001145155
+Nuclear Receptor,NR2F6,V-erbA related protein,nuclear receptor subfamily 2 group F member 6,ENSG00000160113,2063,F1D8R3,NM_005234
+Nuclear Receptor,NR3C1,Glucocorticoid receptor,nuclear receptor subfamily 3 group C member 1,ENSG00000113580,2908,F1D8N4,NM_000176
+Nuclear Receptor,NR3C2,Mineralocorticoid receptor,nuclear receptor subfamily 3 group C member 2,ENSG00000151623,4306,B0ZBF6,NM_000901
+Nuclear Receptor,NR4A1,growth factor-inducible immediate early gene nur/77-like receptor,nuclear receptor subfamily 4 group A member 1,ENSG00000123358,3164,P22736,NM_001202233
+Nuclear Receptor,NR4A2,Nur-related protein 1,nuclear receptor subfamily 4 group A member 2,ENSG00000153234,4929,F1D8N6,NM_006186
+Nuclear Receptor,NR5A1,Steroidogenic factor-1/ELP,nuclear receptor subfamily 5 group A member 1,ENSG00000136931,2516,F1D8R8,NM_004959
+Nuclear Receptor,NR5A2,Fetoprotein transcription factor,nuclear receptor subfamily 5 group A member 2,ENSG00000116833,2494,O00482,NM_001276464
+Nuclear Receptor,nr5a4,Fushi tarazu-F1 (FF1B),NA,NA,NA,NA,NA
+Nuclear Receptor,NR6A1,Germ cell nuclear factor 1,nuclear receptor subfamily 6 group A member 1,ENSG00000148200,2649,F1DAM1,NM_001278546
+Nuclear Receptor,PGR,Progesterone receptor,progesterone receptor,ENSG00000082175,5241,P06401,NM_000926
+Nuclear Receptor,PPARA,Peroxisome proliferator activated receptor ?,peroxisome proliferator activated receptor alpha,ENSG00000186951,5465,F1D8S4,NM_001001928
+Nuclear Receptor,PPARD,Peroxisome proliferator activated receptor-?/?,peroxisome proliferator activated receptor delta,ENSG00000112033,5467,A0A024RCW6,NM_001171818
+Nuclear Receptor,PPARG,Peroxisome proliferator activated receptor ?,peroxisome proliferator activated receptor gamma,ENSG00000132170,5468,E9PFX5,NM_001330615
+Nuclear Receptor,RARA,Retinoic acid receptor ?,retinoic acid receptor alpha,ENSG00000131759,5914,P10276,NM_000964
+Nuclear Receptor,RARB,Retinoic acid receptor ?,retinoic acid receptor beta,ENSG00000077092,5915,F1D8S6,NM_000965
+Nuclear Receptor,RARG,Retinoic acid receptor ?,retinoic acid receptor gamma,ENSG00000172819,5916,A8K3H3,NM_000966
+Nuclear Receptor,RORA,RAR-related orphan receptor ?,RAR related orphan receptor A,ENSG00000069667,6095,A0A0C4DFP5,NM_002943
+Nuclear Receptor,RORB,RAR-related orphan receptor ?,RAR related orphan receptor B,ENSG00000198963,6096,Q58EY0,NM_001365023
+Nuclear Receptor,RORC,RAR-related orphan receptor ?,RAR related orphan receptor C,ENSG00000143365,6097,F1D8P6,NM_001001523
+Nuclear Receptor,RXRA,Retinoid X receptor ?,retinoid X receptor alpha,ENSG00000186350,6256,Q6P3U7,NM_001291920
+Nuclear Receptor,RXRB,Retinoid X receptor ?,retinoid X receptor beta,ENSG00000204231,6257,A0A0S2Z570,NM_001270401
+Nuclear Receptor,RXRG,Retinoid X receptor ?,retinoid X receptor gamma,ENSG00000143171,6258,A0A087WZ88,NM_001256570
+Nuclear Receptor,THRA,Thyroid hormone receptor ?,thyroid hormone receptor alpha,ENSG00000126351,7067,P10827,NM_001190918
+Nuclear Receptor,THRB,Thyroid hormone receptor ?,thyroid hormone receptor beta,ENSG00000151090,7068,F1D8N7,NM_000461
+Nuclear Receptor,tll,Tailless,NA,NA,NA,NA,NA
+Nuclear Receptor,trx,Trithorax,NA,NA,NA,NA,NA
+Nuclear Receptor,VDR,Vitamin D3 receptor,vitamin D receptor,ENSG00000111424,7421,F1D8P8,NM_000376
+Coregulator,AES,Amino terminal enhancer of split,amino-terminal enhancer of split,ENSG00000104964,166,Q08117,NM_001130
+Coregulator,AKAP13,Breast cancer nuclear receptor-binding auxiliary protein,A-kinase anchoring protein 13,ENSG00000170776,11214,A8MYJ1,NM_001270546
+Coregulator,ANKRD11,Ankyrin repeats containing cofactors,ankyrin repeat domain 11,ENSG00000167522,29123,Q6UB99,NM_001256182
+Coregulator,ANP32A,Phosphoprotein 32 Kda,acidic nuclear phosphoprotein 32 family member A,ENSG00000140350,8125,P39687,NM_006305
+Coregulator,APEX1,Apurinic/apyrimidinic endonuclease 1,apurinic/apyrimidinic endodeoxyribonuclease 1,ENSG00000100823,328,P27695,NM_001244249
+Coregulator,APPBP2,Androgen receptor associated 67 kDa,amyloid beta precursor protein binding protein 2,ENSG00000062725,10513,Q92624,NM_001282476
+Coregulator,APPL1,"Adaptor protein containing pH domain, PTB domain and leucine zipper motif","adaptor protein, phosphotyrosine interacting with PH domain and leucine zipper 1",ENSG00000157500,26060,Q9UKG1,NM_012096
+Coregulator,ARA54,Androgen receptor associated protein 54,NA,NA,NA,NA,NA
+Coregulator,ARID1A,BRG-associated factor 250a,AT-rich interaction domain 1A,ENSG00000117713,8289,O14497,NM_006015
+Coregulator,ARID1B,BRG1-binding protein ELD/OSA1,AT-rich interaction domain 1B,ENSG00000049618,57492,Q8NFD5,NM_001346813
+Coregulator,ARID5A,Modulator Recognition Factor 1,AT-rich interaction domain 5A,ENSG00000196843,10865,Q03989,NM_001319085
+Coregulator,ASXL1,Additional sex comb-like 1,ASXL transcriptional regulator 1,ENSG00000171456,171023,Q498B9,NM_001164603
+Coregulator,ATXN7L3,Ataxin 7-like 3,ataxin 7 like 3,ENSG00000087152,56970,Q14CW9,NM_001098833
+Coregulator,BAG1,BCL2-associated athanogene,BCL2 associated athanogene 1,ENSG00000107262,573,Q99933,NM_001172415
+Coregulator,BAZ1A,ATP-utilizing chromatin assembly and remodeling factor 1,bromodomain adjacent to zinc finger domain 1A,ENSG00000198604,11177,Q9NRL2,NM_013448
+Coregulator,BAZ1B,Williams syndrome transcription factor,bromodomain adjacent to zinc finger domain 1B,ENSG00000009954,9031,Q9UIG0,NM_023005
+Coregulator,BCAS2,Breast cancer amplified sequence 2,"BCAS2, pre-mRNA processing factor",ENSG00000116752,10286,B2R7W3,NM_005872
+Coregulator,BCAS3,Breast carcinoma amplified sequence-3,"BCAS3, microtubule associated cell migration factor",ENSG00000141376,54828,Q9H6U6,NM_001099432
+Coregulator,BCL11A,COUP-TF-interacting protein-1,B cell CLL/lymphoma 11A,ENSG00000119866,53335,D9YZV9,NM_001363864
+Coregulator,BCL11B,COUP-TF-interacting protein-2,B cell CLL/lymphoma 11B,ENSG00000127152,64919,L8B8F6,NM_001282237
+Coregulator,BCL3,B-cell CCL/lymphoma 3,B cell CLL/lymphoma 3,ENSG00000069399,602,P20749,NM_005178
+Coregulator,BLOC1S1,Metastasis-associated protein 1 (MTA1)-interacting coactivator,biogenesis of lysosomal organelles complex 1 subunit 1,ENSG00000135441,2647,P78537,NM_001487
+Coregulator,BRCA1,"Breast cancer type1 susceptibility protein (Breast cancer 1, early onset)","BRCA1, DNA repair associated",ENSG00000012048,672,P38398,NM_007294
+Coregulator,BRCA2,"Breast cancer 2, early onset","BRCA2, DNA repair associated",ENSG00000139618,675,P51587,NM_000059
+Coregulator,BRD8,Skeletal muscle abundant protein homolog p120,bromodomain containing 8,ENSG00000112983,10902,Q9H0E9,NM_001164326
+Coregulator,C1D,"Small unique nuclear receptor corepressor, nuclear DNA-binding protein",C1D nuclear receptor corepressor,ENSG00000197223,10438,Q13901,NM_001190263
+Coregulator,CALCOCO1,GRIP1-interacting protein coiled-coil transcriptional coactivator,calcium binding and coiled-coil domain 1,ENSG00000012822,57658,Q9P1Z2,NM_001143682
+Coregulator,CALR,Calreticulin,calreticulin,ENSG00000179218,811,P27797,NM_004343
+Coregulator,CARM1,Coactivator-associated arginine methyltransferase-1,coactivator associated arginine methyltransferase 1,ENSG00000142453,10498,Q86X55,NM_199141
+Coregulator,CASP8AP2,FLICE-associated huge,caspase 8 associated protein 2,ENSG00000118412,9994,Q9UKL3,NM_001137667
+Coregulator,CAV1,"Caveolin-1, caveolae protein, 22kDa",caveolin 1,ENSG00000105974,857,A0A024R757,NM_001172895
+Coregulator,CCAR1,Cell-cycle and apoptosis regulator 1,cell division cycle and apoptosis regulator 1,ENSG00000060339,55749,Q8IX12,NM_001282959
+Coregulator,CCAR2,Deleted in breast cancer 1,cell cycle and apoptosis regulator 2,ENSG00000158941,57805,Q8N163,NM_001363068
+Coregulator,CCNA1,Cyclin A1,cyclin A1,ENSG00000133101,8900,A0A140VJG0,NM_001111045
+Coregulator,CCNA2,Cyclin A2,cyclin A2,ENSG00000145386,890,P20248,NM_001237
+Coregulator,CCND1,Cyclin D1,cyclin D1,ENSG00000110092,595,P24385,NM_053056
+Coregulator,CCND3,Cyclin D3 (G1/S-specific cyclin D3),cyclin D3,ENSG00000112576,896,P30281,NM_001136017
+Coregulator,CCNE1,Cyclin E1,cyclin E1,ENSG00000105173,898,P24864,NM_001238
+Coregulator,CDC25B,Cell division cycle 25B,cell division cycle 25B,ENSG00000101224,994,B4DIG0,NM_001287516
+Coregulator,CDK7,"Cyclin-dependent kinase 7 (MO15 homolog, Xenopus laevis, cdk-activating kinase)",cyclin dependent kinase 7,ENSG00000134058,1022,P50613,NM_001324069
+Coregulator,CDK9,Positive elongation factor b,cyclin dependent kinase 9,ENSG00000136807,1025,A0A024R880,NM_001261
+Coregulator,CDKN1C,Beckwith-Wiedemann syndrome,cyclin dependent kinase inhibitor 1C,ENSG00000129757,1028,P49918,NM_000076
+Coregulator,CEP350,Centrosome-associated protein 350,centrosomal protein 350,ENSG00000135837,9857,Q5VT06,NM_014810
+Coregulator,CFL1,Cofilin 1 (non-muscle),cofilin 1,ENSG00000172757,1072,P23528,NM_005507
+Coregulator,CITED1,"CBP/p300-interacting transactivator, with Glu/Asp-rich carboxy-terminal domain-1",Cbp/p300 interacting transactivator with Glu/Asp rich carboxy-terminal domain 1,ENSG00000125931,4435,Q99966,NM_001144885
+Coregulator,CITED2,CREB-binding protein/p300-interacting transactivator with ED-rich tail 2,Cbp/p300 interacting transactivator with Glu/Asp rich carboxy-terminal domain 2,ENSG00000164442,10370,D9ZGF1,NM_001168388
+Coregulator,CMTM2,Androgen receptor corepressor-19 kDa,CKLF like MARVEL transmembrane domain containing 2,ENSG00000140932,146225,Q8TAZ6,NM_001199317
+Coregulator,CNOT1,"CCR4-NOT transcription complex, subunit 1",CCR4-NOT transcription complex subunit 1,ENSG00000125107,23019,A5YKK6,NM_001265612
+Coregulator,COPS2,Alien,COP9 signalosome subunit 2,ENSG00000166200,9318,P61201,NM_001143887
+Coregulator,COPS5,Jun activation domain-binding protein-1,COP9 signalosome subunit 5,ENSG00000121022,10987,A0A024R7W9,NM_006837
+Coregulator,CRABP2,Cellular retinoic acid-binding protein 2,cellular retinoic acid binding protein 2,ENSG00000143320,1382,P29373,NM_001199723
+Coregulator,CREBBP,CREB-binding protein,CREB binding protein,ENSG00000005339,1387,Q92793,NM_001079846
+Coregulator,CREBZF,SHP-interacting leucine zipper protein,CREB/ATF bZIP transcription factor,ENSG00000137504,58487,Q9NS37,NM_001039618
+Coregulator,CTBP1,C-terminal binding protein 1,C-terminal binding protein 1,ENSG00000159692,1487,Q13363,NM_001012614
+Coregulator,CTBP2,C-terminal binding protein 2,C-terminal binding protein 2,ENSG00000175029,1488,P56545,NM_001083914
+Coregulator,CTDSP2,Small carboxyl-terminal domain (CTD) phosphatase 2,CTD small phosphatase 2,ENSG00000175215,10106,A0A024RBA6,NM_005730
+Coregulator,CTNNB1,"catenin (cadherin-associated protein), beta 1, 88kDa",catenin beta 1,ENSG00000168036,1499,A0A024R2Q3,NM_001098209
+Coregulator,CYTH3,General receptor for phosphoinositides-1,cytohesin 3,ENSG00000008256,9265,O43739,NM_004227
+Coregulator,DAP3,Death-associated protein 3,death associated protein 3,ENSG00000132676,7818,P51398,NM_001199849
+Coregulator,DAXX,Death-associated protein 6,death domain associated protein,ENSG00000204209,1616,A0A024RCS3,NM_001141969
+Coregulator,DCLK1,Doublecortin-like,doublecortin like kinase 1,ENSG00000133083,9201,O15075,NM_001195415
+Coregulator,DDC,L-dopa decarboxylase,dopa decarboxylase,ENSG00000132437,1644,P20711,NM_000790
+Coregulator,DDX17,Probable RNA-dependent helicase p72,DEAD-box helicase 17,ENSG00000100201,10521,A0A1W2PQ51,NM_001098504
+Coregulator,DDX20,"Dead box RNA helicase-103, DEAD (Asp-Glu-Ala-Asp) box polypeptide 20",DEAD-box helicase 20,ENSG00000064703,11218,Q9H4N4,NM_007204
+Coregulator,DDX5,Probable RNA-dependent helicase p68,DEAD-box helicase 5,ENSG00000108654,1655,P17844,NM_001320595
+Coregulator,DDX54,Dead box RNA helicase-97,DEAD-box helicase 54,ENSG00000123064,79039,Q8TDD1,NM_001111322
+Coregulator,DHX30,Ret-CoR,DExH-box helicase 30,ENSG00000132153,22907,H7BXY3,NM_001330990
+Coregulator,DHX9,RNA Helicase A,DExH-box helicase 9,ENSG00000135829,1660,B3KU66,NM_001357
+Coregulator,Din-1,DAF-12-interacting protein-1,NA,NA,NA,NA,NA
+Coregulator,DNTTIP2,Estrogen receptor binding protein,deoxynucleotidyltransferase terminal interacting protein 2,ENSG00000067334,30836,Q5QJE6,NM_014597
+Coregulator,DUT,Deoxyuridine-triphosphatase,deoxyuridine triphosphatase,ENSG00000128951,1854,P33316,NM_001025248
+Coregulator,EDF1,Multiprotein bridging factor-1,endothelial differentiation related factor 1,ENSG00000107223,8721,O60869,NM_001281297
+Coregulator,EFCAB6,DJ-1-binding protein,EF-hand calcium binding domain 6,ENSG00000186976,64800,Q5THR3,NM_022785
+Coregulator,ELL,Eleven-nineteen lysine-rich leukemia,elongation factor for RNA polymerase II,ENSG00000105656,8178,P55199,NM_006532
+Coregulator,ENY2,Enhancer of yellow 2 homolog,"ENY2, transcription and export complex 2 subunit",ENSG00000120533,56943,Q9NPA8,NM_001193557
+Coregulator,EP300,E1A binding protein p300,E1A binding protein p300,ENSG00000100393,2033,Q09472,NM_001362843
+Coregulator,ERR-10,Estrogen receptor repressor-10,NA,NA,NA,NA,NA
+Coregulator,FAF1,Fas-associated factor 1,Fas associated factor 1,ENSG00000185104,11124,Q9UNN5,NM_007051
+Coregulator,FAM120B,Constitutive coactivator of PPARgamma,family with sequence similarity 120B,ENSG00000112584,84498,A0A0D9SEJ5,NM_001286379
+Coregulator,FEN1,Flap endonuclease-1,flap structure-specific endonuclease 1,ENSG00000168496,2237,P39748,NM_004111
+Coregulator,FHL2,Four and a half LIM domains 2,four and a half LIM domains 2,ENSG00000115641,2274,Q14192,NM_001039492
+Coregulator,FLNA,Filamin A,filamin A,ENSG00000196924,2316,P21333,NM_001110556
+Coregulator,FOG-2,Friend of GATA2,NA,NA,NA,NA,NA
+Coregulator,FOXG1,Forkhead box G1,forkhead box G1,ENSG00000176165,2290,P55316,NM_005249
+Coregulator,FOXH1,Forkhead box H1,forkhead box H1,ENSG00000160973,8928,O75593,NM_003923
+Coregulator,FOXO1,Forkhead box O1A (rhabdomyosarcoma),forkhead box O1,ENSG00000150907,2308,Q12778,NM_002015
+Coregulator,Ftz,Fushi trazu,NA,NA,NA,NA,NA
+Coregulator,FUS,Translocated in liposarcoma,FUS RNA binding protein,ENSG00000089280,2521,P35637,NM_001010850
+Coregulator,GADD45A,"Growth arrest and DNA-damage-inducible, alpha",growth arrest and DNA damage inducible alpha,ENSG00000116717,1647,P24522,NM_001199741
+Coregulator,GADD45G,CR6,growth arrest and DNA damage inducible gamma,ENSG00000130222,10912,O95257,NM_006705
+Coregulator,GADD45GIP1,CR6-interacting Factor 1,GADD45G interacting protein 1,ENSG00000179271,90480,Q8TAE8,NM_052850
+Coregulator,GEMIN5,Rigor mortis,gem nuclear organelle associated protein 5,ENSG00000082516,25929,B7ZLC9,NM_001252156
+Coregulator,GMEB1,Glucocorticoid modulatory element binding protein 1,glucocorticoid modulatory element binding protein 1,ENSG00000162419,10691,B1AT47,NM_001319674
+Coregulator,GMEB2,Glucocorticoid modulatory element binding protein 2,glucocorticoid modulatory element binding protein 2,ENSG00000101216,26205,B4DQS0,NM_012384
+Coregulator,GSN,"Gelsolin (amyloidosis, Finnish type)",gelsolin,ENSG00000148180,2934,P06396,NM_000177
+Coregulator,GTF2B,General transcription factor IIB,general transcription factor IIB,ENSG00000137947,2959,Q00403,NM_001514
+Coregulator,GTF2F2,"General transcription factor IIF, polypeptide 2, 30kDa",general transcription factor IIF subunit 2,ENSG00000188342,2963,A0A024RDU9,NM_004128
+Coregulator,HDAC1,Histone deacetylase 1,histone deacetylase 1,ENSG00000116478,3065,Q13547,NM_004964
+Coregulator,HDAC2,Histone deacetylase 2,histone deacetylase 2,ENSG00000196591,3066,Q92769,NM_001527
+Coregulator,HDAC3,Histone deacetylase 3,histone deacetylase 3,ENSG00000171720,8841,O15379,NM_001355039
+Coregulator,HDAC6,Histone deacetylase 6,histone deacetylase 6,ENSG00000094631,10013,B4DZH6,NM_001321225
+Coregulator,HELZ2,Peroxisomal proliferator-activated receptor A interacting complex 285,helicase with zinc finger 2,ENSG00000130589,85441,Q9BYK8,NM_001037335
+Coregulator,HEY1,Hairy/enhancer-of-split related with YRPW motif 1,hes related family bHLH transcription factor with YRPW motif 1,ENSG00000164683,23462,Q9Y5J3,NM_001040708
+Coregulator,HIPK3,Androgen receptor-interacting nuclear protein,homeodomain interacting protein kinase 3,ENSG00000110422,10114,Q9H422,NM_001048200
+Coregulator,HMGB1,High-mobility group box 1,high mobility group box 1,ENSG00000189403,3146,A0A024RDR0,NM_001313892
+Coregulator,HMGB2,High-mobility group box 2,high mobility group box 2,ENSG00000164104,3148,P26583,NM_001130688
+Coregulator,HMGN1,High-mobility group nucleosome binding domain 1,high mobility group nucleosome binding domain 1,ENSG00000205581,3150,P05114,NM_004965
+Coregulator,HNRNPU,Scaffold attachment factor A,heterogeneous nuclear ribonucleoprotein U,ENSG00000153187,3192,Q00839,NM_004501
+Coregulator,HR,Hairless,"HR, lysine demethylase and nuclear receptor corepressor",ENSG00000168453,55806,O43593,NM_005144
+Coregulator,ISL1,Islet-1,ISL LIM homeobox 1,ENSG00000016082,3670,P61371,NM_002202
+Coregulator,ITGB3BP,Nuclear receptor interacting factor-3,integrin subunit beta 3 binding protein,ENSG00000142856,23421,Q13352,NM_001206739
+Coregulator,JAZF1,TAK1-interacting protein 27,JAZF zinc finger 1,ENSG00000153814,221895,Q86VZ6,NM_175061
+Coregulator,JDP2,Jun dimerization protein 2,Jun dimerization protein 2,ENSG00000140044,122953,A0A024R6D7,NM_001135047
+Coregulator,JMJD1C,Thyroid hormone receptor interactor 8,jumonji domain containing 1C,ENSG00000171988,221037,B7ZLC8,NM_001282948
+Coregulator,KAT2B,p300/CBP-associated factor,lysine acetyltransferase 2B,ENSG00000114166,8850,Q92831,NM_003884
+Coregulator,KAT5,"HIV-1 Tat interactive protein, 60kDa",lysine acetyltransferase 5,ENSG00000172977,10524,Q92993,NM_001206833
+Coregulator,KAT7,Histone acetyltransferase binding to origin recognition complex (ORC),lysine acetyltransferase 7,ENSG00000136504,11143,O95251,NM_001199155
+Coregulator,KDM1A,Lysine-specific demethylase 1,lysine demethylase 1A,ENSG00000004487,23028,O60341,NM_001009999
+Coregulator,KDM3A,JmjC domain-containing histone demethylase 2A,lysine demethylase 3A,ENSG00000115548,55818,Q9Y4C1,NM_001146688
+Coregulator,KDM5A,Retinoblastoma-binding protein 2,lysine demethylase 5A,ENSG00000073614,5927,P29375,NM_001042603
+Coregulator,KMT2D,Mixed lineage leukemia-2,lysine methyltransferase 2D,ENSG00000167548,8085,O14686,NM_003482
+Coregulator,LATS2,"LATS, large tumor suppressor, homolog 2 (Drosophila)",large tumor suppressor kinase 2,ENSG00000150457,26524,A0A024RDM3,NM_014572
+Coregulator,LCOR,Ligand-dependent nuclear receptor corepressor,ligand dependent nuclear receptor corepressor,ENSG00000196233,84458,Q96JN0,NM_001170765
+Coregulator,MAGE-11,Melanoma antigen gene protein MAGE-11,NA,NA,NA,NA,NA
+Coregulator,MAK,Male germ cell-associated kinase,male germ cell associated kinase,ENSG00000111837,4117,P20794,NM_001242385
+Coregulator,MCRS1,Microspherule protein 58-kDa,microspherule protein 1,ENSG00000187778,10445,Q96EZ8,NM_001012300
+Coregulator,MED1,Thyroid receptor-associated proteincomplex 220 kDa component,mediator complex subunit 1,ENSG00000125686,5469,Q15648,NM_004774
+Coregulator,MED14,Vitamin D receptor-interacting protein complex component 150,mediator complex subunit 14,ENSG00000180182,9282,O60244,NM_004229
+Coregulator,MED15,Positive Cofactor 2,mediator complex subunit 15,ENSG00000099917,51586,Q6PKB8,NM_001003891
+Coregulator,MED16,Thyroid receptor-associated protein-95,mediator complex subunit 16,ENSG00000175221,10025,Q9Y2X0,NM_005481
+Coregulator,MED17,Thyroid receptor-associated protein-80,mediator complex subunit 17,ENSG00000042429,9440,Q9NVC6,NM_004268
+Coregulator,MED18,MED18,mediator complex subunit 18,ENSG00000130772,54797,Q9BUE0,NM_001127350
+Coregulator,MED21,Suppressor of RNA polymerase B 7,mediator complex subunit 21,ENSG00000152944,9412,A0A024RAW0,NM_001271811
+Coregulator,MED24,Thyroid hormone receptor-associated protein (100 kDa),mediator complex subunit 24,ENSG00000008838,9862,O75448,NM_001079518
+Coregulator,MED30,Thyroid hormone receptor-associated protein (25 kDa),mediator complex subunit 30,ENSG00000164758,90390,Q96HR3,NM_001282986
+Coregulator,MGMT,O6-Methylguanine-DNA methyltransferase,O-6-methylguanine-DNA methyltransferase,ENSG00000170430,4255,B4DEE8,NM_002412
+Coregulator,MMS19,"MMS19-like (MET18 homolog, S. cerevisiae)","MMS19 homolog, cytosolic iron-sulfur assembly component",ENSG00000155229,64210,Q96T76,NM_001289403
+Coregulator,MN1,Meningioma-1,"MN1 proto-oncogene, transcriptional regulator",ENSG00000169184,4330,A0A024R1C3,NM_002430
+Coregulator,MNAT1,Menage a trois 1 (CAK assembly factor),"MNAT1, CDK activating kinase assembly factor",ENSG00000020426,4331,A0A024R669,NM_001177963
+Coregulator,Moses,Middleman of seventy-eight signaling,NA,NA,NA,NA,NA
+Coregulator,MPG,3-methyladenine DNA glycosylase,N-methylpurine DNA glycosylase,ENSG00000103152,4350,P29372,NM_001015052
+Coregulator,MTA1,Metastasis associated 1,metastasis associated 1,ENSG00000182979,9112,Q13330,NM_001203258
+Coregulator,MTA2,"Metastais-associated gene family, member 2",metastasis associated 1 family member 2,ENSG00000149480,9219,O94776,NM_001330292
+Coregulator,MUC1,Mucin,"mucin 1, cell surface associated",ENSG00000185499,4582,P15941,NM_001018016
+Coregulator,NCL,Nucleolin,nucleolin,ENSG00000115053,4691,A0A024R4A0,NM_005381
+Coregulator,NCOA1,Steroid receptor coactivator 1,nuclear receptor coactivator 1,ENSG00000084676,8648,Q15788,NM_001362950
+Coregulator,NCOA2,Glucocorticoid receptor interacting protein 1,nuclear receptor coactivator 2,ENSG00000140396,10499,Q15596,NM_001321703
+Coregulator,NCOA3,Amplified in breast cancer 1,nuclear receptor coactivator 3,ENSG00000124151,8202,Q59EE8,NM_001174087
+Coregulator,NCOA4,Androgen receptor associated protein 70,nuclear receptor coactivator 4,ENSG00000266412,8031,Q13772,NM_001145260
+Coregulator,NCOA5,Coactivator independent of AF2 function,nuclear receptor coactivator 5,ENSG00000124160,57727,Q9HCD5,NM_001348148
+Coregulator,NCOA6,Activating signal cointegrator-2,nuclear receptor coactivator 6,ENSG00000198646,23054,F6M2K2,NM_001242539
+Coregulator,NCOA7,Estrogen receptor-associated protein 140,nuclear receptor coactivator 7,ENSG00000111912,135112,B3KXK4,NM_001122842
+Coregulator,NCOR1,Nuclear receptor corepressor,nuclear receptor corepressor 1,ENSG00000141027,9611,O75376,NM_001190438
+Coregulator,NCOR2,Silencing mediator of retinoid and thyroid receptors,nuclear receptor corepressor 2,ENSG00000196498,9612,C9JE98,NM_001077261
+Coregulator,NEDD4,Receptor potentiating factor 1,"neural precursor cell expressed, developmentally down-regulated 4, E3 ubiquitin protein ligase",ENSG00000069869,4734,P46934,NM_001284338
+Coregulator,NELFB,Cofactor of BRCA1,negative elongation factor complex member B,ENSG00000188986,25920,Q8WX92,NM_015456
+Coregulator,NEURL4,G protein pathway suppressor 2,neuralized E3 ubiquitin protein ligase 4,ENSG00000215041,84461,Q96JN8,NM_001005408
+Coregulator,NME2,NM23-H2,NME/NM23 nucleoside diphosphate kinase 2,ENSG00000243678,4831,P22392,NM_001018137
+Coregulator,NONO,"Nuclear RNA-binding protein, 54 kDa",non-POU domain containing octamer binding,ENSG00000147140,4841,A0A0S2Z4Z9,NM_001145408
+Coregulator,NR2C2AP,Testicular orphan nuclear receptor 4 (TR4)-associated protein 16,nuclear receptor 2C2 associated protein,ENSG00000184162,126382,Q86WQ0,NM_001300945
+Coregulator,NRBF2,Nuclear receptor binding factor 2,nuclear receptor binding factor 2,ENSG00000148572,29982,Q96F24,NM_001282405
+Coregulator,NRIP1,Receptor-interacting protein 140,nuclear receptor interacting protein 1,ENSG00000180530,8204,A8K171,NM_003489
+Coregulator,NRIP2,Neuronal interacting factor X 1,nuclear receptor interacting protein 2,ENSG00000053702,83714,Q9BQI9,NM_031474
+Coregulator,NSD1,Nuclear receptor binding SET domain protein 1,nuclear receptor binding SET domain protein 1,ENSG00000165671,64324,Q96L73,NM_001365684
+Coregulator,P4HB,Protein disulfide isomerase,prolyl 4-hydroxylase subunit beta,ENSG00000185624,5034,A0A024R8S5,NM_000918
+Coregulator,PA2G4,v-erb-b2 erythroblastic leukemia viral oncogene homolog 3 (ErbB-3) binding protein,proliferation-associated 2G4,ENSG00000170515,5036,A0A024RB85,NM_006191
+Coregulator,PADI4,"Peptidyl arginine deiminase, type IV",peptidyl arginine deiminase 4,ENSG00000159339,23569,Q9UM07,NM_012387
+Coregulator,PAK6,p21(CDKN1A)-activated kinase 6,p21 (RAC1) activated kinase 6,ENSG00000137843,56924,A0A024R9Q4,NM_001276717
+Coregulator,PARK7,DJ-1,Parkinsonism associated deglycase,ENSG00000116288,11315,Q99497,NM_001123377
+Coregulator,PARP1,Poly(ADP-ribose) polymerase-1,poly(ADP-ribose) polymerase 1,ENSG00000143799,142,A0A024R3T8,NM_001618
+Coregulator,PDPK1,3-phosphoinositide-dependent protein kinase-1,3-phosphoinositide dependent protein kinase 1,ENSG00000140992,5170,O15530,NM_001261816
+Coregulator,PELP1,"Proline, glutamic acid, leucine-rich protein 1","proline, glutamate and leucine rich protein 1",ENSG00000141456,27043,B4DEX7,NM_001278241
+Coregulator,PER2,Period 2,period circadian regulator 2,ENSG00000132326,8864,O15055,NM_003894
+Coregulator,PHB,Prohibitin,prohibitin,ENSG00000167085,5245,A8K401,NM_001281496
+Coregulator,PHB2,Repressor of estrogen receptor activity,prohibitin 2,ENSG00000215021,11331,Q99623,NM_001144831
+Coregulator,PIAS1,Protein inhibitor of activated STAT-1 protein 1,protein inhibitor of activated STAT 1,ENSG00000033800,8554,O75925,NM_001320687
+Coregulator,PIAS2,Androgen receptor-interacting protein 3,protein inhibitor of activated STAT 2,ENSG00000078043,9063,A0A024RC49,NM_001324046
+Coregulator,PIAS3,Protein inhibitor of activated STAT3,protein inhibitor of activated STAT 3,ENSG00000131788,10401,B3KNI3,NM_006099
+Coregulator,PIAS4,"Protein inhibitor of activated STAT, 4",protein inhibitor of activated STAT 4,ENSG00000105229,51588,B3KMR4,NM_015897
+Coregulator,PIN1,Protein (peptidyl-prolyl cis/trans isomerase) NIMA-interacting 1,"peptidylprolyl cis/trans isomerase, NIMA-interacting 1",ENSG00000127445,5300,Q13526,NM_006221
+Coregulator,PLAGL1,Zinc finger protein which regulates apoptosis and cell cycle arrest,PLAG1 like zinc finger 1,ENSG00000118495,5325,A1YLA1,NM_001080951
+Coregulator,PNRC1,Proline-rich nuclear receptor coregulatory protein,proline rich nuclear receptor coactivator 1,ENSG00000146278,10957,Q12796,NM_006813
+Coregulator,PNRC2,Proline-rich nuclear receptor coactivator 2,proline rich nuclear receptor coactivator 2,ENSG00000189266,55629,A0A024RAC2,NM_017761
+Coregulator,PPARGC1A,PPARgamma coactivator 1,PPARG coactivator 1 alpha,ENSG00000109819,10891,Q9UBK2,NM_001330751
+Coregulator,PPARGC1B,PPAR-? coactivator 1 ?,PPARG coactivator 1 beta,ENSG00000155846,133522,B7ZM40,NM_001172698
+Coregulator,PPM1D,"Protein phosphatase 1D magnesium-dependent, delta isoform","protein phosphatase, Mg2+/Mn2+ dependent 1D",ENSG00000170836,8493,A0A0S2Z4M2,NM_003620
+Coregulator,PRAME,Preferentially expressed antigen in melanoma,preferentially expressed antigen in melanoma,ENSG00000185686,23532,A0A024R1E6,NM_001291715
+Coregulator,PRDM2,Retinoblastoma-interacting zinc-finger protein,PR/SET domain 2,ENSG00000116731,7799,Q13029,NM_001007257
+Coregulator,PRDX1,Peroxiredoxin 1,peroxiredoxin 1,ENSG00000117450,5052,Q06830,NM_001202431
+Coregulator,PRKCD,Protein kinase C-delta,protein kinase C delta,ENSG00000163932,5580,A0A024R328,NM_001316327
+Coregulator,PRMT1,Protein arginine N-methyltransferase 1,protein arginine methyltransferase 1,ENSG00000126457,3276,A0A087X1W2,NM_001207042
+Coregulator,PRMT2,Protein arginine N-methyltransferase 2,protein arginine methyltransferase 2,ENSG00000160310,3275,P55345,NM_001242864
+Coregulator,PROX1,Prospero-related homeobox 1,prospero homeobox 1,ENSG00000117707,5629,Q92786,NM_001270616
+Coregulator,PRPF6,Androgen receptor N-terminal domain transactivating protein-1,pre-mRNA processing factor 6,ENSG00000101161,24148,O94906,NM_012469
+Coregulator,PSMB9,Low molecular mass polypeptide 2,proteasome subunit beta 9,ENSG00000240065,5698,A0A1U9X8D7,NM_002800
+Coregulator,PSMC3,Tat-binding protein 1,"proteasome 26S subunit, ATPase 3",ENSG00000165916,5702,A0A140VK42,NM_002804
+Coregulator,PSMC3IP,Nuclear Receptor Coactivator GT198,PSMC3 interacting protein,ENSG00000131470,29893,K7ERB6,NM_001256014
+Coregulator,PSMC4,MB67-interacting protein 224,"proteasome 26S subunit, ATPase 4",ENSG00000013275,5704,A8K2M0,NM_006503
+Coregulator,PSMC5,Thyroid receptor-interacting protein 1,"proteasome 26S subunit, ATPase 5",ENSG00000087191,5705,P62195,NM_001199163
+Coregulator,PSME3,11S regulator complex ? subunit,proteasome activator subunit 3,ENSG00000131467,10197,A0A024R203,NM_001267045
+Coregulator,PTEN,Phosphatase and tensin homologue,phosphatase and tensin homolog,ENSG00000171862,5728,F6KD01,NM_000314
+Coregulator,PTGES3,p23,prostaglandin E synthase 3,ENSG00000110958,10728,Q15185,NM_001282601
+Coregulator,PTK2B,Protein tyrosine kinase 2 beta,protein tyrosine kinase 2 beta,ENSG00000120899,2185,Q14289,NM_004103
+Coregulator,PTMA,"Prothymosin, alpha (gene sequence 28)",prothymosin alpha,ENSG00000187514,5757,P06454,NM_001099285
+Coregulator,PUS1,Pseudouridylate synthase 1,pseudouridine synthase 1,ENSG00000177192,80324,E5KMT6,NM_001002019
+Coregulator,PUS3,Pseudouridylate synthase 3,pseudouridine synthase 3,ENSG00000110060,83480,A0A087WY59,NM_001271985
+Coregulator,RACK1,Receptor for activated protein kinase C-1,receptor for activated C kinase 1,ENSG00000204628,10399,E9KL35,NM_006098
+Coregulator,RAD54L2,Androgen receptor-interacting protein 4,RAD54 like 2,ENSG00000164080,23132,Q9Y4B4,NM_001322253
+Coregulator,RAN,Androgen receptor associated protein-24,"RAN, member RAS oncogene family",ENSG00000132341,5901,B4DV51,NM_001300796
+Coregulator,RANBP9,RAN binding protein 9,RAN binding protein 9,ENSG00000010017,10048,A0A024QZW3,NM_005493
+Coregulator,RB1,Retinoblastoma 1(including osteosarcoma),RB transcriptional corepressor 1,ENSG00000139687,5925,A0A024RDV3,NM_000321
+Coregulator,RBBP4,Retinoblastoma-associated protein 48kDa,"RB binding protein 4, chromatin remodeling factor",ENSG00000162521,5928,Q09028,NM_001135255
+Coregulator,RBBP7,Retinoblastoma-associated protein 46kDa,"RB binding protein 7, chromatin remodeling factor",ENSG00000102054,5931,Q16576,NM_001198719
+Coregulator,RBFOX2,Repressor of tamoxifen transcriptional activity,RNA binding fox-1 homolog 2,ENSG00000100320,23543,O43251,NM_001031695
+Coregulator,RBM14,Coactivator activator,RNA binding motif protein 14,ENSG00000239306,10432,A0A0S2Z567,NM_001198836
+Coregulator,RBM23,Coactivator of activating protein-1 and estrogen receptors-beta,RNA binding motif protein 23,ENSG00000100461,55147,A0A0S2Z5D9,NM_001077351
+Coregulator,RBM39,Coactivator of activating protein-1 and estrogen receptors,RNA binding motif protein 39,ENSG00000131051,9584,Q14498,NM_001242599
+Coregulator,RCHY1,Androgen receptor N-terminal-interacting protein,ring finger and CHY zinc finger domain containing 1,ENSG00000163743,25898,Q96PM5,NM_001008925
+Coregulator,RCOR1,Corepressor for REST (RE1 silencing transcription factor),REST corepressor 1,ENSG00000089902,23186,Q9UKL0,NM_015156
+Coregulator,RELA,v-rel reticuloendotheliosis viral oncogene homolog A,"RELA proto-oncogene, NF-kB subunit",ENSG00000173039,5970,Q04206,NM_001145138
+Coregulator,RERE,Atrophin,arginine-glutamic acid dipeptide repeats,ENSG00000142599,473,A0A024R4E9,NM_001042681
+Coregulator,RNF4,Small nuclear RING finger protein,ring finger protein 4,ENSG00000063978,6047,P78317,NM_001185009
+Coregulator,RNF8,RING finger protein 8,ring finger protein 8,ENSG00000112130,9025,O76064,NM_003958
+Coregulator,RPL7,Ribosomal protein L7 / switch protein for antagonists,ribosomal protein L7,ENSG00000147604,6129,P18124,NM_000971
+Coregulator,RPL7A,Thyroid receptor uncoupling protein,ribosomal protein L7a,ENSG00000148303,6130,P62424,NM_000972
+Coregulator,RREB1,Ras-responsive element binding protein,ras responsive element binding protein 1,ENSG00000124782,6239,A0A024QZU8,NM_001003698
+Coregulator,SAFB,Scaffold attachment factor B,scaffold attachment factor B,ENSG00000160633,6294,Q15424,NM_001201338
+Coregulator,SAFB2,Scaffold attachment factor B2,scaffold attachment factor B2,ENSG00000130254,9667,Q14151,NM_014649
+Coregulator,SAP30,"Sin3-associated polypeptide, 30kDa",Sin3A associated protein 30,ENSG00000164105,8819,O75446,NM_003864
+Coregulator,SART3,Tat-interacting protein of 110 kDa,"spliceosome associated factor 3, U4/U6 recycling protein",ENSG00000075856,9733,Q15020,NM_014706
+Coregulator,SCAND1,PPARgamma coactivator 2,SCAN domain containing 1,ENSG00000171222,51282,P57086,NM_016558
+Coregulator,SENP1,SUMO1/sentrin specific protease 1,SUMO specific peptidase 1,ENSG00000079387,29843,Q6N001,NM_001267594
+Coregulator,SET,Template-activating factor Ibeta,SET nuclear proto-oncogene,ENSG00000119335,6418,Q01105,NM_001122821
+Coregulator,SF3A1,"Splicing factor 3a, subunit 1, 120kDa",splicing factor 3a subunit 1,ENSG00000099995,10291,A0A024R1K8,NM_001005409
+Coregulator,SFPQ,Polypyrimidine tract-binding protein-associated splicing factor,splicing factor proline and glutamine rich,ENSG00000116560,6421,P23246,NM_005066
+Coregulator,SIN3A,"SIN3 homolog A, transcriptional regulator (yeast)",SIN3 transcription regulator family member A,ENSG00000169375,25942,Q96ST3,NM_001145357
+Coregulator,SIN3B,"SIN3 homolog B, transcriptional regulator (yeast)",SIN3 transcription regulator family member B,ENSG00000127511,23309,O75182,NM_001297595
+Coregulator,SIRT1,Sirtuin 1,sirtuin 1,ENSG00000096717,23411,A8K128,NM_001142498
+Coregulator,SIX3,Sine oculis homeobox homolog 3 (Drosophila),SIX homeobox 3,ENSG00000138083,6496,O95343,NM_005413
+Coregulator,SLC30A9,GRIP1-associated coactivator 63,solute carrier family 30 member 9,ENSG00000014824,10463,A0A0S2Z514,NM_006345
+Coregulator,SLIRP,SRA stem-loop interacting RNA binding protein,SRA stem-loop interacting RNA binding protein,ENSG00000119705,81892,Q9GZT3,NM_001267863
+Coregulator,SMAD3,"SMAD, mothers against decapentaplegic homolog 3 (Drosophila)",SMAD family member 3,ENSG00000166949,4088,P84022,NM_001145102
+Coregulator,SMAD4,"SMAD, mothers against decapentaplegic homolog 4",SMAD family member 4,ENSG00000141646,4089,A0A024R274,NM_005359
+Coregulator,SMARCA2,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 2","SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 2",ENSG00000080503,6595,B4DSC8,NM_001289396
+Coregulator,SMARCA4,Brahma-related gene 1,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4",ENSG00000127616,6597,A7E2E1,NM_001128844
+Coregulator,SMARCD3,"BRG1/Brm-associated factor of 60 kDa, subunit c1","SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 3",ENSG00000082014,6604,Q6STE5,NM_001003801
+Coregulator,SMARCE1,BRG1-associated factor-1,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily e, member 1",ENSG00000073584,6605,A0A024R1S7,NM_003079
+Coregulator,Smrter,SMRT-related ecdysone receptor-interacting factor,NA,NA,NA,NA,NA
+Coregulator,SNW1,SKI interacting protein,SNW domain containing 1,ENSG00000100603,22938,G3V3A4,NM_001318844
+Coregulator,SOD1,Superoxide dismutase 1,superoxide dismutase 1,ENSG00000142168,6647,P00441,NM_000454
+Coregulator,SORBS3,Vinexin-beta,sorbin and SH3 domain containing 3,ENSG00000120896,10174,O60504,NM_001018003
+Coregulator,SOX3,Sex determining region Y,SRY-box 3,ENSG00000134595,6658,P41225,NM_005634
+Coregulator,SPDEF,Prostate-derived Ets factor,SAM pointed domain containing ETS transcription factor,ENSG00000124664,25803,O95238,NM_001252294
+Coregulator,SPEN,SMRT/HDAC1 associated repressor protein,spen family transcriptional repressor,ENSG00000065526,23013,Q96T58,NM_015001
+Coregulator,SQSTM1,Orphan receptor coactivator,sequestosome 1,ENSG00000161011,8878,Q13501,NM_001142298
+Coregulator,SRA1,Steroid receptor RNA activator 1,steroid receptor RNA activator 1,ENSG00000213523,10011,Q9HD15,NM_001035235
+Coregulator,SS18,Synovial sarcoma translocation,"SS18, nBAF chromatin remodeling complex subunit",ENSG00000141380,6760,A0A024RC40,NM_001007559
+Coregulator,STAT3,Signal transducer and activator of transcription 3 (acute-phase response factor),signal transducer and activator of transcription 3,ENSG00000168610,6774,P40763,NM_003150
+Coregulator,SUB1,Positive Cofactor 4,"SUB1 homolog, transcriptional regulator",ENSG00000113387,10923,P53999,NM_006713
+Coregulator,SUMO1,SMT3 suppressor of mif two 3 homolog 1 (yeast),small ubiquitin-like modifier 1,ENSG00000116030,7341,A0A024R3Z2,NM_001005781
+Coregulator,SUPT6H,Suppressor of Ty 6 homolog (S. cerevisiae),"SPT6 homolog, histone chaperone",ENSG00000109111,6830,Q7KZ85,NM_001320755
+Coregulator,TADA2A,Alteration/deficiency in activation protein 2,transcriptional adaptor 2A,ENSG00000276234,6871,A0A024R0Y4,NM_001166105
+Coregulator,TADA3,Alteration/deficiency in activation protein 3,transcriptional adaptor 3,ENSG00000171148,10474,A8K899,NM_001278270
+Coregulator,TAFII30,"TAF10 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 30kDa",NA,NA,NA,NA,NA
+Coregulator,TAGLN,Transgelin,transgelin,ENSG00000149591,6876,Q01995,NM_001001522
+Coregulator,TBL1X,Transducin (beta)-like 1X-linked,transducin beta like 1 X-linked,ENSG00000101849,6907,A0A024RBV9,NM_001139466
+Coregulator,TBL1XR1,Nuclear receptor co-repressor/HDAC3 complex subunit TBLR1,transducin beta like 1 X-linked receptor 1,ENSG00000177565,79718,Q9BZK7,NM_001321193
+Coregulator,TBP,TATA box binding protein,TATA-box binding protein,ENSG00000112592,6908,P20226,NM_001172085
+Coregulator,TCF20,Stromelysin-1 platelet-derived growth factor-responsive element binding protein,transcription factor 20,ENSG00000100207,6942,Q9UGU0,NM_005650
+Coregulator,TCF21,Podocytes-expressed-1 (visceral glomerular epithelial cells),transcription factor 21,ENSG00000118526,6943,O43680,NM_003206
+Coregulator,TDG,Thymine-DNA glycosylase,thymine DNA glycosylase,ENSG00000139372,6996,B4E127,NM_001008411
+Coregulator,TGFB1I1,Androgen receptor associated protein-55,transforming growth factor beta 1 induced transcript 1,ENSG00000140682,7041,O43294,NM_001042454
+Coregulator,TGIF1,"TGFB-induced factor (TALE family homeobox), 5'-TG-3' interacting factor",TGFB induced factor homeobox 1,ENSG00000177426,7050,Q15583,NM_001278682
+Coregulator,TGS1,PRIP-interacting protein with methyltransferase domain,trimethylguanosine synthase 1,ENSG00000137574,96764,Q96RS0,NM_001317902
+Coregulator,TLE1,Transducin-like enhancer of split 1,transducin like enhancer of split 1,ENSG00000196781,7088,Q04724,NM_001303103
+Coregulator,TMF1,Androgen receptor associated protein-160,TATA element modulatory factor 1,ENSG00000144747,7110,A0A024R370,NM_001363879
+Coregulator,TP53,p53,tumor protein p53,ENSG00000141510,7157,K7PPA8,NM_000546
+Coregulator,TRERF1,Transcriptional regulating protein of 132 kDa,transcriptional regulating factor 1,ENSG00000124496,55809,Q05GC8,NM_001297573
+Coregulator,TRIM24,Transcriptional intermediary factor 1,tripartite motif containing 24,ENSG00000122779,8805,A0A024R784,NM_003852
+Coregulator,TRIM25,Estrogen-responsive finger protein,tripartite motif containing 25,ENSG00000121060,7706,Q14258,NM_005082
+Coregulator,TRIM28,Tripartite motif-containing 28,tripartite motif containing 28,ENSG00000130726,10155,Q13263,NM_005762
+Coregulator,TRIP10,Thyroid hormone receptor interactor 10,thyroid hormone receptor interactor 10,ENSG00000125733,9322,Q15642,NM_001288962
+Coregulator,TRIP11,Thyroid hormone receptor-interacting protein 230,thyroid hormone receptor interactor 11,ENSG00000100815,9321,Q15643,NM_001321851
+Coregulator,TRIP12,Thyroid hormone receptor interactor 12,thyroid hormone receptor interactor 12,ENSG00000153827,9320,Q14669,NM_001284214
+Coregulator,TRIP13,Thyroid hormone receptor interactor 13,thyroid hormone receptor interactor 13,ENSG00000071539,9319,Q15645,NM_001166260
+Coregulator,TRIP4,Activating signal cointegrator 1,thyroid hormone receptor interactor 4,ENSG00000103671,9325,Q15650,NM_001321924
+Coregulator,TRIP6,Thyroid hormone receptor interactor 6,thyroid hormone receptor interactor 6,ENSG00000087077,7205,Q15654,NM_003302
+Coregulator,TRIP7,Hhigh mobility group nucleosomal binding domain 3,NA,NA,NA,NA,NA
+Coregulator,TRRAP,Transformation/transcription domain-associated protein,transformation/transcription domain associated protein,ENSG00000196367,8295,Q9Y4A5,NM_001244580
+Coregulator,TSC2,Tuberous sclerosis 2,TSC complex subunit 2,ENSG00000103197,7249,P49815,NM_000548
+Coregulator,TSG101,Tumor susceptibility gene 101,tumor susceptibility 101,ENSG00000074319,7251,Q99816,NM_006292
+Coregulator,TSN,Translin,translin,ENSG00000211460,7247,B3KRM8,NM_001261401
+Coregulator,TSNAX,Translin-associated factor X,translin associated factor X,ENSG00000116918,7257,A0A024R3V8,NM_005999
+Coregulator,TTLL5,SRC-1 and TIF2-associated modulatory protein,tubulin tyrosine ligase like 5,ENSG00000119685,23093,Q6EMB2,NM_015072
+Coregulator,TXN,Thioredoxin,thioredoxin,ENSG00000136810,7295,P10599,NM_001244938
+Coregulator,TXNRD2,Thioredoxin reductase 2,thioredoxin reductase 2,ENSG00000184470,10587,E7EWK1,NM_001282512
+Coregulator,UBA3,"Ubiquitin-activating enzyme E1C (UBA3 homolog, yeast)",ubiquitin like modifier activating enzyme 3,ENSG00000144744,9039,Q8TBC4,NM_001363861
+Coregulator,UBE2I,"Ubiquitin-conjugating enzyme E2I (UBC9 homolog, yeast)",ubiquitin conjugating enzyme E2 I,ENSG00000103275,7329,A8K503,NM_003345
+Coregulator,UBE2L3,Ubiquitin-conjugating enzyme UBCH7,ubiquitin conjugating enzyme E2 L3,ENSG00000185651,7332,P68036,NM_001256355
+Coregulator,UBE3A,E6-associated protein,ubiquitin protein ligase E3A,ENSG00000114062,7337,Q05086,NM_000462
+Coregulator,UBR5,E3 isolated by differential display,ubiquitin protein ligase E3 component n-recognin 5,ENSG00000104517,51366,O95071,NM_001282873
+Coregulator,UIMC1,Receptor-associated protein 80,ubiquitin interaction motif containing 1,ENSG00000087206,51720,A0A024R7R0,NM_001199297
+Coregulator,UNC45A,unc-45 homolog A (C. elegans),unc-45 myosin chaperone A,ENSG00000140553,55898,Q9H3U1,NM_001039675
+Coregulator,USP22,Ubiquitin specific peptidase 22,ubiquitin specific peptidase 22,ENSG00000124422,23326,Q9UPT9,NM_015276
+Coregulator,UXT,Androgen receptor trapped clone-27,ubiquitously expressed prefoldin like chaperone,ENSG00000126756,8409,Q9UBK9,NM_004182
+Coregulator,VAV3,Vav 3 oncogene,vav guanine nucleotide exchange factor 3,ENSG00000134215,10451,Q9UKW4,NM_001079874
+Coregulator,WBP2,WW domain binding protein-2,WW domain binding protein 2,ENSG00000132471,23558,Q969T9,NM_001330499
+Coregulator,WDR77,AR-interacting protein 44 kDa,WD repeat domain 77,ENSG00000116455,79084,Q9BQA1,NM_001317062
+Coregulator,XAP2,Hepatitis virus B X-associated protein 2,NA,NA,NA,NA,NA
+Coregulator,XRCC5,80-kD subunit of the Ku heterodimer protein,X-ray repair cross complementing 5,ENSG00000079246,7520,P13010,NM_021141
+Coregulator,XRCC6,70-kD subunit of the Ku heterodimer protein,X-ray repair cross complementing 6,ENSG00000196419,2547,A0A024R1N4,NM_001288976
+Coregulator,YWHAH,"Tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide",tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein eta,ENSG00000128245,7533,A0A024R1K7,NM_003405
+Coregulator,ZMIZ1,"Zinc finger-containing, Miz1, PIAS-like protein on chromosome 10",zinc finger MIZ-type containing 1,ENSG00000108175,57178,A0JLS3,NM_020338
+Coregulator,ZMIZ2,"Zinc finger-containing, Miz1, PIAS-like protein on chromosome 7",zinc finger MIZ-type containing 2,ENSG00000122515,83637,Q8NF64,NM_001300959
+Coregulator,ZNF318,Testicular zinc finger protein,zinc finger protein 318,ENSG00000171467,24149,Q5VUA4,NM_014345
+Coregulator,ZNF335,NRC-interacting factor 1,zinc finger protein 335,ENSG00000198026,63925,Q8IW09,NM_022095
+Coregulator,ZNF366,Zinc finger protein 366,zinc finger protein 366,ENSG00000178175,167465,Q8N895,NM_152625
+Coregulator,ZNF461,Gonadotropin-inducible ovarian transcription factor-1,zinc finger protein 461,ENSG00000197808,92283,B4DRP8,NM_001297623
+Coregulator,ZNF653,Zinkfinger protein 67 kDa,zinc finger protein 653,ENSG00000161914,115950,Q96CK0,NM_138783
+Coregulator,ZNHIT3,Thyroid hormone receptor interactor 3,zinc finger HIT-type containing 3,ENSG00000273611,9326,Q15649,NM_001033577

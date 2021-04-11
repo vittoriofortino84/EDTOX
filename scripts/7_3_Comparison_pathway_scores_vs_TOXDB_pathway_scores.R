@@ -109,7 +109,7 @@ newgetid<-function (query, language = "en", match = c("best", "first",
   }    # added to the main code from webchem package
 }
 
-toxdb<-read.csv('inputData/tox2db.csv') # Toxdb:  γ-linolenate biosynthesis pathway
+toxdb<-read.csv('inputData/tox2db.csv') # Toxdb:  γ-linolenate biosynthesis pathway as an instance to retrieve compounds ids
 comps<-unique(toxdb$drug)
 ids<-rep(NA,length(comps))
 for(i in 1:length(comps)){  #getting the id for each compound and saving them in ids 
@@ -126,7 +126,7 @@ save(toxdb,file='inputData/ToxDB/annotation_toxdb_dictionary.RData')
 
 
 
-# 2. Intergating with toxdb -----------------------------------------------
+# 2. Intergating our pathways NES scors with toxdb pathway scores -----------------------------------------------
 
 
 load("outputData/class_probilities/integrated_fgsea_allcompounds_results_final_moa.RData");fgs<-fgs[c(1:7,11:15)] #our predicted pathway scores RWR-FGSEA
@@ -254,99 +254,3 @@ for (i in 1:length(layers_name)){
 }
 Reduce('intersect',cmp)
 
-
-
-##### OLD wrong approach for ToxDB
-
-# 1.harmonic edc_score VS toxdb scores -------------------------------------------------------------
-
-# 
-# source('functions/annotation_functions.R')
-# load("outputData/ids_toxdb.RData")     #output of the above code
-# load("outputData/VAM_scores_hs_most_informative_layers_moa.RData") 
-# vam_ctd<-as.data.frame(all_VAM_score)
-# vam_ctd$cas<-mesh2cas(names(all_VAM_score))
-# colnames(vam_ctd)<-c('VAM_score','cas')
-# all_scores<-merge(vam_ctd,toxdb)
-# library(ggplot2)
-# library(ggrepel)
-# 
-# all_scores$dose=gsub(x = all_scores$dose,pattern = '[?]',replacement = '')
-# all_scores = all_scores[-which(all_scores$celltype == "heart" | all_scores$celltype == "kidney" | all_scores$celltype == "muscle"), 
-#           c("drug","VAM_score","score","study","celltype","time","dose")]
-# all_scores = all_scores[grep("d",all_scores$time),]
-# all_scores = all_scores[-grep("4 d",all_scores$time),];all_scores = all_scores[-grep("7 d",all_scores$time),]
-# all_scores$time = droplevels(all_scores$time)
-# all_scores$drug = paste(all_scores$drug, all_scores$study, all_scores$celltype, all_scores$time, all_scores$dose,sep="_")
-# all_scores$time = as.numeric(gsub(all_scores$time,pattern=" d",replacement=""))
-# write.csv(all_scores,file = 'outputData/excel_files/toxdb_harmonic_vam_moa.csv')
-# vam_gp = all_scores; vam_gp$drug[which(vam_gp$VAM_score < 0.75 | vam_gp$score < 3)] = ""
-# vam_gp$lbl<-rep("grey50",nrow(vam_gp))
-# vam_gp$lbl[which(vam_gp$VAM_score > 0.75 & vam_gp$score > 3)] = "blue"
-# names(vam_gp)[3]<-'TOXDB_score'
-# vam_gp$drug=gsub(x = vam_gp$drug,pattern = '_TG-GATEs_|_DrugMatrix_',replacement = '_')
-# vam_gp$drug=gsub(x = vam_gp$drug,pattern = '_TG-GATEs_|_DrugMatrix_',replacement = '_')
-# vam_gp$drug=gsub(x = vam_gp$drug,pattern = 'inVivo',replacement = 'VV_')
-# vam_gp$drug=gsub(x = vam_gp$drug,pattern = 'inVitro',replacement = 'VT_')
-# vam_gp$drug=gsub(x = vam_gp$drug,pattern = 'hepatocyte',replacement = 'HP')
-# vam_gp$drug=gsub(x = vam_gp$drug,pattern = 'RepeatDose',replacement = 'RD')
-# vam_gp$drug=gsub(x = vam_gp$drug,pattern = 'Rat',replacement = 'Ra')
-# vam_gp$drug=gsub(x = vam_gp$drug,pattern = 'Liver',replacement = 'Li')
-# ggplot(vam_gp, aes(x=VAM_score, y=TOXDB_score)) +
-#   geom_point(aes(shape=factor(time),size=factor(time)), color=vam_gp$lbl,alpha = 0.7) + 
-#   scale_size_manual(name='Time (Day)',values = seq(2,3.5,by=0.25)) +
-#   scale_shape_manual(name='Time (Day)',values=c(17,25,18,24,16,15))+
-#   geom_text_repel(aes(label = drug), size = 2, segment.size = 0.2, segment.color = "grey") +
-#   facet_wrap( ~study, nrow  = 2)+
-#   ggtitle('Harmonic Sum EDC score VS TOXDB scores')+xlab('Harmonic EDC score')+ylab('TOXDB score')+
-#   theme_minimal()
-# 
-# 
-# 
-# # 2.average EDC_scores VS toxdb scores---------------------------------------------------------------
-# 
-# 
-# 
-# source('functions/annotation_functions.R')
-# load("outputData/ids_toxdb.RData")     #output of the script 1_5
-# load("outputData/VAM_scores_average_most_informative_layers_moa.RData") 
-# vam_ctd<-as.data.frame(all_VAM_score)
-# vam_ctd$cas<-mesh2cas(names(all_VAM_score))
-# colnames(vam_ctd)<-c('VAM_score','cas')
-# all_scores<-merge(vam_ctd,toxdb)
-# library(ggplot2)
-# library(ggrepel)
-# 
-# all_scores$dose=gsub(x = all_scores$dose,pattern = '[?]',replacement = '')
-# all_scores = all_scores[-which(all_scores$celltype == "heart" | all_scores$celltype == "kidney" | all_scores$celltype == "muscle"), 
-#                         c("drug","VAM_score","score","study","celltype","time","dose")]
-# all_scores = all_scores[grep("d",all_scores$time),]
-# all_scores = all_scores[-grep("4 d",all_scores$time),];all_scores = all_scores[-grep("7 d",all_scores$time),]
-# all_scores$time = droplevels(all_scores$time)
-# all_scores$drug = paste(all_scores$drug, all_scores$study, all_scores$celltype, all_scores$time, all_scores$dose,sep="_")
-# all_scores$time = as.numeric(gsub(all_scores$time,pattern=" d",replacement=""))
-# write.csv(all_scores,file = 'outputData/excel_files/toxdb_average_vam_moa.csv')
-# vam_gp = all_scores; vam_gp$drug[which(vam_gp$VAM_score < 0.75 | vam_gp$score < 3.5)] = ""
-# vam_gp$lbl<-rep("grey50",nrow(vam_gp))
-# vam_gp$lbl[which(vam_gp$VAM_score > 0.75 & vam_gp$score > 3.5)] = "blue"
-# names(vam_gp)[3]<-'TOXDB_score'
-# vam_gp$drug=gsub(x = vam_gp$drug,pattern = '_TG-GATEs_|_DrugMatrix_',replacement = '_')
-# vam_gp$drug=gsub(x = vam_gp$drug,pattern = '_TG-GATEs_|_DrugMatrix_',replacement = '_')
-# #vam_gp$drug=gsub(x = vam_gp$drug,pattern = 'inVivo',replacement = '')
-# #vam_gp$drug=gsub(x = vam_gp$drug,pattern = 'inVitro',replacement = '')
-# #vam_gp$drug=gsub(x = vam_gp$drug,pattern = 'hepatocyte',replacement = '')
-# vam_gp$drug=gsub(x = vam_gp$drug,pattern = 'RepeatDose',replacement = '')
-# vam_gp$drug=gsub(x = vam_gp$drug,pattern = 'Rat',replacement = '')
-# #vam_gp$drug=gsub(x = vam_gp$drug,pattern = 'Liver',replacement = '')
-# ggplot(vam_gp, aes(x=VAM_score, y=TOXDB_score),size=1) +
-#   #geom_point(aes(shape=factor(time)), color=vam_gp$lbl,alpha = 0.7) + 
-#   geom_point(aes(color=factor(time)))+
-#   labs(color='Time (day)')+
-#   scale_size_manual(name='Time (Day)',values = seq(2,3.5,by=0.25)) +
-#   scale_shape_manual(name='Time (Day)',values=c(17,25,18,24,16,15))+
-#   geom_text_repel(aes(label = drug), size = 4, segment.size = 0.2, segment.color = "grey") +
-#   facet_wrap( ~study, nrow  = 2)+
-#   ggtitle('Average EDC score VS TOXDB scores')+xlab('Average EDC score')+ylab('TOXDB score')+
-#   theme_minimal()+ theme(axis.title.x = element_text(size = 20),axis.title = element_text(size = 20),
-#                          strip.text = element_text(size = 20))
-# 
