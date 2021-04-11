@@ -234,6 +234,11 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**|list of ANOVA results between F1-scores and the boxplot of F1-scores|
 |**Dependencies**|ggplot2|
 |**Summary**|The F1 scores of the k-fold-cross validation will be compared using ANOVA. Boxplot will be used to represent the obtained F1 scors across all GLM models.|
+<br/>
+<br/>
+<br/>
+
+### 6. Univariate analysis and integration with GLM results 
 
 |**R Script**|[Integration_of_coefficients_stabilties_NES_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/5_6_Integration_of_coefficients_stabilties_NES_scores.R)| 
 | ------------- |--------------|
@@ -252,7 +257,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 <br/>
 <br/>
 
-### 6. Prediction of EDC class probilities for 12k compounds in CTD and compiling of EDC scores
+### 7. Prediction of EDC class probilities for 12k compounds in CTD and compiling of EDC scores
 
 |**R Script**|[prediction_all_compounds_class_probilities.R](https://github.com/amir1715/EDTOX/blob/master/scripts/6_1_prediction_all_compounds_class_probilities.R)|
 | ------------- |--------------|
