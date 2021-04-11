@@ -275,6 +275,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**|vectors of harmonic scores and average scores for 12K compounds in CTD|
 |**Dependencies**|ggplot2, ggrepel|
 |**Summary**|Average EDC score is defined as the average of class probabilties across selected networks for each compound.Harmonic EDC score is defined as the harmonic sum class probabilties across selected networks for each compound.|
+
 <br/>
 <br/>
 <br/>
