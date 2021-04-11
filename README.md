@@ -387,9 +387,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |**R Script**|[chem2disease_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_2_chem2disease_CTD.R)| 
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|http://ctdbase.org/reports/CTD_chemicals_diseases.csv.gz, output of the script  [EDC_Decoy_selection.R](https://github.com/amir1715/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R),  |
+|**Output**|A binary matrix of chemicals and diseases with 1 representing the association of a disease and the chemical|
+|**Dependencies**|Xlsx|
 |**Summary**|Compiling a binary matrix from chem-disease associations in CTD. The rows of the matrix are the compound names and the columns are the disease names. The compound disease associations are represented by 1 in the matrix.|
 
 
