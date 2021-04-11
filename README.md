@@ -403,7 +403,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 
 
-### 2. Training elastic-net GLM classifier for the metabolic syndrome, diabetes type2 and atherosclerosis with EDCs 
+### 2. Training elastic-net GLM classifier for the metabolic syndrome, diabetes type2 and atherosclerosis 
 |**R Script** |[metabolic_syndrome_two_class_traning_models_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_4_1_metabolic_syndrome_two_class_traning_models_glm.R) |
 | ------------- |--------------|
 |**Input**|Output of the script [preparation_two_class_training_set_by_disease_name.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_3_preparation_two_class_training_set_by_disease_name.R) |
@@ -428,23 +428,23 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |**R Script**| [kfold_CV_two_class_metabolic_syndrome_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_5_1_kfold_CV_two_class_metabolic_syndrome_glm.R)|
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|Output of the script [preparation_two_class_training_set_by_disease_name.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_3_preparation_two_class_training_set_by_disease_name.R) |
+|**Output**|List of accuaracy metrics for the classification task for each data layer|
+|**Dependencies**|caret, doParallel|
 |**Summary**|Performing K-fold-Cross validation on models of metabolic syndrome for all 15 data layers|
 
 |**R Script** |[kfold_CV_two_class_artherosclerosis_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_5_2_kfold_CV_two_class_artherosclerosis_glm.R) |
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|Output of the script [preparation_two_class_training_set_by_disease_name.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_3_preparation_two_class_training_set_by_disease_name.R) |
+|**Output**|List of accuaracy metrics for the classification task for each data layer|
+|**Dependencies**|caret, doParallel|
 |**Summary**|Performing K-fold-Cross validation on models of atherosclerosis for all 15 data layers|
 
 |**R Script** |[kfold_CV_two_class_diabetes_2_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_5_3_kfold_CV_two_class_diabetes_2_glm.R) |
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|Output of the script [preparation_two_class_training_set_by_disease_name.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_3_preparation_two_class_training_set_by_disease_name.R) |
+|**Output**|List of accuaracy metrics for the classification task for each data layer|
+|**Dependencies**|caret, doParallel|
 |**Summary**|Performing K-fold-Cross validation on models of diabetes type 2 for all 15 data layers|
 
 |**R Script** |[comparison_CV_F1_scores_all_layers_ANOVA_metabolic_syndrome.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_6_1_comparison_CV_F1_scores_all_layers_ANOVA_metabolic_syndrome.R) |
