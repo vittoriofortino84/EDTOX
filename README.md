@@ -449,23 +449,23 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |**R Script** |[comparison_CV_F1_scores_all_layers_ANOVA_metabolic_syndrome.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_6_1_comparison_CV_F1_scores_all_layers_ANOVA_metabolic_syndrome.R) |
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|Output of the script [kfold_CV_two_class_metabolic_syndrome_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_5_1_kfold_CV_two_class_metabolic_syndrome_glm.R) |
+|**Output**|A list of ANOVA results between different data layers and boxplot representation|
+|**Dependencies**|plotly, dplyr, ggplot2|
 |**Summary**| The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for metabolic syndrome.Boxplot will be used to represent the obtained F1 scors across all GLM models for metabolic syndrome.|
 
 |**R Script**|[comparison_CV_F1_scores_all_layers_ANOVA_atherosclerosis.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_6_2_comparison_CV_F1_scores_all_layers_ANOVA_atherosclerosis.R) |
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|Output of the script [kfold_CV_two_class_artherosclerosis_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_5_2_kfold_CV_two_class_artherosclerosis_glm.R)|
+|**Output**|A list of ANOVA results between different data layers and boxplot representation|
+|**Dependencies**|plotly, dplyr, ggplot2|
 |**Summary**|The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for atherosclerosis. Boxplot will be used to represent the obtained F1 scors across all GLM models for atherosclerosis.|
 
 |**R Script** |[comparison_CV_F1_scores_all_layers_ANOVA_diabetes.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_6_3_comparison_CV_F1_scores_all_layers_ANOVA_diabetes.R)  |
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|Output of the script [kfold_CV_two_class_diabetes_2_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_5_3_kfold_CV_two_class_diabetes_2_glm.R)|
+|**Output**|A list of ANOVA results between different data layers and boxplot representation|
+|**Dependencies**|plotly, dplyr, ggplot2|
 |**Summary**|The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for diabetes type 2. Boxplot will be used to represent the obtained F1 scors across all GLM models for diyabetes type 2.|
 
 
