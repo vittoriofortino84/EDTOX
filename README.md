@@ -472,11 +472,10 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**|A list of ANOVA results between different data layers and boxplot representation|
 |**Dependencies**|plotly, dplyr, ggplot2|
 |**Summary**|The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for diabetes type 2. Boxplot will be used to represent the obtained F1 scors across all GLM models for diyabetes type 2.|
+<br/>
+<br/>
+<br/>
 
-
-<br/>
-<br/>
-<br/>
 ### 3. Univariate analysis and integration with GLM resutls
 |**R Script** |[Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_7_1_Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R) |
 | ------------- |--------------|
