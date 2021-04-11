@@ -405,7 +405,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**|A list object with training x data and y vector for each data layer|
 |**Dependencies**|No dependencies|
 |**Summary**|Preparation of training set (NES scores and class labels) for atherosclerosis, metabolic syndrome and diabetes type 2|
-
+<br/>
+<br/>
+<br/>
 
 
 ### 2. Training elastic-net GLM classifier for the metabolic syndrome, diabetes type2 and atherosclerosis 
@@ -505,7 +507,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**|Bubble plot for each disease across all data layers representing the pathways and their coeffeicients|
 |**Dependencies**|ggplot2, ggarrange|
 |**Summary**|The map of pathway activation scores and GLM coefficient for each pathway and network will be represented as bubble plots for the three diseases metabolic syndrome, atherosclerosis and diabetes type 2. The generated plots can be used to indicate the putative pathways linking EDCs to adverse outcome.|
-
+<br/>
+<br/>
+<br/>
 
 
 ### 4. Compiling disease scores for EDCs 
