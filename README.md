@@ -402,9 +402,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Summary**|Preparation of training set (NES scores and class labels) for atherosclerosis, metabolic syndrome and diabetes type 2|
 
 
-<br/>
-<br/>
-<br/>
+
 ### 2. Training elastic-net GLM classifier for the metabolic syndrome, diabetes type2 and atherosclerosis with EDCs 
 |**R Script** |[metabolic_syndrome_two_class_traning_models_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_4_1_metabolic_syndrome_two_class_traning_models_glm.R) |
 | ------------- |--------------|
