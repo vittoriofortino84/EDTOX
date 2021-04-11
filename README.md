@@ -469,6 +469,8 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Summary**|The F1 scores of the k-fold-cross validation will be compared using ANOVA across all 15 data layer for diabetes type 2. Boxplot will be used to represent the obtained F1 scors across all GLM models for diyabetes type 2.|
 
 
+
+### 3. Univariate analysis and integration with GLM classifier 
 |**R Script** |[Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_7_1_Integration_of_glm_coefs_stabilities_NES_ROC_metabolic_syndrome.R) |
 | ------------- |--------------|
 |**Input**|Output of the scripts [preparation_two_class_training_set_by_disease_name.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_3_preparation_two_class_training_set_by_disease_name.R), [kfold_CV_two_class_metabolic_syndrome_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_5_1_kfold_CV_two_class_metabolic_syndrome_glm.R), [metabolic_syndrome_two_class_traning_models_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_4_1_metabolic_syndrome_two_class_traning_models_glm.R)   |
@@ -498,6 +500,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Dependencies**||
 |**Summary**|The map of pathway activation scores and GLM coefficient for each pathway and network will be represented as bubble plots for the three diseases metabolic syndrome, atherosclerosis and diabetes type 2. The generated plots can be used to indicate the putative pathways linking EDCs to adverse outcome.|
 
+
+
+### 4. Compiling disease scores for EDCs 
 |**R Script** |[disease_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_9_disease_scores.R) |
 | ------------- |--------------|
 |**Input**||
