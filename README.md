@@ -112,8 +112,8 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |**R Script** |[LINCS_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_3_LINCS_wTO.R)
 | ------------- |--------------|
-|**Input**| LFCs and annottations for level 5  from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92742|
-||LFCs and annottations for level 5  from from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92742|
+|**Input**| LFCs and annottations for level 5 studies  from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92742 (phase I)|
+||LFCs and annottations for level 5 studies from from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92742 (phase II)|
 || journal.pcbi.1004847.s026.XLS from https://pubmed.ncbi.nlm.nih.gov/27028627/|
 |**Output**| 1 consensus gene network for LINCS from phase 1 and phase 2 studies|
 |**Dependencies** |cmapR, doParallel, wTO|
