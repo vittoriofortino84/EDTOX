@@ -522,9 +522,9 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 |**R Script**|[disease_scores_pie_chart.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_10_disease_scores_pie_chart.R) |
 | ------------- |--------------|
-|**Input**||
-|**Output**||
-|**Dependencies**||
+|**Input**|Output of the script [disease_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_9_disease_scores.R) |
+|**Output**|Piechart of disease scores|
+|**Dependencies**|ggplot2|
 |**Summary**|For each disease (metabolic syndrome, atherosclerosis and diabetes type 2) a pie chart will be depicted to reveal distribution of disease scores across 12k compounds in CTD.|
 
 
