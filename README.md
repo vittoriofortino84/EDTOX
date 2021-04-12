@@ -8,7 +8,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 
 ## Description of the Supplementary data Tables 
-|Suppl. Tab|Description|
+|Suppl. Table|Description|
 | ------------- |--------------|
 | Tab. 1 | List of ToxCast assay endpoints related to nuclear receptors|
 | Tab. 2 | Testing of proportions to identify ToxCast assay endpoints for the selection of EDCs.|
