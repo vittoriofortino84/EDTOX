@@ -512,7 +512,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 <br/>
 
 
-### 4. Compiling disease scores for EDCs 
+### 4. Compiling and validation of  disease scores for atherosclerosis, metabolic syndrome and diabetes type 2 
 |**R Script** |[disease_scores.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_9_disease_scores.R) |
 | ------------- |--------------|
 |**Input**|Output of the scripts [preparation_data_set_disease_biomarker.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_1_preparation_data_set_disease_biomarker.R), [chem2disease_CTD.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_2_chem2disease_CTD.R), [metabolic_syndrome_two_class_traning_models_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_4_1_metabolic_syndrome_two_class_traning_models_glm.R),  [artherosclerosis_two_class_training_models_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_4_2_artherosclerosis_two_class_training_models_glm.R), [diabetes_2_two_class_traning_models_glm.R](https://github.com/amir1715/EDTOX/blob/master/scripts/9_4_3_diabetes_2_two_class_traning_models_glm.R) |
@@ -528,9 +528,3 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Summary**|For each disease (metabolic syndrome, atherosclerosis and diabetes type 2) a pie chart will be depicted to reveal distribution of disease scores across 12k compounds in CTD.|
 
 
-|**R Script**|[validation_with_disease_score.R](https://github.com/amir1715/EDTOX/blob/master/scripts/8_2_validation_with_disease_score.R)|  
-| ------------- |--------------|
-|**Input**| |
-|**Output**| |
-|**Dependencies**| |
-|**Summary**|For each disease (atherosclerosis, diabetes type2 and metabolic syndrome) a disease score was developed as described in section 9. The disease scores for the known EDCs are represented for each disease as a heatmap plot. |
