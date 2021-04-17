@@ -280,7 +280,19 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Output**|vectors of harmonic scores and average scores for 12K compounds in CTD|
 |**Dependencies**|ggplot2, ggrepel|
 |**Summary**|Average EDC score is defined as the average of class probabilties across selected networks for each compound.Harmonic EDC score is defined as the harmonic sum class probabilties across selected networks for each compound.|
+<br/>
+<br/>
+<br/>
 
+
+### 8. Prediction of EDC class probilities and EDC scores for a new compound using its MIEs
+
+|**R Script**|[edc_score_new_comps.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/edc_score_new_comps.R)|
+| ------------- |--------------|
+|**Input**|A list of compounds and their corresponding MIEs |
+|**Output**|Class probability of a compound to be EDC for each data layer|
+|**Dependencies**| caret, fgsea, dnet, igraph|
+|**Summary**| The MIEs of the compounds will be used as seeds to start random walk with restart and enrichment analysis on  different networks. The resulting pathway scores will be used to calculate the EDC scores and the class probabilities for the compounds. |
 <br/>
 <br/>
 <br/>
