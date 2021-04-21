@@ -211,14 +211,14 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 <br/>
 <br/>
 
-### 6. Univariate analysis and integration with GLM results 
+### 6. Selection of the most informative pathways by using the coeffient estimates and ROC analysis based on individual pathways.
 
 |**R Script**|[Integration_of_coefficients_stabilties_NES_scores.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/5_6_Integration_of_coefficients_stabilties_NES_scores.R)| 
 | ------------- |--------------|
 |**Input**|The outputs of the scripts [k_fold_cross_validation.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/5_4_k_fold_cross_validation.R), [glm_modeling.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/5_3_glm_modeling.R), [Preparation_of_training_datasets.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/5_2_Preparation_of_training_datasets.R), [manual_curation_of_pathways_as_features.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/5_1_manual_curation_of_pathways_as_features.R) |
 |**Output**|CSV and excel files with GLM coefs, ROC-AUCS, mean NES scores for each pathway and each network |
 |**Dependencies**|PRROC|
-|**Summary**|For each network, ROC analysis will be used as a univariate method to evaluate the NES scores for each pathway for EDCs and decoys.The NES scores, glm coefficients ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).|
+|**Summary**|ROC analysis was used to verify whether single pathways, which are selected by the elastic-net process, can distinguish alone EDCs from decoys. The NES scores, elastic-net coefficients, ROC-AUCs, average of NES scores will be integrated across all data layers (suppl. data).|
 
 |**R Script**|[NES_bubble_plot_MOA.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/5_7_NES_bubble_plot_MOA.R)| 
 | ------------- |--------------|
@@ -230,7 +230,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 <br/>
 <br/>
 
-### 7. Prediction of EDC class probilities for 12k compounds in CTD and compiling of EDC scores
+### 7. Compiling EDC class probilities for 12k compounds annotated in CTD 
 
 |**R Script**|[prediction_all_compounds_class_probilities.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/6_1_prediction_all_compounds_class_probilities.R)|
 | ------------- |--------------|
