@@ -6,31 +6,6 @@ Please click the follwoing link to download the [Supplementary Data Tables](http
  
 Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levonen and Vittorio Fortino\* (\*Corresponding author)*
 
-
-## Description of the Supplementary data Tables 
-|Suppl. Table|Description|
-| ------------- |--------------|
-| Tab. 1 | List of ToxCast assay endpoints related to nuclear receptors|
-| Tab. 2 | Testing of proportions to identify ToxCast assay endpoints for the selection of EDCs.|
-| Tab. 3 | The result of ANOVA and Tukey post hoc tests for the comparison of test accuracy scores of EDC-based classifiers.
-| Tab. 4 | Predicted EDC probability scores for more than 10K compounds annotated in CTD.|
-| Tab. 5 | Predicted EDC-Atherosclerosis scores for compounds annotated in CTD.|
-| Tab. 6 | Predicted EDC-Metabolic-Syndrome scores for compounds annotated in CTD.|
-| Tab. 7 | Predicted EDC-Type2-Diabetes scores for compounds annotated in CTD.|
-| Tab. 8 | List of relevant EDC-MIEs and related pathways.|
-| Tab. 9 | List of informative genes that are currently not annotated as EDC-MIEs in CTD.| 
-| Tab. 10 | Pathway activation scores generated for the classification between EDCs and decoys (or negative controls).|
-| Tab. 11 | Pathway activation scores generated for the classification of EDCs leading to Atherosclerosis.|
-| Tab. 12 | Pathway activation scores generated for the classification of EDCs leading to Metabolic Syndrome.|
-| Tab. 13 | Pathway activation scores generated for the classification of EDCs leading to Type2 Diabetes.|
-| Tab. 14 | Pathway selected based on AUC values greater than 0.7. |
-| Tab. 15 | ROC-curve-based analysis between EDC-class probabilities across different data layers and ToxCast assay endpoints.|
-| Tab. 16 | Predicted EDC scores for the compounds in DEDuCT.|
-| Tab. 17 | Predicted EDC scores for the compounds selected by domain experts.|
-| Tab. 18 | Comparison between predicted EDC scores and ToxPi scores.|
-| Tab. 19 | EDC Class probabilities of in vivo models with MIEs from in vitro ToxCast endpoints.|
-| Tab. 20 | Comparison between predicted EDC scores and ToxDB scores.|
-
 ## Description of the R scripts used in the pipeline
 # Part I: Development of EDC scores
 ### 1. Preparation of the MIES, pathways and training benchmark set 
@@ -41,7 +16,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 | |  http://ctdbase.org/reports/CTD_chemicals.csv.gz tested  for the release of june 2020|
 |**Output**| A list object for the chemical and their related MIEs (genes)|  
 | **Dependencies**| data.table, FactoMineR, factoextra|
-|**Summary**|Preparation of a binary data matrix for molecular initiating events (MIEs) from compound-gene interactions in CTD. The interactions subtypes related to metabolism were grouped as metabolism and the interaction types related to transport are grouped as transport. Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra. Selection of reaction,binding,activity,expression,metabolic processing as the more distant types of the interaction based on the plot of MCA. For the compounds with more than 50 gene interactions the less informative gene interactions will be removed.|
+|**Summary**|Preparation of a binary data matrix indicating molecular initiating events (MIEs) of compounds annotated in CTD. Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra to verify which are the most informative interaction types. Selection of five types of interactions: reaction, binding, activity, expression and metabolic processing. Less informative gene interactions of compounds with more than 50 gene were removed.|
 
 |**R Script**| [Pathways_Download.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_2_Pathways_Download.R)
 | ------------- |--------------|
@@ -52,7 +27,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 || https://reactome.org/download/current/miRBase2Reactome_PE_All_Levels.txt|
 |**Output**| List objects for pathways related to KEGG, wiki, Reactome and msigdb|
 |**Dependencies**| XML, GO.db, org.Hs.eg.db, GSA, msigdbr, rWikiPathways, magrittr, rjson, data.table|
-|**Summary**|Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI with the size of less than 200 will be retrieved. A binary dictionary to link the GO terms with Wiki-AOPs will be generated.The classifications tags for the pathways related to KEGG and REACTOME pathways will be downloaded and preprocessed for enrichment analysis.|
+|**Summary**| Pathways related to KEGG, REACTOME,MSIGDB, GO and WIKI with havin less than 200 genes were retrieved. GO terms were systeamtically linked to known Wiki-AOPs. 
 
 |**R Script**| [TOXCAST_nuclear_receptors_coregulators.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_3_TOXCAST_nuclear_receptors_coregulators.R)|
 | ------------- |--------------|
@@ -63,7 +38,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 || http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz |
 |**Output**| A binary matrix of chemicals and their corresponding hitcalls for the assay endpoitnts related to nuclear receptors and their co-regulators|
 |**Dependencies**|tidyr, dplyr,org.Hs.eg.db, readxl, data.table|
-|**Summary**|The genes related to nuclear receptors and their co-regulators from experts domain and NURSA will be merged. The target gene ids from ToxCast will be extracted. The ToxCast assay endpoints which their target genes are in the list of nuclear receptor genes will be saved as endpoints related to nuclear receptor.|
+|**Summary**|The genes related to nuclear receptors and their co-regulators from domain expeerts and the NURSA database were merged. Then, ToxCast assays targeting these genes were selected. 
 
 |**R Script**|[EDC_Decoy_selection.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)|
 | ------------- |--------------|
@@ -73,7 +48,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 || Result of the script [TOXCAST_nuclear_receptors_coregulators.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_3_TOXCAST_nuclear_receptors_coregulators.R)|
 |**Output**| A list object contatining the MIEs for the benchmark set (known EDCs and Decoys)|
 |**Dependencies**| ggplot2, ggrepel, magrittr, data.table, dplyr, reshape, cluster|
-|**Summary**| The list of EDCs will be retrieved from DEDuCT as CAS ids. The ToxCast assay endpoints related to nuclear receptor and co-regulators of EDCs will be extracted. The most significat in vitro assay endpoints for the mechanism of EDCs will be characterized using statistical proportion test (p_value <0.05). EDCs (DEDuCT list) which are incative for all the significant assay endpoints will be removed from the final list of EDcs. Pairwise jaccard distance between the MIEs related to remaining EDCs and other compounds in CTD will be calculated.The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).|
+|**Summary**| An initial list of EDCs was retrieved from DEDuCT. Then, ToxCast assays targeting ED-reated nuclear receptor and co-regulators were use to refine the initial selection of EDCs. The most significat in vitro assay endpoints for identifying compounds with ED activity were selected based on a staatistical test aiming at identifying the most relevant directions in ED-gene interactions (e.g. up/down regulation). Moreover, EDCs that were inactive for all the significant assay endpoints were systemaatically removed from the inital list of EDCs. AAfter selecting a reliable set of EDCs, pairwise jaccard distance between the MIEs of the identified EDCs and other compounds annotated in CTD was calculated.The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).|
 
 |**R Script**| [ToxCast_dictionaries.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_5_ToxCast_dictionaries.R) |
 | ------------- |--------------|
@@ -82,7 +57,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 ||Assay_Summary_190226.csv' from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data |
 |**Output**| Hitcall list of all ToxCast chemicals and target genes of all endpoints|
 |**Dependencies**| tidyr, dplyr, readxl|
-|**Summary**|Preparation of a dictionary for ToxCast target genes and their corresponding endpoints.Conversion of ToxCast DSSTox_Identifiers to CAS registry identifiers and preparation of the final Hitcall matrix for all  ToxCast endpoints.|
+|**Summary**|Preparation of a dictionary for ToxCast target genes and their corresponding endpoints. Conversion of ToxCast DSSTox_Identifiers to CAS registry identifiers and preparation of the final Hitcall matrix for all  ToxCast endpoints.|
 <br/>
 <br/>
 <br/>
