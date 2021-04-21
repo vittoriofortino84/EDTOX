@@ -159,14 +159,14 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Input**|The results of the scripts [Drug_matrix_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_1_Drug_matrix_wTO.R), [TG_Gates_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R), [LINCS_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_3_LINCS_wTO.R), [Consensus_Rat_in_vitro_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_4_Consensus_Rat_in_vitro_wTO.R), [PPI_network.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_5_PPI_network.R), [Pathways_Download.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_2_Pathways_Download.R), [EDC_Decoy_selection.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R),[pareto_solution_on_tuning_results.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/3_5_pareto_solution_on_tuning_results.R) |
 |**Output**|A matrix of pathway scores for EDCs and decoys for each network|
 |**Dependencies**|fgsea,dnet,igraph,BiocParallel|
-|**Summary**|Random walk with restart will be performed in order to extend the initial set of EDC-MIEs retrieved from CTD. This operation is repeaatd for each compound and network. Then Fast Gene Set Enrichment Analysis will be performed to identify the most responsive pathways of the genes selected with the RWR algorithm.|
+|**Summary**|Random walk with restart will be performed in order to extend the initial set of EDC-MIEs retrieved from CTD. This operation is repeatd for each compound and network. Then Fast Gene Set Enrichment Analysis will be performed to identify the most responsive pathways of the genes selected with the RWR algorithm.|
 
 |**R Script**|[RWR_FGSEA_for_all_compounds_in_CTD.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/4_2_RWR_FGSEA_for_all_compounds_in_CTD.R)|
 | ------------- |--------------|
 |**Input**|The results of the scripts [Drug_matrix_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_1_Drug_matrix_wTO.R), [TG_Gates_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R), [LINCS_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_3_LINCS_wTO.R), [Consensus_Rat_in_vitro_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_4_Consensus_Rat_in_vitro_wTO.R), [PPI_network.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_5_PPI_network.R), [Pathways_Download.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_2_Pathways_Download.R),[MIEs_from_CTD.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R)  ,[pareto_solution_on_tuning_results.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/3_5_pareto_solution_on_tuning_results.R)|
 |**Output**|A matrix of pathway scores for 12k chemical in CTD for each network|
 |**Dependencies**|fgsea,dnet,igraph,BiocParallel|
-|**Summary**|Random walk with restart was performed in order to extend the initial set of EDC-MIEs retrieved from CTD. This operation is repeaatd for eaach compound and network. Then Fast Gene Set Enrichment Analysis was performed to identify the most responsive pathways of the genes selected with the RWR algorithm.|
+|**Summary**|Random walk with restart will be performed in order to extend the initial set of EDC-MIEs retrieved from CTD. This operation is repeatd for each compound and network. Then Fast Gene Set Enrichment Analysis will be performed to identify the most responsive pathways of the genes selected with the RWR algorithm.|
 <br/>
 <br/>
 <br/>
@@ -178,7 +178,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Input**| The result of the script [Pathways_Download.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_2_Pathways_Download.R)|
 |**Output**|A list of pathways to be used in machine learning|
 |**Dependencies**| No dependencies|
-|**Summary**| A more restricted set of pathways will be generated, which excludes pathways related to viral, bacterial and radiation, duplicated pathways or pathways with no genes expressed in liver.|
+|**Summary**| A more restricted set of pathways will be prepared, which excludes pathways related to viral, bacterial and radiation, duplicated pathways or pathways with no genes expressed in liver.|
 
 
 |**R Script**|[Preparation_of_training_datasets.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/5_2_Preparation_of_training_datasets.R)| 
