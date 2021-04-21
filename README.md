@@ -7,7 +7,8 @@ Please click the follwoing link to download the [Supplementary Data Tables](http
 Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levonen and Vittorio Fortino\* (\*Corresponding author)*
 
 ## Description of the R scripts used in the pipeline
-# Part I: Development of toxicogenomics-driven predictive model to identify and prioritize compounds with ED activity
+
+## Part I: Development of toxicogenomics-driven predictive model to identify and prioritize compounds with ED activity
 ### 1. Preparation of MIES, pathways and training datasets
 
 |**R Script**|[MIEs_from_CTD.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R) |
