@@ -17,7 +17,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 | |  http://ctdbase.org/reports/CTD_chemicals.csv.gz tested  for the release of june 2020|
 |**Output**| A list of chemical-gene associations|  
 |**Dependencies**| data.table, FactoMineR, factoextra|
-|**Summary**|Preparation of a binary data matrix indicating molecular initiating events (MIEs) of compounds annotated in CTD. Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra to verify which are the most informative interaction types. Selection of five types of interactions: reaction, binding, activity, expression and metabolic processing. Less informative gene interactions of compounds with more than 50 gene were removed.|
+|**Summary**|Preparation of a binary data matrix indicating molecular initiating events (MIEs) of compounds annotated in CTD. Performing multiple correspondence analysis on the resulting matrix uisng FactoMineR and factoextra to determine the most distant gene-compound association types. Selection of five types of interactions: reaction, binding, activity, expression and metabolic processing. Removing compounds with too many MIEs as outliars.|
 
 |**R Script**| [Pathways_Download.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_2_Pathways_Download.R)
 | ------------- |--------------|
@@ -28,7 +28,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 || https://reactome.org/download/current/miRBase2Reactome_PE_All_Levels.txt|
 |**Output**| A list of pathways extracted from GO, KEGG, wiki and Reactome|
 |**Dependencies**| XML, GO.db, org.Hs.eg.db, GSA, msigdbr, rWikiPathways, magrittr, rjson, data.table|
-|**Summary**| Pathways related to KEGG, REACTOME, MSIGDB, GO and WIKI with havin less than 200 genes are retrieved. GO terms are systeamtically linked to known Wiki-AOPs. 
+|**Summary**| Pathways related to KEGG, REACTOME, MSIGDB, GO and WIKI with less than 200 genes are retrieved. GO terms are systeamtically linked to known Wiki-AOPs. 
 
 |**R Script**| [TOXCAST_nuclear_receptors_coregulators.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_3_TOXCAST_nuclear_receptors_coregulators.R)|
 | ------------- |--------------|
@@ -39,7 +39,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 || http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz |
 |**Output**| A binary matrix of chemicals and their corresponding hitcalls for the assay endpoitnts related to nuclear receptors and their co-regulators|
 |**Dependencies**|tidyr, dplyr,org.Hs.eg.db, readxl, data.table|
-|**Summary**|The genes related to nuclear receptors and their co-regulators from domain expeerts and the NURSA database are merged. Then, ToxCast assays targeting these genes are selected. 
+|**Summary**|The genes related to nuclear receptors and their co-regulators from domain experts and the NURSA are merged. Then, ToxCast assays targeting these genes are selected. 
 
 |**R Script**|[EDC_Decoy_selection.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)|
 | ------------- |--------------|
@@ -49,7 +49,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 || Result of the script [TOXCAST_nuclear_receptors_coregulators.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_3_TOXCAST_nuclear_receptors_coregulators.R)|
 |**Output**| A list of EDCs and decoys, and their corresponding MIEs|
 |**Dependencies**| ggplot2, ggrepel, magrittr, data.table, dplyr, reshape, cluster|
-|**Summary**| An initial list of EDCs was retrieved from DEDuCT. Then, ToxCast assays targeting ED-reated nuclear receptor and co-regulators are used to refine the initial selection of EDCs. The most significat in vitro assay endpoints for identifying compounds with ED activity are selected based on a staatistical test aiming at identifying the most relevant directions in ED-gene interactions (e.g. up/down regulation). Moreover, EDCs that are inactive for all the significant assay endpoints are systemaatically removed from the inital list of EDCs. AAfter selecting a reliable set of EDCs, pairwise jaccard distance between the MIEs of the identified EDCs and other compounds annotated in CTD was calculated.The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).|
+|**Summary**| An initial list of EDCs was retrieved from DEDuCT. Then, ToxCast assays targeting ED-reated nuclear receptor and co-regulators are used to refine the initial selection of EDCs. The most significat in vitro assay endpoints for identifying compounds with ED activity are selected based on a statistical test aiming at identifying the most relevant directions in ED-gene interactions (e.g. up/down regulation). Moreover, EDCs that are inactive for all the significant assay endpoints are systemaatically removed from the inital list of EDCs. After selecting a reliable set of EDCs, pairwise jaccard distance between the MIEs of the identified EDCs and other compounds annotated in CTD was calculated.The compounds with the maximum Jaccard distance towards EDCs will be seleceted as negative controls (decoys).|
 
 |**R Script**| [ToxCast_dictionaries.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_5_ToxCast_dictionaries.R) |
 | ------------- |--------------|
@@ -58,7 +58,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 ||Assay_Summary_190226.csv' from ToxCast 3.1 https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data |
 |**Output**| Hitcall matrix retried from ToxCast |
 |**Dependencies**| tidyr, dplyr, readxl|
-|**Summary**|Preparation of a dictionary for ToxCast target genes and their corresponding endpoints. Conversion of ToxCast DSSTox_Identifiers to CAS registry identifiers and preparation of the final Hitcall matrix for all  ToxCast endpoints.|
+|**Summary**|Preparation of a dictionary for ToxCast target genes and their corresponding endpoints. Conversion of ToxCast DSSTox_Identifiers to CAS registry identifiers and preparation of the final Hitcall matrix with all  ToxCast endpoints.|
 <br/>
 <br/>
 <br/>
@@ -74,7 +74,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 || journal.pcbi.1004847.s026.XLS from https://pubmed.ncbi.nlm.nih.gov/27028627/|
 |**Output**| A set of four gene networks derived from DrugMatrix|
 |**Dependencies**| xlsx, doParallel, wTO|
-|**Summary**|Removing the control samples from the preprocessed and normalized LFC values related to Drug Matrix data source for rat in vitro hepatocytes and rat in vivo. Selection of the three exposure time points 1,3 and 5 days for in vivo and 1 day for in vitro and splitting the data as four data frames. Selection of the genes expressed in liver and orthology mapping of the probe IDs to entrez gene values. Compiling 4 gene co-expression networks from the data frames using wTO package with bootstrap resampling method.|
+|**Summary**|The control samples from the preprocessed and normalized LFC values of Drug Matrix for rat in vitro hepatocytes and rat in vivo were removed. Three exposure time points 1,3 and 5 days for in vivo and 1 day for in vitro were selected as data frames. The genes expressed in liver were selected and orthology mapping of the probe IDs to entrez gene values was done. Four gene co-expression networks from the data frames using wTO package with bootstrap resampling method were selected.|
 
 |**R Script**| [TG_Gates_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R)|
 | ------------- |--------------|
