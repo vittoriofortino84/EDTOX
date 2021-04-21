@@ -112,7 +112,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 <br/>
 <br/>
 
-### 3. Optimization of toxicogenomics-driven gene networks network 
+### 3. Optimization of toxicogenomics-driven gene networks
 
 |**R Script**|[Drug_matrix_tuner.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/3_1_Drug_matrix_tuner.R)|
 | ------------- |--------------|
