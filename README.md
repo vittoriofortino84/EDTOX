@@ -113,14 +113,14 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 
 
 
-### 3. Intra tuning and optimization of the pipeline based on combination of different genesets from Random walk with restart and network edges  
+### 3. Optimization of toxicogenomics-driven gene networks network 
 
 |**R Script**|[Drug_matrix_tuner.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/3_1_Drug_matrix_tuner.R)|
 | ------------- |--------------|
 |**Input**| result of the scripts [Drug_matrix_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_1_Drug_matrix_wTO.R), [EDC_Decoy_selection.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R) |
 |**Output**|A matrix of silhouette scores for different combination of Edges percentiles and sorted genes for Drug Matrix networks |
 |**Dependencies**| dnet,igraph,cluster |
-|**Summary**|The top %2, %3, %5 and  %10 edge portions  are extracted from each network.Each network will be subjected to random walk with restart uisng the seeds related to the MIEs of EDCs and decoys (benchmark set). The 200,500,700 and 1000 top most visited genes will be extracted after the random walk. A binary vector will be genrated for each compound (EDCs and decoys) with 1 representing the gene in the list of top visited gene.The pairwise jaccard distance beween the binary vector of each EDCs and decoy will be calculated. Using the jaccard dismilarity matrix and a vector representing the class of each componud as EDC or Decoy average silhouette score was calculated for EDCs.|
+|**Summary**|The top %2, %3, %5 and  %10 edge portions are extracted from each network. Each network will be subjected to random walk with restart uisng the seeds related to the MIEs of EDCs and decoys (benchmark set). The 200,500,700 and 1000 top most visited genes will be extracted after the random walk. A binary vector will be genrated for each compound (EDCs and decoys) with 1 representing the gene in the list of top visited gene.The pairwise jaccard distance between the binary vector of each EDCs and decoy will be calculated. Using the jaccard dismilarity matrix and a vector representing the class of each componud as EDC or Decoy average silhouette score was calculated for EDCs.|
 
 |**R Script**|[TG_GATEs_tuner.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/3_2_TG_GATEs_tuner.R)|
 | ------------- |--------------|
@@ -148,7 +148,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Input**|Results of the scripts [PPI_tuner.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/3_4_PPI_tuner.R), [Consensus_tuner.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/3_3_Consensus_tuner.R), [TG_GATEs_tuner.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/3_2_TG_GATEs_tuner.R) ,  [TG_GATEs_tuner.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/3_2_TG_GATEs_tuner.R), [Drug_matrix_tuner.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/3_1_Drug_matrix_tuner.R)  |
 |**Output**|The optimized genes and edges solutions for all networks based on pareto solution |
 |**Dependencies**|rPref,knitr |
-|**Summary**|Using pareto solution to obtain final genesets size and edge percents among none dominant solutions. The pareto solution is used to maximize the silhouette score, minimize the gene and edge percent for the networks. For PPI  pareto is being used to maximize the silhouette score, minimize the edge percent and maximize the combined score. |
+|**Summary**| Using pareto to select the subnetworks that (1) maiximize the distance between EDCs and decoys,(2) minimize the selected edges and maximize the combined score. |
 <br/>
 <br/>
 <br/>
@@ -160,26 +160,26 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Input**|The results of the scripts [Drug_matrix_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_1_Drug_matrix_wTO.R), [TG_Gates_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R), [LINCS_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_3_LINCS_wTO.R), [Consensus_Rat_in_vitro_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_4_Consensus_Rat_in_vitro_wTO.R), [PPI_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_5_PPI_wTO.R), [Pathways_Download.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_2_Pathways_Download.R), [EDC_Decoy_selection.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R),[pareto_solution_on_tuning_results.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/3_5_pareto_solution_on_tuning_results.R) |
 |**Output**|A matrix of pathway scores for EDCs and decoys for each network|
 |**Dependencies**|fgsea,dnet,igraph,BiocParallel|
-|**Summary**|Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the MIEs of each EDC and decoy as seeds. Fast gene set enrichment analysis is performed using the retrieved pathways as gene sets.|
+|**Summary**|Random walk with restart was performed in order to extend the initial set of EDC-MIEs retrieved from CTD. This operation is repeaatd for eaach compound and network. Then Fast Gene Set Enrichment Analysis was performed to identify the most responsive pathways of the genes selected with the RWR algorithm.|
 
 |**R Script**|[RWR_FGSEA_for_all_compounds_in_CTD.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/4_2_RWR_FGSEA_for_all_compounds_in_CTD.R)|
 | ------------- |--------------|
 |**Input**|The results of the scripts [Drug_matrix_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_1_Drug_matrix_wTO.R), [TG_Gates_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_2_TG_Gates_wTO.R), [LINCS_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_3_LINCS_wTO.R), [Consensus_Rat_in_vitro_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_4_Consensus_Rat_in_vitro_wTO.R), [PPI_wTO.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/2_5_PPI_wTO.R), [Pathways_Download.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_2_Pathways_Download.R),[MIEs_from_CTD.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R)  ,[pareto_solution_on_tuning_results.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/3_5_pareto_solution_on_tuning_results.R)|
 |**Output**|A matrix of pathway scores for 12k chemical in CTD for each network|
 |**Dependencies**|fgsea,dnet,igraph,BiocParallel|
-|**Summary**|Random walk with restart will be performed for all 15 networks using the optimized edge percent/combined scores from the the MIEs of each compounds in CTD as seeds. Fast gene set enrichment analysis is performed using the retrieved pathways as gene sets.Normalized enrichment scores for all netwworks will be saved.|
+|**Summary**|Random walk with restart was performed in order to extend the initial set of EDC-MIEs retrieved from CTD. This operation is repeaatd for eaach compound and network. Then Fast Gene Set Enrichment Analysis was performed to identify the most responsive pathways of the genes selected with the RWR algorithm.|
 <br/>
 <br/>
 <br/>
 
-### 5. elastic-net generalized linear model classification on training set of Pathway scores for EDCs and decoys, Visualization of the accuracy levels 
+### 5. Training of elastic-net-based classifiers for the claassification of EDCs and decoys
 
 |**R Script**|[manual_curation_of_pathways_as_features.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/5_1_manual_curation_of_pathways_as_features.R)| 
 | ------------- |--------------|
 |**Input**| The result of the script [Pathways_Download.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_2_Pathways_Download.R)|
 |**Output**|A list of pathways to be used in machine learning|
 |**Dependencies**| No dependencies|
-|**Summary**|The pathways related to viral,bacterial, radiation will be removed.The duplicated pathways based on jaccard similarity will be removed.The pathway with no genes expressed in liver are being removed.|
+|**Summary**| Elastic-net based classifiers were trained on a more restricted set of pathways, which excludes pathways related to viral, bacterial and radiation. Duplicated pathways or pathways with no genes expressed in liver were also removed.|
 
 
 |**R Script**|[Preparation_of_training_datasets.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/5_2_Preparation_of_training_datasets.R)| 
@@ -187,21 +187,21 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 |**Input**|The results of the scripts [manual_curation_of_pathways_as_features.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/5_1_manual_curation_of_pathways_as_features.R),[RWR_FGSEA_for_all_compounds_in_CTD.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/4_2_RWR_FGSEA_for_all_compounds_in_CTD.R), [RWR_FGSEA_for_edc_decoys.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/4_1_RWR_FGSEA_for_edc_decoys.R),[EDC_Decoy_selection.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)   |
 |**Output**| A list containing training set for each network. A list containing test set for each network|
 |**Dependencies**|No dependencies|
-|**Summary**|Preparation of a list for each network x= the matrix of NES scores from FGSEA and Y = labels as EDC and decoy, n-edc=number of EDCs for each layer and n-decoy= number of decoys for each layer.The pathways with non significant values will be removed.|
+|**Summary**|Preparation of a training dataset for each toxicogenomics network. Each training dataset consists of NES scores or simply patwahy activation scores, which were obtained by using the RWR-FGSEA pipeline; and a vector labels indicateing EDCs and decoys.|
 
 |**R Script**|[glm_modeling.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/5_3_glm_modeling.R)| 
 | ------------- |--------------|
 |**Input**|The output of the scripts [Preparation_of_training_datasets.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/5_2_Preparation_of_training_datasets.R), [MIEs_from_CTD.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R), [EDC_Decoy_selection.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)   |
 |**Output**|List objects with GLM coefficients and models for each network and MIEs level|
 |**Dependencies**|caret, doParallel|
-|**Summary**|Performing elastic net GLM on training set related to each network using 5 fold cross-validation as tuning method for the parameters. Saving the GLM model coefficients for eahc network.|
+|**Summary**|Training elastic-net-based classifiers on the computed training dataset by using cross-fold validation .|
 
 |**R Script**|[k_fold_cross_validation.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/5_4_k_fold_cross_validation.R)| 
 | ------------- |--------------|
 |**Input**|The output of the scripts [Preparation_of_training_datasets.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/5_2_Preparation_of_training_datasets.R), [MIEs_from_CTD.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_1_MIEs_from_CTD.R), [EDC_Decoy_selection.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)   |
-|**Output**|List object with the reuslts of k-fold-cross-validation including Accuracy, F1-scores, confusion matrix, specificity and sensitivity for each network|
+|**Output**|List of objects including Accuracy, F1-scores, confusion matrix, specificity and sensitivity for each trained classifier|
 |**Dependencies**|caret, doParallel|
-|**Summary**|Repeated 5_fold_cross_validation will be performed on all 15 models. (Pathway level).Repeated 5_fold cross_validation will be performed on a binary data matrix of the genes as columns. Compounds of benchmark (EDC,decoy) as rows.(The genes related to MIEs are characterized as 1 in the binary matrix. (Gene level))|
+|**Summary**|Repeated 5-fold cross-validation was performed for  be performed on all 15 models. (Pathway level). Repeated 5-fold cross validation will be performed on a binary data matrix of the genes as columns. Compounds of benchmark (EDC,decoy) as rows. (The genes related to MIEs are characterized as 1 in the binary matrix. (Gene level))|
 
 |**R Script**|[comparing_cross_validation_across_all_layers_ANOVA.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/5_5_comparing_cross_validation_across_all_layers_ANOVA.R)| 
 | ------------- |--------------|
