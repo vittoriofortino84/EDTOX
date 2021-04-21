@@ -28,7 +28,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 || https://reactome.org/download/current/miRBase2Reactome_PE_All_Levels.txt|
 |**Output**| A list of pathways extracted from GO, KEGG, wiki and Reactome|
 |**Dependencies**| XML, GO.db, org.Hs.eg.db, GSA, msigdbr, rWikiPathways, magrittr, rjson, data.table|
-|**Summary**| Pathways related to KEGG, REACTOME, MSIGDB, GO and WIKI with havin less than 200 genes were retrieved. GO terms were systeamtically linked to known Wiki-AOPs. 
+|**Summary**| Pathways related to KEGG, REACTOME, MSIGDB, GO and WIKI with havin less than 200 genes are retrieved. GO terms are systeamtically linked to known Wiki-AOPs. 
 
 |**R Script**| [TOXCAST_nuclear_receptors_coregulators.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_3_TOXCAST_nuclear_receptors_coregulators.R)|
 | ------------- |--------------|
@@ -39,7 +39,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 || http://ctdbase.org/reports/CTD_chem_gene_ixns.csv.gz |
 |**Output**| A binary matrix of chemicals and their corresponding hitcalls for the assay endpoitnts related to nuclear receptors and their co-regulators|
 |**Dependencies**|tidyr, dplyr,org.Hs.eg.db, readxl, data.table|
-|**Summary**|The genes related to nuclear receptors and their co-regulators from domain expeerts and the NURSA database were merged. Then, ToxCast assays targeting these genes were selected. 
+|**Summary**|The genes related to nuclear receptors and their co-regulators from domain expeerts and the NURSA database are merged. Then, ToxCast assays targeting these genes are selected. 
 
 |**R Script**|[EDC_Decoy_selection.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_4_EDC_Decoy_selection.R)|
 | ------------- |--------------|
@@ -49,7 +49,7 @@ Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levo
 || Result of the script [TOXCAST_nuclear_receptors_coregulators.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_3_TOXCAST_nuclear_receptors_coregulators.R)|
 |**Output**| A list of EDCs and decoys, and their corresponding MIEs|
 |**Dependencies**| ggplot2, ggrepel, magrittr, data.table, dplyr, reshape, cluster|
-|**Summary**| An initial list of EDCs was retrieved from DEDuCT. Then, ToxCast assays targeting ED-reated nuclear receptor and co-regulators were use to refine the initial selection of EDCs. The most significat in vitro assay endpoints for identifying compounds with ED activity were selected based on a staatistical test aiming at identifying the most relevant directions in ED-gene interactions (e.g. up/down regulation). Moreover, EDCs that were inactive for all the significant assay endpoints were systemaatically removed from the inital list of EDCs. AAfter selecting a reliable set of EDCs, pairwise jaccard distance between the MIEs of the identified EDCs and other compounds annotated in CTD was calculated.The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).|
+|**Summary**| An initial list of EDCs was retrieved from DEDuCT. Then, ToxCast assays targeting ED-reated nuclear receptor and co-regulators are used to refine the initial selection of EDCs. The most significat in vitro assay endpoints for identifying compounds with ED activity are selected based on a staatistical test aiming at identifying the most relevant directions in ED-gene interactions (e.g. up/down regulation). Moreover, EDCs that are inactive for all the significant assay endpoints are systemaatically removed from the inital list of EDCs. AAfter selecting a reliable set of EDCs, pairwise jaccard distance between the MIEs of the identified EDCs and other compounds annotated in CTD was calculated.The compounds with the maximum Jaccard distance with EDCs will be seleceted as negative controls (decoys).|
 
 |**R Script**| [ToxCast_dictionaries.R](https://github.com/vittoriofortino84/EDTOX/blob/master/scripts/1_5_ToxCast_dictionaries.R) |
 | ------------- |--------------|
