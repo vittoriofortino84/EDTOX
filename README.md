@@ -5,6 +5,7 @@ Please click the follwoing link to download the [Supplementary Data Tables](http
 *A toxicogenomic platform for system-level understanding and prediction of EDC-induced toxicity*
  
 Article by *Amirhossein Sakhteman, Mario Failli, Jenni Kublbeck, Anna-Liisa Levonen and Vittorio Fortino\* (\*Corresponding author)*
+https://www.sciencedirect.com/science/article/pii/S0160412021003767
 
 ## Description of the R scripts used in the pipeline
 
